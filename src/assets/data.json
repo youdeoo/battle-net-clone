@@ -1,0 +1,240 @@
+[
+  {
+    "gameType": "Warcraft",
+    "games": [
+      {
+        "gameName": "World of Warcraft",
+        "description": "Massively Multiplayer RPG",
+        "icon": "/games-logo/warcraft/wow.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "World of Warcraft Classic",
+        "description": "Massively Multiplayer RPG",
+        "icon": "/games-logo/warcraft/wow-classic.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Warcraft Rumble",
+        "description": "Action Strategy",
+        "icon": "/games-logo/warcraft/warcraft-rumble.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Warcraft III",
+        "description": "Real-time strategy",
+        "icon": "/games-logo/warcraft/warcraft-3.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Hearthstone",
+        "description": "Strategy Card Game",
+        "icon": "/games-logo/warcraft/hearthstone.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Warcraft: Orcs & Humans",
+        "description": "Real-time Strategy",
+        "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Warcraft® II: Battle.net® Edition",
+        "description": "Real-time Strategy",
+        "icon": "/games-logo/warcraft/warcraft-2.png",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "gameType": "Call of Duty",
+    "games": [
+      {
+        "gameName": "Modern Warfare III",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Warzone",
+        "description": "Free-To-Play-Action Shooter",
+        "icon": "/games-logo/call-of-duty/warzone.webp",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Modern Warfare II",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/modern-warfare-2.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Vanguard",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/vanguard.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Black Ops Cold War",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/black-ops.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Modern Warfare",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/modern-warfare.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Modern Warfare 2 Campaign Remastered",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Black Ops 4",
+        "description": "Action Shooter",
+        "icon": "/games-logo/call-of-duty/black-ops-4.png",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "gameType": "Diablo",
+    "games": [
+      {
+        "gameName": "Diablo IV",
+        "description": "Action RPG",
+        "icon": "/games-logo/diablo/diablo-4.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Diablo Immortal",
+        "descritpion": "Action RPG",
+        "icon": "/games-logo/diablo/diablo-immortal.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Diablo III",
+        "description": "Action RPG",
+        "icon": "/games-logo/diablo/diablo-3.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Diablo II: Resurrected",
+        "description": "Action RPG",
+        "icon": "/games-logo/diablo/diablo-2-resurrected.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Diablo",
+        "description": "Action RPG",
+        "icon": "/games-logo/diablo/diablo.png",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "gameType": "Overwatch",
+    "games": [
+      {
+        "gameName": "Overwatch 2",
+        "description": "Team-Based Action Game",
+        "icon": "/games-logo/overwatch/overwatch.webp",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "gameType": "StarCraft",
+    "games": [
+      {
+        "gameName": "StarCraft II",
+        "description": "Real-time Strategy",
+        "icon": "/games-logo/star-craft/star-craft-2.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "StarCraft",
+        "description": "Real-time Strategy",
+        "icon": "/games-logo/star-craft/star-craft.png",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "gameType": "More",
+    "games": [
+      {
+        "gameName": "Blizzard Arcade Collection",
+        "description": "Bundle",
+        "icon": "/games-logo/others/blizzard-arcade.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Crash Bandicoot 4",
+        "description": "Platformer",
+        "icon": "/games-logo/others/crash-4.png",
+        "carouselData": {
+          "images": []
+        }
+      },
+      {
+        "gameName": "Heros of the Storm",
+        "description": "MOBA",
+        "icon": "/games-logo/others/heros-of-the-storm.png",
+        "carouselData": {
+          "images": []
+        }
+      }
+    ]
+  }
+]

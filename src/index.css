@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Noto Sans', sans-serif; 
+    }
+
+    body {
+      @apply bg-darkBlue;
+    }
+
+    img {
+      width: 100%;
+    }
+}
+
+@layer components {
+  .header-link {
+    @apply flex items-center gap-3 rounded-md cursor-pointer py-3 px-2 transition-colors hover:bg-mediumGray;
+  }
+
+  .menu-option {
+    @apply relative cursor-pointer p-[1.125rem] hover:bg-lightGrayBackground;
+  }
+
+  .menu-element-on-hover {
+    @apply hidden absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] animate-hideOpacity group-hover:block group-hover:animate-displayOpacity; 
+  }
+
+  .blue-button {
+    @apply w-full font-bold rounded text-white bg-lightBlue p-3;
+  }
+
+  .blue-button-hover {
+    @apply border-[2px] border-lightBlue transition-all hover:border-[#47A6FF];
+  }
+
+  .learn-more-button {
+    @apply text-xl font-bold bg-[#292F3B] rounded px-10 py-5;
+  }
+
+  .learn-more-button-hover {
+    @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
+  }
+}
