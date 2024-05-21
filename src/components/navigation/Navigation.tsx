@@ -8,7 +8,7 @@ const Navigation: FC = () => {
   return (
     <>
       <div className='flex items-center justify-between bg-darkBlue px-4 pt-3'>
-        <Link to='/'>
+        <Link to='/' className='active-translate-y'>
           <img
             className='max-w-52 cursor-pointer'
             src='/logo/logo-and-caption.png'
@@ -18,7 +18,7 @@ const Navigation: FC = () => {
         </Link>
 
         <div className='flex gap-1'>
-          <div className='header-link group'>
+          <div className='header-link group active-translate-y'>
             <img
               className='max-w-5 group-hover:brightness-[5]'
               src='/icons/download.svg'
@@ -28,7 +28,7 @@ const Navigation: FC = () => {
             <span className='text-white font-bold'>Download Battle.net</span>
           </div>
 
-          <div className='header-link group'>
+          <div className='header-link group active-translate-y'>
             <img
               className='max-w-5 group-hover:brightness-[5]'
               src='/icons/circle-question.svg'

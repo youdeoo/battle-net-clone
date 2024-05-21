@@ -5,6 +5,7 @@
 @layer base {
     html {
       font-family: 'Noto Sans', sans-serif; 
+      scroll-behavior: smooth;
     }
 
     body {
@@ -26,11 +27,12 @@
   }
 
   .menu-element-on-hover {
-    @apply hidden absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] animate-hideOpacity group-hover:block group-hover:animate-displayOpacity; 
+    @apply hidden absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] animate-hideOpacity 
+    group-hover:block group-hover:animate-displayOpacity; 
   }
 
   .blue-button {
-    @apply w-full font-bold rounded text-white bg-lightBlue p-3;
+    @apply w-full font-bold rounded text-white bg-lightBlue p-3 transition-transform;
   }
 
   .blue-button-hover {
@@ -38,7 +40,7 @@
   }
 
   .learn-more-button {
-    @apply text-xl font-bold bg-[#292F3B] rounded px-10 py-5;
+    @apply text-xl font-bold bg-[#292F3B] rounded px-10 py-5 transition-transform;
   }
 
   .learn-more-button-hover {
@@ -47,5 +49,14 @@
 
   .hover-light-gray-background {
     @apply rounded-md cursor-pointer transition-colors hover:bg-lightGrayBackground;
+  }
+
+  .active-translate-y {
+    @apply active:translate-y-[1px];
+  }
+
+  .active-left-border {
+    @apply before:content-[""] before:absolute before:top-0 before:left-[.2px] before:h-full before:rounded-tl-md 
+    before:rounded-bl-md before:active:border-l-[3px] before:active:border-l-lightBlue;
   }
 }

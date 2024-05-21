@@ -30,7 +30,7 @@ const Menu: FC = () => {
               <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
                 {data.games.map((gameData, gameDataIndex) => (
                   <div
-                    className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray'
+                    className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray active-translate-y'
                     key={gameDataIndex}
                   >
                     <img

@@ -1,14 +1,18 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 import ImagesCarousel from './ImagesCarousel';
 
 const HomePage: FC = () => {
 
   return (
     <main>
+      <ScrollToTopButton />
       <ImagesCarousel />
 
-      <section className='grid grid-cols-[60fr_40fr] items-center justify-center gap-8 bg-[url("/home-page/background.png")] bg-no-repeat bg-cover border-t border-b border-borderGray px-10 py-20'>
+      <section className='grid grid-cols-[60fr_40fr] items-center justify-center gap-8 bg-[url("/home-page/background.png")] 
+        bg-no-repeat bg-cover border-t border-b border-borderGray px-10 py-20'
+      >
         <img
           src='/home-page/laptop.png'
           alt=''
@@ -25,7 +29,8 @@ const HomePage: FC = () => {
           <div className='flex flex-col gap-6 mt-8'>
             <Link
               to='/download'
-              className='flex items-center justify-center gap-2 max-w-[310px] text-xl font-bold rounded bg-lightBlue px-10 py-5 blue-button-hover'
+              className='flex items-center justify-center gap-2 max-w-[310px] text-xl font-bold rounded bg-lightBlue 
+              px-10 py-5 blue-button-hover active-translate-y'
             >
               <img
                 className='size-5'
@@ -35,7 +40,7 @@ const HomePage: FC = () => {
             </Link>
 
             <Link
-              className='learn-more-button text-center max-w-[310px] learn-more-button-hover'
+              className='learn-more-button text-center max-w-[310px] learn-more-button-hover active-translate-y'
               to='/learn-more-desktop'
             >
               Learn More

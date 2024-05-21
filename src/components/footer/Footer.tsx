@@ -41,7 +41,7 @@ const Footer: FC = () => {
         <ul className='flex text-white text-sm font-semibold'>
           {navigationLinks.map((link, index) => (
             <li
-              className='px-4 py-3 hover-light-gray-background'
+              className='px-4 py-3 hover-light-gray-background active-translate-y'
               key={index}
             >
               {link}
@@ -64,8 +64,10 @@ const Footer: FC = () => {
           </Link>
 
           <div>
-            <p className='w-[50%] text-xs text-gray'>
-              ©2024 Blizzard Entertainment, Inc. All <span className='text-lightGray cursor-pointer underline transition-colors hover:text-white'>trademarks</span> referenced
+            <p className='text-xs text-gray'>
+              ©2024 Blizzard Entertainment, Inc.
+              <br />
+              All <span className='text-lightGray cursor-pointer underline transition-colors hover:text-white'>trademarks</span> referenced
               herein are the properties of their respective owners.
             </p>
 
@@ -85,7 +87,8 @@ const Footer: FC = () => {
         <div className='flex items-start gap-4'>
           {socailMediaIcons.map((icon, index) => (
             <button
-              className='min-w-[max-content] bg-mediumGray rounded-full aspect-square px-3 py-2 transition-colors hover:bg-lightGrayBackground'
+              className='min-w-[max-content] bg-mediumGray rounded-full aspect-square px-3 py-2 transition-colors 
+              hover:bg-lightGrayBackground active-translate-y'
               key={index}
               type='button'
             >

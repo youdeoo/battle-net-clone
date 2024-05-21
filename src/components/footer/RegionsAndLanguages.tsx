@@ -68,9 +68,9 @@ const RegionsAndLanguages: FC = () => {
       </div>
 
       <div
-        className={`absolute bottom-[4.5rem] right-0 z-10 w-[37rem] ${displayRegionsAndLanguages ? 'animate-displayOpacity' : 'animate-hideOpacity'} after:content-[""] 
-        after:absolute after:right-[4.5rem] after:w-0 after:h-0 after:border-l-[10px] after:border-l-transparent after:border-r-[10px] after:border-r-transparent
-        after:border-t-[10px] after:border-t-[#10111B]`}
+        className={`absolute bottom-[4.5rem] right-0 z-10 w-[37rem] ${displayRegionsAndLanguages ? 'animate-displayOpacity' : 'animate-hideOpacity'} 
+        after:content-[""] after:absolute after:right-[4.5rem] after:w-0 after:h-0 after:border-l-[10px] after:border-l-transparent 
+        after:border-r-[10px] after:border-r-transparent after:border-t-[10px] after:border-t-[#10111B]`}
         style={{ display: displayRegionsAndLanguages ? 'block' : 'none' }}
       >
         <div className='bg-[#171926] rounded-t-md px-4 py-6'>
@@ -79,7 +79,8 @@ const RegionsAndLanguages: FC = () => {
             {regions.map((region, index) => (
               <li
                 onClick={() => setMarkedRegionIndex(index)}
-                className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
+                className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background active-translate-y 
+                ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
                 key={index}
               >
                 {region}
@@ -94,7 +95,7 @@ const RegionsAndLanguages: FC = () => {
             {languages.map((language, index) => (
               <li
                 onClick={() => setMarkedLanguageIndex(index)}
-                className='flex gap-3 text-white px-2 py-3 hover-light-gray-background'
+                className='flex gap-3 text-white px-2 py-3 hover-light-gray-background active-translate-y'
                 key={index}
               >
                 <img

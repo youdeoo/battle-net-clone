@@ -51,13 +51,13 @@ const Account: FC = () => {
         <div className='rounded-md border border-borderGray bg-mediumBlue'>
           <div className='p-2'>
             <div className='p-4'>
-              <button className='blue-button transition-colors hover:bg-[#40a3ff]'>Log In</button>
+              <button className='blue-button transition-colors hover:bg-[#40a3ff] active-translate-y'>Log In</button>
             </div>
 
             {accountData.map((data, index) => (
               <div
                 key={index}
-                className='group/text flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray'
+                className='group/text flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray active-translate-y'
               >
                 <img
                   className='max-w-5 group-hover/text:brightness-[5]'
@@ -71,7 +71,7 @@ const Account: FC = () => {
           </div>
 
           <div className='bg-[#22242C] p-2 mt-1'>
-            <div className='group flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray'>
+            <div className='group flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray active-translate-y'>
               <img
                 className='max-w-5 group-hover:brightness-[5]'
                 src='/icons/pencil.svg'
