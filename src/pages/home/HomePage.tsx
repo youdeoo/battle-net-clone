@@ -8,7 +8,7 @@ const HomePage: FC = () => {
     <main>
       <ImagesCarousel />
 
-      <section className='grid grid-cols-[60fr_40fr] items-center justify-center gap-20 bg-[url("/home-page/background.png")] bg-no-repeat bg-cover border-t border-b border-borderGray px-10 py-14'>
+      <section className='grid grid-cols-[60fr_40fr] items-center justify-center gap-8 bg-[url("/home-page/background.png")] bg-no-repeat bg-cover border-t border-b border-borderGray px-10 py-20'>
         <img
           src='/home-page/laptop.png'
           alt=''

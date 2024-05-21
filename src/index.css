@@ -44,4 +44,8 @@
   .learn-more-button-hover {
     @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
   }
+
+  .hover-light-gray-background {
+    @apply rounded-md cursor-pointer transition-colors hover:bg-lightGrayBackground;
+  }
 }

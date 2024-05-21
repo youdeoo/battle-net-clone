@@ -1,24 +1,25 @@
 import { FC } from 'react';
 
+const accountData = [
+  {
+    image: '/icons/user-gear.svg',
+    text: 'Account Settings'
+  },
+  {
+    image: '/icons/heart.svg',
+    text: 'Wish List'
+  },
+  {
+    image: '/icons/barcode.svg',
+    text: 'Redeem Code'
+  },
+  {
+    image: '/icons/dashcube.svg',
+    text: 'Chnage BattleTag'
+  }
+];
+
 const Account: FC = () => {
-  const accountData = [
-    {
-      image: '/icons/user-gear.svg',
-      text: 'Account Settings'
-    },
-    {
-      image: '/icons/heart.svg',
-      text: 'Wish List'
-    },
-    {
-      image: '/icons/barcode.svg',
-      text: 'Redeem Code'
-    },
-    {
-      image: '/icons/dashcube.svg',
-      text: 'Chnage BattleTag'
-    }
-  ];
 
   return (
     <div className='group/main-item header-link relative'>

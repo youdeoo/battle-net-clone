@@ -1,46 +1,47 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+import Languages from './RegionsAndLanguages';
+
+const navigationLinks = [
+  'Careers',
+  'About',
+  'Support',
+  'Contact Us',
+  'Press',
+  'Api'
+];
+
+const companyPrivacyLinks = [
+  'Privacy',
+  'Legal',
+  'Terms',
+  'Cookie Policy',
+  'Cookie Settings'
+];
+
+const socailMediaIcons = [
+  {
+    name: 'Twitter (X platform)',
+    icon: '/social-media/x-twitter.svg'
+  },
+  {
+    name: 'Facebook',
+    icon: '/social-media/facebook.svg'
+  },
+  {
+    name: 'Instagram',
+    icon: '/social-media/instagram.svg'
+  }
+];
 
 const Footer: FC = () => {
-  const navigationLinks = [
-    'Careers',
-    'About',
-    'Support',
-    'Contact Us',
-    'Press',
-    'Api'
-  ];
-
-  const companyPrivacyLinks = [
-    'Privacy',
-    'Legal',
-    'Terms',
-    'Cookie Policy',
-    'Cookie Settings'
-  ];
-
-  const socailMediaIcons = [
-    {
-      name: 'Twitter (X platform)',
-      icon: '/social-media/x-twitter.svg'
-    },
-    {
-      name: 'Facebook',
-      icon: '/social-media/facebook.svg'
-    },
-    {
-      name: 'Instagram',
-      icon: '/social-media/instagram.svg'
-    }
-  ];
-
   return (
-    <footer className='mt-10 px-16'>
+    <footer className='px-16 pt-10 pb-[6.5rem]'>
       <div className='flex items-center justify-between border-b border-borderGray pb-2'>
         <ul className='flex text-white text-sm font-semibold'>
           {navigationLinks.map((link, index) => (
             <li
-              className='cursor-pointer rounded-md px-4 py-3 transition-colors hover:bg-mediumGray'
+              className='px-4 py-3 hover-light-gray-background'
               key={index}
             >
               {link}
@@ -48,11 +49,11 @@ const Footer: FC = () => {
           ))}
         </ul>
 
-        <p className='text-white text-sm'>english</p>
+        <Languages />
       </div>
 
       <div className='flex justify-between pt-5'>
-        <div className='flex'>
+        <div className='grid grid-cols-[max-content_1fr] gap-8'>
           <Link to='/'>
             <img
               className='max-w-xs'
@@ -84,12 +85,12 @@ const Footer: FC = () => {
         <div className='flex items-start gap-4'>
           {socailMediaIcons.map((icon, index) => (
             <button
-              className='bg-mediumGray rounded-full aspect-square px-3 py-2 transition-colors hover:bg-lightGrayBackground'
+              className='min-w-[max-content] bg-mediumGray rounded-full aspect-square px-3 py-2 transition-colors hover:bg-lightGrayBackground'
               key={index}
               type='button'
             >
               <img
-                className='size-5'
+                className='size-4'
                 src={icon.icon}
                 alt={icon.name}
                 loading='lazy'
