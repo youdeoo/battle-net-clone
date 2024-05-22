@@ -31,6 +31,11 @@
     group-hover:block group-hover:animate-displayOpacity; 
   }
 
+  .section-to-download-battle-net {
+    @apply grid grid-cols-[60fr_40fr] items-center justify-center gap-10 bg-no-repeat bg-cover border-t 
+    border-b border-borderGray px-10 py-20;
+  }
+
   .blue-button {
     @apply w-full font-bold rounded text-white bg-lightBlue p-3 transition-transform;
   }
@@ -40,7 +45,7 @@
   }
 
   .learn-more-button {
-    @apply text-xl font-bold bg-[#292F3B] rounded px-10 py-5 transition-transform;
+    @apply text-xl font-bold bg-[#2E3345] rounded px-10 py-5 transition-transform;
   }
 
   .learn-more-button-hover {

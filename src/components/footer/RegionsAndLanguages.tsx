@@ -1,5 +1,6 @@
 import { FC, useState } from 'react';
-import useOutsideClick from '../../hooks/useOutsideClick';
+import { useLocation } from 'react-router-dom';
+import useOutsideClick from '../../lib/hooks/useOutsideClick';
 
 const regions = [
   'Americas & Southeast Asia',
@@ -27,6 +28,9 @@ const languages = [
 ];
 
 const RegionsAndLanguages: FC = () => {
+  const { pathname } = useLocation();
+  const otherPageThanDesktop = pathname !== '/desktop';
+
   const [markedRegionIndex, setMarkedRegionIndex] = useState(0);
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);
@@ -34,7 +38,7 @@ const RegionsAndLanguages: FC = () => {
   const displayRegionsAndLanguagesOutsideListener = useOutsideClick({ state: displayRegionsAndLanguages, setState: setDisplayRegionsAndLanguages });
 
   const handleDisplayRegionsAndLanguages = (): void => {
-    displayRegionsAndLanguages ? setDisplayRegionsAndLanguages(false) : setDisplayRegionsAndLanguages(true);
+    setDisplayRegionsAndLanguages(prevState => !prevState);
   }
 
   const conditionalStyle = (style: string): string => {
@@ -73,23 +77,28 @@ const RegionsAndLanguages: FC = () => {
         after:border-r-[10px] after:border-r-transparent after:border-t-[10px] after:border-t-[#10111B]`}
         style={{ display: displayRegionsAndLanguages ? 'block' : 'none' }}
       >
-        <div className='bg-[#171926] rounded-t-md px-4 py-6'>
-          <span className='text-sm text-gray font-bold uppercase'>Region</span>
-          <ul className='flex gap-2 mt-2'>
-            {regions.map((region, index) => (
-              <li
-                onClick={() => setMarkedRegionIndex(index)}
-                className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background active-translate-y 
+        {otherPageThanDesktop
+          ?
+          <div className='bg-[#171926] rounded-t-md px-4 py-6'>
+            <span className='text-sm text-gray font-bold uppercase'>Region</span>
+            <ul className='flex gap-2 mt-2'>
+              {regions.map((region, index) => (
+                <li
+                  onClick={() => setMarkedRegionIndex(index)}
+                  className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background active-translate-y 
                 ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
-                key={index}
-              >
-                {region}
-              </li>
-            ))}
-          </ul>
-        </div>
+                  key={index}
+                >
+                  {region}
+                </li>
+              ))}
+            </ul>
+          </div>
+          :
+          ''
+        }
 
-        <div className='bg-[#10111B] rounded-b-md max-h-[22rem] overflow-scroll py-6'>
+        <div className={`bg-[#10111B] ${otherPageThanDesktop ? 'max-h-[22rem] rounded-b-md' : 'max-h-[28rem] rounded-md'} overflow-scroll py-6`}>
           <span className='text-sm text-gray font-bold pl-4 uppercase'>Language</span>
           <ul className='grid grid-cols-2 gap-y-2 rown-end-2 px-2 mt-2'>
             {languages.map((language, index) => (

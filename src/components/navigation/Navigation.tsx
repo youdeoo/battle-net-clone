@@ -1,10 +1,12 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Account from './Account';
 import Menu from './menu/Menu';
 
 const Navigation: FC = () => {
-
+  const { pathname } = useLocation();
+  const dekstopOrMobilePage = pathname === '/desktop' || pathname === '/mobile';
+  console.log(dekstopOrMobilePage)
   return (
     <>
       <div className='flex items-center justify-between bg-darkBlue px-4 pt-3'>
