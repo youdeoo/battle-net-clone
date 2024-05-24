@@ -1,0 +1,1 @@
+export const deviceHandleHoverEffect = window.matchMedia('(hover: hover)').matches;

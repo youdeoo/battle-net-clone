@@ -31,9 +31,14 @@
     group-hover:block group-hover:animate-displayOpacity; 
   }
 
-  .section-to-download-battle-net {
-    @apply grid grid-cols-[60fr_40fr] items-center justify-center gap-10 bg-no-repeat bg-cover border-t 
-    border-b border-borderGray px-10 py-20;
+  .battle-net-panel {
+    @apply grid grid-cols-[60fr_40fr] items-center justify-center max-w-[1440px] gap-10 border-t 
+    border-b border-borderGray px-10 py-20 min-[1200px]:gap-[4.5rem]
+    min-[1200px]:grid-cols-2 min-[1200px]:m-auto;
+  }
+
+  .background-image-styles {
+    @apply bg-no-repeat bg-cover bg-center;
   }
 
   .blue-button {

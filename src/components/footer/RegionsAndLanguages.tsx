@@ -1,5 +1,5 @@
 import { FC, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import usePageType from '../../lib/hooks/usePageType';
 import useOutsideClick from '../../lib/hooks/useOutsideClick';
 
 const regions = [
@@ -28,9 +28,6 @@ const languages = [
 ];
 
 const RegionsAndLanguages: FC = () => {
-  const { pathname } = useLocation();
-  const otherPageThanDesktop = pathname !== '/desktop';
-
   const [markedRegionIndex, setMarkedRegionIndex] = useState(0);
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);
@@ -77,8 +74,10 @@ const RegionsAndLanguages: FC = () => {
         after:border-r-[10px] after:border-r-transparent after:border-t-[10px] after:border-t-[#10111B]`}
         style={{ display: displayRegionsAndLanguages ? 'block' : 'none' }}
       >
-        {otherPageThanDesktop
+        {usePageType()
           ?
+          ''
+          :
           <div className='bg-[#171926] rounded-t-md px-4 py-6'>
             <span className='text-sm text-gray font-bold uppercase'>Region</span>
             <ul className='flex gap-2 mt-2'>
@@ -94,11 +93,9 @@ const RegionsAndLanguages: FC = () => {
               ))}
             </ul>
           </div>
-          :
-          ''
         }
 
-        <div className={`bg-[#10111B] ${otherPageThanDesktop ? 'max-h-[22rem] rounded-b-md' : 'max-h-[28rem] rounded-md'} overflow-scroll py-6`}>
+        <div className={`bg-[#10111B] ${usePageType() ? 'max-h-[28rem] rounded-md' : 'max-h-[22rem] rounded-b-md'} overflow-scroll py-6`}>
           <span className='text-sm text-gray font-bold pl-4 uppercase'>Language</span>
           <ul className='grid grid-cols-2 gap-y-2 rown-end-2 px-2 mt-2'>
             {languages.map((language, index) => (

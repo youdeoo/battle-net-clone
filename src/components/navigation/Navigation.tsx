@@ -1,15 +1,13 @@
 import { FC } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import usePageType from '../../lib/hooks/usePageType';
 import Account from './Account';
 import Menu from './menu/Menu';
 
 const Navigation: FC = () => {
-  const { pathname } = useLocation();
-  const dekstopOrMobilePage = pathname === '/desktop' || pathname === '/mobile';
-  console.log(dekstopOrMobilePage)
   return (
     <>
-      <div className='flex items-center justify-between bg-darkBlue px-4 pt-3'>
+      <div className={`flex items-center justify-between bg-darkBlue px-4 pt-3 ${usePageType() ? 'pb-3 sticky top-0 z-50' : ''}`}>
         <Link to='/' className='active-translate-y'>
           <img
             className='max-w-52 cursor-pointer'
@@ -44,7 +42,7 @@ const Navigation: FC = () => {
         </div>
       </div>
 
-      <Menu />
+      {usePageType() ? '' : <Menu />}
     </>
   );
 }
