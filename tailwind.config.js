@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        almostTransparent: 'rgba(255, 255, 255, 15%)',
+        almostTransparent: 'rgba(255, 255, 255, 10%)',
         almostWhite: '#BDBEC1',
         darkBlue: '#15171E',
         mediumBlue: '#1A1C23',
@@ -63,6 +63,14 @@ export default {
             display: 'none',
             opacity: '0',
             transform: 'rotateX(-15deg)'
+          }
+        },
+        infiniteCarousel: {
+          '0%': {
+            transform: 'translateX(0)'
+          },
+          '100%': {
+            transform: 'translateX(calc(-100% - 2rem))'
           }
         }
       },

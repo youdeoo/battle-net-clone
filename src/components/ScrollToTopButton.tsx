@@ -1,11 +1,8 @@
 import { FC, useState, useEffect } from 'react';
+import { scrollToTop } from '../lib/utils';
 
 const ScrollToTopButton: FC = () => {
   const [displayButton, setDisplayButton] = useState(false);
-
-  const scrollToTop = (): void => {
-    window.scrollTo(0, 0);
-  }
 
   const handleScroll = (): void => {
     if (window.scrollY > 100) {

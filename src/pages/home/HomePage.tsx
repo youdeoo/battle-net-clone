@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { deviceHandleHoverEffect } from '../../lib/utils';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
-import DesktopBattleNet from '../../components/DesktopBattleNet';
-import MobileBattleNet from '../../components/MobileBattleNet';
+import DesktopPanel from '../../components/DesktopPanel';
+import MobilePanel from '../../components/MobilePanel';
 import ImagesCarousel from './ImagesCarousel';
 
 const HomePage: FC = () => {
@@ -12,7 +12,7 @@ const HomePage: FC = () => {
       <ScrollToTopButton />
       <ImagesCarousel />
 
-      {deviceHandleHoverEffect ? <DesktopBattleNet /> : <MobileBattleNet />}
+      {deviceHandleHoverEffect ? <DesktopPanel /> : <MobilePanel />}
     </main>
   )
 }

@@ -1,7 +1,11 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import MobileBattleNet from '../../components/MobileBattleNet';
+import { deviceHandleHoverEffect } from '../../lib/utils';
+import MobilePanel from '../../components/MobilePanel';
+import DownloadAppPanel from '../../components/DownloadAppPanel';
 import DownloadForMacLink from '../../components/DownloadForMacLink';
+import GooglePlayLink from '../../components/GooglePlayLink';
+import InfiniteCarousel from './InfiniteCarousel';
 
 const battleNetFeatures = [
   {
@@ -34,8 +38,8 @@ const battleNetFeatures = [
 const DesktopPage: FC = () => {
   return (
     <main>
-      <section className='bg-[url("/battle-net-panel/background-and-image.png")] background-image-styles'>
-        <div className='flex flex-col gap-10'>
+      <section className='grid grid-cols-2 min-h-[950px] bg-[url("/battle-net-panel/background-and-image.png")] background-image-styles px-10 py-20'>
+        <div className='self-center flex flex-col gap-10 h-fit'>
           <img
             className='max-w-md m-auto'
             src='/logo/vertical-logo.png'
@@ -47,13 +51,26 @@ const DesktopPage: FC = () => {
             Launch your games, connect with friends, and keep up-to-date with the latest news.
           </p>
           <DownloadForMacLink />
-          <p className='text-almostWhite text-center'>
-            Also available for <Link className='text-lighterBlue font-semibold underline transition-colors hover:text-lightestBlue' to='/download'>Windowns</Link> and <Link className='text-lighterBlue font-semibold underline transition-colors hover:text-lightestBlue' to='/mobile'>mobile</Link>
-          </p>
+
+          {deviceHandleHoverEffect
+            ?
+            <p className='text-almostWhite text-center'>
+              Also available for <Link className='text-lighterBlue font-semibold underline transition-colors hover:text-lightestBlue' to='/download'>Windowns</Link> and <Link className='text-lighterBlue font-semibold underline transition-colors hover:text-lightestBlue' to='/mobile'>mobile</Link>
+            </p>
+            :
+            <>
+              <p className='text-almostWhite text-center'>
+                Also available for <Link className='text-lighterBlue font-semibold underline transition-colors hover:text-lightestBlue' to='/mobile'>mobile</Link>
+              </p>
+              <GooglePlayLink />
+            </>
+          }
         </div>
       </section>
 
-      <section className='flex gap-16 px-10 py-20 max-[1310px]:flex-col'>
+      <InfiniteCarousel />
+
+      <section className='grid grid-cols-[300px_1fr] gap-16 px-10 pt-16 pb-20  max-[1310px]:grid-cols-[auto]'>
         <div>
           <h2 className='text-xl font-bold text-gray'>Key features</h2>
           <h3 className='text-white font-bold text-3xl'>All your games in one place</h3>
@@ -86,7 +103,8 @@ const DesktopPage: FC = () => {
         </div>
       </section>
 
-      <MobileBattleNet />
+      <MobilePanel />
+      <DownloadAppPanel />
     </main>
   );
 }

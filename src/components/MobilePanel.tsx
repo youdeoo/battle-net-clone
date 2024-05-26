@@ -1,10 +1,11 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import usePageType from '../lib/hooks/usePageType';
+import GooglePlayLink from './GooglePlayLink';
 
-const MobileBattleNet: FC = () => {
+const MobilePanel: FC = () => {
   return (
-    <section className='bg-[url("/battle-net-panel/background-mobile.png")] background-image-styles'>
+    <section className='bg-[url("/battle-net-panel/background-mobile.png")] background-image-styles border-panel'>
       <div className={`battle-net-panel ${usePageType() ? 'grid-cols-2' : ''}`}>
         <img
           className='justify-self-center max-w-[35rem]'
@@ -29,7 +30,7 @@ const MobileBattleNet: FC = () => {
             </h3>
           }
 
-          <p className={`max-w-[95%] ${usePageType() ? 'text-xl' : 'text-lg'} text-almostWhite`}>
+          <p className={`max-w-[95%] ${usePageType() ? 'text-xl' : 'text-lg'} text-almostWhite mb-10`}>
             Get the mobile app and shop, socialize, get the news, and stay safe.
           </p>
 
@@ -44,19 +45,7 @@ const MobileBattleNet: FC = () => {
             </Link>
             :
             <>
-              <Link
-                className='mt-10'
-                to='https://play.google.com/store/apps/details?id=com.blizzard.messenger'
-                target='_blank'
-              >
-                <img
-                  className='max-w-52 border border-lightGray rounded-md'
-                  src='/battle-net-panel/google-play.png'
-                  alt='button to open google play to download battle.net'
-                  loading='lazy'
-                />
-              </Link>
-
+              <GooglePlayLink />
               <p className='text-almostWhite mt-[4rem]'>
                 Also available for <Link className='font-semibold text-lighterBlue underline transition-colors hover:text-lightestBlue' to='/desktop'>desktop</Link>
               </p>
@@ -68,4 +57,4 @@ const MobileBattleNet: FC = () => {
   );
 }
 
-export default MobileBattleNet;
+export default MobilePanel;

@@ -7,7 +7,7 @@ const DownloadForMacLink: FC = () => {
   return (
     <Link
       to='/download'
-      className={`flex items-center justify-center gap-2 max-w-[310px] text-xl font-bold rounded
+      className={`flex items-center justify-center gap-2  ${usePageType() ? 'text-2xl max-w-[330px]' : 'text-xl max-w-[310px]'} font-bold rounded
       ${deviceHandleHoverEffect ? 'text-white bg-lightBlue' : 'bg-gray text-almostWhite border-transparent pointer-events-none'}
        ${usePageType() ? 'm-auto' : ''} px-10 py-5 blue-button-hover active-translate-y`}
     >

@@ -32,9 +32,12 @@
   }
 
   .battle-net-panel {
-    @apply grid grid-cols-[60fr_40fr] items-center justify-center max-w-[1440px] gap-10 border-t 
-    border-b border-borderGray px-10 py-20 min-[1200px]:gap-[4.5rem]
-    min-[1200px]:grid-cols-2 min-[1200px]:m-auto;
+    @apply grid grid-cols-[60fr_40fr] items-center justify-center max-w-[1440px] gap-10
+    px-10 py-20 m-auto min-[1200px]:gap-[4.5rem];
+  }
+
+  .border-panel {
+    @apply  border-b border-t border-borderGray;
   }
 
   .background-image-styles {
