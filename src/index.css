@@ -37,7 +37,7 @@
   }
 
   .border-panel {
-    @apply  border-b border-t border-borderGray;
+    @apply  border-b border-t border-t-borderGray border-b-borderGray;
   }
 
   .background-image-styles {

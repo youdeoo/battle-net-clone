@@ -7,7 +7,33 @@
         "description": "Massively Multiplayer RPG",
         "icon": "/games-logo/warcraft/wow.png",
         "carouselData": {
-          "images": []
+          "imageData": [
+            {
+              "backgroundImage": "/carousel-images/warcraft/world-of-warcraft/background-1.png",
+              "icon": "/carousel-images/warcraft/world-of-warcraft/icon-1.png",
+              "text": "Overpowered? Maybe. Fun? Definitely."
+            },
+            {
+              "backgroundImage": "/carousel-images/warcraft/world-of-warcraft/background-2.png",
+              "icon": "/carousel-images/warcraft/world-of-warcraft/icon.png",
+              "text": "Reel in a great value bundle of Murloc goodies!"
+            },
+            {
+              "backgroundImage": "/carousel-images/warcraft/world-of-warcraft/background-3.png",
+              "icon": "/carousel-images/warcraft/world-of-warcraft/icon.png",
+              "text": "Embrace your inner Murloc with the Green Snugglefin Romper!"
+            },
+            {
+              "backgroundImage": "/carousel-images/warcraft/world-of-warcraft/background-4.png",
+              "icon": "/carousel-images/warcraft/world-of-warcraft/icon.png",
+              "text": "Start the New Year off right with a 6-Month Subscription Offer"
+            },
+            {
+              "backgroundImage": "/carousel-images/warcraft/world-of-warcraft/background-5.png",
+              "icon": "/carousel-images/warcraft/world-of-warcraft/icon-5.png",
+              "text": "Descend into the depths of Azeroth"
+            }
+          ]
         }
       },
       {
@@ -15,7 +41,11 @@
         "description": "Massively Multiplayer RPG",
         "icon": "/games-logo/warcraft/wow-classic.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -23,7 +53,11 @@
         "description": "Action Strategy",
         "icon": "/games-logo/warcraft/warcraft-rumble.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -31,7 +65,11 @@
         "description": "Real-time strategy",
         "icon": "/games-logo/warcraft/warcraft-3.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -39,7 +77,11 @@
         "description": "Strategy Card Game",
         "icon": "/games-logo/warcraft/hearthstone.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -47,7 +89,11 @@
         "description": "Real-time Strategy",
         "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -55,7 +101,11 @@
         "description": "Real-time Strategy",
         "icon": "/games-logo/warcraft/warcraft-2.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]
@@ -68,7 +118,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -76,7 +130,11 @@
         "description": "Free-To-Play-Action Shooter",
         "icon": "/games-logo/call-of-duty/warzone.webp",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -84,7 +142,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare-2.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -92,7 +154,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/vanguard.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -100,7 +166,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/black-ops.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -108,7 +178,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -116,7 +190,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -124,7 +202,11 @@
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/black-ops-4.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]
@@ -137,7 +219,11 @@
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-4.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -145,7 +231,11 @@
         "descritpion": "Action RPG",
         "icon": "/games-logo/diablo/diablo-immortal.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -153,7 +243,11 @@
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-3.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -161,7 +255,11 @@
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-2-resurrected.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -169,7 +267,11 @@
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]
@@ -182,7 +284,11 @@
         "description": "Team-Based Action Game",
         "icon": "/games-logo/overwatch/overwatch.webp",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]
@@ -195,7 +301,11 @@
         "description": "Real-time Strategy",
         "icon": "/games-logo/star-craft/star-craft-2.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -203,7 +313,11 @@
         "description": "Real-time Strategy",
         "icon": "/games-logo/star-craft/star-craft.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]
@@ -216,7 +330,11 @@
         "description": "Bundle",
         "icon": "/games-logo/others/blizzard-arcade.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -224,7 +342,11 @@
         "description": "Platformer",
         "icon": "/games-logo/others/crash-4.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       },
       {
@@ -232,7 +354,11 @@
         "description": "MOBA",
         "icon": "/games-logo/others/heros-of-the-storm.png",
         "carouselData": {
-          "images": []
+          "imageData": {
+            "backgroundImage": "",
+            "icon": "",
+            "text": ""
+          }
         }
       }
     ]

@@ -5,7 +5,7 @@ import DownloadForMacLink from './DownloadForMacLink';
 
 const DesktopPanel: FC = () => {
   return (
-    <section className='bg-[url("/battle-net-panel/background-desktop.png")] background-image-styles border-panel'>
+    <section className='max-w-[2600px] bg-[url("/battle-net-panel/background-desktop.png")] background-image-styles border-panel m-auto'>
       <div className={`battle-net-panel ${usePageType() ? 'grid-cols-2 py-40' : ''}`}>
         <img
           src='/battle-net-panel/laptop.png'
@@ -16,7 +16,7 @@ const DesktopPanel: FC = () => {
 
         <div className='flex flex-col justify-between text-white'>
           {usePageType() ? <h3 className='text-xl font-bold text-gray'>Battle.net desktop app</h3> : ''}
-          <h3 className={`${usePageType() ? 'text-5xl' : 'text-[2.5rem]'} font-bold mb-2`}>Dive into adventure</h3>
+          <h3 className={`${usePageType() ? 'text-[3.5rem] leading-none' : 'text-[2.5rem]'} font-bold mb-2`}>Dive into adventure</h3>
           <p className='text-lg text-almostWhite'>
             Download Battle.net and join a community of millions.
           </p>

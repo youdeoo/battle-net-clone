@@ -38,7 +38,7 @@ const battleNetFeatures = [
 const DesktopPage: FC = () => {
   return (
     <main>
-      <section className='grid grid-cols-2 min-h-[950px] bg-[url("/battle-net-panel/background-and-image.png")] background-image-styles px-10 py-20'>
+      <section className='grid grid-cols-2 max-w-[2600px] min-h-[950px] bg-[url("/battle-net-panel/background-and-image.png")] background-image-styles px-10 py-20 m-auto'>
         <div className='self-center flex flex-col gap-10 h-fit'>
           <img
             className='max-w-md m-auto'
@@ -70,7 +70,7 @@ const DesktopPage: FC = () => {
 
       <InfiniteCarousel />
 
-      <section className='grid grid-cols-[300px_1fr] gap-16 px-10 pt-16 pb-20  max-[1310px]:grid-cols-[auto]'>
+      <section className='grid grid-cols-[300px_1fr] gap-16 max-w-[1440px] px-10 pt-16 pb-20 max-[1310px]:grid-cols-[auto] m-auto'>
         <div>
           <h2 className='text-xl font-bold text-gray'>Key features</h2>
           <h3 className='text-white font-bold text-3xl'>All your games in one place</h3>

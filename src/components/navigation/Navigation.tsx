@@ -18,7 +18,10 @@ const Navigation: FC = () => {
         </Link>
 
         <div className='flex gap-1'>
-          <div className='header-link group active-translate-y'>
+          <Link
+            to='/download'
+            className='header-link group active-translate-y'
+          >
             <img
               className='max-w-5 group-hover:brightness-[5]'
               src='/icons/download.svg'
@@ -26,7 +29,7 @@ const Navigation: FC = () => {
               loading='lazy'
             />
             <span className='text-white font-bold'>Download Battle.net</span>
-          </div>
+          </Link>
 
           <div className='header-link group active-translate-y'>
             <img

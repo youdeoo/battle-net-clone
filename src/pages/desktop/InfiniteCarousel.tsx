@@ -16,13 +16,13 @@ const slides = [
 
 const InfiniteCarousel: FC = () => {
   return (
-    <div className='relative top-[-2.5rem] overflow-hidden'>
+    <div className='relative top-[-2.5rem] max-w-[2600px] overflow-hidden m-auto'>
       <div className='flex gap-8 w-max'>
         <div className='flex gap-8 animate-[infiniteCarousel_200s_infinite_linear]'>
           {slides.map((slide, index) => (
             <div className='w-[15rem]' key={index}>
               <img
-                className='rounded-md inline h-full'
+                className='rounded-md h-full'
                 src={slide}
                 alt=''
                 aria-hidden='true'
@@ -35,7 +35,7 @@ const InfiniteCarousel: FC = () => {
           {slides.map((slide, index) => (
             <div className='w-[15rem]' key={index}>
               <img
-                className='rounded-md inline h-full'
+                className='rounded-md h-full'
                 src={slide}
                 alt=''
                 aria-hidden='true'

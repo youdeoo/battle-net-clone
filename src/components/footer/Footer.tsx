@@ -36,7 +36,7 @@ const socailMediaIcons = [
 
 const Footer: FC = () => {
   return (
-    <footer className='px-16 pt-10 pb-[6.5rem]'>
+    <footer className='max-w-[1600px] px-16 pt-10 pb-[6.5rem] m-auto'>
       <div className='flex items-center justify-between border-b border-borderGray pb-2'>
         <ul className='flex text-white text-sm font-semibold'>
           {navigationLinks.map((link, index) => (
