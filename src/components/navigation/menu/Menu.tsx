@@ -5,7 +5,6 @@ import SearchShop from './SearchShop';
 import Balance from './Balance';
 
 const Menu: FC = () => {
-
   const generateGameLinks = (): string[][] => {
     const setUpLinks = gamesData.map((data) => data.games.map((gameData) =>
       gameData.gameName.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '')));

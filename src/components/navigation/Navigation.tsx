@@ -25,7 +25,7 @@ const Navigation: FC = () => {
             <img
               className='max-w-5 group-hover:brightness-[5]'
               src='/icons/download.svg'
-              alt='download battle.net'
+              alt='go to page to download battle.net'
               loading='lazy'
             />
             <span className='text-white font-bold'>Download Battle.net</span>
