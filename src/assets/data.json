@@ -1,7 +1,7 @@
 [
   {
     "gameType": "Warcraft",
-    "commonCarouselData": [
+    "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
           "laptop": "/carousel-images/warcraft/common-images/background-1-laptop.png",
@@ -213,7 +213,7 @@
   },
   {
     "gameType": "Call of Duty",
-    "commonCarouselData": [
+    "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
           "laptop": "/carousel-images/call-of-duty/common-images/background-1-laptop.png",
@@ -346,7 +346,7 @@
   },
   {
     "gameType": "Diablo",
-    "commonCarouselData": [
+    "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
           "laptop": "/carousel-images/diablo/common-images/background-laptop.png",
@@ -385,7 +385,7 @@
       },
       {
         "gameName": "Diablo Immortal",
-        "descritpion": "Action RPG",
+        "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-immortal.png",
         "carouselData": [
           {

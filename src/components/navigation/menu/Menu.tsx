@@ -4,23 +4,23 @@ import gamesData from '../../../assets/data.json';
 import SearchShop from './SearchShop';
 import Balance from './Balance';
 
+const generateGameLinks = (): string[][] => {
+  const setUpLinks = gamesData.map((data) => data.games.map((gameData) =>
+    gameData.gameName.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '')));
+
+  const transformedLinks = setUpLinks.map((arr) => arr.map((link) => {
+    if (['modern-warfare-iii', 'warzone', 'modern-warfare-ii'].includes(link)) {
+      return 'call-of-duty'
+    }
+    else {
+      return link;
+    }
+  }))
+
+  return transformedLinks;
+}
+
 const Menu: FC = () => {
-  const generateGameLinks = (): string[][] => {
-    const setUpLinks = gamesData.map((data) => data.games.map((gameData) =>
-      gameData.gameName.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '')));
-
-    const transformedLinks = setUpLinks.map((arr) => arr.map((link) => {
-      if (['modern-warfare-iii', 'warzone', 'modern-warfare-ii'].includes(link)) {
-        return 'call-of-duty'
-      }
-      else {
-        return link;
-      }
-    }))
-
-    return transformedLinks;
-  }
-
   return (
     <div className='sticky top-0 grid grid-cols-[1fr_max-content_max-content] bg-darkBlue gap-2 px-4 py-3'>
       <div className='flex w-full rounded-md bg-mediumGray'>
