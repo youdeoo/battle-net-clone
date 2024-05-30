@@ -60,6 +60,12 @@
     @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
   }
 
+  .swiper-button {
+    @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue 
+    rounded-md border border-borderGray translate-y-[-50%] opacity-0 transition-opacity
+    duration-[300ms] group-hover:opacity-100;
+  }
+
   .hover-light-gray-background {
     @apply rounded-md cursor-pointer transition-colors hover:bg-lightGrayBackground;
   }
@@ -71,5 +77,17 @@
   .active-left-border {
     @apply before:content-[""] before:absolute before:top-0 before:left-[.2px] before:h-full before:rounded-tl-md 
     before:rounded-bl-md before:active:border-l-[3px] before:active:border-l-lightBlue;
+  }
+
+  .swiper-pagination {
+    @apply static flex justify-center mt-[10px];
+  }
+
+  .custom-bullet {
+    @apply inline-block w-10 h-[4px] bg-lightGray rounded-md;
+  }
+  
+  .swiper-pagination-bullet-active.custom-bullet {
+    @apply bg-lighterBlue;
   }
 }
