@@ -1,11 +1,11 @@
 import { FC } from 'react';
-import { deviceHandleHoverEffect } from '../../lib/utils';
-import gamesData from '../../assets/data.json';
-import { ICarouselItem } from '../../interfaces/interfaces';
-import ScrollToTopButton from '../../components/ScrollToTopButton';
-import DesktopPanel from '../../components/DesktopPanel';
-import MobilePanel from '../../components/MobilePanel';
-import Carousel from '../../components/Carousel';
+import { deviceHandleHoverEffect } from '../lib/utils';
+import gamesData from '../assets/data.json';
+import { ICarouselItem } from '../interfaces/interfaces';
+import ScrollToTopButton from '../components/ScrollToTopButton';
+import DesktopPanel from '../components/DesktopPanel';
+import MobilePanel from '../components/MobilePanel';
+import Carousel from '../components/Carousel';
 
 interface IGame {
   gameName: string;
@@ -28,13 +28,13 @@ const getCommonCarouselData = () => {
 }
 
 const carouselDataGroup: Array<ICarouselItem> = [
-  getCarouselData('World of Warcraft Classic', 0),
+  getCarouselData('World of Warcraft', 0),
   getCarouselData('Diablo IV', 0),
   getCommonCarouselData(),
   getCarouselData('Diablo Immortal', 0),
   getCarouselData('Overwatch 2', 0),
   getCarouselData('Hearthstone', 0),
-  getCarouselData('World of Warcraft', 3)
+  getCarouselData('World of Warcraft Classic', 1),
 ].flatMap((data) => data);
 
 const HomePage: FC = () => {

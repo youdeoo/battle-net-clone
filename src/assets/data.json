@@ -23,9 +23,9 @@
               "laptop": "/carousel-images/warcraft/world-of-warcraft/background-1-laptop.png",
               "tablet": "/carousel-images/warcraft/world-of-warcraft/background-1-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/common-images/icon.png",
-            "text": "Reel in a great value bundle of Murloc goodies!",
-            "buttonText": "MRLGRL"
+            "icon": "/carousel-images/warcraft/world-of-warcraft/icon.png",
+            "text": "The War Within Beta starts June 5! Upgrade to the Epic Edition to gain beta access",
+            "buttonText": "Pre-purchase Now"
           },
           {
             "backgroundImage": {
@@ -50,7 +50,7 @@
               "laptop": "/carousel-images/warcraft/world-of-warcraft/background-4-laptop.png",
               "tablet": "/carousel-images/warcraft/world-of-warcraft/background-4-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/world-of-warcraft/icon-4.png",
+            "icon": "/carousel-images/warcraft/common-images/icon.png",
             "text": "Descend into the depths of Azeroth",
             "buttonText": "Pre-purchase Now"
           }
@@ -110,7 +110,7 @@
               "tablet": "/carousel-images/warcraft-rumble/background-tablet.png"
             },
             "icon": "/carousel-images/warcarft-rumble/icon.png",
-            "text": "Season 5 is now live!",
+            "text": "Co-op comes to Season 6",
             "buttonText": "Play Today"
           }
         ]
@@ -220,7 +220,7 @@
           "tablet": "/carousel-images/call-of-duty/common-images/background-1-tablet.png"
         },
         "icon": "/carousel-images/call-of-duty/common-images/icon-modern-3.png",
-        "text": "Season 3 is live. Get the new BlackCell Pack.",
+        "text": "Multiplayer Free Trial is live. Play free now and save 35% through June 5.",
         "buttonText": "Buy Now"
       },
       {
@@ -247,7 +247,7 @@
           "tablet": "/carousel-images/call-of-duty/common-images/background-4-tablet.png"
         },
         "icon": "/carousel-images/call-of-duty/common-images/icon-modern-3.png",
-        "text": "Season 3 Battle Pass is here",
+        "text": "Season 4 Battle Pass is here",
         "buttonText": "Buy the Battle Pass"
       }
     ],
@@ -368,7 +368,7 @@
               "laptop": "/carousel-images/diablo/diablo-4/background-1-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-4/background-1-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-4/background-icon-1.png",
+            "icon": "/carousel-images/diablo/diablo-4/icon-1.png",
             "text": "Season 4: Loot Reborn is now live",
             "buttonText": "Purchase Battle Pass Now"
           },
@@ -377,9 +377,9 @@
               "laptop": "/carousel-images/diablo/diablo-4/background-2-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-4/background-2-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-4/background-icon-.png",
-            "text": "Avaliable now",
-            "buttonText": "Buy Now"
+            "icon": "/carousel-images/diablo/diablo-4/icon-.png",
+            "text": "50% off",
+            "buttonText": "Purchase Now"
           }
         ]
       },
@@ -393,7 +393,7 @@
               "laptop": "/carousel-images/diablo/diablo-immortal/background-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-immortal/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-immortal/background-icon.png",
+            "icon": "/carousel-images/diablo/diablo-immortal/icon.png",
             "text": "New Class - The Tempest. Become the Storm!",
             "buttonText": "Learn More"
           }
@@ -409,7 +409,7 @@
               "laptop": "/carousel-images/diablo/diablo-3/background-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-3/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-3/background-icon.png"
+            "icon": "/carousel-images/diablo/diablo-3/icon.png"
           }
         ]
       },
@@ -423,7 +423,7 @@
               "laptop": "/carousel-images/diablo/diablo-2/background-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-2/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon.avif",
+            "icon": "/carousel-images/diablo/diablo-2/icon.avif",
             "text": "Evil is Resurrected",
             "buttonText": "Buy Now"
           }
@@ -439,7 +439,7 @@
               "laptop": "/carousel-images/diablo/diablo/background-laptop.png",
               "tablet": "/carousel-images/diablo/diablo/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon.webp"
+            "icon": "/carousel-images/diablo/diablo-2/icon.webp"
           }
         ]
       }
@@ -456,36 +456,36 @@
           {
             "backgroundImage": {
               "laptop": "/carousel-images/overwatch/background-1-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo/background-1-tablet.png"
+              "tablet": "/carousel-images/overwatch/background-1-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon-1.png",
+            "icon": "/carousel-images/overwatch/icon-1.png",
             "text": "Experience an electric collaboration with two co-designed Legendary skins",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
               "laptop": "/carousel-images/overwatch/background-2-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo/background-2-tablet.png"
+              "tablet": "/carousel-images/overwatch/background-2-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon-yellow.png",
+            "icon": "/carousel-images/overwatch/icon-yellow.png",
             "text": "Season 10 Premium Battle Pass, earn Mythic Prisms to unlock Mythic Mercy or select previous skins!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
               "laptop": "/carousel-images/overwatch/background-3-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo/background-3-tablet.png"
+              "tablet": "/carousel-images/overwatch/background-3-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon-yellow.png",
+            "icon": "/carousel-images/ovewatch/icon-yellow.png",
             "text": "Get the Season 10 Premium Battle Pass + 20 Tier Skips, 2 Legendary skins and more!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
               "laptop": "/carousel-images/overwatch/background-4-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo/background-4-tablet.png"
+              "tablet": "/carousel-images/ovewatch/background-4-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/background-icon-4.png",
+            "icon": "/carousel-images/overwatch/icon-4.png",
             "text": "Unlock new Mythic skins and customizations for your heroes!",
             "buttonText": "Buy Now"
           }

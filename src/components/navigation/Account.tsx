@@ -41,7 +41,7 @@ const Account: FC = () => {
         />
       </div>
 
-      <div className='absolute top-12 right-0 z-10 hidden min-w-[320px] pt-4 animate-[hideRotateX_.15s_ease-in-out] 
+      <div className='absolute top-12 right-0 z-30 hidden min-w-[320px] pt-4 animate-[hideRotateX_.15s_ease-in-out] 
         group-hover/main-item:block group-hover/main-item:animate-[displayRotateX_.15s_ease-in-out]'
       >
         <div className='absolute top-[8px] right-[4.5rem] z-20 size-4 rotate-[45deg] rounded-[2px] border-t-[1px] 

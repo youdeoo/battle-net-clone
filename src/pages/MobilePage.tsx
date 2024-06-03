@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import AppStoreLink from '../../components/AppStoreLink';
-import GooglePlayLink from '../../components/GooglePlayLink';
-import DesktopPanel from '../../components/DesktopPanel';
-import DownloadAppPanel from '../../components/DownloadAppPanel';
+import AppStoreLink from '../components/AppStoreLink';
+import GooglePlayLink from '../components/GooglePlayLink';
+import DesktopPanel from '../components/DesktopPanel';
+import DownloadAppPanel from '../components/DownloadAppPanel';
 
 const features = [
   {

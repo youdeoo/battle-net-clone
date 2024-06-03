@@ -6,7 +6,7 @@ import GooglePlayLink from './GooglePlayLink';
 const MobilePanel: FC = () => {
   return (
     <section className='max-w-[2600px] bg-[url("/battle-net-panel/background-mobile.png")] background-image-styles border-panel m-auto'>
-      <div className={`battle-net-panel ${usePageType() ? 'grid-cols-2' : ''}`}>
+      <div className={`battle-net-panel min-[1200px]:gap-[4.5rem] ${usePageType() ? 'grid-cols-2' : ''}`}>
         <img
           className='justify-self-center max-w-[35rem]'
           src='/battle-net-panel/phones.png'

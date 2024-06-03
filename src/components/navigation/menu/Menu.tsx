@@ -22,7 +22,7 @@ const generateGameLinks = (): string[][] => {
 
 const Menu: FC = () => {
   return (
-    <div className='sticky top-0 grid grid-cols-[1fr_max-content_max-content] bg-darkBlue gap-2 px-4 py-3'>
+    <div className='sticky top-0 z-20 grid grid-cols-[1fr_max-content_max-content] bg-darkBlue gap-2 px-4 py-3'>
       <div className='flex w-full rounded-md bg-mediumGray'>
         {gamesData.map((data, gameTypeIndex) => (
           <div

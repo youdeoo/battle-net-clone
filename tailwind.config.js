@@ -77,7 +77,7 @@ export default {
       animation: {
         displayOpacity: 'displayOpacity .2s ease-in-out',
         hideOpacity: 'hideOpacity .2s ease-in-out'
-      }
+      },
     },
   },
   plugins: [],
