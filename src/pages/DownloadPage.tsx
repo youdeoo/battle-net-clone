@@ -41,7 +41,7 @@ const DownloadPage: FC = () => {
                 key={index}
               >
                 <img
-                  className='max-w-4'
+                  className='max-w-4 w-4'
                   src={data.image}
                   alt={`got to ${data.text} page`}
                   loading='lazy'

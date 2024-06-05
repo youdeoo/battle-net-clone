@@ -1,24 +1,17 @@
 import { FC } from 'react';
 import { deviceHandleHoverEffect } from '../lib/utils';
 import gamesData from '../assets/data.json';
-import { ICarouselItem } from '../interfaces/interfaces';
+import { ICarouselItem, IGameData } from '../interfaces/interfaces';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import DesktopPanel from '../components/DesktopPanel';
 import MobilePanel from '../components/MobilePanel';
 import Carousel from '../components/Carousel';
 
-interface IGame {
-  gameName: string;
-  description: string;
-  icon: string;
-  carouselData: Array<ICarouselItem>;
-}
-
 const getCarouselData = (gameName: string, carouselDataIndex: number): Array<ICarouselItem> => {
   return gamesData
     .flatMap((data) => data.games
       .filter((gamesData) => gamesData.gameName === gameName)
-      .map((gamesData) => (gamesData as IGame).carouselData[carouselDataIndex]));
+      .map((gamesData) => (gamesData as IGameData).carouselData![carouselDataIndex]));
 };
 
 const getCommonCarouselData = () => {

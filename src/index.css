@@ -3,18 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: 'Noto Sans', sans-serif; 
-      scroll-behavior: smooth;
-    }
+  html {
+    font-family: 'Noto Sans', sans-serif;     
+  }
 
-    body {
-      @apply bg-darkBlue;
-    }
-
-    img {
-      width: 100%;
-    }
+  body {
+    @apply bg-darkBlue;
+  }
 }
 
 @layer components {
@@ -27,14 +22,13 @@
   }
 
   .menu-element-on-hover {
-    @apply hidden absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] animate-hideOpacity 
-    group-hover:block group-hover:animate-displayOpacity; 
+    @apply invisible absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] opacity-0
+    group-hover:visible group-hover:opacity-100 transition-all; 
   }
 
   .battle-net-panel {
     @apply grid grid-cols-[60fr_40fr] items-center justify-center max-w-[1440px] gap-10
-    px-10 py-20 m-auto 
-    /* min-[1200px]:gap-[4.5rem]; */
+    px-10 py-20 m-auto;
   }
 
   .border-panel {
@@ -67,17 +61,17 @@
 
   .custom-bullet {
     @apply w-10 h-[4px] bg-lightGray rounded-md transition-all hover:bg-white hover:opacity-80
-    max-[750px]:w-6 max-[750px]:m-t-[2rem];
+    max-[720px]:w-6 max-[720px]:mx-[2px] !important;
   }
   
   .swiper-pagination-bullet-active.custom-bullet {
-    @apply bg-lighterBlue h-[6px];
+    @apply bg-lighterBlue h-[6px] !important;
   }
 
   .swiper-button {
     @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue 
     rounded-md border border-borderGray translate-y-[-50%] opacity-0 transition-opacity
-    duration-[300ms] group-hover:opacity-100 max-[959px]:hidden !important;
+    duration-[300ms] group-hover:opacity-100;
   }
 
   .hover-light-gray-background {

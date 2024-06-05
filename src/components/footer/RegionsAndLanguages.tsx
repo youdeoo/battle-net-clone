@@ -31,7 +31,6 @@ const RegionsAndLanguages: FC = () => {
   const [markedRegionIndex, setMarkedRegionIndex] = useState(0);
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);
-
   const displayRegionsAndLanguagesOutsideListener = useOutsideClick({ state: displayRegionsAndLanguages, setState: setDisplayRegionsAndLanguages });
 
   const handleDisplayRegionsAndLanguages = (): void => {
@@ -52,7 +51,7 @@ const RegionsAndLanguages: FC = () => {
         className={`group flex gap-[.35rem] cursor-pointer px-4 py-3 hover-light-gray-background ${conditionalStyle('bg-lightGrayBackground')}`}
       >
         <img
-          className={`max-w-5 group-hover:brightness-[5] ${conditionalStyle('brightness-[5]')}`}
+          className={`max-w-5 w-5 group-hover:brightness-[5] ${conditionalStyle('brightness-[5]')}`}
           src='/icons/globe.svg'
           alt='mark language and region'
           loading='lazy'
@@ -61,7 +60,7 @@ const RegionsAndLanguages: FC = () => {
           {languages[markedLanguageIndex]}
         </span>
         <img
-          className={`max-w-3 group-hover:brightness-[5] ${conditionalStyle('brightness-[5]')}`}
+          className={`max-w-3 w-3 group-hover:brightness-[5] ${conditionalStyle('brightness-[5]')}`}
           src='/icons/chevron-down.svg'
           alt=''
           aria-hidden='true'
@@ -69,10 +68,9 @@ const RegionsAndLanguages: FC = () => {
       </div>
 
       <div
-        className={`absolute bottom-[4.5rem] right-0 z-10 w-[37rem] ${displayRegionsAndLanguages ? 'animate-displayOpacity' : 'animate-hideOpacity'} 
+        className={`absolute bottom-[4.5rem] right-0 z-10 w-[37rem] transition-all ${displayRegionsAndLanguages ? 'visible opacity-100' : 'invisible opacity-0'} 
         after:content-[""] after:absolute after:right-[4.5rem] after:w-0 after:h-0 after:border-l-[10px] after:border-l-transparent 
         after:border-r-[10px] after:border-r-transparent after:border-t-[10px] after:border-t-[#10111B]`}
-        style={{ display: displayRegionsAndLanguages ? 'block' : 'none' }}
       >
         {usePageType()
           ?

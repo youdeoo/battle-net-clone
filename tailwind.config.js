@@ -21,46 +21,22 @@ export default {
         borderGray: '#2F3136',
       },
       keyframes: {
-        displayOpacity: {
-          '0%': {
-            display: 'none',
-            opacity: '0'
-          },
-          '100%': {
-            display: 'block',
-            opacity: '1'
-          }
-        },
-        hideOpacity: {
-          '0%': {
-            display: 'block',
-            opacity: '1'
-          },
-          '100%': {
-            display: 'none',
-            opacity: '0'
-          }
-        },
         displayRotateX: {
           '0%': {
-            display: 'none',
             opacity: '0',
             transform: 'rotateX(-15deg)'
           },
           '100%': {
-            display: 'block',
             opacity: '1',
             transform: 'rotateX(0)'
           }
         },
         hideRotateX: {
           '0%': {
-            display: 'block',
             opacity: '1',
             transform: 'rotateX(0)'
           },
           '100%': {
-            display: 'none',
             opacity: '0',
             transform: 'rotateX(-15deg)'
           }
@@ -73,11 +49,7 @@ export default {
             transform: 'translateX(calc(-100% - 2rem))'
           }
         }
-      },
-      animation: {
-        displayOpacity: 'displayOpacity .2s ease-in-out',
-        hideOpacity: 'hideOpacity .2s ease-in-out'
-      },
+      }
     },
   },
   plugins: [],

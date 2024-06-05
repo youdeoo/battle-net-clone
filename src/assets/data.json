@@ -106,10 +106,10 @@
         "carouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft-rumble/background-laptop.png",
-              "tablet": "/carousel-images/warcraft-rumble/background-tablet.png"
+              "laptop": "/carousel-images/warcraft/warcraft-rumble/background-laptop.png",
+              "tablet": "/carousel-images/warcraft/warcraft-rumble/background-tablet.png"
             },
-            "icon": "/carousel-images/warcarft-rumble/icon.png",
+            "icon": "/carousel-images/warcraft/warcraft-rumble/icon.png",
             "text": "Co-op comes to Season 6",
             "buttonText": "Play Today"
           }
@@ -175,14 +175,14 @@
               "laptop": "/carousel-images/warcraft/hearthstone/background-5-laptop.png",
               "tablet": "/carousel-images/warcraft/hearthstone/background-5-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon.png",
+            "icon": "/carousel-images/warcraft/hearthstone/icon-5.png",
             "text": "Unearth 38 new cards!",
             "buttonText": "Buy Now"
           }
         ]
       },
       {
-        "gameName": "Warcraft: Orcs & Humans",
+        "gameName": "Warcraft®: Orcs & Humans",
         "description": "Real-time Strategy",
         "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
         "carouselData": [

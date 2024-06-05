@@ -21,12 +21,12 @@ const balanceData = [
 
 const Balance: FC = () => {
   return (
-    <div className='menu-option group flex gap-2 bg-mediumGray hover-light-gray-background'>
+    <div className='menu-option group flex items-center gap-2 bg-mediumGray hover-light-gray-background'>
       <span className='text-sm font-semibold text-lightGray transition-colors group-hover:text-white'>
         Battle.net Balance
       </span>
       <img
-        className='max-w-3 group-hover:brightness-[5]'
+        className='max-w-3 w-3 group-hover:brightness-[5]'
         src='/icons/chevron-down.svg'
         alt=''
         aria-hidden='true'

@@ -25,9 +25,12 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
     }
   }
 
+  const backgroundImagesAmount = carouselData.map((data) => Object.keys(data.backgroundImage).length);
+  const backgroundImagesAmountEqualOne = backgroundImagesAmount.length === 1;
+
   return (
-    <section className='px-4'>
-      <div className='group'>
+    <section className='max-w-[1600px] px-4 m-auto'>
+      <div className='group m-auto'>
         <Swiper
           className='relative grid z-[1] text-white'
           slidesPerView={1}
@@ -79,20 +82,26 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
                     <p className='text-xl font-bold leading-6 text-center mb-4 max-[959px]:text-base'>
                       {data.text}
                     </p>
-                    <button
-                      className='blue-button active-translate-y text-lg max-[959px]:max-w-[280px] max-[959px]:m-auto'
-                      type='button'
-                    >
-                      {data.buttonText}
-                    </button>
+                    {data.buttonText
+                      ?
+                      <button
+                        className='blue-button active-translate-y text-lg max-[959px]:max-w-[280px] max-[959px]:m-auto'
+                        type='button'
+                      >
+                        {data.buttonText}
+                      </button>
+                      :
+                      ''
+                    }
                   </div>
                 </div>
               </div>
             </SwiperSlide>
           ))}
           <button
-            onClick={() => swiper && swiper.slidePrev()}
-            className={`swiper-button left-[-.5rem] rotate-90 ${deviceHandleHoverEffect ? 'flex' : 'hidden'}`}
+            onClick={() => swiper?.slidePrev()}
+            className={`swiper-button left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || backgroundImagesAmountEqualOne ? 'hidden' : 'flex'} 
+            max-[959px]:hidden`}
           >
             <img
               className='max-w-6 brightness-[5]'
@@ -103,8 +112,9 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
           </button>
 
           <button
-            onClick={() => swiper && swiper.slideNext()}
-            className={`swiper-button right-[-.5rem] rotate-[270deg] ${deviceHandleHoverEffect ? 'flex' : 'hidden'}`}
+            onClick={() => swiper?.slideNext()}
+            className={`swiper-button right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || backgroundImagesAmountEqualOne ? 'hidden' : 'flex'}
+            max-[959px]:hidden`}
           >
             <img
               className='max-w-6 brightness-[5]'
@@ -115,7 +125,9 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
           </button>
         </Swiper>
 
-        <div className='flex items-center justify-center gap-3 h-[16px] mt-3'>
+        <div className={`${backgroundImagesAmountEqualOne ? 'hidden' : 'flex'} 
+          items-center justify-center gap-3 h-[16px] mt-3`}
+        >
           <img
             onClick={() => { setPasuseAutoPlay(prev => !prev); toogleAutoPlay() }}
             className='max-w-2.5 cursor-pointer hover:brightness-[5]'

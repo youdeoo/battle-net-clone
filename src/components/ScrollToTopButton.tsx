@@ -28,7 +28,7 @@ const ScrollToTopButton: FC = () => {
       ${displayButton ? 'block animate-displayOpacity' : 'hidden animate-hideOpacity'}`}
     >
       <img
-        className='rotate-180 brightness-[5] max-w-4'
+        className='rotate-180 brightness-[5] max-w-4 w-4'
         src='/icons/chevron-down.svg'
         alt='back to top button'
         loading='lazy'
