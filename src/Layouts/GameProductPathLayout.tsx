@@ -1,12 +1,11 @@
 import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
-import { formatGameData } from '../lib/utils';
-import gamesData from '../assets/data.json';
+import { currentGamePage } from '../lib/utils';
 
 const GameProductPathLayout: FC = () => {
   const { gameId } = useParams();
-  const currentGame = formatGameData(gamesData).flatMap((data) => data.filter((game) => game.link === gameId));
-  const currentGameName = currentGame[0].gameName;
+  const currentGameTypePage = currentGamePage(gameId)[0].gameType;
+  const currentGameNamePage = currentGamePage(gameId)[0].gameName;
 
   const addShortcutsForCallOfDutyGamesNames = (gameName: string): string => {
     switch (gameName) {
@@ -19,19 +18,22 @@ const GameProductPathLayout: FC = () => {
       case 'Black Ops 4':
         return 'BO4';
       default:
-        return currentGameName;
+        return currentGameNamePage;
     }
   }
 
   const generateGamePageName = (): string => {
-    if (currentGameName === ('Modern Warfare III' || 'Warzone' || 'Modern Warfare II') && currentGame[0].gameType === 'Call of Duty') {
+    // 'Warzone' and 'Modern Warfare II' aren't required,
+    // because clicking on these games should return 'Modern Warfare III'
+    // due to it the first in the data.json file for Call of Duty games
+    if (currentGameNamePage === 'Modern Warfare III') {
       return 'Call of Duty';
     }
-    else if (currentGame[0].gameType === 'Call of Duty') {
-      return `Call of Duty: ${addShortcutsForCallOfDutyGamesNames(currentGameName)}`
+    else if (currentGameTypePage === 'Call of Duty') {
+      return `Call of Duty: ${addShortcutsForCallOfDutyGamesNames(currentGameNamePage)}`
     }
     else {
-      return currentGameName;
+      return currentGameNamePage;
     }
   }
 

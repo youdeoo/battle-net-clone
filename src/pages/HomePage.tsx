@@ -1,26 +1,26 @@
 import { FC } from 'react';
 import { deviceHandleHoverEffect } from '../lib/utils';
 import gamesData from '../assets/data.json';
-import { ICarouselItem, IGameData } from '../interfaces/interfaces';
+import { TCarouselItem, TGameData } from '../types/types';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import DesktopPanel from '../components/DesktopPanel';
 import MobilePanel from '../components/MobilePanel';
 import Carousel from '../components/Carousel';
 
-const getCarouselData = (gameName: string, carouselDataIndex: number): Array<ICarouselItem> => {
+const getCarouselData = (gameName: string, carouselDataIndex: number): Array<TCarouselItem> => {
   return gamesData
     .flatMap((data) => data.games
       .filter((gamesData) => gamesData.gameName === gameName)
-      .map((gamesData) => (gamesData as IGameData).carouselData![carouselDataIndex]));
+      .map((gamesData) => (gamesData as TGameData).carouselData[carouselDataIndex]));
 };
 
-const getCommonCarouselData = () => {
+const getCommonCarouselData = (): Array<TCarouselItem> => {
   return gamesData
     .filter((data) => data.gameType === 'Call of Duty')
     .map((data) => data.commonGameTypeCarouselData![0]);
 }
 
-const carouselDataGroup: Array<ICarouselItem> = [
+const carouselDataGroup: Array<TCarouselItem> = [
   getCarouselData('World of Warcraft', 0),
   getCarouselData('Diablo IV', 0),
   getCommonCarouselData(),

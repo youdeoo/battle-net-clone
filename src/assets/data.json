@@ -352,7 +352,7 @@
           "laptop": "/carousel-images/diablo/common-images/background-laptop.png",
           "tablet": "/carousel-images/diablo/common-images/background-tablet.png"
         },
-        "icon": "/carousel-images/diablo/common-images/background-icon.png",
+        "icon": "/carousel-images/diablo/common-images/icon.png",
         "text": "A collection forged in Hell",
         "buttonText": "Purchase Now"
       }
@@ -439,7 +439,7 @@
               "laptop": "/carousel-images/diablo/diablo/background-laptop.png",
               "tablet": "/carousel-images/diablo/diablo/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/icon.webp"
+            "icon": "/carousel-images/diablo/diablo/icon.webp"
           }
         ]
       }

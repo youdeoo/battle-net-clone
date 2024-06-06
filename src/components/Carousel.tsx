@@ -1,14 +1,14 @@
 import { FC, useState } from 'react';
 import { deviceHandleHoverEffect } from '../lib/utils';
-import { ICarouselItem } from '../interfaces/interfaces';
+import { TCarouselItem } from '../types/types';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { Swiper as SwiperClass } from 'swiper';
 import 'swiper/css';
 import 'swiper/swiper-bundle.css';
 
-interface Prop {
-  carouselData: Array<ICarouselItem>;
+type Prop = {
+  carouselData: Array<TCarouselItem>;
 }
 
 const Carousel: FC<Prop> = ({ carouselData }) => {
@@ -25,8 +25,11 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
     }
   }
 
-  const backgroundImagesAmount = carouselData.map((data) => Object.keys(data.backgroundImage).length);
+  const backgroundImagesAmount = carouselData.flatMap((data) => Object.keys(data.backgroundImage).length);
   const backgroundImagesAmountEqualOne = backgroundImagesAmount.length === 1;
+
+  const carouselDataKeys = carouselData.flatMap((data) => Object.keys(data));
+  const onlyBackgroundImagesAndIcon = carouselDataKeys.length === 2;
 
   return (
     <section className='max-w-[1600px] px-4 m-auto'>
@@ -67,21 +70,29 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
                   />
                 </picture>
 
-                <div className='absolute top-[50%] left-[10rem] translate-y-[-50%] flex justify-center
-                  h-full max-[1400px]:left-[7rem] max-[959px]:w-full max-[959px]:max-w-full max-[959px]:left-[50%] 
-                  max-[959px]:translate-x-[-50%] max-[959px]:pt-[150px] max-[959px]:pb-[2rem]'
+                <div className={`absolute top-[50%] ${onlyBackgroundImagesAndIcon ? 'left-[3rem]' : 'left-[7rem]'} translate-y-[-50%] flex justify-center
+                  h-full min-[1400px]:left-[10rem] max-[959px]:w-full max-[959px]:max-w-full max-[959px]:left-[50%] 
+                  max-[959px]:translate-x-[-50%] max-[959px]:pt-[150px] max-[959px]:pb-[2rem]`}
                 >
-                  <div className='flex flex-col justify-center max-w-[270px] max-[959px]:self-end max-[959px]:max-w-[420px]'>
+                  <div className={`flex flex-col justify-center ${onlyBackgroundImagesAndIcon ? 'max-w-[28rem]' : 'max-w-[270px]'} 
+                    max-[959px]:self-end max-[959px]:max-w-[420px]`}
+                  >
                     <img
-                      className='max-[959px]:max-w-[15.5rem] max-[959px]:m-auto'
+                      className={`${onlyBackgroundImagesAndIcon ? 'w-[28rem]' : 'w-auto'} 
+                      max-[959px]:${onlyBackgroundImagesAndIcon ? 'max-w-[25rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
                       src={data.icon}
                       alt=''
                       aria-hidden='true'
                       loading='lazy'
                     />
-                    <p className='text-xl font-bold leading-6 text-center mb-4 max-[959px]:text-base'>
-                      {data.text}
-                    </p>
+                    {data.text
+                      ?
+                      <p className='text-xl font-bold leading-6 text-center mb-4 max-[959px]:text-base'>
+                        {data.text}
+                      </p>
+                      :
+                      ''
+                    }
                     {data.buttonText
                       ?
                       <button

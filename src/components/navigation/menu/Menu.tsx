@@ -31,7 +31,7 @@ const Menu: FC = () => {
                   {data.games.map((gameData, gameDataIndex) => (
                     <Link
                       className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray active-translate-y'
-                      to={`/${data.gameType === 'More' ? 'product' : 'game'}/${formatGameData(gamesData)[gameTypeIndex][gameDataIndex].link}`}
+                      to={`/${data.gameType === 'More' ? 'product' : 'game'}/${formatGameData()[gameTypeIndex][gameDataIndex].link}`}
                       key={gameDataIndex}
                     >
                       <img
