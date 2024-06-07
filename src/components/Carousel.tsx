@@ -1,4 +1,5 @@
-import { FC, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { deviceHandleHoverEffect } from '../lib/utils';
 import { TCarouselItem } from '../types/types';
 import { SwiperSlide, Swiper } from 'swiper/react';
@@ -12,6 +13,7 @@ type Prop = {
 }
 
 const Carousel: FC<Prop> = ({ carouselData }) => {
+  const { gameId } = useParams();
   const [pauseAutoPlay, setPasuseAutoPlay] = useState(false);
   const [swiper, setSwiper] = useState<SwiperClass | null>(null);
 
@@ -24,12 +26,14 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
       }
     }
   }
+  const slideContainsOnlyBackgroundImagesAndIcon = carouselData.map((data) => Object.keys(data)).map((d) => d.length === 2);
+  const onlyOneSlide = carouselData.map((data) => Object.keys(data)).length === 1;
 
-  const backgroundImagesAmount = carouselData.flatMap((data) => Object.keys(data.backgroundImage).length);
-  const backgroundImagesAmountEqualOne = backgroundImagesAmount.length === 1;
-
-  const carouselDataKeys = carouselData.flatMap((data) => Object.keys(data));
-  const onlyBackgroundImagesAndIcon = carouselDataKeys.length === 2;
+  useEffect(() => {
+    if (swiper?.activeIndex !== 0) {
+      swiper?.slideTo(0);
+    }
+  }, [gameId])
 
   return (
     <section className='max-w-[1600px] px-4 m-auto'>
@@ -70,16 +74,16 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
                   />
                 </picture>
 
-                <div className={`absolute top-[50%] ${onlyBackgroundImagesAndIcon ? 'left-[3rem]' : 'left-[7rem]'} translate-y-[-50%] flex justify-center
-                  h-full min-[1400px]:left-[10rem] max-[959px]:w-full max-[959px]:max-w-full max-[959px]:left-[50%] 
-                  max-[959px]:translate-x-[-50%] max-[959px]:pt-[150px] max-[959px]:pb-[2rem]`}
+                <div className={`absolute top-[50%] ${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'left-[3.5rem]' : 'left-[7rem] min-[1400px]:left-[10rem]'} 
+                translate-y-[-50%] flex justify-center h-full max-[959px]:w-full max-[959px]:max-w-full max-[959px]:left-[50%] max-[959px]:translate-x-[-50%] 
+                max-[959px]:pt-[150px] max-[959px]:pb-[2rem]`}
                 >
-                  <div className={`flex flex-col justify-center ${onlyBackgroundImagesAndIcon ? 'max-w-[28rem]' : 'max-w-[270px]'} 
+                  <div className={`flex flex-col justify-center ${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[270px]'} 
                     max-[959px]:self-end max-[959px]:max-w-[420px]`}
                   >
                     <img
-                      className={`${onlyBackgroundImagesAndIcon ? 'w-[28rem]' : 'w-auto'} 
-                      max-[959px]:${onlyBackgroundImagesAndIcon ? 'max-w-[25rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
+                      className={`${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'w-[28rem]' : 'w-auto'} 
+                      max-[959px]:${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
                       src={data.icon}
                       alt=''
                       aria-hidden='true'
@@ -111,7 +115,7 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
           ))}
           <button
             onClick={() => swiper?.slidePrev()}
-            className={`swiper-button left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || backgroundImagesAmountEqualOne ? 'hidden' : 'flex'} 
+            className={`swiper-button left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || onlyOneSlide ? 'hidden' : 'flex'} 
             max-[959px]:hidden`}
           >
             <img
@@ -124,7 +128,7 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
 
           <button
             onClick={() => swiper?.slideNext()}
-            className={`swiper-button right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || backgroundImagesAmountEqualOne ? 'hidden' : 'flex'}
+            className={`swiper-button right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || onlyOneSlide ? 'hidden' : 'flex'}
             max-[959px]:hidden`}
           >
             <img
@@ -136,7 +140,7 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
           </button>
         </Swiper>
 
-        <div className={`${backgroundImagesAmountEqualOne ? 'hidden' : 'flex'} 
+        <div className={`${onlyOneSlide ? 'hidden' : 'flex'} 
           items-center justify-center gap-3 h-[16px] mt-3`}
         >
           <img

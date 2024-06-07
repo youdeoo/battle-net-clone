@@ -19,8 +19,11 @@ const GameShopPage: FC = () => {
       const firstTwoSlides = currnetCommonGameTypeCarousel!.slice(0, 2);
       return [...firstTwoSlides, ...currnetGameCarouselData];
     }
-    else if (currentGameTypePage === 'Warcraft' && (currentGameNamePage === 'World of Warcraft' || currentGameNamePage === 'World of Warcraft Classic')) {
-      return currnetGameCarouselData;
+    else if (['World of Warcraft', 'World of Warcraft Classic'].includes(currentGameNamePage)) {
+      const arrayCopy = [...currnetGameCarouselData];
+      arrayCopy.splice(1, 0, ...currnetCommonGameTypeCarousel!);
+      const uniqueSlides = Array.from(new Set(currnetGameCarouselData));
+      return uniqueSlides;
     }
     else if (['Diablo IV', 'Diablo III', 'Diablo II: Resurrected'].includes(currentGameNamePage)) {
       return [...currnetGameCarouselData, ...currnetCommonGameTypeCarousel!];
@@ -31,9 +34,9 @@ const GameShopPage: FC = () => {
   }
 
   return (
-    <div>
+    <main>
       <Carousel carouselData={getCarouselData()} />
-    </div>
+    </main>
   );
 }
 

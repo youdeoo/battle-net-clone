@@ -38,29 +38,31 @@ const GameProductPathLayout: FC = () => {
   }
 
   return (
-    <main>
-      <div className='flex gap-2 pl-8 pb-4'>
-        <Link to='/'>
-          <img
-            className='max-w-5 w-5 hover:brightness-[5]'
-            src='/icons/house.svg'
-            alt='back to home page'
-            loading='lazy'
-          />
-        </Link>
+    <>
+      <div>
+        <div className='flex gap-2 pl-8 pb-4'>
+          <Link to='/'>
+            <img
+              className='max-w-5 w-5 hover:brightness-[5]'
+              src='/icons/house.svg'
+              alt='back to home page'
+              loading='lazy'
+            />
+          </Link>
 
-        <div className='flex gap-1'>
-          <img
-            className='max-w-3 w-3 rotate-[270deg]'
-            src='/icons/chevron-down.svg'
-            alt=''
-            aria-hidden='true'
-          />
-          <span className='text-sm text-lightGray'>{generateGamePageName()}</span>
+          <div className='flex gap-1'>
+            <img
+              className='max-w-3 w-3 rotate-[270deg]'
+              src='/icons/chevron-down.svg'
+              alt=''
+              aria-hidden='true'
+            />
+            <span className='text-sm text-lightGray'>{generateGamePageName()}</span>
+          </div>
         </div>
       </div>
       <Outlet />
-    </main>
+    </>
   );
 }
 

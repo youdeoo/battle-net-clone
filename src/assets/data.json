@@ -17,6 +17,28 @@
         "gameName": "World of Warcraft",
         "description": "Massively Multiplayer RPG",
         "icon": "/games-logo/warcraft/wow.png",
+        "products": {
+          "recommended": {
+            "sectionHeading": "Great for New Players",
+            "sectionDescription": "New to World of Warcraft? Start here.",
+            "products": [
+              {
+                "icon": "/icons/",
+                "heading": "World of Warcraft®: Free Trial",
+                "yellowText": "Play free up to level 20!",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "Play For Free"
+              },
+              {
+                "icon": "/icons/",
+                "heading": "World of Warcraft®: Free Trial",
+                "yellowText": "Play free up to level 20!",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "Play For Free"
+              }
+            ]
+          }
+        },
         "carouselData": [
           {
             "backgroundImage": {
@@ -377,7 +399,7 @@
               "laptop": "/carousel-images/diablo/diablo-4/background-2-laptop.png",
               "tablet": "/carousel-images/diablo/diablo-4/background-2-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-4/icon-.png",
+            "icon": "/carousel-images/diablo/diablo-4/icon-2.png",
             "text": "50% off",
             "buttonText": "Purchase Now"
           }
@@ -476,7 +498,7 @@
               "laptop": "/carousel-images/overwatch/background-3-laptop.png",
               "tablet": "/carousel-images/overwatch/background-3-tablet.png"
             },
-            "icon": "/carousel-images/ovewatch/icon-yellow.png",
+            "icon": "/carousel-images/overwatch/icon-yellow.png",
             "text": "Get the Season 10 Premium Battle Pass + 20 Tier Skips, 2 Legendary skins and more!",
             "buttonText": "Buy Now"
           },

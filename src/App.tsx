@@ -8,7 +8,7 @@ import ProductPage from './pages/ProductPage';
 import DesktopPage from './pages/desktop/DesktopPage';
 import MobilePage from './pages/MobilePage';
 import DownloadPage from './pages/DownloadPage';
-import GameProductPathLayout from './Layouts/GameProductPathLayout';
+import GameProductPathLayout from './layouts/GameProductPathLayout';
 
 const App = () => {
   useScrollToPageTop();
