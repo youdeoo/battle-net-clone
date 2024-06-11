@@ -4,10 +4,10 @@
     "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/warcraft/common-images/background-1-laptop.png",
-          "tablet": "/carousel-images/warcraft/common-images/background-1-tablet.png"
+          "laptop": "/game-carousel-images/warcraft/common-images/background-1-laptop.png",
+          "tablet": "/game-carousel-images/warcraft/common-images/background-1-tablet.png"
         },
-        "icon": "/carousel-images/warcraft/common-images/icon-1.png",
+        "icon": "/game-carousel-images/warcraft/common-images/icon-1.png",
         "text": "Overpowered? Maybe. Fun? Definitely.",
         "buttonText": "Subscribe Now"
       }
@@ -17,62 +17,77 @@
         "gameName": "World of Warcraft",
         "description": "Massively Multiplayer RPG",
         "icon": "/games-logo/warcraft/wow.png",
-        "products": {
-          "recommended": {
+        "gamePageLinks": [
+          "Great for New Players",
+          "Games",
+          "Subscriptions",
+          "Bundles",
+          "Mounts",
+          "Pets",
+          "Toys",
+          "Transmogs",
+          "Game Service",
+          "Gear"
+        ],
+        "sectionProducts": [
+          {
             "sectionHeading": "Great for New Players",
             "sectionDescription": "New to World of Warcraft? Start here.",
             "products": [
               {
-                "icon": "/icons/",
+                "image": "/products/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
                 "heading": "World of Warcraft®: Free Trial",
                 "yellowText": "Play free up to level 20!",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Play For Free"
               },
               {
-                "icon": "/icons/",
-                "heading": "World of Warcraft®: Free Trial",
-                "yellowText": "Play free up to level 20!",
+                "image": "/products/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "heading": "World of Warcraft®: The War Within™",
+                "yellowText": "     The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
-                "price": "Play For Free"
+                "price": "From $49.99",
+                "newProduct": "New"
               }
             ]
           }
-        },
-        "carouselData": [
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft/background-1-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft/background-1-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft/background-1-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft/background-1-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/world-of-warcraft/icon.png",
+            "icon": "/game-carousel-images/warcraft/world-of-warcraft/icon.png",
             "text": "The War Within Beta starts June 5! Upgrade to the Epic Edition to gain beta access",
             "buttonText": "Pre-purchase Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft/background-2-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft/background-2-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft/background-2-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft/background-2-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/common-images/icon.png",
+            "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Embrace your inner Murloc with the Green Snugglefin Romper!",
             "buttonText": "MRLGRL"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft/background-3-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft/background-3-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft/background-3-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft/background-3-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/common-images/icon.png",
+            "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Start the New Year off right with a 6-Month Subscription Offer",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft/background-4-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft/background-4-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft/background-4-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft/background-4-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/common-images/icon.png",
+            "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Descend into the depths of Azeroth",
             "buttonText": "Pre-purchase Now"
           }
@@ -82,40 +97,50 @@
         "gameName": "World of Warcraft Classic",
         "description": "Massively Multiplayer RPG",
         "icon": "/games-logo/warcraft/wow-classic.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Game Upgrades",
+          "Subscriptions",
+          "Mounts",
+          "Pets",
+          "Toys",
+          "Progression Games Services",
+          "Era Game Services",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft-classic/background-1-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft-classic/background-1-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-1-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-1-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/world-of-warcraft-classic/icon-1.png",
+            "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-1.png",
             "text": "Rise against impossible odds. Get the Blazing Epic Upgrade today.",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft-classic/background-2-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft-classic/background-2-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-2-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-2-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/world-of-warcraft-classic/icon-classic.png",
+            "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-classic.png",
             "text": "Explore these Mounts, Pets, and Toys, now available for Classic!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft-classic/background-3-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft-classic/background-3-mobile.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-3-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-3-mobile.png"
             },
-            "icon": "/carousel-images/warcraft/world-of-warcraft-classic/icon-3.png",
+            "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-3.png",
             "text": "Season of Discovery now live",
             "buttonText": "Explore Today"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/world-of-warcraft-classic/background-4-laptop.png",
-              "tablet": "/carousel-images/warcraft/world-of-warcraft-classic/background-4-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-4-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-4-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/common-images/icon.png",
+            "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Get the 12-month subscription offer today",
             "buttonText": "Subscribe Now"
           }
@@ -125,13 +150,17 @@
         "gameName": "Warcraft Rumble",
         "description": "Action Strategy",
         "icon": "/games-logo/warcraft/warcraft-rumble.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Game",
+          "Coin Packs"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/warcraft-rumble/background-laptop.png",
-              "tablet": "/carousel-images/warcraft/warcraft-rumble/background-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/warcraft-rumble/background-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/warcraft-rumble/background-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/warcraft-rumble/icon.png",
+            "icon": "/game-carousel-images/warcraft/warcraft-rumble/icon.png",
             "text": "Co-op comes to Season 6",
             "buttonText": "Play Today"
           }
@@ -141,13 +170,17 @@
         "gameName": "Warcraft III",
         "description": "Real-time strategy",
         "icon": "/games-logo/warcraft/warcraft-3.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/warcraft-3/background-laptop.png",
-              "tablet": "/carousel-images/warcraft/warcraft-3/background-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/warcraft-3/background-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/warcraft-3/background-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/warcraft-3/icon.png"
+            "icon": "/game-carousel-images/warcraft/warcraft-3/icon.png"
           }
         ]
       },
@@ -155,49 +188,58 @@
         "gameName": "Hearthstone",
         "description": "Strategy Card Game",
         "icon": "/games-logo/warcraft/hearthstone.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Great for New Players",
+          "Card Packs",
+          "Mini-Sets",
+          "Battlegrounds",
+          "Games",
+          "Wild",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/hearthstone/background-1-laptop.png",
-              "tablet": "/carousel-images/warcraft/hearthstone/background-1-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/hearthstone/background-1-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/hearthstone/background-1-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon-1.png",
+            "icon": "/game-carousel-images/warcraft/hearthstone/icon-1.png",
             "text": "New Mini-Set: Dr. Boom's Incredible Inventions",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/hearthstone/background-2-laptop.png",
-              "tablet": "/carousel-images/warcraft/hearthstone/background-2-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/hearthstone/background-2-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/hearthstone/background-2-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon-2.png",
+            "icon": "/game-carousel-images/warcraft/hearthstone/icon-2.png",
             "text": "Get the Battlegrounds Season Pass now!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/hearthstone/background-3-laptop.png",
-              "tablet": "/carousel-images/warcraft/hearthstone/background-3-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/hearthstone/background-3-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/hearthstone/background-3-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon.png",
+            "icon": "/game-carousel-images/warcraft/hearthstone/icon.png",
             "text": "Earn more rewards with the Whizbang's Workshop Tavern Pass!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/hearthstone/background-4-laptop.png",
-              "tablet": "/carousel-images/warcraft/hearthstone/background-4-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/hearthstone/background-4-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/hearthstone/background-4-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon.png",
+            "icon": "/game-carousel-images/warcraft/hearthstone/icon.png",
             "text": "The Toychest is Teeming! Hearthstone's new expansion is now live.",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/hearthstone/background-5-laptop.png",
-              "tablet": "/carousel-images/warcraft/hearthstone/background-5-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/hearthstone/background-5-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/hearthstone/background-5-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/hearthstone/icon-5.png",
+            "icon": "/game-carousel-images/warcraft/hearthstone/icon-5.png",
             "text": "Unearth 38 new cards!",
             "buttonText": "Buy Now"
           }
@@ -207,13 +249,16 @@
         "gameName": "Warcraft®: Orcs & Humans",
         "description": "Real-time Strategy",
         "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/warcraft-orcs-and-humans/background-laptop.png",
-              "tablet": "/carousel-images/warcraft/warcraft-orcs-and-humans/background-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/warcraft-orcs-and-humans/background-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/warcraft-orcs-and-humans/background-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/warcraft-orcs-and-humans/icon.png"
+            "icon": "/game-carousel-images/warcraft/warcraft-orcs-and-humans/icon.png"
           }
         ]
       },
@@ -221,13 +266,16 @@
         "gameName": "Warcraft® II: Battle.net® Edition",
         "description": "Real-time Strategy",
         "icon": "/games-logo/warcraft/warcraft-2.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/warcraft/warcraft-2/background-laptop.png",
-              "tablet": "/carousel-images/warcraft/warcraft-2/background-tablet.png"
+              "laptop": "/game-carousel-images/warcraft/warcraft-2/background-laptop.png",
+              "tablet": "/game-carousel-images/warcraft/warcraft-2/background-tablet.png"
             },
-            "icon": "/carousel-images/warcraft/warcraft-2/icon.png"
+            "icon": "/game-carousel-images/warcraft/warcraft-2/icon.png"
           }
         ]
       }
@@ -238,37 +286,37 @@
     "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/call-of-duty/common-images/background-1-laptop.png",
-          "tablet": "/carousel-images/call-of-duty/common-images/background-1-tablet.png"
+          "laptop": "/game-carousel-images/call-of-duty/common-images/background-1-laptop.png",
+          "tablet": "/game-carousel-images/call-of-duty/common-images/background-1-tablet.png"
         },
-        "icon": "/carousel-images/call-of-duty/common-images/icon-modern-3.png",
+        "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Multiplayer Free Trial is live. Play free now and save 35% through June 5.",
         "buttonText": "Buy Now"
       },
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/call-of-duty/common-images/background-2-laptop.png",
-          "tablet": "/carousel-images/call-of-duty/common-images/background-2-tablet.png"
+          "laptop": "/game-carousel-images/call-of-duty/common-images/background-2-laptop.png",
+          "tablet": "/game-carousel-images/call-of-duty/common-images/background-2-tablet.png"
         },
-        "icon": "/carousel-images/call-of-duty/common-images/icon-modern-3.png",
+        "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Available Now",
         "buttonText": "Buy Now"
       },
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/call-of-duty/common-images/background-3-laptop.png",
-          "tablet": "/carousel-images/call-of-duty/common-images/background-3-tablet.png"
+          "laptop": "/game-carousel-images/call-of-duty/common-images/background-3-laptop.png",
+          "tablet": "/game-carousel-images/call-of-duty/common-images/background-3-tablet.png"
         },
-        "icon": "/carousel-images/call-of-duty/common-images/icon-3.png",
+        "icon": "/game-carousel-images/call-of-duty/common-images/icon-3.png",
         "text": "Drop in and play for free",
         "buttonText": "Play Free Now"
       },
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/call-of-duty/common-images/background-4-laptop.png",
-          "tablet": "/carousel-images/call-of-duty/common-images/background-4-tablet.png"
+          "laptop": "/game-carousel-images/call-of-duty/common-images/background-4-laptop.png",
+          "tablet": "/game-carousel-images/call-of-duty/common-images/background-4-tablet.png"
         },
-        "icon": "/carousel-images/call-of-duty/common-images/icon-modern-3.png",
+        "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Season 4 Battle Pass is here",
         "buttonText": "Buy the Battle Pass"
       }
@@ -277,7 +325,12 @@
       {
         "gameName": "Modern Warfare III",
         "description": "Action Shooter",
-        "icon": "/games-logo/call-of-duty/modern-warfare-3.png"
+        "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
+        "gamePageLinks": [
+          "Games",
+          "Points and Bundles",
+          "Gear"
+        ]
       },
       {
         "gameName": "Warzone",
@@ -293,13 +346,18 @@
         "gameName": "Vanguard",
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/vanguard.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "In-Game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/call-of-duty/vanguard/background-laptop.png",
-              "tablet": "/carousel-images/call-of-duty/vanguard/background-tablet.png"
+              "laptop": "/game-carousel-images/call-of-duty/vanguard/background-laptop.png",
+              "tablet": "/game-carousel-images/call-of-duty/vanguard/background-tablet.png"
             },
-            "icon": "/carousel-images/call-of-duty/vanguard/icon.png",
+            "icon": "/game-carousel-images/call-of-duty/vanguard/icon.png",
             "buttonText": "Buy Now"
           }
         ]
@@ -308,13 +366,18 @@
         "gameName": "Black Ops Cold War",
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/black-ops.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "In-Game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/call-of-duty/black-ops-cold-war/background-laptop.png",
-              "tablet": "/carousel-images/call-of-duty/black-ops-cold-war/background-tablet.png"
+              "laptop": "/game-carousel-images/call-of-duty/black-ops-cold-war/background-laptop.png",
+              "tablet": "/game-carousel-images/call-of-duty/black-ops-cold-war/background-tablet.png"
             },
-            "icon": "/carousel-images/call-of-duty/black-ops-cold-war/icon.png",
+            "icon": "/game-carousel-images/call-of-duty/black-ops-cold-war/icon.png",
             "text": "Captain Price Included With Purchase",
             "buttonText": "Buy Now"
           }
@@ -324,13 +387,18 @@
         "gameName": "Modern Warfare",
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "In-Game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/call-of-duty/modern-warfare/background-laptop.png",
-              "tablet": "/carousel-images/call-of-duty/modern-warfare/background-tablet.png"
+              "laptop": "/game-carousel-images/call-of-duty/modern-warfare/background-laptop.png",
+              "tablet": "/game-carousel-images/call-of-duty/modern-warfare/background-tablet.png"
             },
-            "icon": "/carousel-images/call-of-duty/modern-warfare/icon.png",
+            "icon": "/game-carousel-images/call-of-duty/modern-warfare/icon.png",
             "buttonText": "Buy Now"
           }
         ]
@@ -339,13 +407,17 @@
         "gameName": "Modern Warfare 2 Campaign Remastered",
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/call-of-duty/modern-warfare-2-remaster/background-laptop.png",
-              "tablet": "/carousel-images/call-of-duty/modern-warfare-2-remaster/background-tablet.png"
+              "laptop": "/game-carousel-images/call-of-duty/modern-warfare-2-remaster/background-laptop.png",
+              "tablet": "/game-carousel-images/call-of-duty/modern-warfare-2-remaster/background-tablet.png"
             },
-            "icon": "/carousel-images/call-of-duty/modern-warfare-2-remaster/icon.png"
+            "icon": "/game-carousel-images/call-of-duty/modern-warfare-2-remaster/icon.png"
           }
         ]
       },
@@ -353,13 +425,18 @@
         "gameName": "Black Ops 4",
         "description": "Action Shooter",
         "icon": "/games-logo/call-of-duty/black-ops-4.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "In-Game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/call-of-duty/black-ops-4/background-laptop.png",
-              "tablet": "/carousel-images/call-of-duty/black-ops-4/background-tablet.png"
+              "laptop": "/game-carousel-images/call-of-duty/black-ops-4/background-laptop.png",
+              "tablet": "/game-carousel-images/call-of-duty/black-ops-4/background-tablet.png"
             },
-            "icon": "/carousel-images/call-of-duty/black-ops-4/icon.png",
+            "icon": "/game-carousel-images/call-of-duty/black-ops-4/icon.png",
             "buttonText": "Buy Now"
           }
         ]
@@ -371,10 +448,10 @@
     "commonGameTypeCarouselData": [
       {
         "backgroundImage": {
-          "laptop": "/carousel-images/diablo/common-images/background-laptop.png",
-          "tablet": "/carousel-images/diablo/common-images/background-tablet.png"
+          "laptop": "/game-carousel-images/diablo/common-images/background-laptop.png",
+          "tablet": "/game-carousel-images/diablo/common-images/background-tablet.png"
         },
-        "icon": "/carousel-images/diablo/common-images/icon.png",
+        "icon": "/game-carousel-images/diablo/common-images/icon.png",
         "text": "A collection forged in Hell",
         "buttonText": "Purchase Now"
       }
@@ -384,22 +461,30 @@
         "gameName": "Diablo IV",
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-4.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "Battle Pass",
+          "Diablo IV Shop",
+          "Armor Packs",
+          "Add-ons & Platinum",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo-4/background-1-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo-4/background-1-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo-4/background-1-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo-4/background-1-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-4/icon-1.png",
+            "icon": "/game-carousel-images/diablo/diablo-4/icon-1.png",
             "text": "Season 4: Loot Reborn is now live",
             "buttonText": "Purchase Battle Pass Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo-4/background-2-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo-4/background-2-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo-4/background-2-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo-4/background-2-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-4/icon-2.png",
+            "icon": "/game-carousel-images/diablo/diablo-4/icon-2.png",
             "text": "50% off",
             "buttonText": "Purchase Now"
           }
@@ -409,13 +494,17 @@
         "gameName": "Diablo Immortal",
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-immortal.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games and In-game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo-immortal/background-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo-immortal/background-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo-immortal/background-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo-immortal/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-immortal/icon.png",
+            "icon": "/game-carousel-images/diablo/diablo-immortal/icon.png",
             "text": "New Class - The Tempest. Become the Storm!",
             "buttonText": "Learn More"
           }
@@ -425,13 +514,18 @@
         "gameName": "Diablo III",
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-3.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "Expansions",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo-3/background-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo-3/background-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo-3/background-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo-3/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-3/icon.png"
+            "icon": "/game-carousel-images/diablo/diablo-3/icon.png"
           }
         ]
       },
@@ -439,13 +533,18 @@
         "gameName": "Diablo II: Resurrected",
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo-2-resurrected.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "Classic Games",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo-2/background-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo-2/background-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo-2/background-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo-2/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo-2/icon.avif",
+            "icon": "/game-carousel-images/diablo/diablo-2/icon.avif",
             "text": "Evil is Resurrected",
             "buttonText": "Buy Now"
           }
@@ -455,13 +554,16 @@
         "gameName": "Diablo",
         "description": "Action RPG",
         "icon": "/games-logo/diablo/diablo.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/diablo/diablo/background-laptop.png",
-              "tablet": "/carousel-images/diablo/diablo/background-tablet.png"
+              "laptop": "/game-carousel-images/diablo/diablo/background-laptop.png",
+              "tablet": "/game-carousel-images/diablo/diablo/background-tablet.png"
             },
-            "icon": "/carousel-images/diablo/diablo/icon.webp"
+            "icon": "/game-carousel-images/diablo/diablo/icon.webp"
           }
         ]
       }
@@ -474,40 +576,47 @@
         "gameName": "Overwatch 2",
         "description": "Team-Based Action Game",
         "icon": "/games-logo/overwatch/overwatch.webp",
-        "carouselData": [
+        "gamePageLinks": [
+          "Overwatch 2: Free To Play",
+          "Seasonal Packs",
+          "Overwatch 2 Shop",
+          "Prims, Coins, and Tokens",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/overwatch/background-1-laptop.png",
-              "tablet": "/carousel-images/overwatch/background-1-tablet.png"
+              "laptop": "/game-carousel-images/overwatch/background-1-laptop.png",
+              "tablet": "/game-carousel-images/overwatch/background-1-tablet.png"
             },
-            "icon": "/carousel-images/overwatch/icon-1.png",
+            "icon": "/game-carousel-images/overwatch/icon-1.png",
             "text": "Experience an electric collaboration with two co-designed Legendary skins",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/overwatch/background-2-laptop.png",
-              "tablet": "/carousel-images/overwatch/background-2-tablet.png"
+              "laptop": "/game-carousel-images/overwatch/background-2-laptop.png",
+              "tablet": "/game-carousel-images/overwatch/background-2-tablet.png"
             },
-            "icon": "/carousel-images/overwatch/icon-yellow.png",
+            "icon": "/game-carousel-images/overwatch/icon-yellow.png",
             "text": "Season 10 Premium Battle Pass, earn Mythic Prisms to unlock Mythic Mercy or select previous skins!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/overwatch/background-3-laptop.png",
-              "tablet": "/carousel-images/overwatch/background-3-tablet.png"
+              "laptop": "/game-carousel-images/overwatch/background-3-laptop.png",
+              "tablet": "/game-carousel-images/overwatch/background-3-tablet.png"
             },
-            "icon": "/carousel-images/overwatch/icon-yellow.png",
+            "icon": "/game-carousel-images/overwatch/icon-yellow.png",
             "text": "Get the Season 10 Premium Battle Pass + 20 Tier Skips, 2 Legendary skins and more!",
             "buttonText": "Buy Now"
           },
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/overwatch/background-4-laptop.png",
-              "tablet": "/carousel-images/ovewatch/background-4-tablet.png"
+              "laptop": "/game-carousel-images/overwatch/background-4-laptop.png",
+              "tablet": "/game-carousel-images/ovewatch/background-4-tablet.png"
             },
-            "icon": "/carousel-images/overwatch/icon-4.png",
+            "icon": "/game-carousel-images/overwatch/icon-4.png",
             "text": "Unlock new Mythic skins and customizations for your heroes!",
             "buttonText": "Buy Now"
           }
@@ -522,13 +631,22 @@
         "gameName": "StarCraft II",
         "description": "Real-time Strategy",
         "icon": "/games-logo/star-craft/star-craft-2.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Great for New Players",
+          "Games",
+          "Commanders",
+          "Announcers",
+          "Bundles",
+          "Premium Arcade",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/star-craft/star-craft-2/background-laptop.png",
-              "tablet": "/carousel-images/star-craft/star-craft-2/background-tablet.png"
+              "laptop": "/game-carousel-images/star-craft/star-craft-2/background-laptop.png",
+              "tablet": "/game-carousel-images/star-craft/star-craft-2/background-tablet.png"
             },
-            "icon": "/carousel-images/star-craft/star-craft-2/icon.png"
+            "icon": "/game-carousel-images/star-craft/star-craft-2/icon.png"
           }
         ]
       },
@@ -536,13 +654,18 @@
         "gameName": "StarCraft",
         "description": "Real-time Strategy",
         "icon": "/games-logo/star-craft/star-craft.png",
-        "carouselData": [
+        "gamePageLinks": [
+          "Games",
+          "In-Game Content",
+          "Gear"
+        ],
+        "gameCarouselData": [
           {
             "backgroundImage": {
-              "laptop": "/carousel-images/star-craft/star-craft/background-laptop.png",
-              "tablet": "/carousel-images/star-craft/star-craft/background-tablet.png"
+              "laptop": "/game-carousel-images/star-craft/star-craft/background-laptop.png",
+              "tablet": "/game-carousel-images/star-craft/star-craft/background-tablet.png"
             },
-            "icon": "/carousel-images/star-craft/star-craft/icon.png"
+            "icon": "/game-carousel-images/star-craft/star-craft/icon.png"
           }
         ]
       }

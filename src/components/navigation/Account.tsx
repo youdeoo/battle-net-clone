@@ -20,7 +20,6 @@ const accountData = [
 ];
 
 const Account: FC = () => {
-
   return (
     <div className='group/main-item header-link relative'>
       <img
@@ -41,8 +40,8 @@ const Account: FC = () => {
         />
       </div>
 
-      <div className='absolute top-12 right-0 z-30 invisible min-w-[320px] pt-4 transition-all animate-[hideRotateX_.15s_ease-in-out] 
-        group-hover/main-item:block group-hover/main-item:animate-[displayRotateX_.15s_ease-in-out] group-hover/main-item:visible'
+      <div className='absolute top-12 right-0 z-30 invisible opacity-0 min-w-[320px] pt-4 transition-all animate-[hideRotateX_.15s_ease-in-out] 
+        group-hover/main-item:block group-hover/main-item:animate-[displayRotateX_.15s_ease-in-out] group-hover/main-item:visible group-hover/main-item:opacity-100'
       >
         <div className='absolute top-[8px] right-[4.5rem] z-20 size-4 rotate-[45deg] rounded-[2px] border-t-[1px] 
         border-t-borderGray border-l-[1px] border-l-borderGray bg-mediumBlue'

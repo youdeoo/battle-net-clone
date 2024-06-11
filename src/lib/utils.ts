@@ -1,4 +1,4 @@
-import { TFormatGameData, TGameData } from "../types/types";
+import { TFormatGameData, TGameData } from '../types/types';
 import gamesData from '../assets/data.json';
 
 export const deviceHandleHoverEffect = window.matchMedia('(hover: hover)').matches;
@@ -19,8 +19,10 @@ export const formatGameData = (): Array<Array<TFormatGameData>> => {
         link,
         gameName: gameData.gameName,
         gameType: data.gameType,
-        carouselData: (gameData as TGameData).carouselData,
-        commonGameTypeCarouselData: data.commonGameTypeCarouselData
+        gameCarouselData: (gameData as TGameData).gameCarouselData,
+        commonGameTypeCarouselData: data.commonGameTypeCarouselData,
+        gamePageLinks: (gameData as TGameData).gamePageLinks,
+        sectionProducts: (gameData as TGameData).sectionProducts
       };
     })
   );

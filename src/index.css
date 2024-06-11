@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-family: 'Noto Sans', sans-serif;     
+    scroll-behavior: smooth;
   }
 
   body {
@@ -70,8 +71,8 @@
 
   .swiper-button {
     @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue 
-    rounded-md border border-borderGray translate-y-[-50%] opacity-0 transition-opacity
-    duration-[300ms] group-hover:opacity-100;
+    rounded-md border border-lighterBorderGray translate-y-[-50%] invisible opacity-0 transition-all
+    duration-[300ms] group-hover:visible group-hover:opacity-100;
   }
 
   .hover-light-gray-background {

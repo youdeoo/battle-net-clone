@@ -1,12 +1,14 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import usePageType from '../lib/hooks/usePageType';
+import useSpecificPageType from '../lib/hooks/useSpecificPageType';
 import DownloadForMacLink from './DownloadForMacLink';
 
 const DesktopPanel: FC = () => {
+  const isSpecificPageType = useSpecificPageType();
+
   return (
     <section className='max-w-[2600px] bg-[url("/battle-net-panel/background-desktop.png")] background-image-styles border-panel m-auto'>
-      <div className={`battle-net-panel ${usePageType() ? 'grid-cols-2 py-40' : ''}`}>
+      <div className={`battle-net-panel ${isSpecificPageType ? 'grid-cols-2 py-40' : ''}`}>
         <img
           src='/battle-net-panel/laptop.png'
           alt=''
@@ -15,13 +17,13 @@ const DesktopPanel: FC = () => {
         />
 
         <div className='flex flex-col justify-between text-white'>
-          {usePageType() ? <h3 className='text-xl font-bold text-gray'>Battle.net desktop app</h3> : ''}
-          <h3 className={`${usePageType() ? 'text-[3.5rem] leading-none' : 'text-[2.5rem]'} font-bold mb-2`}>Dive into adventure</h3>
+          {isSpecificPageType ? <h3 className='text-xl font-bold text-gray'>Battle.net desktop app</h3> : ''}
+          <h3 className={`${isSpecificPageType ? 'text-[3.5rem] leading-none' : 'text-[2.5rem]'} font-bold mb-2`}>Dive into adventure</h3>
           <p className='text-lg text-almostWhite'>
             Download Battle.net and join a community of millions.
           </p>
 
-          {usePageType()
+          {isSpecificPageType
             ?
             <Link className='learn-more-button learn-more-button-hover bg-almostTransparent w-fit mt-10' to='/desktop'>
               Learn more

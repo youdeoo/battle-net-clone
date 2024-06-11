@@ -1,5 +1,5 @@
 import { FC, useState } from 'react';
-import usePageType from '../../lib/hooks/usePageType';
+import useSpecificPageType from '../../lib/hooks/useSpecificPageType';
 import useOutsideClick from '../../lib/hooks/useOutsideClick';
 
 const regions = [
@@ -31,6 +31,7 @@ const RegionsAndLanguages: FC = () => {
   const [markedRegionIndex, setMarkedRegionIndex] = useState(0);
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);
+  const isSpecificPageType = useSpecificPageType();
   const displayRegionsAndLanguagesOutsideListener = useOutsideClick({ state: displayRegionsAndLanguages, setState: setDisplayRegionsAndLanguages });
 
   const handleDisplayRegionsAndLanguages = (): void => {
@@ -72,7 +73,7 @@ const RegionsAndLanguages: FC = () => {
         after:content-[""] after:absolute after:right-[4.5rem] after:w-0 after:h-0 after:border-l-[10px] after:border-l-transparent 
         after:border-r-[10px] after:border-r-transparent after:border-t-[10px] after:border-t-[#10111B]`}
       >
-        {usePageType()
+        {isSpecificPageType
           ?
           ''
           :
@@ -93,7 +94,7 @@ const RegionsAndLanguages: FC = () => {
           </div>
         }
 
-        <div className={`bg-[#10111B] ${usePageType() ? 'max-h-[28rem] rounded-md' : 'max-h-[22rem] rounded-b-md'} overflow-scroll py-6`}>
+        <div className={`bg-[#10111B] ${isSpecificPageType ? 'max-h-[28rem] rounded-md' : 'max-h-[22rem] rounded-b-md'} overflow-scroll py-6`}>
           <span className='text-sm text-gray font-bold pl-4 uppercase'>Language</span>
           <ul className='grid grid-cols-2 gap-y-2 rown-end-2 px-2 mt-2'>
             {languages.map((language, index) => (

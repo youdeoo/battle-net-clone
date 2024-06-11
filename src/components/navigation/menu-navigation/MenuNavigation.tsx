@@ -5,7 +5,7 @@ import gamesData from '../../../assets/data.json';
 import SearchShop from './SearchShop';
 import Balance from './Balance';
 
-const Menu: FC = () => {
+const MenuNavigation: FC = () => {
   return (
     <div className='sticky top-0 z-20 bg-darkBlue px-4 pt-3 pb-4'>
       <div className='grid grid-cols-[1fr_max-content_max-content] gap-2 max-w-[1600px] m-auto'>
@@ -60,4 +60,4 @@ const Menu: FC = () => {
   );
 }
 
-export default Menu;
+export default MenuNavigation;

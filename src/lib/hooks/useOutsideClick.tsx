@@ -1,6 +1,6 @@
 import { RefObject, SetStateAction, useEffect, useRef } from 'react';
 
-interface OutsideClickParams {
+type OutsideClickParams = {
   state: boolean;
   setState: React.Dispatch<SetStateAction<boolean>>;
 }

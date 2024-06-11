@@ -1,13 +1,17 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import usePageType from '../../lib/hooks/usePageType';
+import useSpecificPageType from '../../lib/hooks/useSpecificPageType';
+import useGameOrProductPath from '../../lib/hooks/useGameProductPath';
 import Account from './Account';
-import Menu from './menu/Menu';
+import MenuNavigation from './menu-navigation/MenuNavigation';
 
 const Navigation: FC = () => {
+  const isGameOrProductPath = useGameOrProductPath();
+  const isSpecificPageType = useSpecificPageType();
+
   return (
     <>
-      <div className={`bg-darkBlue px-4 pt-3 ${usePageType() ? 'pb-3 sticky top-0 z-50' : ''}`}>
+      <div className={`bg-darkBlue px-4 pt-3 ${isSpecificPageType ? 'pb-3 sticky top-0 z-50' : ''}`}>
         <div className='flex items-center justify-between max-w-[1600px] m-auto'>
           <Link to='/' className='active-translate-y'>
             <img
@@ -47,7 +51,7 @@ const Navigation: FC = () => {
         </div>
       </div>
 
-      {usePageType() ? '' : <Menu />}
+      {isSpecificPageType || isGameOrProductPath ? '' : <MenuNavigation />}
     </>
   );
 }

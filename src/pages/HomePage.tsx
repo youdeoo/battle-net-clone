@@ -5,13 +5,13 @@ import { TCarouselItem, TGameData } from '../types/types';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import DesktopPanel from '../components/DesktopPanel';
 import MobilePanel from '../components/MobilePanel';
-import Carousel from '../components/Carousel';
+import GameCarousel from '../components/GameCarousel';
 
 const getCarouselData = (gameName: string, carouselDataIndex: number): Array<TCarouselItem> => {
   return gamesData
     .flatMap((data) => data.games
       .filter((gamesData) => gamesData.gameName === gameName)
-      .map((gamesData) => (gamesData as TGameData).carouselData[carouselDataIndex]));
+      .map((gamesData) => (gamesData as TGameData).gameCarouselData[carouselDataIndex]));
 };
 
 const getCommonCarouselData = (): Array<TCarouselItem> => {
@@ -34,7 +34,7 @@ const HomePage: FC = () => {
   return (
     <main>
       <ScrollToTopButton />
-      <Carousel carouselData={carouselDataGroup} />
+      <GameCarousel carouselData={carouselDataGroup} />
       {deviceHandleHoverEffect ? <DesktopPanel /> : <MobilePanel />}
     </main>
   )

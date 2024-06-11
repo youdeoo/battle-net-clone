@@ -1,9 +1,10 @@
 import { useRoutes } from 'react-router-dom';
 import useScrollToPageTop from './lib/hooks/useScrollToPageTop';
+import useGameOrProductPath from './lib/hooks/useGameProductPath';
 import Navigation from './components/navigation/Navigation';
 import Footer from './components/footer/Footer';
 import HomePage from './pages/HomePage';
-import GameShopPage from './pages/GameShopPage';
+import GameShopPage from './pages/GameShopPage/GameShopPage';
 import ProductPage from './pages/ProductPage';
 import DesktopPage from './pages/desktop/DesktopPage';
 import MobilePage from './pages/MobilePage';
@@ -12,6 +13,7 @@ import GameProductPathLayout from './layouts/GameProductPathLayout';
 
 const App = () => {
   useScrollToPageTop();
+  const isGameOrProductPath = useGameOrProductPath();
 
   const element = useRoutes([
     { path: '/', element: <HomePage /> },
@@ -29,7 +31,7 @@ const App = () => {
 
   return (
     <>
-      <Navigation />
+      {isGameOrProductPath ? '' : <Navigation />}
       {element}
       <Footer />
     </>

@@ -9,6 +9,7 @@ export default {
       colors: {
         almostTransparent: 'rgba(255, 255, 255, 10%)',
         almostWhite: '#BDBEC1',
+        almostWhiteSecond: '#D9DADB',
         darkBlue: '#15171E',
         mediumBlue: '#1A1C23',
         lightBlue: '#0074E0',
@@ -19,25 +20,23 @@ export default {
         lightGrayBackground: '#303237',
         lightGray: '#C2C2C4',
         borderGray: '#2F3136',
+        lighterBorderGray: '#67686B',
+        yellow: '#FFB400'
       },
       keyframes: {
         displayRotateX: {
           '0%': {
-            opacity: '0',
             transform: 'rotateX(-15deg)'
           },
           '100%': {
-            opacity: '1',
             transform: 'rotateX(0)'
           }
         },
         hideRotateX: {
           '0%': {
-            opacity: '1',
             transform: 'rotateX(0)'
           },
           '100%': {
-            opacity: '0',
             transform: 'rotateX(-15deg)'
           }
         },

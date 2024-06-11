@@ -12,7 +12,7 @@ type Prop = {
   carouselData: Array<TCarouselItem>;
 }
 
-const Carousel: FC<Prop> = ({ carouselData }) => {
+const GameCarousel: FC<Prop> = ({ carouselData }) => {
   const { gameId } = useParams();
   const [pauseAutoPlay, setPasuseAutoPlay] = useState(false);
   const [swiper, setSwiper] = useState<SwiperClass | null>(null);
@@ -51,7 +51,7 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
             clickable: true,
             el: '.swiper-pagination',
             renderBullet: (_, className) => {
-              return `<div class='${className} custom-bullet'></div>`;
+              return `<button type='button' class='${className} custom-bullet'></button>`;
             }
           }}
           modules={[Pagination, Navigation, Autoplay]}
@@ -82,8 +82,8 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
                     max-[959px]:self-end max-[959px]:max-w-[420px]`}
                   >
                     <img
-                      className={`${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'w-[28rem]' : 'w-auto'} 
-                      max-[959px]:${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
+                      className={`${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'w-[28rem]' : 'w-auto'} max-[959px]:max-w-[17rem] 
+                        max-[959px]:${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
                       src={data.icon}
                       alt=''
                       aria-hidden='true'
@@ -143,12 +143,17 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
         <div className={`${onlyOneSlide ? 'hidden' : 'flex'} 
           items-center justify-center gap-3 h-[16px] mt-3`}
         >
-          <img
+          <button
             onClick={() => { setPasuseAutoPlay(prev => !prev); toogleAutoPlay() }}
-            className='max-w-2.5 cursor-pointer hover:brightness-[5]'
-            src={`/icons/${pauseAutoPlay ? 'play-gray.svg' : 'pause.svg'}`}
-            alt={`click to ${pauseAutoPlay ? 'run' : 'stop'} autoplay slides`}
-          />
+            className='w-2.5'
+            type='button'
+          >
+            <img
+              className='max-w-2.5 hover:brightness-[5]'
+              src={`/icons/${pauseAutoPlay ? 'play-gray.svg' : 'pause.svg'}`}
+              alt={`click to ${pauseAutoPlay ? 'run' : 'stop'} autoplay slides`}
+            />
+          </button>
           <div className='swiper-pagination'></div>
         </div>
       </div>
@@ -156,4 +161,4 @@ const Carousel: FC<Prop> = ({ carouselData }) => {
   );
 }
 
-export default Carousel;
+export default GameCarousel;

@@ -25,7 +25,7 @@ const ScrollToTopButton: FC = () => {
     <button
       onClick={scrollToTop}
       className={`fixed right-8 bottom-8 z-[2] bg-darkBlue border border-borderGray rounded-md p-3
-      ${displayButton ? 'block animate-displayOpacity' : 'hidden animate-hideOpacity'}`}
+      transition-all ${displayButton ? 'visible opacity-100' : 'invisible opacity-0'}`}
     >
       <img
         className='rotate-180 brightness-[5] max-w-4 w-4'

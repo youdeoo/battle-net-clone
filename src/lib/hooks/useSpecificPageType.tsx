@@ -1,8 +1,8 @@
 import { useLocation } from 'react-router-dom';
 
-const usePageType = (): boolean => {
+const useSpecificPageType = (): boolean => {
   const { pathname } = useLocation();
   return pathname === '/desktop' || pathname === '/mobile' || pathname === '/download';
 }
 
-export default usePageType;
+export default useSpecificPageType;

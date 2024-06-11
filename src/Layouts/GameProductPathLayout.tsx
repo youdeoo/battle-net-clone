@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
 import { currentGamePage } from '../lib/utils';
+import Navigation from '../components/navigation/Navigation';
+import MenuNavigation from '../components/navigation/menu-navigation/MenuNavigation';
 
 const GameProductPathLayout: FC = () => {
   const { gameId } = useParams();
@@ -39,25 +41,30 @@ const GameProductPathLayout: FC = () => {
 
   return (
     <>
-      <div>
-        <div className='flex gap-2 pl-8 pb-4'>
-          <Link to='/'>
-            <img
-              className='max-w-5 w-5 hover:brightness-[5]'
-              src='/icons/house.svg'
-              alt='back to home page'
-              loading='lazy'
-            />
-          </Link>
+      <Navigation />
+      <div className='sticky top-0 z-20'>
+        <MenuNavigation />
 
-          <div className='flex gap-1'>
-            <img
-              className='max-w-3 w-3 rotate-[270deg]'
-              src='/icons/chevron-down.svg'
-              alt=''
-              aria-hidden='true'
-            />
-            <span className='text-sm text-lightGray'>{generateGamePageName()}</span>
+        <div className='bg-darkBlue'>
+          <div className='flex gap-2 pl-8 pb-4 max-w-[1600px] m-auto'>
+            <Link to='/'>
+              <img
+                className='max-w-5 w-5 hover:brightness-[5]'
+                src='/icons/house.svg'
+                alt='back to home page'
+                loading='lazy'
+              />
+            </Link>
+
+            <div className='flex gap-1'>
+              <img
+                className='max-w-3 w-3 rotate-[270deg]'
+                src='/icons/chevron-down.svg'
+                alt=''
+                aria-hidden='true'
+              />
+              <span className='text-sm text-lightGray'>{generateGamePageName()}</span>
+            </div>
           </div>
         </div>
       </div>
