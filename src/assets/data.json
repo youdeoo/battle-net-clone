@@ -29,27 +29,388 @@
           "Game Service",
           "Gear"
         ],
-        "sectionProducts": [
+        "productsCategories": [
           {
-            "sectionHeading": "Great for New Players",
-            "sectionDescription": "New to World of Warcraft? Start here.",
+            "categoryHeading": "Great for New Players",
+            "categoryDescription": "New to World of Warcraft? Start here.",
             "products": [
               {
-                "image": "/products/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: Welcome to Azeroth Bundle",
+                "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
+                "grayText": "Bundles",
+                "price": "$24.99",
+                "deal": "Great Deal"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
                 "heading": "World of Warcraft®: Free Trial",
                 "yellowText": "Play free up to level 20!",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Play For Free"
               },
               {
-                "image": "/products/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
                 "heading": "World of Warcraft®: The War Within™",
-                "yellowText": "     The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
+                "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "From $49.99",
                 "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Games",
+            "categoryDescription": "Join millions of players and find your place in Azeroth and beyond in this massively multiplayer online role-playing game.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: Welcome to Azeroth Bundle",
+                "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
+                "grayText": "Bundles",
+                "price": "$24.99",
+                "deal": "Great Deal"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: The War Within™",
+                "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "From $49.99",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/games/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World Of Warcraft Remix: Mists of Pandaria",
+                "yellowText": "Play free to level 20",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "Learn More"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: Free Trial",
+                "yellowText": "Play free up to level 20!",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "Play For Free"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/games/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "World of Warcraft® Classic",
+                "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                "grayText": "Massively Multiplayer RPG",
+                "price": "Learn More"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Subscriptions",
+            "categoryDescription": "Begin your journey or renew your subscription",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/common-products/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: Subscription",
+                "yellowgext": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                "grayText": "Subscriptions",
+                "price": "From $12.99/month"
+              },
+              {
+                "image": "/products-categories/warcraft/common-products/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "World of Warcraft®: Special Subscription Offer",
+                "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                "grayText": "Subscriptions",
+                "price": "Learn More"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Bundles",
+            "categoryDescription": "Bundle up with these in-game goodies.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Blazing Heroic Pack",
+                "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
+                "grayText": "Game Upgrades",
+                "price": "$29.99",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "The Mighty Kodo Pack",
+                "yellowText": "Time to hoof it!",
+                "grayText": "Bundles",
+                "price": "$25.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Mounts",
+            "categoryDescription": "Saddle up, because your mount will travel as fast as your riding skill will take you.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Auspicious Arborwyrm",
+                "yellowText": "Also available at no additional charge with 6 and 12-Month Subscriptions!",
+                "grayText": "Mounts",
+                "price": "$25.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Tangled Dreamweaver",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Wondrous Wavewhisker",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-4.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Dread Raven",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-5.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Enchanted Fey Dragon",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-6.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Ensorcelled Everwyrm",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-7.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Heart of the Aspects",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-8.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Hogrus, Swine of Good Fortune",
+                "grayText": "Mounts",
+                "price": "$25.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Pets",
+            "categoryDescription": "Adopt a pet and unleash your pet battle prowess with your new companion.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Murkastrasza",
+                "grayText": "Pets",
+                "price": "$10.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "Alterac Brew Pup",
+                "heading": "World of Warcraft",
+                "grayText": "Pets",
+                "price": "$10.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Anima Wyrmling",
+                "grayText": "Pets",
+                "price": "$10.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-4.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Argi",
+                "grayText": "Pets",
+                "price": "$10.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Toys",
+            "categoryDescription": "Add fun new toys to your in-game collection to entertain your allies or taunt your enemies!",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Magical Murkmorpher",
+                "grayText": "Toys",
+                "price": "$10.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Eternal Traveler's Hearthstone Effect",
+                "grayText": "Toys",
+                "price": "$5.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Transmorpher Beacon",
+                "grayText": "Toys",
+                "price": "$10.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-4.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Timewalker's Hearthstone Effect",
+                "grayText": "Toys",
+                "price": "$5.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Transmogs",
+            "categoryDescription": "Collect, mix, and match your favorite transmogrification pieces to personalize a look that is uniquely you.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Green Snugglefin Murloc Romper",
+                "grayText": "Transmogs",
+                "price": "$20.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "The Dreadlord's Regalia Pack",
+                "yellowText": "Includes Two Color Variants!",
+                "grayText": "Transmogs",
+                "price": "$20.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Diadem of the Spell-Keeper",
+                "grayText": "Transmogs",
+                "price": "$8.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-4.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Wings of Awakening",
+                "yellowText": "Includes five color variants!",
+                "grayText": "Transmogs",
+                "price": "$15.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Game Service",
+            "categoryDescription": "Customize your gameplay however you'd like.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-1.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Enhanced Level 70 Character Boost",
+                "yellowText": "Get the Enhanced Character Boost and jump into Dragonflight endgame ready!",
+                "grayText": "Game Service",
+                "price": "From $60.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-2.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Character Transfer",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Game Service",
+                "price": "From $25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Race Change",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Game Service",
+                "price": "From $25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-4.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft",
+                "heading": "Faction Change",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Game Service",
+                "price": "From $25.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/common-products/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft Gear",
+                "heading": "World of Warcraft Gear",
+                "grayText": "Gear",
+                "price": "Learn More"
               }
             ]
           }
@@ -107,6 +468,209 @@
           "Era Game Services",
           "Gear"
         ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Game Upgrades",
+            "categoryDescription": "Fire up experience",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Blazing Epic Pack",
+                "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
+                "grayText": "Game Upgrades",
+                "price": "$79.99",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Blazing Heroic Pack",
+                "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
+                "grayText": "Game Upgrades",
+                "price": "$29.99",
+                "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Subscriptions",
+            "categoryDescription": "Begin your journey or renew your subscription",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/common-products/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "World of Warcraft®: Subscription",
+                "yellowgext": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                "grayText": "Subscriptions",
+                "price": "From $12.99/month"
+              },
+              {
+                "image": "/products-categories/warcraft/common-products/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "World of Warcraft®: Special Subscription Offer",
+                "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                "grayText": "Subscriptions",
+                "price": "Learn More"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Mounts",
+            "categoryDescription": "Saddle up, because your mount will travel as fast as your riding skill will take you.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Auspicious Arborwyrm",
+                "grayText": "Mounts",
+                "price": "$25.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Kalu'ak Whalebone Glider",
+                "grayText": "Mounts",
+                "price": "$25.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-3.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Re-Awakened Phase-Hunter Mount",
+                "grayText": "Mounts",
+                "price": "$25.00",
+                "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Pets",
+            "categoryDescription": "Adopt a pet and unleash your pet battle prowess with your new companion.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/pets/image.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Pebble the Penguin",
+                "grayText": "Pets",
+                "price": "$10.00",
+                "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Toys",
+            "categoryDescription": "Add fun new toys to your in-game collection to entertain your allies or taunt your enemies!",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Dark Portal Hearthstone Effect",
+                "grayText": "Toys",
+                "price": "$10.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Fishspeaker's Lucky Lure",
+                "grayText": "Toys",
+                "price": "$10.00",
+                "newProduct": "New"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-3.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Path of Illidan",
+                "grayText": "Toys",
+                "price": "$10.00",
+                "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Progression Game Services",
+            "categoryDescription": "Customize your gameplay however you'd like on WoW Classic Progression Realms (currently Cataclysm).",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-1.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Level 80 Character Boost (Progression)",
+                "grayText": "Progression Game Services",
+                "price": "$60.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-2.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Classic Character Transfer",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Progression Game Services",
+                "price": "From $25.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-3.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Classic Faction Change",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Progression Game Services",
+                "price": "From $30.00"
+              },
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-4.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "Classic Race Change",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Progression Game Services",
+                "price": "From $25.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Era Game Services",
+            "categoryDescription": "Customize your gameplay however you'd like.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/world-of-warcraft-classic/era-game-services/image.png",
+                "icon": "/games-logo/warcraft/wow-classic.png",
+                "productGameName": "World of Warcraft Cataclysm Classic",
+                "heading": "WoW® Classic Era Character Transfer",
+                "yellowText": "Also available in multiple packs.",
+                "grayText": "Era Game Services",
+                "price": "From $25.00"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/common-products/image-3.png",
+                "icon": "/games-logo/warcraft/wow.png",
+                "productGameName": "World of Warcraft Gear",
+                "heading": "World of Warcraft Gear",
+                "grayText": "Gear",
+                "price": "Learn More"
+              }
+            ]
+          }
+        ],
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -154,6 +718,17 @@
           "Game",
           "Coin Packs"
         ],
+        "productsCategories": [
+          {
+            "image": "/products-categories/warcraft/warcraft-rumble/game/image.png",
+            "icon": "/games-logo/warcraft/warcraft-rumble.png",
+            "productGameName": "World of Warcraft Cataclysm Classic",
+            "heading": "WoW® Classic Era Character Transfer",
+            "yellowText": "Also available in multiple packs.",
+            "grayText": "Era Game Services",
+            "price": "From $25.00"
+          }
+        ],
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -173,6 +748,36 @@
         "gamePageLinks": [
           "Games",
           "Gear"
+        ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Games",
+            "categoryDescription": "Relive a Blizzard classic. Prepare for battle as Orcs, Humans, Undead, or Night Elves in this fantasy real-time strategy game.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/warcraft-3/games/image.png",
+                "icon": "/games-logo/warcraft/warcraft-3.png",
+                "productGameName": "World III",
+                "heading": "Warcraft® III: Reforged",
+                "grayText": "Real-time Strategy",
+                "price": "From $29.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/warcraft-3/gear/image.png",
+                "icon": "/games-logo/warcraft/warcraft-3.png",
+                "productGameName": "World III",
+                "heading": "Warcraft Gear",
+                "grayText": "Gear",
+                "price": "From $29.99"
+              }
+            ]
+          }
         ],
         "gameCarouselData": [
           {
@@ -252,6 +857,21 @@
         "gamePageLinks": [
           "Games"
         ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Games",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/warcraft-orcs-and-humans/games/image.png",
+                "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
+                "productGameName": "Warcraft®: Orcs & Humans",
+                "heading": "Warcraft®: Orcs & Humans",
+                "grayText": "Real-time Strategy",
+                "price": "$5.99"
+              }
+            ]
+          }
+        ],
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -268,6 +888,22 @@
         "icon": "/games-logo/warcraft/warcraft-2.png",
         "gamePageLinks": [
           "Games"
+        ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Games",
+            "products": [
+              {
+                "image": "/products-categories/warcraft/warcraft-2/games/image.png",
+                "icon": "/games-logo/warcraft/warcraft-2.png",
+                "productGameName": "Warcraft II",
+                "heading": "Warcraft® II: Battle.net® Edition",
+                "yellowText": "Includes the Warcraft II: Beyond the Dark Portal expansion",
+                "grayText": "Real-time Strategy",
+                "price": "$9.99"
+              }
+            ]
+          }
         ],
         "gameCarouselData": [
           {

@@ -10,6 +10,7 @@ export default {
         almostTransparent: 'rgba(255, 255, 255, 10%)',
         almostWhite: '#BDBEC1',
         almostWhiteSecond: '#D9DADB',
+        almostWhiteThird: '#DCDCDD',
         darkBlue: '#15171E',
         mediumBlue: '#1A1C23',
         lightBlue: '#0074E0',

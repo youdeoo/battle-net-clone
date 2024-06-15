@@ -22,7 +22,7 @@ const InfiniteCarousel: FC = () => {
           {slides.map((slide, index) => (
             <div className='w-[15rem]' key={index}>
               <img
-                className='rounded-md h-full'
+                className='rounded-md h-full max-h-[317.167px]'
                 src={slide}
                 alt=''
                 aria-hidden='true'
@@ -35,7 +35,7 @@ const InfiniteCarousel: FC = () => {
           {slides.map((slide, index) => (
             <div className='w-[15rem]' key={index}>
               <img
-                className='rounded-md h-full'
+                className='rounded-md h-full max-h-[317.167px]'
                 src={slide}
                 alt=''
                 aria-hidden='true'

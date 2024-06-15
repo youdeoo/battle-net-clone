@@ -7,10 +7,14 @@ export const scrollToTop = (): void => {
   window.scrollTo(0, 0);
 }
 
+export const transformToLink = (text: string): string => {
+  return text.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '');
+}
+
 export const formatGameData = (): Array<Array<TFormatGameData>> => {
   return gamesData.map((data) =>
     data.games.map((gameData) => {
-      let link = gameData.gameName.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '');
+      let link = transformToLink(gameData.gameName);
 
       if (['warzone', 'modern-warfare-iii', 'modern-warfare-ii'].includes(link)) {
         link = 'call-of-duty';
@@ -22,7 +26,7 @@ export const formatGameData = (): Array<Array<TFormatGameData>> => {
         gameCarouselData: (gameData as TGameData).gameCarouselData,
         commonGameTypeCarouselData: data.commonGameTypeCarouselData,
         gamePageLinks: (gameData as TGameData).gamePageLinks,
-        sectionProducts: (gameData as TGameData).sectionProducts
+        productsCategories: (gameData as TGameData).productsCategories,
       };
     })
   );

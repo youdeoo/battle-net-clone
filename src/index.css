@@ -56,6 +56,18 @@
     @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
   }
 
+  .two-products-in-row {
+    @apply w-[calc((100%-24px)/2)];
+  }
+
+  .three-products-in-row {
+    @apply w-[calc((100%-48px)/3)];
+  }
+
+  .world-of-warcraft-games-products {
+    @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row three-products-in-row;
+  }
+
   .swiper-pagination {
     @apply static flex items-center justify-center w-auto !important;
   }

@@ -1,10 +1,6 @@
 import { FC, useEffect, useRef, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-import { currentGamePage } from '../../lib/utils';
-
-const transformToLink = (link: string): string => {
-  return link.toLowerCase().replaceAll(' ', '-');
-}
+import { currentGamePage, transformToLink } from '../../lib/utils';
 
 const NavigationLinks: FC = () => {
   const { pathname } = useLocation();
