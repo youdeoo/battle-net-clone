@@ -32,6 +32,12 @@ export const formatGameData = (): Array<Array<TFormatGameData>> => {
   );
 }
 
-export const currentGamePage = (gameId: string | undefined): Array<TFormatGameData> => {
-  return formatGameData().flatMap((data) => data.filter((game) => game.link === gameId));
+export const currentGamePage = (gameId: string | undefined, productId: string | undefined): Array<TFormatGameData> => {
+  if (gameId !== undefined) {
+    return formatGameData().flatMap((data) => data.filter((game) => game.link === gameId));
+  }
+  else {
+    return formatGameData().flatMap((data) => data.filter((data) => data.productsCategories?.some((category) =>
+      category.products.some((product) => product.productLink === productId))));
+  }
 }

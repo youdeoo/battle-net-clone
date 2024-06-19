@@ -5,7 +5,7 @@ import { currentGamePage, transformToLink } from '../../lib/utils';
 const NavigationLinks: FC = () => {
   const { pathname } = useLocation();
   const { gameId } = useParams();
-  const currentGamePageLinks = currentGamePage(gameId)[0].gamePageLinks;
+  const { gamePageLinks: currentGamePageLinks } = currentGamePage(gameId, undefined)[0];
 
   const [hideLinks, setHideLinks] = useState(false);
   const linksRef = useRef<HTMLDivElement | null>(null);

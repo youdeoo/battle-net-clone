@@ -8,16 +8,25 @@ export type TCarouselItem = {
   buttonText?: string;
 }
 
+type TProductData = {
+  productName: string;
+}
+
 type TProduct = {
+  productLink: string;
   image: string;
-  icon?: string;
+  icon: string;
   productGameName?: string;
   heading: string;
   yellowText?: string;
   grayText: string;
   price: string;
+  gameCurrencyIcon?: string;
   newProduct?: string;
   deal?: string;
+  prePurchase?: string;
+  buttonText?: string;
+  productData?: TProductData;
 }
 
 export type TProductsCategories = {

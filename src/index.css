@@ -64,8 +64,28 @@
     @apply w-[calc((100%-48px)/3)];
   }
 
+  .four-products-in-row {
+    @apply w-[calc((100%-72px)/4)];
+  }
+
+  .three-and-two-products-in-row {
+    @apply first-of-type:three-products-in-row [&:nth-child(2)]:three-products-in-row
+    [&:nth-child(3)]:three-products-in-row four-products-in-row;
+  }
+
+  .hearthstone-layout {
+    @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row 
+    [&:nth-child(3)]:three-products-in-row [&:nth-child(4)]:three-products-in-row
+    [&:nth-child(5)]:three-products-in-row four-products-in-row;
+  }
+
   .world-of-warcraft-games-products {
     @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row three-products-in-row;
+  }
+
+  .product-type {
+    @apply absolute top-[.6rem] left-[.6rem] text-xs uppercase text-white font-bold tracking-wide 
+    rounded-md py-1 px-2;
   }
 
   .swiper-pagination {
@@ -82,9 +102,14 @@
   }
 
   .swiper-button {
-    @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue 
-    rounded-md border border-lighterBorderGray translate-y-[-50%] invisible opacity-0 transition-all
+    @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue
+     border-button-and-box-shadow rounded-md border translate-y-[-50%] invisible opacity-0 transition-all
     duration-[300ms] group-hover:visible group-hover:opacity-100;
+  }
+
+  .border-button-and-box-shadow {
+    @apply border border-lighterBorderGray hover:shadow-[inset_0_0_0_1px] hover:shadow-lightestBorderGray 
+    hover:border-lightestBorderGray;
   }
 
   .hover-light-gray-background {

@@ -84,7 +84,7 @@ const RegionsAndLanguages: FC = () => {
                 <li
                   onClick={() => setMarkedRegionIndex(index)}
                   className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background active-translate-y 
-                ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
+                  ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
                   key={index}
                 >
                   {region}

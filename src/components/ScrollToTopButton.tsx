@@ -24,7 +24,7 @@ const ScrollToTopButton: FC = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed right-8 bottom-8 z-[2] bg-darkBlue border border-borderGray rounded-md p-3
+      className={`fixed right-8 bottom-8 z-[2] bg-darkBlue border-button-and-box-shadow rounded-md p-3
       transition-all ${displayButton ? 'visible opacity-100' : 'invisible opacity-0'}`}
     >
       <img

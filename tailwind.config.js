@@ -22,6 +22,7 @@ export default {
         lightGray: '#C2C2C4',
         borderGray: '#2F3136',
         lighterBorderGray: '#67686B',
+        lightestBorderGray: '#696B6F',
         yellow: '#FFB400'
       },
       keyframes: {
