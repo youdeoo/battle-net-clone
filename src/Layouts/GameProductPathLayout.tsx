@@ -11,6 +11,8 @@ const GameProductPathLayout: FC = () => {
     gameName: currentGameNamePage,
     productsCategories: currentGameProductsCategories
   } = currentGamePage(gameId, productId)[0];
+  const isDiabloIVGamePage = currentGameNamePage === 'Diablo IV';
+  const isOverwatch2GamePage = currentGameNamePage === 'Overwatch 2';
 
   const addShortcutsForCallOfDutyGamesNames = (gameName: string): string => {
     switch (gameName) {
@@ -43,10 +45,10 @@ const GameProductPathLayout: FC = () => {
   }
 
   const generateProductPageName = (): string => {
-    return currentGameProductsCategories!.map((category) => category.products.map((product) =>
+    return currentGameProductsCategories!.map((category) => category.products!.map((product) =>
       product.productData?.productName));
   }
-
+  console.log(currentGameNamePage)
   return (
     <>
       <Navigation />
@@ -90,20 +92,20 @@ const GameProductPathLayout: FC = () => {
               }
             </div>
 
-            {currentGameNamePage === 'Diablo IV'
+            {(isDiabloIVGamePage || isOverwatch2GamePage)
               &&
               <Link
-                to='/product/diablo-iv-platinum'
+                to={`/product/${isDiabloIVGamePage ? 'diablo-iv-platinum' : 'overwatch-coins'}`}
                 className='group flex items-center gap-1 text-lightGray'
               >
                 <img
                   className='max-w-7 size-7'
-                  src='/products-categories/diablo/diablo-4/common-images/diablo-currency.png'
+                  src={`/products-categories/${isDiabloIVGamePage ? 'diablo/diablo-4/common-images/diablo-currency.png' : 'overwatch/common-images/overwatch-currency.png'}`}
                   alt='add diablo platinum'
                   loading='lazy'
                 />
                 <span className='text-sm transition-colors group-hover:text-white'>
-                  Add Diablo Platinum
+                  {isDiabloIVGamePage ? 'Add Diablo Platinum' : 'Add Overwatch Coins'}
                 </span>
 
                 <div className='bg-lightGrayBackground rounded-md p-1.5 ml-1'>

@@ -2008,6 +2008,67 @@
             ]
           },
           {
+            "categoryHeading": "Diablo IV Shop",
+            "shopRefreshTime": "Diablo IV shop refreshes in 5 hours 20 minutes",
+            "categoryDescription": "Spend Platinum to customize your in-game experience with a variety of cosmetic items from the Shop, the Premium Battle Pass, or the Accelerated Battle Pass with Tier Skips. A single Platinum balance is accessible across all platforms.",
+            "loginText": "Log in to view your available offers"
+          },
+          {
+            "categoryHeading": "Armor Packs",
+            "products": [
+              {
+                "productLink": "diablo-iv-bathed-in-blood-collection-pack",
+                "image": "/products-categories/diablo/diablo-4/armor-packs/image-1.png",
+                "icon": "/games-logo/diablo/diablo-4.png",
+                "productGameName": "Diablo IV",
+                "heading": "Bathed in Blood Collection Pack",
+                "grayText": "Bundle (14 items) | Barbarian",
+                "price": "2,800 Platinum",
+                "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
+              },
+              {
+                "productLink": "diablo-iv-tusked-lord-collection-pack",
+                "image": "/products-categories/diablo/diablo-4/armor-packs/image-2.png",
+                "icon": "/games-logo/diablo/diablo-4.png",
+                "productGameName": "Diablo IV",
+                "heading": "Tusked Lord Collection Pack",
+                "grayText": "Bundle (14 items) | Druid",
+                "price": "2,800 Platinum",
+                "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
+              },
+              {
+                "productLink": "diablo-iv-reign-of-solitude-collection-pack",
+                "image": "/products-categories/diablo/diablo-4/armor-packs/image-3.png",
+                "icon": "/games-logo/diablo/diablo-4.png",
+                "productGameName": "Diablo IV",
+                "heading": "Reign of Solitude Collection Pack",
+                "grayText": "Bundle (14 items) | Necromancer",
+                "price": "2,800 Platinum",
+                "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
+              },
+              {
+                "productLink": "diablo-iv-reign-of-solitude-collection-pack",
+                "image": "/products-categories/diablo/diablo-4/armor-packs/image-4.png",
+                "icon": "/games-logo/diablo/diablo-4.png",
+                "productGameName": "Diablo IV",
+                "heading": "Peacock Collection Pack",
+                "grayText": "Bundle (14 items) | Rogue",
+                "price": "2,800 Platinum",
+                "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
+              },
+              {
+                "productLink": "diablo-iv-host-of-chaos-collection-pack",
+                "image": "/products-categories/diablo/diablo-4/armor-packs/image-5.png",
+                "icon": "/games-logo/diablo/diablo-4.png",
+                "productGameName": "Diablo IV",
+                "heading": "Host of Chaos Collection Pack",
+                "grayText": "Bundle (14 items) | Sorcerer",
+                "price": "2,800 Platinum",
+                "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
+              }
+            ]
+          },
+          {
             "categoryHeading": "Add-ons & Platinum",
             "categoryDescription": "Customize and upgrade your in-game experience",
             "products": [
@@ -2364,6 +2425,179 @@
           "Prims, Coins, and Tokens",
           "Gear"
         ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Overwatch 2: Free to Play",
+            "categoryDescription": "Play for Free Today! Overwatch 2 is an always-on and ever-evolving team-based action game set in an optimistic future, where every match is the ultimate 5v5 battlefield brawl!",
+            "products": [
+              {
+                "productLink": "overwatch",
+                "image": "/products-categories/overwatch/game/image.png",
+                "icon": "/game-carousel-images/overwatch/icon-4.png",
+                "heading": "Overwatch® 2",
+                "grayText": "Team-Based Action Game",
+                "price": "Play For Free"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Seasonal Packs",
+            "categoryDescription": "Get a head start in Overwatch 2 with the current season's packs and the Premium Battle Pass.",
+            "products": [
+              {
+                "productLink": "overwatch-ultimate-bundle-season-10",
+                "image": "/products-categories/overwatch/seasonal-packs/image-1.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season 10",
+                "grayText": "Team-Based Action Game",
+                "yellowText": "Get the Season 10 Premium Battle Pass + 20 Tiers, Fallen Knight Reinhardt, and more!",
+                "price": "€39.99"
+              },
+              {
+                "productLink": "overwatch-premium-battle-pass-s10",
+                "image": "/products-categories/overwatch/seasonal-packs/image-2.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® 2 Premium Battle Pass: Season 10",
+                "grayText": "Team-Based Action Game",
+                "yellowText": "Enter a parallel mirror universe in the Overwatch 2 - Season 10 Battle Pass!",
+                "price": "€39.99",
+                "newProduct": "New"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Overwatch 2 Shop",
+            "secondCategoryHeading": "Featured",
+            "shopRefreshTime": "Overwatch 2 shop refreshes in 5 hours 55 Minutes",
+            "categoryDescription": "Buy in-game items to customize your heroes in the Overwatch Shop with Overwatch Coins. Access items and Overwatch Coins across all platforms!",
+            "products": [
+              {
+                "productLink": "overwatch-torbjrn-prospector",
+                "image": "/products-categories/overwatch/shop/image-1.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Torbjörn - Prospector",
+                "grayText": "Legendary | Skins | Torbjörn",
+                "price": "1,900 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-fire-engine-bastion-bundle",
+                "image": "/products-categories/overwatch/shop/image-2.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Fire Engine Bastion Bundle",
+                "grayText": "Legendary | Bundle (4 items)",
+                "price": "3,200 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-honeydew-mei-bundle",
+                "image": "/products-categories/overwatch/shop/image-3.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Honeydew Mei Bundle",
+                "grayText": "Legendary | Bundle (4 items)",
+                "price": "2,275 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-tier-skip",
+                "image": "/products-categories/overwatch/shop/image-4.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® Battle Pass Tier Skip",
+                "grayText": "Seasonal Packs",
+                "yellowText": "Also purchasable in-game",
+                "price": "From 200 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-poolside-bundle",
+                "image": "/products-categories/overwatch/shop/image-5.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Poolside Bundle",
+                "grayText": "Seasonal Packs",
+                "price": "3,000 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-dva-midnight",
+                "image": "/products-categories/overwatch/shop/image-6.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Poolside Bundle",
+                "grayText": "Epic | Skins",
+                "price": "1,000 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              },
+              {
+                "productLink": "overwatch-tropical-vacation-bundle",
+                "image": "/products-categories/overwatch/shop/image-7.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Tropical Vacation Bundle",
+                "grayText": "Legendary | Bundle (4 items)",
+                "price": "1,675 Coins",
+                "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Prisms, Coins, and Tokens",
+            "categoryDescription": "Level up your Overwatch journey with Mythic Prisms, Overwatch Coins, and Overwatch League Tokens, with access across all platforms!",
+            "products": [
+              {
+                "productLink": "overwatch-mythic-prisms",
+                "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-1.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® 2 Mythic Prisms",
+                "grayText": "Prisms, Coins, and Tokens",
+                "yellowText": "With Mythic Prisms, you can unlock new Mythic skins and customizations for your heroes!",
+                "price": "From €9.99",
+                "newProduct": "New"
+              },
+              {
+                "productLink": "overwatch-coins",
+                "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-2.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® Coins",
+                "grayText": "Prisms, Coins, and Tokens",
+                "yellowText": "Use Overwatch Coins to Get the Premium Battle Pass and More!",
+                "price": "From €4.99"
+              },
+              {
+                "productLink": "overwatch-league-tokens",
+                "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-3.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch® League Tokens",
+                "grayText": "Prisms, Coins, and Tokens",
+                "price": "From €5.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "productLink": "https://gear.blizzard.com/collections/overwatch",
+                "image": "/products-categories/overwatch/gear/image.png",
+                "icon": "/games-logo/overwatch/overwatch.webp",
+                "productGameName": "Overwatch 2",
+                "heading": "Overwatch Gear",
+                "grayText": "Gear",
+                "price": "Learn More"
+              }
+            ]
+          }
+        ],
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -2421,6 +2655,139 @@
           "Premium Arcade",
           "Gear"
         ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Great for New Players",
+            "categoryDescription": "New to StarCraft II? Start here.",
+            "products": [
+              {
+                "productLink": "starcraft-ii",
+                "image": "/products-categories/star-craft/star-craft-2/great-for-new-players/image.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "StarCraft® II",
+                "grayText": "Real-time Strategy",
+                "price": "Play For Free"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Games",
+            "categoryDescription": "Enter the Koprulu sector and do battle as zerg, protoss, or terran in this real-time strategy game.",
+            "products": [
+              {
+                "productLink": "starcraft-ii-nova-covert-ops",
+                "image": "/products-categories/star-craft/star-craft-2/games/image.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Nova Covert Ops Bundle",
+                "grayText": "Real-time Strategy",
+                "price": "$9.50"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Commanders",
+            "categoryDescription": "Take control of the battlefield with a StarCraft Commander.",
+            "products": [
+              {
+                "productLink": "starcraft-ii-zeratul-commander",
+                "image": "/products-categories/star-craft/star-craft-2/commanders/image-1.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Commander: Zeratul",
+                "grayText": "Commanders",
+                "price": "$4.99"
+              },
+              {
+                "productLink": "starcraft-ii-abathur-commander",
+                "image": "/products-categories/star-craft/star-craft-2/commanders/image-2.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Commander: Abathur",
+                "grayText": "Commanders",
+                "price": "$4.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Announcers",
+            "categoryDescription": "Elevate your gameplay with commentary from a StarCraft Announcer!",
+            "products": [
+              {
+                "productLink": "starcraft-ii-announcers-dehaka",
+                "image": "/products-categories/star-craft/star-craft-2/announcers/image-1.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Announcer: Dehaka",
+                "grayText": "Announcers",
+                "price": "$4.99"
+              },
+              {
+                "productLink": "starcraft-ii-announcers-fenix",
+                "image": "/products-categories/star-craft/star-craft-2/announcers/image-2.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Announcer: Fenix",
+                "grayText": "Announcers",
+                "price": "$4.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Bundles",
+            "categoryDescription": "Grab a bundle of goodies and bring your gameplay to the next level.",
+            "products": [
+              {
+                "productLink": "starcraft-ii-kw-2019-structure-skin-bundles",
+                "image": "/products-categories/star-craft/star-craft-2/bundles/image-1.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "War Chest 4: Structure Skin Bundles",
+                "grayText": "Bundles",
+                "price": "$44.85"
+              },
+              {
+                "productLink": "starcraft-ii-war-chest-5-skins",
+                "image": "/products-categories/star-craft/star-craft-2/bundles/image-2.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "War Chest 5: Skin Bundles",
+                "grayText": "Bundles",
+                "price": "$44.82"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Premium Arcade",
+            "products": [
+              {
+                "productLink": "starcraft-ii-ark-star",
+                "image": "/products-categories/star-craft/star-craft-2/premium-arcade/image.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "Premium Arcade ARK Star",
+                "grayText": "Premium Arcade",
+                "price": "$4.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "productLink": "https://gear.blizzard.com/collections/starcraft",
+                "image": "/products-categories/star-craft/common-products/image.png",
+                "icon": "/games-logo/star-craft/star-craft-2.png",
+                "productGameName": "Starcraft II",
+                "heading": "StarCraft Gear",
+                "grayText": "Gear",
+                "price": "Learn More"
+              }
+            ]
+          }
+        ],
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -2439,6 +2806,62 @@
           "Games",
           "In-Game Content",
           "Gear"
+        ],
+        "productsCategories": [
+          {
+            "categoryHeading": "Games",
+            "categoryDescription": "Relive a Blizzard classic. Enter the Koprulu sector and do battle as zerg, protoss, or terran in this real-time strategy game.",
+            "products": [
+              {
+                "productLink": "starcraft",
+                "image": "/products-categories/star-craft/star-craft/games/image.png",
+                "icon": "/games-logo/star-craft/star-craft.png",
+                "productGameName": "Starcraft",
+                "heading": "StarCraft®",
+                "grayText": "Real-time Strategy",
+                "price": "Play For Free"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "In-Game Content",
+            "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
+            "products": [
+              {
+                "productLink": "starcraft-remastered-announcer-hey-jini",
+                "image": "/products-categories/star-craft/star-craft/in-game-content/image-1.png",
+                "icon": "/games-logo/star-craft/star-craft.png",
+                "productGameName": "Starcraft",
+                "heading": "Announcer: Hey Jini",
+                "grayText": "In-Game Content",
+                "price": "$4.99"
+              },
+              {
+                "productLink": "starcraft-remastered-announcer-bundle",
+                "image": "/products-categories/star-craft/star-craft/in-game-content/image-2.png",
+                "icon": "/games-logo/star-craft/star-craft.png",
+                "productGameName": "Starcraft",
+                "heading": "StarCraft® Remastered: Korean Announcer Bundle",
+                "grayText": "In-Game Content",
+                "price": "$14.99"
+              }
+            ]
+          },
+          {
+            "categoryHeading": "Gear",
+            "categoryDescription": "Head to the Gear Store to grab some goodies.",
+            "products": [
+              {
+                "productLink": "https://gear.blizzard.com/collections/starcraft",
+                "image": "/products-categories/star-craft/common-products/image.png",
+                "icon": "/games-logo/star-craft/star-craft.png",
+                "productGameName": "Starcraft",
+                "heading": "StarCraft Gear",
+                "grayText": "Gear",
+                "price": "Learn More"
+              }
+            ]
+          }
         ],
         "gameCarouselData": [
           {

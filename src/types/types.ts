@@ -31,8 +31,11 @@ type TProduct = {
 
 export type TProductsCategories = {
   categoryHeading: string;
+  secondCategoryHeading?: string;
+  shopRefreshTime?: string;
   categoryDescription?: string;
-  products: Array<TProduct>;
+  loginText?: string;
+  products?: Array<TProduct>;
 }
 
 export type TGameData = Pick<TCarouselItem, 'icon'> & {

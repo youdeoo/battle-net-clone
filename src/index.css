@@ -73,14 +73,15 @@
     [&:nth-child(3)]:three-products-in-row four-products-in-row;
   }
 
-  .hearthstone-layout {
+  .from-two-to-four-products-in-row {
     @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row 
     [&:nth-child(3)]:three-products-in-row [&:nth-child(4)]:three-products-in-row
     [&:nth-child(5)]:three-products-in-row four-products-in-row;
   }
 
-  .world-of-warcraft-games-products {
-    @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row three-products-in-row;
+  .overwatch2-shop-products {
+    @apply first-of-type:w-full [&:nth-child(2)]:two-products-in-row [&:nth-child(3)]:two-products-in-row
+    four-products-in-row;
   }
 
   .product-type {

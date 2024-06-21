@@ -38,6 +38,6 @@ export const currentGamePage = (gameId: string | undefined, productId: string | 
   }
   else {
     return formatGameData().flatMap((data) => data.filter((data) => data.productsCategories?.some((category) =>
-      category.products.some((product) => product.productLink === productId))));
+      category.products!.some((product) => product.productLink === productId))));
   }
 }
