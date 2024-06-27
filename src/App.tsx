@@ -5,7 +5,7 @@ import Navigation from './components/navigation/Navigation';
 import Footer from './components/footer/Footer';
 import HomePage from './pages/HomePage';
 import GameShopPage from './pages/GameShopPage/GameShopPage';
-import ProductPage from './pages/ProductPage';
+import ProductPage from './pages/ProductPage/ProductPage';
 import DesktopPage from './pages/desktop/DesktopPage';
 import MobilePage from './pages/MobilePage';
 import DownloadPage from './pages/DownloadPage';

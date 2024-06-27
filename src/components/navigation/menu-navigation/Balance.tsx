@@ -36,14 +36,19 @@ const Balance: FC = () => {
       <div className='menu-element-on-hover right-0'>
         <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
           {balanceData.map((data, index) => (
-            <div key={index} className='relative flex gap-3 p-4 hover-light-gray-background active-left-border'>
+            <div
+              key={index}
+              className='group/item relative flex gap-3 p-4 hover-light-gray-background active-left-border'
+            >
               <img
-                className='max-w-5'
+                className='max-w-5 transition-all group-hover/item:brightness-[5]'
                 src={data.image}
                 alt={data.text}
                 loading='lazy'
               />
-              <span className='text-lightGray text-sm'>{data.text}</span>
+              <span className='text-lightGray text-sm transition-colors group-hover/item:text-white'>
+                {data.text}
+              </span>
             </div>
           ))}
         </div>

@@ -9,7 +9,8 @@
         },
         "icon": "/game-carousel-images/warcraft/common-images/icon-1.png",
         "text": "Overpowered? Maybe. Fun? Definitely.",
-        "buttonText": "Subscribe Now"
+        "linkText": "Subscribe Now",
+        "productLink": "world-of-warcraft-subscription"
       }
     ],
     "games": [
@@ -45,7 +46,60 @@
                 "price": "$24.99",
                 "deal": "Great Deal",
                 "productData": {
-                  "productName": "World of Warcraft®: The War Within™"
+                  "productName": "World of Warcraft®: Welcome to Azeroth Bundle",
+                  "grayText": "Bundles",
+                  "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
+                  "prices": [
+                    "$22.99"
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Welcome to Azeroth, Adventurer ",
+                  "descriptions": [
+                    "Take one small step into an adventure of a lifetime. With this limited-time value-packed offer, you get everything you need to begin your World of Warcraft journey today! Take to the skies in the critically acclaimed Dragonflight expansion, and prepare for a grand new adventure beginning August 26 at 3PM PDT with The War Within*.",
+                    "Your Welcome to Azeroth bundle will include a Level 60 Character Boost and 60 Days of Game Time, so you can jump right into the Dragonflight content and discover the magic of Azeroth at your own pace."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "*The War Within™ expansion sold separately"
+                    },
+                    {
+                      "link": false,
+                      "text": "**Offer valid through June 23, 2024"
+                    },
+                    {
+                      "link": false,
+                      "text": "If you already have Dragonflight on your account, the expansion will not be re-granted."
+                    },
+                    {
+                      "link": false,
+                      "text": "Level 60 Character Boost not useable on World of Warcraft® Classic characters"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/fObFXPB6bcY",
+                      "https://www.youtube.com/embed/tBBEt8gfXks",
+                      "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/common-images/image.png"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/thumbs/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/thumbs/image-2.png",
+                      "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/common-images/image.png"
+                    ]
+                  }
                 }
               },
               {
@@ -70,7 +124,10 @@
                 "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "From $49.99",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "World of Warcraft®: The War Within™"
+                }
               }
             ]
           },
@@ -98,7 +155,10 @@
                 "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "From $49.99",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "World of Warcraft®: The War Within™"
+                }
               },
               {
                 "productLink": "world-of-warcraft-free-trial",
@@ -458,6 +518,268 @@
             ]
           }
         ],
+        "commonProductsData": {
+          "productFeatures": [
+            {
+              "data": [
+                {
+                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-1.png",
+                  "heading": "An Epic Adventure At Your Own Pace",
+                  "description": "Create a hero of the noble Alliance or the mighty Horde. New or returning defenders of Azeroth can explore Exile's Reach to unearth the fate of a lost expedition while mastering new skills, or immediately boost a character to level 60 to join the battle against ancient proto-dragons in Dragonflight."
+                },
+                {
+                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-2.png",
+                  "heading": "World of Warcraft®: Dragonflight ",
+                  "description": "Spread your wings and dash into the latest World of Warcraft content with the included Dragonflight expansion and 60 Days Game Time. Discover daring quests and rise to new heights of power as you level up your character while exploring the magic and wonder of the Dragon Isles."
+                },
+                {
+                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-3.png",
+                  "heading": "The Next Grand Adventure ",
+                  "description": "Explore Dragonflight and prepare for an epic three-expansion story arc beginning with The War Within*, launching August 26 at 3PM PDT. Learn more about the upcoming expansion and how to prepare for the next chapter of World of Warcraft."
+                }
+              ]
+            }
+          ],
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 10 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "6 Cores, 3.5 GHz processor (8th Generation Intel® Core™ Coffee Lake or AMD Ryzen™ Zen 2)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 8 GB GPU (NVIDIA® GeForce® RTX, AMD™ RDNA™ 2, or Intel® Arc™ 7 Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mac",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 10.15"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 2.9 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 3 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 12 (latest version)"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "8 Cores, 3.6 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 8 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/windows.svg",
+                  "name": "Windows"
+                },
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "Mac"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Product Requirements",
+              "requirements": [
+                "Requires World of Warcraft®, Internet connection, Battle.net® Account, and Battle.net® desktop app to play.",
+                "Requires World of Warcraft® Subscription or Game Time"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-2.png",
+              "name": "Minimum Age 12"
+            },
+            {
+              "image": "/age-rating/image-3.png",
+              "name": "Violence"
+            },
+            {
+              "image": "/age-rating/image-4.png",
+              "name": "Online gameplay"
+            },
+            {
+              "image": "/age-rating/image-5.png",
+              "name": "In-game purchase"
+            },
+            {
+              "image": "/age-rating/image-6.png",
+              "name": "Bad language"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -466,7 +788,8 @@
             },
             "icon": "/game-carousel-images/warcraft/world-of-warcraft/icon.png",
             "text": "The War Within Beta starts June 5! Upgrade to the Epic Edition to gain beta access",
-            "buttonText": "Pre-purchase Now"
+            "linkText": "Pre-purchase Now",
+            "productLink": "world-of-warcraft-the-war-within"
           },
           {
             "backgroundImage": {
@@ -475,7 +798,8 @@
             },
             "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Embrace your inner Murloc with the Green Snugglefin Romper!",
-            "buttonText": "MRLGRL"
+            "linkText": "MRLGRL",
+            "productLink": "world-of-warcraft-transmog-green-snugglefin-murloc-romper"
           },
           {
             "backgroundImage": {
@@ -484,7 +808,8 @@
             },
             "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Start the New Year off right with a 6-Month Subscription Offer",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "world-of-warcraft-subscription"
           },
           {
             "backgroundImage": {
@@ -493,7 +818,8 @@
             },
             "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Descend into the depths of Azeroth",
-            "buttonText": "Pre-purchase Now"
+            "linkText": "Pre-purchase Now",
+            "productLink": "world-of-warcraft-welcome-to-azeroth-bundle"
           }
         ]
       },
@@ -739,7 +1065,8 @@
             },
             "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-1.png",
             "text": "Rise against impossible odds. Get the Blazing Epic Upgrade today.",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "world-of-warcraft-cataclysm-classic-upgrades"
           },
           {
             "backgroundImage": {
@@ -748,16 +1075,18 @@
             },
             "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-classic.png",
             "text": "Explore these Mounts, Pets, and Toys, now available for Classic!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "#mounts"
           },
           {
             "backgroundImage": {
               "laptop": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-3-laptop.png",
-              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-3-mobile.png"
+              "tablet": "/game-carousel-images/warcraft/world-of-warcraft-classic/background-3-tablet.png"
             },
             "icon": "/game-carousel-images/warcraft/world-of-warcraft-classic/icon-3.png",
             "text": "Season of Discovery now live",
-            "buttonText": "Explore Today"
+            "linkText": "Explore Today",
+            "productLink": "world-of-warcraft-subscription"
           },
           {
             "backgroundImage": {
@@ -766,7 +1095,8 @@
             },
             "icon": "/game-carousel-images/warcraft/common-images/icon.png",
             "text": "Get the 12-month subscription offer today",
-            "buttonText": "Subscribe Now"
+            "linkText": "Subscribe Now",
+            "productLink": "world-of-warcraft-subscription"
           }
         ]
       },
@@ -807,7 +1137,7 @@
                 "grayText": "In-Game Content",
                 "price": "$99.99",
                 "deal": "Great Deal",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -817,7 +1147,7 @@
                 "heading": "6300 Coins",
                 "grayText": "In-Game Content",
                 "price": "$49.99",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -827,7 +1157,7 @@
                 "heading": "3150 Coins",
                 "grayText": "In-Game Content",
                 "price": "$24.99",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -837,7 +1167,7 @@
                 "heading": "1260 Coins",
                 "grayText": "In-Game Content",
                 "price": "$9.99",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -847,7 +1177,7 @@
                 "heading": "525 Coins",
                 "grayText": "In-Game Content",
                 "price": "$4.99",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -857,7 +1187,7 @@
                 "heading": "525 Coins",
                 "grayText": "In-Game Content",
                 "price": "$0.99",
-                "buttonText": "Buy Now"
+                "linkText": "Buy Now"
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -879,7 +1209,8 @@
             },
             "icon": "/game-carousel-images/warcraft/warcraft-rumble/icon.png",
             "text": "Co-op comes to Season 6",
-            "buttonText": "Play Today"
+            "linkText": "Play Today",
+            "productLink": "warcraft-rumble"
           }
         ]
       },
@@ -1233,7 +1564,8 @@
             },
             "icon": "/game-carousel-images/warcraft/hearthstone/icon-1.png",
             "text": "New Mini-Set: Dr. Boom's Incredible Inventions",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set"
           },
           {
             "backgroundImage": {
@@ -1242,7 +1574,8 @@
             },
             "icon": "/game-carousel-images/warcraft/hearthstone/icon-2.png",
             "text": "Get the Battlegrounds Season Pass now!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "hearthstone-battlegrounds-season-pass"
           },
           {
             "backgroundImage": {
@@ -1251,7 +1584,8 @@
             },
             "icon": "/game-carousel-images/warcraft/hearthstone/icon.png",
             "text": "Earn more rewards with the Whizbang's Workshop Tavern Pass!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "hearthstone-whizbang's-workshop-tavern-pass"
           },
           {
             "backgroundImage": {
@@ -1260,7 +1594,8 @@
             },
             "icon": "/game-carousel-images/warcraft/hearthstone/icon.png",
             "text": "The Toychest is Teeming! Hearthstone's new expansion is now live.",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "hearthstone-golden-whizbangs-workshop-packs"
           },
           {
             "backgroundImage": {
@@ -1269,7 +1604,8 @@
             },
             "icon": "/game-carousel-images/warcraft/hearthstone/icon-5.png",
             "text": "Unearth 38 new cards!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "hearthstone-delve-into-deepholm-golden-mini-set"
           }
         ]
       },
@@ -1352,7 +1688,8 @@
         },
         "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Multiplayer Free Trial is live. Play free now and save 35% through June 5.",
-        "buttonText": "Buy Now"
+        "linkText": "Buy Now",
+        "productLink": "call-of-duty-modern-warfare-iii"
       },
       {
         "backgroundImage": {
@@ -1361,7 +1698,8 @@
         },
         "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Available Now",
-        "buttonText": "Buy Now"
+        "linkText": "Buy Now",
+        "productLink": "call-of-duty-modern-warfare-iii"
       },
       {
         "backgroundImage": {
@@ -1370,7 +1708,8 @@
         },
         "icon": "/game-carousel-images/call-of-duty/common-images/icon-3.png",
         "text": "Drop in and play for free",
-        "buttonText": "Play Free Now"
+        "linkText": "Play Free Now",
+        "productLink": "call-of-duty-warzone-2"
       },
       {
         "backgroundImage": {
@@ -1379,7 +1718,8 @@
         },
         "icon": "/game-carousel-images/call-of-duty/common-images/icon-modern-3.png",
         "text": "Season 4 Battle Pass is here",
-        "buttonText": "Buy the Battle Pass"
+        "linkText": "Buy the Battle Pass",
+        "productLink": "call-of-duty-points"
       }
     ],
     "games": [
@@ -1584,7 +1924,8 @@
               "tablet": "/game-carousel-images/call-of-duty/vanguard/background-tablet.png"
             },
             "icon": "/game-carousel-images/call-of-duty/vanguard/icon.png",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "call-of-duty-vanguard"
           }
         ]
       },
@@ -1663,7 +2004,8 @@
             },
             "icon": "/game-carousel-images/call-of-duty/black-ops-cold-war/icon.png",
             "text": "Captain Price Included With Purchase",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "call-of-duty-black-ops-cold-war"
           }
         ]
       },
@@ -1741,7 +2083,8 @@
               "tablet": "/game-carousel-images/call-of-duty/modern-warfare/background-tablet.png"
             },
             "icon": "/game-carousel-images/call-of-duty/modern-warfare/icon.png",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "call-of-duty-modern-warfare"
           }
         ]
       },
@@ -1887,7 +2230,8 @@
               "tablet": "/game-carousel-images/call-of-duty/black-ops-4/background-tablet.png"
             },
             "icon": "/game-carousel-images/call-of-duty/black-ops-4/icon.png",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "call-of-duty-black-ops-4"
           }
         ]
       }
@@ -1903,7 +2247,8 @@
         },
         "icon": "/game-carousel-images/diablo/common-images/icon.png",
         "text": "A collection forged in Hell",
-        "buttonText": "Purchase Now"
+        "linkText": "Purchase Now",
+        "productLink": "#games"
       }
     ],
     "games": [
@@ -2127,16 +2472,8 @@
             },
             "icon": "/game-carousel-images/diablo/diablo-4/icon-1.png",
             "text": "Season 4: Loot Reborn is now live",
-            "buttonText": "Purchase Battle Pass Now"
-          },
-          {
-            "backgroundImage": {
-              "laptop": "/game-carousel-images/diablo/diablo-4/background-2-laptop.png",
-              "tablet": "/game-carousel-images/diablo/diablo-4/background-2-tablet.png"
-            },
-            "icon": "/game-carousel-images/diablo/diablo-4/icon-2.png",
-            "text": "50% off",
-            "buttonText": "Purchase Now"
+            "linkText": "Purchase Battle Pass Now",
+            "productLink": "diablo-iv-battle-pass-season-4-loot-reborn"
           }
         ]
       },
@@ -2197,7 +2534,8 @@
             },
             "icon": "/game-carousel-images/diablo/diablo-immortal/icon.png",
             "text": "New Class - The Tempest. Become the Storm!",
-            "buttonText": "Learn More"
+            "linkText": "Learn More",
+            "productLink": "diablo-immortal"
           }
         ]
       },
@@ -2371,7 +2709,8 @@
             },
             "icon": "/game-carousel-images/diablo/diablo-2/icon.avif",
             "text": "Evil is Resurrected",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "diablo-ii-resurrected"
           }
         ]
       },
@@ -2462,7 +2801,7 @@
                 "heading": "Overwatch® 2 Premium Battle Pass: Season 10",
                 "grayText": "Team-Based Action Game",
                 "yellowText": "Enter a parallel mirror universe in the Overwatch 2 - Season 10 Battle Pass!",
-                "price": "€39.99",
+                "price": "€59.99",
                 "newProduct": "New"
               }
             ]
@@ -2606,7 +2945,8 @@
             },
             "icon": "/game-carousel-images/overwatch/icon-1.png",
             "text": "Experience an electric collaboration with two co-designed Legendary skins",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "#overwatch-2-free-to-play"
           },
           {
             "backgroundImage": {
@@ -2615,7 +2955,8 @@
             },
             "icon": "/game-carousel-images/overwatch/icon-yellow.png",
             "text": "Season 10 Premium Battle Pass, earn Mythic Prisms to unlock Mythic Mercy or select previous skins!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "overwatch-premium-battle-pass-s10"
           },
           {
             "backgroundImage": {
@@ -2624,7 +2965,8 @@
             },
             "icon": "/game-carousel-images/overwatch/icon-yellow.png",
             "text": "Get the Season 10 Premium Battle Pass + 20 Tier Skips, 2 Legendary skins and more!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "overwatch-premium-battle-pass-s10"
           },
           {
             "backgroundImage": {
@@ -2633,7 +2975,8 @@
             },
             "icon": "/game-carousel-images/overwatch/icon-4.png",
             "text": "Unlock new Mythic skins and customizations for your heroes!",
-            "buttonText": "Buy Now"
+            "linkText": "Buy Now",
+            "productLink": "overwatch-mythic-prisms"
           }
         ]
       }

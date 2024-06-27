@@ -1,21 +1,22 @@
 import { FC, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { deviceHandleHoverEffect } from '../lib/utils';
-import { TCarouselItem } from '../types/types';
+import { useParams, Link } from 'react-router-dom';
+import { allowTouchMoveOnCarousel } from '../lib/utils';
+import { TGameCarousel } from '../types/types';
+import { TSwiper } from '../types/union';
+import ButtonsToCarouselSlides from './ButtonsToCarouselSlides';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import { Swiper as SwiperClass } from 'swiper';
 import 'swiper/css';
 import 'swiper/swiper-bundle.css';
 
 type Prop = {
-  carouselData: Array<TCarouselItem>;
+  carouselData: Array<TGameCarousel>;
 }
 
 const GameCarousel: FC<Prop> = ({ carouselData }) => {
   const { gameId } = useParams();
   const [pauseAutoPlay, setPasuseAutoPlay] = useState(false);
-  const [swiper, setSwiper] = useState<SwiperClass | null>(null);
+  const [swiper, setSwiper] = useState<TSwiper>(null);
 
   const toogleAutoPlay = (): void => {
     if (swiper) {
@@ -26,8 +27,9 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
       }
     }
   }
+
   const slideContainsOnlyBackgroundImagesAndIcon = carouselData.map((data) => Object.keys(data)).map((d) => d.length === 2);
-  const onlyOneSlide = carouselData.map((data) => Object.keys(data)).length === 1;
+  const onlyOneSlideInCarousel = carouselData.map((data) => Object.keys(data)).length === 1;
 
   useEffect(() => {
     if (swiper?.activeIndex !== 0) {
@@ -56,9 +58,9 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
           }}
           modules={[Pagination, Navigation, Autoplay]}
           onSwiper={(swiperInstance) => {
-            setSwiper(swiperInstance)
+            setSwiper(swiperInstance);
           }}
-          allowTouchMove={!deviceHandleHoverEffect || window.innerWidth <= 959 ? true : false}
+          allowTouchMove={allowTouchMoveOnCarousel}
         >
           {carouselData.map((data, index) => (
             <SwiperSlide
@@ -90,57 +92,43 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
                       loading='lazy'
                     />
                     {data.text
-                      ?
+                      &&
                       <p className='text-xl font-bold leading-6 text-center mb-4 max-[959px]:text-base'>
                         {data.text}
                       </p>
-                      :
-                      ''
                     }
-                    {data.buttonText
-                      ?
-                      <button
-                        className='blue-button active-translate-y text-lg max-[959px]:max-w-[280px] max-[959px]:m-auto'
-                        type='button'
-                      >
-                        {data.buttonText}
-                      </button>
-                      :
-                      ''
+                    {(data.linkText && data.productLink)
+                      &&
+                      (data.productLink![0] === '#'
+                        ?
+                        <a
+                          href={data.productLink}
+                          className='blue-button active-translate-y text-center text-lg max-[959px]:max-w-[280px] max-[959px]:m-auto'
+                        >
+                          {data.linkText}
+                        </a>
+                        :
+                        <Link
+                          to={`/product/${data.productLink!}`}
+                          className='blue-button active-translate-y text-center text-lg max-[959px]:max-w-[280px] max-[959px]:m-auto'
+                        >
+                          {data.linkText}
+                        </Link>
+                      )
                     }
                   </div>
                 </div>
               </div>
             </SwiperSlide>
           ))}
-          <button
-            onClick={() => swiper?.slidePrev()}
-            className={`swiper-button left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || onlyOneSlide ? 'hidden' : 'flex'} 
-            max-[959px]:hidden`}
-          >
-            <img
-              className='max-w-6 brightness-[5]'
-              src='/icons/chevron-down.svg'
-              alt='previous slide button'
-              loading='lazy'
-            />
-          </button>
 
-          <button
-            onClick={() => swiper?.slideNext()}
-            className={`swiper-button right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || onlyOneSlide ? 'hidden' : 'flex'}
-            max-[959px]:hidden`}
-          >
-            <img
-              className='max-w-6 brightness-[5]'
-              src='/icons/chevron-down.svg'
-              alt='previous slide button'
-              loading='lazy'
-            />
-          </button>
+          <ButtonsToCarouselSlides
+            swiper={swiper}
+            onlyOneSlideInCarousel={onlyOneSlideInCarousel}
+          />
         </Swiper>
 
-        <div className={`${onlyOneSlide ? 'hidden' : 'flex'} 
+        <div className={`${onlyOneSlideInCarousel ? 'hidden' : 'flex'} 
           items-center justify-center gap-3 h-[16px] mt-3`}
         >
           <button

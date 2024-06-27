@@ -1,7 +1,9 @@
-import { TFormatGameData, TGameData } from '../types/types';
+import { TFormatGameData, TGameData, TCommonProductsData } from '../types/types';
 import gamesData from '../assets/data.json';
 
 export const deviceHandleHoverEffect = window.matchMedia('(hover: hover)').matches;
+
+export const allowTouchMoveOnCarousel = !deviceHandleHoverEffect || window.innerWidth <= 959;
 
 export const scrollToTop = (): void => {
   window.scrollTo(0, 0);
@@ -26,6 +28,7 @@ export const formatGameData = (): Array<Array<TFormatGameData>> => {
         gameCarouselData: (gameData as TGameData).gameCarouselData,
         commonGameTypeCarouselData: data.commonGameTypeCarouselData,
         gamePageLinks: (gameData as TGameData).gamePageLinks,
+        commonProductsData: (gameData as TCommonProductsData).commonProductsData,
         productsCategories: (gameData as TGameData).productsCategories,
       };
     })
@@ -38,6 +41,6 @@ export const currentGamePage = (gameId: string | undefined, productId: string | 
   }
   else {
     return formatGameData().flatMap((data) => data.filter((data) => data.productsCategories?.some((category) =>
-      category.products!.some((product) => product.productLink === productId))));
+      category.products && category.products.some((product) => product.productLink === productId))));
   }
 }

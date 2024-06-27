@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
 import { currentGamePage } from '../lib/utils';
+import { TProduct } from '../types/types';
 import Navigation from '../components/navigation/Navigation';
 import MenuNavigation from '../components/navigation/menu-navigation/MenuNavigation';
 
@@ -44,11 +45,11 @@ const GameProductPathLayout: FC = () => {
     }
   }
 
-  const generateProductPageName = (): string => {
-    return currentGameProductsCategories!.map((category) => category.products!.map((product) =>
-      product.productData?.productName));
+  const generateProductPageName = (): Array<TProduct> => {
+    return currentGameProductsCategories!.flatMap((category) => category.products!.filter((product) =>
+      productId === product.productLink && product.productData?.productName));
   }
-  console.log(currentGameNamePage)
+
   return (
     <>
       <Navigation />
@@ -81,13 +82,13 @@ const GameProductPathLayout: FC = () => {
                 &&
                 <div className='flex gap-1'>
                   <img
-                    className='self-center max-w-3 size-3 rotate-[270deg]'
+                    className='self-center max-w-3 size-3 rotate-[270deg] ml-0.5'
                     src='/icons/chevron-down.svg'
                     alt=''
                     aria-hidden='true'
                     loading='lazy'
                   />
-                  <span className='text-sm text-lightGray'>{generateProductPageName()}</span>
+                  <span className='text-sm text-lightGray'>{generateProductPageName()[0].productData?.productName}</span>
                 </div>
               }
             </div>

@@ -1,10 +1,11 @@
 import { FC } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { currentGamePage } from '../../lib/utils';
-import { TCarouselItem, TProductsCategories } from '../../types/types';
+import { useParams } from 'react-router-dom';
+import { currentGamePage, transformToLink } from '../../lib/utils';
+import { TGameCarousel, TProductsCategories } from '../../types/types';
 import GameCarousel from '../../components/GameCarousel';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import NavigationLinks from './NavigationLinks';
+import Products from './Products';
 
 // All style-related functions are designed for the default
 // products and categories layout on a laptop device.
@@ -20,7 +21,7 @@ const GameShopPage: FC = () => {
     gamePageLinks: currentGamePageLinks
   } = currentGamePage(gameId, undefined)[0];
 
-  const getCarouselData = (): Array<TCarouselItem> => {
+  const getCarouselData = (): Array<TGameCarousel> => {
     if (currentGameNamePage === 'Modern Warfare III') {
       return currentCommonGameTypeCarousel!;
     }
@@ -180,13 +181,11 @@ const GameShopPage: FC = () => {
 
       <section className='px-4'>
         {currentGameProductsCategories!.map((category, categoryIndex) => {
-          const linkToBlizzardGearShop = category.categoryHeading === 'Gear';
-          const flexStyleCategory = getCategoriesWithFlexStyle(category);
           const verticalCategory = getCategoriesWithVerticalLayout(category);
 
           return (
             <div
-              id={currentGamePageLinks[categoryIndex].toLowerCase().replaceAll(' ', '-')}
+              id={transformToLink(currentGamePageLinks[categoryIndex])}
               className={`grid ${verticalCategory ? 'grid-cols-[auto]' : 'grid-cols-[20%_1fr]'} scroll-m-28 border-b border-borderGray py-16`}
               key={categoryIndex}
             >
@@ -235,122 +234,14 @@ const GameShopPage: FC = () => {
                 </h3>
               }
 
-              <div className={`${flexStyleCategory ? 'flex flex-wrap gap-6' : 'grid grid-cols-4 gap-6'}`}>
-                {category.products && category.products.map((product, productIndex) => {
-                  const productHorizontalLayout = getProductsWithHorizontalLayout(category, productIndex);
-                  const twoProductsInRow = getProductsLayoutInCategoryStyleFlex.twoInRow(category);
-                  const threeProductsInRow = getProductsLayoutInCategoryStyleFlex.threeInRow(category);
-                  const threeAndTwoProductsInRow = getProductsLayoutInCategoryStyleFlex.threeAndTwoInRow(category);
-                  const fromTwoToFourProductsInRow = getProductsLayoutInCategoryStyleFlex.fromTwoToFourInRow(category);
-                  const overwatch2ShopProducts = getProductsLayoutInCategoryStyleFlex.overwatch2ShopProducts(category);
-                  const largeIconInHorizontalLayout = getProductsWithLargeIconInHorizontalLayout(category);
-                  const biggerFont = productsWithBiggerFont(category, productIndex);
-
-                  return (
-                    <Link
-                      to={`${linkToBlizzardGearShop ? product.productLink : `/product/${product.productLink}`}`}
-                      target={`${linkToBlizzardGearShop ? '_target' : '_self'}`}
-                      className={`${productHorizontalLayout && 'col-[1_/span_4]'} ${overwatch2ShopProducts && 'overwatch2-shop-products'}
-                        ${twoProductsInRow && 'two-products-in-row'} ${threeProductsInRow && 'three-products-in-row'} 
-                        ${fromTwoToFourProductsInRow && 'from-two-to-four-products-in-row'} ${productHorizontalLayout ? 'grid grid-cols-[2fr_1fr]' : 'flex flex-col'}
-                        ${threeAndTwoProductsInRow && 'three-and-two-products-in-row'} group relative cursor-pointer rounded 
-                        bg-mediumGray transition-colors hover:bg-borderGray`}
-                      key={productIndex}
-                    >
-                      <div className={`row-[1_/_span_2] relative ${!productHorizontalLayout && 'pt-[56%]'}`}>
-                        <img
-                          className={`${productHorizontalLayout ? 'static rounded-l' : 'absolute top-0 rounded-t'} size-full object-cover`}
-                          src={product.image}
-                          alt={product.heading}
-                          loading='lazy'
-                        />
-                        {product.newProduct
-                          &&
-                          <span className='product-type bg-red-600'>
-                            {product.newProduct}
-                          </span>
-                        }
-                        {product.deal
-                          &&
-                          <span className='product-type bg-[#6DDB03]'>
-                            {product.deal}
-                          </span>
-                        }
-                        {product.prePurchase
-                          &&
-                          <span className='product-type bg-red-600'>
-                            {product.prePurchase}
-                          </span>
-                        }
-                      </div>
-
-                      <dl className={`${productHorizontalLayout && `flex justify-center flex-col h-full`} 
-                        ${biggerFont || productHorizontalLayout ? 'pt-8 px-8' : 'pt-6 px-6'} transition-transform duration-300 group-hover:translate-y-[-.3rem]`}
-                      >
-                        <dd className='flex items-center gap-1'>
-                          <img
-                            className={`${largeIconInHorizontalLayout ? 'w-full' : 'max-w-6 w-6'}`}
-                            src={product.icon}
-                            alt=''
-                            loading='lazy'
-                          />
-                          {product.productGameName
-                            &&
-                            <span className={`${productHorizontalLayout ? 'text-sm' : 'text-xs'} text-almostWhite font-bold tracking-wide uppercase`}>
-                              {product.productGameName}
-                            </span>
-                          }
-                        </dd>
-
-                        <dt className={`${biggerFont ? 'text-2xl leading-7' : productHorizontalLayout ? 'text-3xl' : 'text-lg leading-5'} font-bold text-almostWhiteThird my-1.5`}>
-                          {product.heading}
-                        </dt>
-                        {product.yellowText
-                          &&
-                          <dd className={`${biggerFont ? 'text-base' : productHorizontalLayout ? 'text-lg py-1' : 'text-sm'} text-yellow mb-1.5`}>
-                            {product.yellowText}
-                          </dd>
-                        }
-                        <dd className={`${biggerFont ? 'text-sm' : productHorizontalLayout ? 'text-base' : 'text-xs'} text-almostWhite`}>
-                          {product.grayText}
-                        </dd>
-                      </dl>
-
-                      {product.gameCurrencyIcon
-                        ?
-                        <div className={`flex items-center gap-1 ${biggerFont || productHorizontalLayout ? 'p-8' : 'p-6'} mt-auto`}
-                        >
-                          <img
-                            className='max-w-7 size-7'
-                            src={product.gameCurrencyIcon}
-                            alt=''
-                            aria-hidden='true'
-                            loading='lazy'
-                          />
-                          <span className={`${biggerFont || productHorizontalLayout ? 'text-2xl' : 'text-basis'} font-bold text-almostWhiteThird`}>
-                            {product.price}
-                          </span>
-                        </div>
-                        :
-                        <div className={`w-full mt-auto ${biggerFont || productHorizontalLayout ? 'p-8' : 'p-6'}`}>
-                          <span className={`${biggerFont || productHorizontalLayout ? 'text-2xl' : 'text-basis'} font-bold text-almostWhiteThird`}>
-                            {product.price}
-                          </span>
-                        </div>
-                      }
-
-                      {product.buttonText
-                        &&
-                        <div className='p-6'>
-                          <button className='blue-button p-1 blue-button-hover' type='button'>
-                            {product.buttonText}
-                          </button>
-                        </div>
-                      }
-                    </Link>
-                  )
-                })}
-              </div>
+              <Products
+                category={category}
+                getCategoriesWithFlexStyle={getCategoriesWithFlexStyle}
+                getProductsWithHorizontalLayout={getProductsWithHorizontalLayout}
+                getProductsLayoutInCategoryStyleFlex={getProductsLayoutInCategoryStyleFlex}
+                getProductsWithLargeIconInHorizontalLayout={getProductsWithLargeIconInHorizontalLayout}
+                productsWithBiggerFont={productsWithBiggerFont}
+              />
             </div>
           )
         })}

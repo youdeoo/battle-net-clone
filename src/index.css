@@ -56,6 +56,10 @@
     @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
   }
 
+  .product-page-grid-section {
+    @apply grid grid-cols-[25%_75%] border-b border-borderGray pb-16 mt-16;
+  }
+
   .two-products-in-row {
     @apply w-[calc((100%-24px)/2)];
   }
@@ -89,8 +93,27 @@
     rounded-md py-1 px-2;
   }
 
+  .disable-button {
+    @apply pointer-events-none border-mediumGray;
+  }
+
+  .handle-visible-for-swiper-element {
+    @apply invisible opacity-0 transition-all duration-[300ms] 
+    group-hover:visible group-hover:opacity-100;
+  }
+
   .swiper-pagination {
     @apply static flex items-center justify-center w-auto !important;
+  }
+
+  .swiper-pagination-numbers {
+    @apply absolute z-[2] bottom-[.5rem] left-1/2 translate-x-[-50%] size-fit text-xs font-bold 
+    text-white bg-darkBlue py-1 px-2 rounded handle-visible-for-swiper-element;
+  }
+
+  .swiper-slide-thumb-active {
+    @apply before:content-[""] before:absolute before:bottom-[-.5rem] before:left-0 
+    before:bg-lighterBlue before:w-full before:h-[5px] before:rounded;
   }
 
   .custom-bullet {
@@ -104,8 +127,7 @@
 
   .swiper-button {
     @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue
-     border-button-and-box-shadow rounded-md border translate-y-[-50%] invisible opacity-0 transition-all
-    duration-[300ms] group-hover:visible group-hover:opacity-100;
+     border-button-and-box-shadow rounded-md border translate-y-[-50%] handle-visible-for-swiper-element;
   }
 
   .border-button-and-box-shadow {
