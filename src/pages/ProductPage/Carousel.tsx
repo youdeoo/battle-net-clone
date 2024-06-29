@@ -11,13 +11,6 @@ import 'swiper/css/thumbs';
 import 'swiper/css/free-mode';
 import 'swiper/swiper-bundle.css';
 
-declare global {
-  interface Window {
-    YT: any;
-    onYouTubeIframeAPIReady: any;
-  }
-}
-
 const Carousel: FC<TProductDataProp> = ({ productData }) => {
   const [swiper, setSwiper] = useState<TSwiper>(null);
   const [thumbsSwiper, setThumbsSwiper] = useState<TSwiper>(null);
@@ -88,31 +81,33 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
         <div className='swiper-pagination-numbers'></div>
       </Swiper>
 
-      <Swiper
-        className='grid overflow-visible mt-2'
-        slidesPerView={4}
-        spaceBetween={16}
-        watchSlidesProgress={true}
-        freeMode={true}
-        slideActiveClass='.swiper-slide-thumb-active'
-        modules={[FreeMode, Thumbs]}
-        onSwiper={setThumbsSwiper}
-      >
-        {productData?.productCarousel.thumbs.map((slide, index) => (
-          <SwiperSlide
-            className='relative size-full cursor-pointer'
-            key={index}
-          >
-            <img
-              className='size-full rounded-md'
-              src={slide}
-              alt=''
-              aria-hidden='true'
-              loading='lazy'
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className='relative'>
+        <Swiper
+          className='static grid mt-2 pb-2'
+          slidesPerView={4}
+          spaceBetween={16}
+          watchSlidesProgress={true}
+          freeMode={true}
+          slideActiveClass='.swiper-slide-thumb-active'
+          modules={[FreeMode, Thumbs]}
+          onSwiper={setThumbsSwiper}
+        >
+          {productData?.productCarousel.thumbs.map((slide, index) => (
+            <SwiperSlide
+              className='relative size-full cursor-pointer'
+              key={index}
+            >
+              <img
+                className='size-full rounded-md'
+                src={slide}
+                alt=''
+                aria-hidden='true'
+                loading='lazy'
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 }

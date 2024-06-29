@@ -3,18 +3,54 @@ type TProductCarousel = {
   thumbs: Array<string>;
 }
 
+type TProductFeaturesData = Pick<TProduct, 'image'> & {
+  heading: string;
+  description: string;
+}
+
+type TProductFeatures = {
+  heading?: string;
+  secondHeading?: string;
+  data: Array<TProductFeaturesData>;
+}
+
+type TProdcutsToCompare = {
+  images: Array<string>;
+  headings: Array<string>;
+  prices: Array<string>;
+  linkTexts: Array<string>;
+}
+
+type TCompareProductsContent = Pick<TSystemRequirements, 'name'> & {
+  productsContent: Array<string>;
+}
+
+type TCompareProducts = {
+  products: TProdcutsToCompare;
+  content: Array<TCompareProductsContent>;
+}
+
+export type TProductDataPrice = Pick<TProduct, 'image'> & {
+  productName: string;
+  amount: string;
+}
+
 type TProductData = {
   productName: string;
   yellowText?: string;
   grayText: string;
-  prices: Array<string>;
+  price?: string | Array<TProductDataPrice>;
   buyProductButton: string;
-  giftProductButton: string;
-  wishListButton: string;
+  giftProductButton?: string;
+  wishListButton?: string;
   descriptionHeading: string;
   descriptions: Array<string>;
+  descriptionList?: Array<string>;
   productInfo: Array<{ link: boolean; text: string }>;
   productCarousel: TProductCarousel;
+  compareProducts?: TCompareProducts;
+  productFeatures: Array<TProductFeatures>;
+  productRequirements: Array<string>;
 }
 
 export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, 'grayText' | 'yellowText'> & {
@@ -37,16 +73,6 @@ export type TProductDataProp = {
 
 type AgeRating = Pick<TSystemRequirements, 'name'> & Pick<TProduct, 'image'>;
 
-type TProductFeaturesData = Pick<TProduct, 'image'> & {
-  heading: string;
-  description: string;
-}
-
-type TProductFeatures = {
-  heading?: string;
-  data: Array<TProductFeaturesData>;
-}
-
 type TSystemRequirementsDetail = {
   requirementsHeading: string;
   data: Array<{ heading: string; data: string }>;
@@ -63,13 +89,11 @@ type TPlatform = Omit<TSystemRequirements, 'requirements'>;
 type TProductDetails = Pick<TProductFeaturesData, 'heading'> & {
   text: string;
   languages: Array<string>;
-  requirements: Array<string>;
   platforms: Array<TPlatform>;
   regions: Array<string>;
 }
 
-export type TCommonProductsData = {
-  productFeatures: Array<TProductFeatures>;
+type TCommonProductsData = {
   systemRequirements: Array<TSystemRequirements>;
   productDetails: Array<TProductDetails>;
   ageRating: Array<AgeRating>;

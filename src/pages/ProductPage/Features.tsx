@@ -1,17 +1,36 @@
 import { FC } from 'react';
-import { TCommonProductsDataProp } from '../../types/types';
+import { TProductDataProp } from '../../types/types';
 
-const Features: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
+const Features: FC<TProductDataProp> = ({ productData }) => {
   return (
-    <div className='border-b border-borderGray'>
-      {currentCommonProductsData.productFeatures.map((feature, featureIndex) => (
-        <div
-          className={`${feature.heading ? 'grid grid-cols-[25%_75%]' : 'ml-[25%]'} pb-16 mt-16`}
+    <>
+      {productData.productFeatures.map((feature, featureIndex) => (
+        <section
+          className={`${feature.heading ? 'grid grid-cols-[25%_75%]' : 'ml-[25%]'} pb-16 mt-16 border-b border-borderGray`}
           key={featureIndex}
         >
-          {feature.heading
+          {(feature.heading && feature.secondHeading)
+            ?
+            <div>
+              {feature.heading
+                &&
+                <h2 className='w-3/4 text-3xl font-bold text-white'>
+                  {feature.heading}
+                </h2>
+              }
+              {feature.secondHeading
+                &&
+                <h3 className='w-3/4 text-white'>
+                  {feature.secondHeading}
+                </h3>
+              }
+            </div>
+            :
+            feature.heading
             &&
-            <h2>{feature.heading}</h2>
+            <h2 className='w-3/4 text-3xl font-bold text-white'>
+              {feature.heading}
+            </h2>
           }
 
           <div className='grid grid-cols-3 gap-6 size-full'>
@@ -32,9 +51,9 @@ const Features: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) =>
               </div>
             ))}
           </div>
-        </div>
+        </section>
       ))}
-    </div>
+    </>
   );
 }
 

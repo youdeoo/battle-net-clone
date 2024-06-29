@@ -49,9 +49,7 @@
                   "productName": "World of Warcraft®: Welcome to Azeroth Bundle",
                   "grayText": "Bundles",
                   "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
-                  "prices": [
-                    "$22.99"
-                  ],
+                  "price": "$22.99",
                   "buyProductButton": "Buy Now",
                   "giftProductButton": "Gift",
                   "wishListButton": "Add to Wish List",
@@ -94,12 +92,37 @@
                       "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/common-images/image.png"
                     ],
                     "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-2.png",
                       "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/thumbs/image-1.png",
-                      "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/thumbs/image-2.png",
                       "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                       "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/common-images/image.png"
                     ]
-                  }
+                  },
+                  "productFeatures": [
+                    {
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/common-images/image-1.png",
+                          "heading": "An Epic Adventure At Your Own Pace",
+                          "description": "Create a hero of the noble Alliance or the mighty Horde. New or returning defenders of Azeroth can explore Exile's Reach to unearth the fate of a lost expedition while mastering new skills, or immediately boost a character to level 60 to join the battle against ancient proto-dragons in Dragonflight."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/features/image-1.png",
+                          "heading": "World of Warcraft®: Dragonflight ",
+                          "description": "Spread your wings and dash into the latest World of Warcraft content with the included Dragonflight expansion and 60 Days Game Time. Discover daring quests and rise to new heights of power as you level up your character while exploring the magic and wonder of the Dragon Isles."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/features/image-2.png",
+                          "heading": "The Next Grand Adventure ",
+                          "description": "Explore Dragonflight and prepare for an epic three-expansion story arc beginning with The War Within*, launching August 26 at 3PM PDT. Learn more about the upcoming expansion and how to prepare for the next chapter of World of Warcraft."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft®, Internet connection, Battle.net® Account, and Battle.net® desktop app to play.",
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
                 }
               },
               {
@@ -112,7 +135,75 @@
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Play For Free",
                 "productData": {
-                  "productName": "Free Trial"
+                  "productName": "World of Warcraft®: Free Trial",
+                  "grayText": "Massively Multiplayer RPG",
+                  "yellowText": "Play free up to level 20!",
+                  "buyProductButton": "Play For Free",
+                  "descriptionHeading": "Begin Your Adventure & Play Free Up to Level 20!",
+                  "descriptions": [
+                    "Introducing a whole new way to begin your next great adventure. With this World of Warcraft® free trial*, you'll create your hero, join the Horde or Alliance, and venture to the mysterious island of Exile’s Reach in search of a lost expedition. Prepare to embark, adventurer. Your first quest awaits."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "*Free Trial is not available in World of Warcraft® Classic."
+                    },
+                    {
+                      "link": false,
+                      "text": "Limitations apply"
+                    },
+                    {
+                      "link": false,
+                      "text": "Any applicable VAT included"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/EZXUndkmmBw",
+                      "https://www.youtube.com/embed/Jzc9YScvao4",
+                      "/product-page/warcraft/world-of-warcraft/free-trial/common-images/image.png"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/free-trial/thumbs/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/free-trial/thumbs/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/free-trial/common-images/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Choose Your Destiny",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/free-trial/features/image-1.png",
+                          "heading": "Be the hero you want to be",
+                          "description": "First, pick a side - the noble Alliance fighting for justice and duty or the mighty Horde standing for honor and freedom. Then choose your race and class to create a hero that's right for you. Will you fight as a hulking tauren warrior or perhaps an inventive gnome warlock? The choice is yours!"
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/free-trial/features/image-2.png",
+                          "heading": "Embark on a heroic journey",
+                          "description": "Learn the ropes through an epic starting adventure at Exile's Reach—discover the fate of a lost expedition as you pick up new skills and face two new bosses in a “mini-dungeon” designed from 1 to 5 players."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/common-images/image-1.png",
+                          "heading": "Adventure to level 20",
+                          "description": "As you leave Exile's Reach behind, the lessons you've mastered will help you as you embark on the Battle for Azeroth content. Advance your hero to level 20, then continue playing as much as you want! When you're ready to progress further, simply subscribe to access an ever-growing universe and continue leveling to 60. Welcome to World of Warcraft!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "*Free Trial is not available in World of Warcraft® Classic.",
+                    "Limitations apply",
+                    "Any applicable VAT included"
+                  ]
                 }
               },
               {
@@ -126,7 +217,283 @@
                 "price": "From $49.99",
                 "newProduct": "New",
                 "productData": {
-                  "productName": "World of Warcraft®: The War Within™"
+                  "productName": "World of Warcraft®: The War Within™",
+                  "grayText": "Massively Multiplayer RPG",
+                  "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
+                  "price": [
+                    {
+                      "productName": "Epic Edition",
+                      "amount": "$89.99",
+                      "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-2.png"
+                    },
+                    {
+                      "productName": "Heroic Edition",
+                      "amount": "$69.99",
+                      "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-3.png"
+                    },
+                    {
+                      "productName": "Base Edition",
+                      "amount": "$49.99",
+                      "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-4.png"
+                    }
+                  ],
+                  "buyProductButton": "Pre-purchase",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "THE DARKNESS CALLS ON AUGUST 26",
+                  "descriptions": [
+                    "Upgrade to the Epic Edition to get early access starting August 22, at 3PM PT, along with guaranteed access to the Beta, available now!",
+                    "In this opening chapter of The Worldsoul Saga™, you'll journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the Nerubian empire, where the inscrutable Harbinger of the Void has gathered her arachnid forces to bring Azeroth to its knees.",
+                    "Deliver justice upon the servants of the Shadow, investigate the dark motives behind the Harbinger's machinations, and take part in a thrilling new adventure spanning WoW’s next three expansions¹.",
+                    "Pre-purchase² World of Warcraft: The War Within and unlock a slew of benefits to aid you in your coming adventures! All editions include an Enhanced Level 70 Character Boost and the critically-acclaimed Dragonflight expansion³. In addition, the Epic Edition also guarantees Beta Access and Early Access⁴ (August 22, 3PM PT) to The War Within. All in-game items are available immediately unless otherwise noted.",
+                    "The upcoming expansion launches globally at the same time around the world. Here's what that means based on your local time zone:"
+                  ],
+                  "descriptionList": [
+                    "Americas (PDT): August 26 at 3:00 PM",
+                    "Europe (CEST): August 27 at 12:00 AM",
+                    "Korea (KST): August 27 at 7:00 AM",
+                    "ANZ (AEST): August 27 at 8:00 AM"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "¹Future expansions not included in WoW®: The War Within™ purchase."
+                    },
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft®, Internet connection, Battle.net® Account, and Battle.net® desktop app to play."
+                    },
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "²World of Warcraft®: The War Within™ launches on August 26 at 3PM PT."
+                    },
+                    {
+                      "link": false,
+                      "text": "³If you already have Dragonflight on your account, the expansion will not be re-granted."
+                    },
+                    {
+                      "link": false,
+                      "text": "⁴Beta Access and Early Access dates subject to change. Minimum Early Access duration is 3 days. Limited time only. Play time subject to possible outages and time zone differences. Certain endgame features, including Mythic dungeons and weekly quests, not available during Early Access."
+                    },
+                    {
+                      "link": false,
+                      "text": "In-game items not available in WoW® Classic games. Boost only usable on the WoW® game account on which it was purchased or redeemed."
+                    },
+                    {
+                      "link": false,
+                      "text": "Upgrading to the Heroic or Epic Edition will not re-grant in-game items previously unlocked on your account. Trader's Tender is granted only once per Battle.net® account and region upon first purchase of each edition, at a maximum of 1000 Tender from Epic."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/fObFXPB6bcY",
+                      "https://www.youtube.com/embed/PF2OeHvkV4c",
+                      "https://www.youtube.com/embed/o03STclgxSc",
+                      "https://www.youtube.com/embed/DSvLkzRt9fc",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-4.png"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/thumbs/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/thumbs/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/thumbs/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-4.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/product-page/warcraft/world-of-warcraft/war-within/table/image-1.png",
+                        "/product-page/warcraft/world-of-warcraft/war-within/table/image-2.png",
+                        "/product-page/warcraft/world-of-warcraft/war-within/table/image-3.png"
+                      ],
+                      "headings": [
+                        "Basse Edition",
+                        "Heroic Edition",
+                        "Epic Edition"
+                      ],
+                      "prices": [
+                        "$49.99",
+                        "$69.99",
+                        "$89.99"
+                      ],
+                      "linkTexts": [
+                        "Pre-purchase",
+                        "Pre-purchase",
+                        "Pre-purchase"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "World of Warcraft: The War Within available at launch²",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "World of Warcraft: Dragonflight³",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Enhanced Level 70 Character Boost",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Trader's Tender",
+                        "productsContent": [
+                          "500",
+                          "750",
+                          "1000"
+                        ]
+                      },
+                      {
+                        "name": "Algarian Stormrider mount with Skyriding, dozens of customization options, and access to special racecourses",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Upgradable Stormrider's Attire Transmog set",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Beta Access to The War Within⁴",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "3 Days Early Access to The War Within⁴",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "30 Days of Game Time",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Squally, the Storm Hatchling pet",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Sandbox Storm Gryphon toy",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Deepdweller's Earthen Hearthstone effect",
+                        "productsContent": [
+                          "",
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      }
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "World of Warcraft: The War Within",
+                      "secondHeading": "Available at launch²",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/features/image-1.png",
+                          "heading": "The Worldsoul Saga begins",
+                          "description": "The wings of a grand new adventure spread widely across the next three expansions¹! Be a part of the epic story that celebrates the first 20 years of World of Warcraft and sets new foundations for Azeroth's future."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/features/image-2.png",
+                          "heading": "Explore the vast depths of Azeroth",
+                          "description": "Journey deep beneath the surface through the four expansive zones of Khaz Algar, the home of the titan-forged Earthen. Start your adventure on the Isle of Dorn off the western shores of Kalimdor and descend into The Ringing Deeps. Then marvel at the brilliant sights of Hallowfall before plunging into Azj-Kahet, the high capital of nerubian society."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/features/image-3.png",
+                          "heading": "Enjoy a trove of fresh features",
+                          "description": "Earn the trust of the Earthen and unlock an all-new playable Allied Race. Explore Delves, new bite-sized world instances you can tackle alone or with up to four friends, plus an NPC companion. Grow in strength as you level to 80 and earn new skills with Hero Talent trees, share progress across your family of characters with the Warbands system, and take to the skies with Skyriding, now available for hundreds of existing mounts!"
+                        }
+                      ]
+                    },
+                    {
+                      "heading": "Pre-purchase now",
+                      "secondHeading": "Choose your edition",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-4.png",
+                          "heading": "Base Edition",
+                          "description": "Includes the World of Warcraft: The War Within pre-purchase, World of Warcraft: Dragonflight³, an Enhanced Level 70 Character Boost with upgraded gear, reputation progress, and more, to prepare you for your adventures in the depths of the world. Also includes 500 Trader's Tender to use in the Trading Post."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-3.png",
+                          "heading": "Heroic Edition",
+                          "description": "Includes everything in the Base Edition. Plus, you'll receive the Algarian Stormrider mount with Skyriding and access to special racecourses, and the Stormrider's Attire Transmog set. The mount has four color variants, with a slew of additional customization options available. The Transmog set can be upgraded to the Thundering Stormrider's Attire upon completing the special racecourses available with the Algarian Stormrider. Also includes an additional 250 Trader's Tender (750 in total) to use in the Trading Post."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/war-within/common-images/image-2.png",
+                          "heading": "Epic Edition",
+                          "description": "Includes everything in the Heroic Edition. Plus, you'll have guaranteed Beta Access and Early Access (3 days) to The War Within⁴. You'll also receive 30 days of game time, Squally, the Storm Hatchling pet, Sandbox Storm Gryphon toy, and Deepdweller's Earthen Hearthstone effect. Also includes an additional 250 Trader's Tender (1000 in total) to use in the Trading Post."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "¹Future expansions not included in WoW®: The War Within™ purchase.",
+                    "Requires World of Warcraft®, Internet connection, Battle.net® Account, and Battle.net® desktop app to play.",
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "²World of Warcraft®: The War Within™ launches on August 26 at 3PM PT.",
+                    "³If you already have Dragonflight on your account, the expansion will not be re-granted.",
+                    "⁴Beta Access and Early Access dates subject to change. Minimum Early Access duration is 3 days. Limited time only. Play time subject to possible outages and time zone differences. Certain endgame features, including Mythic dungeons and weekly quests, not available during Early Access.",
+                    "In-game items not available in WoW® Classic games. Boost only usable on the WoW® game account on which it was purchased or redeemed.",
+                    "Upgrading to the Heroic or Epic Edition will not re-grant in-game items previously unlocked on your account. Trader's Tender is granted only once per Battle.net® account and region upon first purchase of each edition, at a maximum of 1000 Tender from Epic."
+                  ]
                 }
               }
             ]
@@ -519,27 +886,6 @@
           }
         ],
         "commonProductsData": {
-          "productFeatures": [
-            {
-              "data": [
-                {
-                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-1.png",
-                  "heading": "An Epic Adventure At Your Own Pace",
-                  "description": "Create a hero of the noble Alliance or the mighty Horde. New or returning defenders of Azeroth can explore Exile's Reach to unearth the fate of a lost expedition while mastering new skills, or immediately boost a character to level 60 to join the battle against ancient proto-dragons in Dragonflight."
-                },
-                {
-                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-2.png",
-                  "heading": "World of Warcraft®: Dragonflight ",
-                  "description": "Spread your wings and dash into the latest World of Warcraft content with the included Dragonflight expansion and 60 Days Game Time. Discover daring quests and rise to new heights of power as you level up your character while exploring the magic and wonder of the Dragon Isles."
-                },
-                {
-                  "image": "/product-page/warcraft/world-of-warcraft/welcome-to-azeroth-bundle/info/image-3.png",
-                  "heading": "The Next Grand Adventure ",
-                  "description": "Explore Dragonflight and prepare for an epic three-expansion story arc beginning with The War Within*, launching August 26 at 3PM PDT. Learn more about the upcoming expansion and how to prepare for the next chapter of World of Warcraft."
-                }
-              ]
-            }
-          ],
           "systemRequirements": [
             {
               "name": "Windows",
@@ -734,13 +1080,6 @@
                 "Русский",
                 "한국어",
                 "繁體中文"
-              ]
-            },
-            {
-              "heading": "Product Requirements",
-              "requirements": [
-                "Requires World of Warcraft®, Internet connection, Battle.net® Account, and Battle.net® desktop app to play.",
-                "Requires World of Warcraft® Subscription or Game Time"
               ]
             },
             {

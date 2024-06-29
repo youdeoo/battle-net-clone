@@ -3,7 +3,7 @@ import { TCommonProductsDataProp } from '../../types/types';
 
 const AgeRating: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
   return (
-    <div className='mt-8'>
+    <section className='mt-8'>
       <div className='border-b border-borderGray pb-8 ml-[25%] mr-4'>
         <h3 className='text-xl font-bold text-white'>
           Age Rating
@@ -53,7 +53,7 @@ const AgeRating: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) =
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -2,8 +2,8 @@ import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
 import { currentGamePage } from '../lib/utils';
 import { TProduct } from '../types/types';
-import Navigation from '../components/navigation/Navigation';
-import MenuNavigation from '../components/navigation/menu-navigation/MenuNavigation';
+import Navigation from '../components/Navigation/Navigation';
+import MenuNavigation from '../components/Navigation/menu-navigation/MenuNavigation';
 
 const GameProductPathLayout: FC = () => {
   const { gameId, productId } = useParams();
@@ -56,7 +56,7 @@ const GameProductPathLayout: FC = () => {
       <div className='sticky top-0 z-20'>
         <MenuNavigation />
 
-        <div className='bg-darkBlue'>
+        <div className='bg-darkBlue pb-2'>
           <div className='flex items-center justify-between gap-1 px-8 pt-1 pb-2 max-w-[1600px] w-full m-auto'>
             <div className='flex items-center'>
               <Link to='/' className='mr-0.5'>

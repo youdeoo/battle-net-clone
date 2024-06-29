@@ -1,15 +1,12 @@
 import { FC, useState } from 'react';
+import { stateIndexEqualIndex } from '../../lib/utils';
 import { TCommonProductsDataProp } from '../../types/types';
 
 const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
   const [displaySystemRequirementsIndex, setDisplaySystemRequirementsIndex] = useState(0);
 
-  const currentSystem = (index: number): boolean => {
-    return displaySystemRequirementsIndex === index;
-  }
-
   return (
-    <div id='system-requirements' className='product-page-grid-section scroll-m-20'>
+    <section id='system-requirements' className='product-page-grid-section scroll-m-32'>
       <h2 className='text-3xl w-1/2 font-bold text-white'>
         System Requirements
       </h2>
@@ -20,18 +17,18 @@ const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProducts
             <button
               onClick={() => setDisplaySystemRequirementsIndex(index)}
               className={`group relative flex items-center gap-2 cursor-pointer pb-4 px-4 
-                ${currentSystem(index) && 'before:content-[""] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-lighterBlue'}`}
+                ${stateIndexEqualIndex(displaySystemRequirementsIndex, index) && 'before:content-[""] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-lighterBlue'}`}
               type='button'
               key={index}
             >
               <img
-                className={`${currentSystem(index) && 'brightness-[5]'} max-w-4 w-4 h-auto 
+                className={`${stateIndexEqualIndex(displaySystemRequirementsIndex, index) && 'brightness-[5]'} max-w-4 w-4 h-auto 
                 transition-all group-hover:brightness-[5]`}
                 src={system.logo}
                 alt={`system requirements for ${system.name}`}
                 loading='lazy'
               />
-              <span className={`${currentSystem(index) && 'text-white'} font-bold text-gray 
+              <span className={`${stateIndexEqualIndex(displaySystemRequirementsIndex, index) && 'text-white'} font-bold text-gray 
                 transition-colors group-hover:text-white`}
               >
                 {system.name}
@@ -43,7 +40,7 @@ const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProducts
         <div className='flex flex-row'>
           {currentCommonProductsData.systemRequirements.map((system, systemIndex) =>
             system.requirements.map((req, index) => (
-              currentSystem(systemIndex)
+              stateIndexEqualIndex(displaySystemRequirementsIndex, systemIndex)
               &&
               <div
                 className='mt-8'
@@ -68,7 +65,7 @@ const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProducts
             )))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

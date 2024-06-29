@@ -1,9 +1,11 @@
 import { FC } from 'react';
-import { TCommonProductsDataProp } from '../../types/types';
+import { TProductDataProp, TCommonProductsDataProp } from '../../types/types';
 
-const ProductDetails: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
+type Prop = TProductDataProp & TCommonProductsDataProp;
+
+const ProductDetails: FC<Prop> = ({ productData, currentCommonProductsData }) => {
   return (
-    <div id='product-details' className='product-page-grid-section'>
+    <section id='product-details' className='product-page-grid-section scroll-m-32'>
       <h2 className='text-3xl font-bold text-white'>
         Product Details
       </h2>
@@ -87,31 +89,25 @@ const ProductDetails: FC<TCommonProductsDataProp> = ({ currentCommonProductsData
         </div>
 
         <div className='w-[33.3%]'>
-          {currentCommonProductsData.productDetails.map((detail, index) => (
-            detail.heading === 'Product Requirements'
-            &&
-            <div key={index}>
-              <h3 className='text-xl font-bold text-almostWhiteSecond'>
-                {detail.heading}
-              </h3>
-              {detail.requirements
-                &&
-                <ul className='list-disc pl-8'>
-                  {detail.requirements.map((req, reqIndex) => (
-                    <li
-                      className='text-sm text-lightGray first-of-type:my-2'
-                      key={reqIndex}
-                    >
-                      {req}
-                    </li>
-                  ))}
-                </ul>
-              }
-            </div>
-          ))}
+          <div>
+            <h3 className='text-xl font-bold text-almostWhiteSecond'>
+              Product Requirements
+            </h3>
+
+            <ul className='list-disc pl-8'>
+              {productData.productRequirements.map((req, reqIndex) => (
+                <li
+                  className='text-sm text-lightGray first-of-type:my-2'
+                  key={reqIndex}
+                >
+                  {req}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
-    </div >
+      </div >
+    </section>
   );
 }
 
