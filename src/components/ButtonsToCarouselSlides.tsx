@@ -19,8 +19,8 @@ const ButtonsToCarouselSlides: FC<Props> = ({
     <>
       <button
         onClick={() => swiper?.slidePrev()}
-        className={`swiper-button left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || onlyOneSlideInCarousel ? 'hidden' : 'flex'} 
-        ${firstSlide && 'disable-button'} max-[959px]:hidden`}
+        className={`swiper-button invisible opacity-0 left-[-.5rem] rotate-90 ${!deviceHandleHoverEffect || onlyOneSlideInCarousel ? 'hidden' : 'flex'} 
+        ${firstSlide && 'disable-button'} border-button-and-box-shadow transition-all duration-300 group-hover:visible group-hover:opacity-100 max-[959px]:hidden`}
       >
         <img
           className={`max-w-6 brightness-[5] ${firstSlide && 'opacity-50'}`}
@@ -32,8 +32,8 @@ const ButtonsToCarouselSlides: FC<Props> = ({
 
       <button
         onClick={() => swiper?.slideNext()}
-        className={`swiper-button right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || onlyOneSlideInCarousel ? 'hidden' : 'flex'}
-        ${lastSlide && 'disable-button'}  max-[959px]:hidden`}
+        className={`swiper-button invisible opacity-0 right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || onlyOneSlideInCarousel ? 'hidden' : 'flex'}
+        ${lastSlide && 'disable-button'} border-button-and-box-shadow transition-all duration-300 group-hover:visible group-hover:opacity-100 max-[959px]:hidden`}
       >
         <img
           className={`max-w-6 brightness-[5] ${lastSlide && 'opacity-50'}`}

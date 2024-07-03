@@ -33,36 +33,38 @@ const ProductPage: FC = () => {
       <section>
         <div className='grid grid-cols-[68%_auto] gap-x-10 border-b border-borderGray pb-16'>
           <div>
-            <Carousel productData={productData} />
+            <div className='sticky top-[7.7rem] z-[1]'>
+              <Carousel productData={productData} />
 
-            <div className='mt-6'>
-              <h2 className='text-3xl font-bold text-white mb-4'>
-                {productData?.descriptionHeading}
-              </h2>
+              <div className='mt-6'>
+                <h2 className='text-3xl font-bold text-white mb-4'>
+                  {productData?.descriptionHeading}
+                </h2>
 
-              {productData?.descriptions.map((description, index) => (
-                <p key={index} className='text-almostWhiteSecond mb-2'>
-                  {description}
-                </p>
-              ))}
+                {productData?.descriptions.map((description, index) => (
+                  <p key={index} className='text-almostWhiteSecond mb-2'>
+                    {description}
+                  </p>
+                ))}
 
-              {productData?.descriptionList
-                &&
-                <ul className='list-disc pl-8 mt-4'>
-                  {productData.descriptionList.map((data, index) => (
-                    <li
-                      className='text-almostWhiteSecond'
-                      key={index}
-                    >
-                      {data}
-                    </li>
-                  ))}
-                </ul>
-              }
+                {productData?.descriptionList
+                  &&
+                  <ul className='list-disc pl-8 mt-4'>
+                    {productData.descriptionList.map((data, index) => (
+                      <li
+                        className='text-almostWhiteSecond'
+                        key={index}
+                      >
+                        {data}
+                      </li>
+                    ))}
+                  </ul>
+                }
+              </div>
             </div>
           </div>
 
-          <ProductInfo product={product} productData={productData} />
+          <ProductInfo productData={productData} />
         </div>
 
         {productData?.compareProducts && <CompareProducts productData={productData} />}

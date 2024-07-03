@@ -9,7 +9,7 @@ const CompareProducts: FC<TProductDataProp> = ({ productData }) => {
   const { images, headings, prices, linkTexts } = productData.compareProducts!.products;
 
   return (
-    <section id='compare' className='py-16 border-b border-borderGray scroll-m-28'>
+    <section id='compare' className='py-16 border-b border-borderGray scroll-m-24'>
       <h2 className='text-3xl font-bold text-white'>
         Compare Products
       </h2>

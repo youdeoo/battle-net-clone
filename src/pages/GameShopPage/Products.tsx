@@ -1,4 +1,6 @@
 import { FC } from 'react';
+import { useDispatch } from 'react-redux';
+import { getProductPrice } from '../../slices/productPriceSlice';
 import { Link } from 'react-router-dom';
 import { TProductsCategories } from '../../types/types';
 
@@ -35,6 +37,8 @@ const Products: FC<Props> = ({
   productsWithBiggerFont,
   getCategoriesWithFlexStyle
 }) => {
+  const dispatch = useDispatch();
+
   const flexStyleCategory = getCategoriesWithFlexStyle(category);
   const linkToBlizzardGearShop = category.categoryHeading === 'Gear';
   const twoProductsInRow = getProductsLayoutInCategoryStyleFlex.twoInRow(category);
@@ -52,13 +56,14 @@ const Products: FC<Props> = ({
 
         return (
           <Link
+            onClick={() => dispatch(getProductPrice(product.price))}
             to={`${linkToBlizzardGearShop ? product.productLink : `/product/${product.productLink}`}`}
             target={`${linkToBlizzardGearShop ? '_target' : '_self'}`}
             className={`${productHorizontalLayout && 'col-[1_/span_4]'} ${overwatch2ShopProducts && 'overwatch2-shop-products'}
-              ${twoProductsInRow && 'two-products-in-row'} ${threeProductsInRow && 'three-products-in-row'} 
-              ${fromTwoToFourProductsInRow && 'from-two-to-four-products-in-row'} ${productHorizontalLayout ? 'grid grid-cols-[2fr_1fr]' : 'flex flex-col'}
-              ${threeAndTwoProductsInRow && 'three-and-two-products-in-row'} group relative cursor-pointer rounded 
-              bg-mediumGray transition-colors hover:bg-borderGray`}
+            ${twoProductsInRow && 'w-twoProductsInRow'} ${threeProductsInRow && 'w-threeProductsInRow'} 
+            ${fromTwoToFourProductsInRow && 'from-two-to-four-products-in-row'} ${productHorizontalLayout ? 'grid grid-cols-[2fr_1fr]' : 'flex flex-col'}
+            ${threeAndTwoProductsInRow && 'three-and-two-products-in-row'} group relative cursor-pointer rounded 
+            bg-mediumGray transition-colors hover:bg-borderGray`}
             key={productIndex}
           >
             <div className={`row-[1_/_span_2] relative ${!productHorizontalLayout && 'pt-[56.25%]'}`}>
@@ -76,7 +81,7 @@ const Products: FC<Props> = ({
               }
               {product.deal
                 &&
-                <span className='product-type bg-[#6DDB03]'>
+                <span className='product-type bg-green'>
                   {product.deal}
                 </span>
               }
@@ -143,11 +148,11 @@ const Products: FC<Props> = ({
               </div>
             }
 
-            {product.buttonText
+            {product.linkText
               &&
               <div className='p-6'>
                 <button className='blue-button p-1 blue-button-hover' type='button'>
-                  {product.buttonText}
+                  {product.linkText}
                 </button>
               </div>
             }

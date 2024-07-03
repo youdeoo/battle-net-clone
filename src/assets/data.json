@@ -47,6 +47,7 @@
                 "deal": "Great Deal",
                 "productData": {
                   "productName": "World of Warcraft®: Welcome to Azeroth Bundle",
+                  "icon": "/games-logo/warcraft/wow.png",
                   "grayText": "Bundles",
                   "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
                   "price": "$22.99",
@@ -136,6 +137,7 @@
                 "price": "Play For Free",
                 "productData": {
                   "productName": "World of Warcraft®: Free Trial",
+                  "icon": "/games-logo/warcraft/wow.png",
                   "grayText": "Massively Multiplayer RPG",
                   "yellowText": "Play free up to level 20!",
                   "buyProductButton": "Play For Free",
@@ -172,8 +174,8 @@
                       "/product-page/warcraft/world-of-warcraft/free-trial/common-images/image.png"
                     ],
                     "thumbs": [
-                      "/product-page/warcraft/world-of-warcraft/free-trial/thumbs/image-1.png",
-                      "/product-page/warcraft/world-of-warcraft/free-trial/thumbs/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-4.png",
                       "/product-page/warcraft/world-of-warcraft/free-trial/common-images/image.png"
                     ]
                   },
@@ -218,6 +220,7 @@
                 "newProduct": "New",
                 "productData": {
                   "productName": "World of Warcraft®: The War Within™",
+                  "icon": "/games-logo/warcraft/wow.png",
                   "grayText": "Massively Multiplayer RPG",
                   "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                   "price": [
@@ -555,7 +558,259 @@
                 "heading": "World of Warcraft® Classic",
                 "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Massively Multiplayer RPG",
-                "price": "Learn More"
+                "price": "Learn More",
+                "productData": {
+                  "productName": "World of Warcraft®: Subscription",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Subscriptions",
+                  "yellowText": "Includes access to World of Warcraft, Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
+                  "price": [
+                    {
+                      "productName": "12 - Month Offer",
+                      "amount": "$12.99/month",
+                      "additionalInfo": "Save $24.00 per year",
+                      "image": "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-2.png"
+                    },
+                    {
+                      "productName": "6 - Month Offer",
+                      "amount": "$12.99/month",
+                      "additionalInfo": "Save $24.00 per year",
+                      "image": "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-3.png"
+                    },
+                    {
+                      "productName": "3 - Month Offer",
+                      "amount": "$13.99/month",
+                      "additionalInfo": "Save $12.00 per year",
+                      "image": "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-1.png"
+                    },
+                    {
+                      "productName": "1 - Month Offer",
+                      "amount": "$14.99/month",
+                      "image": "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-1.png"
+                    }
+                  ],
+                  "subscriptionPriceInformation": [
+                    {
+                      "discountPrice": "$131.88",
+                      "defaultPrice": "$155.88",
+                      "discountPercent": "-15%",
+                      "text": "Billed every 12 months. Cancel online anytime."
+                    },
+                    {
+                      "discountPrice": "$65.94",
+                      "defaultPrice": "$77.94",
+                      "discountPercent": "-15%",
+                      "text": "Billed every 6 months. Cancel online anytime."
+                    },
+                    {
+                      "discountPrice": "$35.97",
+                      "defaultPrice": "$37.97",
+                      "discountPercent": "-7%",
+                      "text": "Billed every 3 months. Cancel online anytime."
+                    },
+                    {
+                      "defaultPrice": "$12.99",
+                      "text": "Billed every 1 month. Cancel online anytime."
+                    }
+                  ],
+                  "buyProductButton": "Subscribe Now",
+                  "giftProductButton": "Try",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "ENDLESS ADVENTURE TOGETHER",
+                  "descriptions": [
+                    "Join millions of players and enter a world of myth, magic, and endless adventure. With a single subscription you can access World of Warcraft and WoW Classic, including Cataclysm Classic, Season of Discovery, and Hardcore Realms.",
+                    "Cataclysm Classic is live! From the fires of destruction, a new era of Azeroth arises. Subscribe now to experience a dramatically reforged Azeroth and defend it from the utter devastation of Deathwing!",
+                    "Take to the skies in World of Warcraft: Dragonflight, get the expansion now and join forces with the dragonflights of Azeroth as they return to the Dragon Isles, a lost realm of magic and wonder.",
+                    "When you purchase a 12-Month Subscription Offer, you receive the Ginormous Grrloc, Gleaming Moonbeast and Wondrous Wavewhisker mounts in World of Warcraft, plus, the Nightmarish Emerald Drake mount and the Glub pet in Cataclysm Classic. In addition, you will also get all the benefits from the current 6-Month Subscription Offer, including the Auspicious Arborwyrm mount with dynamic flight!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "For Special Offers, additional restrictions may apply"
+                    },
+                    {
+                      "link": false,
+                      "text": "Subscription includes levels 1-60 in World of Warcraft®, 1-60 in World of Warcraft® Classic, and 1-85 in World of Warcraft®: Cataclysm Classic™"
+                    },
+                    {
+                      "link": false,
+                      "text": "Subscription renews automatically once your latest subscription billing cycle ends, or your current game time expires"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/EZXUndkmmBw",
+                      "https://www.youtube.com/embed/Jzc9YScvao4",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-3.png",
+                      "https://www.youtube.com/embed/KSObExScCEY"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/common-images/image-4.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/subscription/thumbs/image.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-2.png",
+                        "/product-page/warcraft/world-of-warcraft/subscription/common-images/image-3.png",
+                        "/product-page/warcraft/world-of-warcraft/subscription/table/image-1.png",
+                        "/product-page/warcraft/world-of-warcraft/subscription/table/image-2.png"
+                      ],
+                      "headings": [
+                        "World of Warcraft® Subscription - 12-Month Offer",
+                        "World of Warcraft® Subscription - 6-Month Offer",
+                        "World of Warcraft® Subscription - 3 Months",
+                        "World of Warcraft® Subscription - 1 Month"
+                      ],
+                      "prices": [
+                        "$12.99/month",
+                        "$12.99/month",
+                        "$13.99/month",
+                        "$14.99/month"
+                      ],
+                      "linkTexts": [
+                        "Subscribe Now",
+                        "Subscribe Now",
+                        "Subscribe Now",
+                        "Subscribe Now"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "Play World of Warcraft®",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Play Cataclysm Classic™",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Play World of Warcraft® Classic",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Play Classic Season of Discovery",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Play Classic Hardcore Realms",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "500 Trader's Tender per month",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Reduced monthly subscription rate (see pricing above)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Auspicious Arborwyrm mount with dynamic flight in World of Warcraft®",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Cypress pet in Cataclysm Classic™",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Wondrous Wavewhisker mount in World of Warcraft®",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Included with Subscription",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/subscription/features/image-1.png",
+                          "heading": "World of Warcraft®",
+                          "description": "Play World of Warcraft with access to every expansion through Shadowlands. Create your hero, embark on daring adventures, and rise to new heights of power as you level up your character. When you're ready for even more adventure, upgrade to the latest WoW expansion and begin your journey to the mystical Dragon Isles."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/subscription/features/image-2.png",
+                          "heading": "Season of Discovery",
+                          "description": "The time has come to gather your friends, create a new character, and scour the lands of Azeroth to discover class-altering abilities, new endgame activities, and a new Rune Engraving system."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/subscription/features/image-3.png",
+                          "heading": "Classic Hardcore Realms",
+                          "description": "Test your mettle and nerves with the ultimate challenge! On Hardcore realms, death is permanent, but friendships built along the way will last forever. No rezzes, no regrets!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Subscription includes levels 1-60 in World of Warcraft®, 1-60 in World of Warcraft® Classic, and 1-85 in World of Warcraft®: Cataclysm Classic™",
+                    "Savings claims based on comparison with 1-Month Subscription price. \"BEST VALUE\" claim based on monthly subscription rate and in-game benefits included in 12-Month Offer.",
+                    "Subscription renews automatically once your latest subscription billing cycle ends, or your current game time expires"
+                  ]
+                }
               }
             ]
           },
@@ -598,7 +853,174 @@
                 "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
                 "grayText": "Game Upgrades",
                 "price": "$29.99",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Cataclysm Classic™ Upgrades",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "grayText": "Game Upgrades",
+                  "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
+                  "price": [
+                    {
+                      "productName": "Blazing Epic Upgrade",
+                      "amount": "$79.99",
+                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png"
+                    },
+                    {
+                      "productName": "Blazing Heroic Pack",
+                      "amount": "$29.99",
+                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "subscribeButton": "Subscribe Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Rise against impossible odds",
+                  "descriptions": [
+                    "Cataclysm Classic™ is now live and included in your WoW Subscription or game time!",
+                    "The maddened Deathwing the Destroyer has erupted from his lair once again, shattering Azeroth as we know it. Continue your WoW Classic journey into a new era of fire and destruction. This time, however, you’ll enjoy a much faster content cadence, improvements to Leveling, expanded Collections, and more.",
+                    "In addition, optional Blazing Epic and Heroic Upgrades will heat up your experience with a haul of hot new items and bonuses."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "¹Available in WoW® Classic progression realms (currently Cataclysm Classic™)."
+                    },
+                    {
+                      "link": false,
+                      "text": "²Available in modern World of Warcraft® realms."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/8XT7Q9Am8yM",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-1.png",
+                      "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
+                      "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-4.png"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/thumbs/image.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-3.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-4.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/table/image-1.png",
+                        "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/table/image-2.png"
+                      ],
+                      "headings": [
+                        "Blazing Heroic Pack",
+                        "Blazing Epic Upgrade"
+                      ],
+                      "prices": [
+                        "$29.99",
+                        "$79.99"
+                      ],
+                      "linkTexts": [
+                        "Buy Now",
+                        "Buy Now"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "Avatar of Flame Flying Mount¹",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Runebound Firelord Flying Mount for Modern World of Warcraft Characters²",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Lil' Wrathion Pet¹",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Lil' Wrathion Pet for Modern World of Warcraft® Characters²",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Twilight's Hammer Regalia Transmog Set",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Town-In-A-Box Starter Set Toy",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "Level 80 Character Boost ",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      },
+                      {
+                        "name": "30 Days of Game Time",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      }
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Upgrade Now",
+                      "secondHeading": "Ignite your journey with these fiery upgrades.",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-1.png",
+                          "heading": "Cataclysm Classic",
+                          "description": "Cataclysm Classic will be included with a World of Warcraft Subscription or Game Time at no additional cost once the game launches."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-3.png",
+                          "heading": "Blazing Heroic Pack",
+                          "description": "The Blazing Heroic Pack includes Lil' Wrathion pet for both WoW Classic progression¹ and modern World of Warcraft characters², the Avatar of Flame flying mount¹ for WoW Classic progression characters, and a Runebound Firelord flying mount for modern World of Warcraft characters². WoW Classic progression characters will also enjoy Hammer Regalia Transmog Set and Town-In-A-Box Starter Set toy."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-2.png",
+                          "heading": "Blazing Epic Upgrade",
+                          "description": "The Blazing Epic Upgrade includes everything in the Blazing Heroic Pack, plus a Level 80 Character Boost and 30 days of game time."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "¹Available in WoW® Classic progression realms (currently Cataclysm Classic™).",
+                    "²Available in modern World of Warcraft® realms."
+                  ]
+                }
               },
               {
                 "productLink": "world-of-warcraft-the-mighty-kodo-pack",
@@ -608,7 +1030,66 @@
                 "heading": "The Mighty Kodo Pack",
                 "yellowText": "Time to hoof it!",
                 "grayText": "Bundles",
-                "price": "$25.00"
+                "price": "$25.00",
+                "productData": {
+                  "productName": "The Mighty Kodo Pack",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Bundles",
+                  "yellowText": "Time to hoof it!",
+                  "price": "$25.00",
+                  "buyProductButton": "Subscribe Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Like a kodo in a crystal shop",
+                  "descriptions": [
+                    "Add a new kodo-rable pet and mount pack to your Collection! Far from being merely beasts of burden, the kodos of Kalimdor are also fierce companions and loyal mounts—though less helpful where finesse might be required.",
+                    "Whether you're riding the Armored Siege Kodo into battle, or frolicking about with the Crushhoof pet, one thing's for sure—these mighty beasts will always have your back."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/kodo-pack/common-images/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "A pair of steadfast companions",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/kodo-pack/features/image-1.png",
+                          "heading": "Crushhoof pet",
+                          "description": "Enjoy the joyful company of this rambunctious pet! You can also use the brave Crushhoof in pet battles, the fast and fun mini-game in World of Warcraft."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/kodo-pack/common-images/image.png",
+                          "heading": "Armored Siege Kodo mount",
+                          "description": "Ride in confidence astride this fearsome mount of hulking proportions. The Armored Siege Kodo is a ground mount that automatically scales to the fastest riding skill known by each character."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/kodo-pack/features/image-2.png",
+                          "heading": "Shared across characters",
+                          "description": "The Crushhoof pet and the Armored Siege Kodo mount will be ready to use immediately after purchasing. Once activated, they will be applied to present and future World of Warcraft characters on a single regional Battle.net account. They will appear in each character's Collections interface (Shift+P)."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               }
             ]
           },
@@ -625,7 +1106,66 @@
                 "yellowText": "Also available at no additional charge with 6 and 12-Month Subscriptions!",
                 "grayText": "Mounts",
                 "price": "$25.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Auspicious Arborwyrm",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Mounts",
+                  "yellowText": "Also available at no additional charge with 6 and 12-Month Subscriptions!",
+                  "price": "$25.00",
+                  "buyProductButton": "Subscribe Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Good things come to those who wait",
+                  "descriptions": [
+                    "Soar the skies of Azeroth in style with dynamic flight! Sprouting to life only once every sixty years, this living wooden mount combines the patience of a tree and the grace of a dragon.",
+                    "Get this steadfast mount to use in World of Warcraft®, as well as the Cypress pet to keep you company in Wrath of the Lich King Classic™, at no additional charge with the purchase of a 6-Month or 12-Month subscription!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/arborwyrm/common-images/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Ride into battle",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/arborwyrm/common-images/image.png",
+                          "heading": "Ready to go!",
+                          "description": "Auspicious Arborwyrm will be available immediately after completing your purchase."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/arborwyrm/features/image-1.png",
+                          "heading": "Shared across characters",
+                          "description": "Once activated, the mount will be applied to present and future World of Warcraft characters on a single regional Battle.net account. Auspicious Arborwyrm will appear in each character's Collections interface (Shift+P)."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/arborwyrm/features/image-2.png",
+                          "heading": "Automatically upgrades",
+                          "description": "Auspicious Arborwyrm includes dynamic flight and automatically scales to the fastest riding skill known by each character. If they aren't high enough level to use as a flying mount, Auspicious Arborwyrm is also a ground mount."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               },
               {
                 "productLink": "world-of-warcraft-mount-tangled-dreamweaver",
@@ -634,61 +1174,64 @@
                 "productGameName": "World of Warcraft",
                 "heading": "Tangled Dreamweaver",
                 "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-wondrous-wavewhisker",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-3.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Wondrous Wavewhisker",
-                "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-dread-raven",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-4.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Dread Raven",
-                "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-enchanted-fey-dragon",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-5.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Enchanted Fey Dragon",
-                "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-ensorcelled-everwym",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-6.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Ensorcelled Everwyrm",
-                "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-heart-of-the-aspects",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-7.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Heart of the Aspects",
-                "grayText": "Mounts",
-                "price": "$25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-mount-hogrus-swine-of-good-fortune",
-                "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-8.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Hogrus, Swine of Good Fortune",
-                "grayText": "Mounts",
-                "price": "$25.00"
+                "price": "$25.00",
+                "productData": {
+                  "productName": "Tangled Dreamweaver",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Mounts",
+                  "price": "$25.00",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "One dreamy dragon",
+                  "descriptions": [
+                    "The last of the sleepers is finally awakening! Watch your dreams become reality as you take to the skies on the Tangled Dreamweaver, bringing the dreams of the dragons back to the lands."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/dreamweaver/slides/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Ride into Battle",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/dreamweaver/features/image-1.png",
+                          "heading": "Ready to go!",
+                          "description": "Tangled Dreamweaver will be available immediately after completing your purchase."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/dreamweaver/features/image-2.png",
+                          "heading": "Shared across characters",
+                          "description": "Once activated, the mount will be applied to present and future World of Warcraft characters on a single regional Battle.net account. Tangled Dreamweaver will appear in each character's Collections interface (Shift+P)."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/dreamweaver/features/image-3.png",
+                          "heading": "Automatically upgrades",
+                          "description": "Tangled Dreamweaver automatically scales to the fastest riding skill known by each character. If they aren't high enough level to use a flying mount, Tangled Dreamweaver is also a ground mount."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               }
             ]
           },
@@ -703,7 +1246,64 @@
                 "productGameName": "World of Warcraft",
                 "heading": "Murkastrasza",
                 "grayText": "Pets",
-                "price": "$10.00"
+                "price": "$10.00",
+                "productData": {
+                  "productName": "Murkastrasza",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Pets",
+                  "price": "$10.00",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "A fiery little queen",
+                  "descriptions": [
+                    "Add some fiery flair to your adventures with Murkastrasza, hatch-queen of the baby murlocs. Support her with a /cheer to see her show off her fantastic flame breath!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/murkastrasza/slides/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Your cuddly companion",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/murkastrasza/features/image-1.png",
+                          "heading": "Ready to be at your side",
+                          "description": "Murkastrasza will join you immediately after your purchase and you can start exploring Azeroth together right away!"
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/murkastrasza/features/image-2.png",
+                          "heading": "Shared across characters",
+                          "description": "Once activated, Murkastrasza will be applied to present and future World of Warcraft characters on a single regional Battle.net account. It will appear in each character's Collections interface (Shift+P)."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/murkastrasza/features/image-3.png",
+                          "heading": "Ready to fight!",
+                          "description": "You can use Murkastrasza in pet battles, the fast and fun mini-game in World of Warcraft."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               },
               {
                 "productLink": "world-of-warcraft-pet-alterac-brew-up",
@@ -712,25 +1312,65 @@
                 "productGameName": "Alterac Brew Pup",
                 "heading": "World of Warcraft",
                 "grayText": "Pets",
-                "price": "$10.00"
-              },
-              {
-                "productLink": "world-of-warcraft-pet-anima-wyrmling",
-                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-3.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Anima Wyrmling",
-                "grayText": "Pets",
-                "price": "$10.00"
-              },
-              {
-                "productLink": "world-of-warcraft-pet-argi",
-                "image": "/products-categories/warcraft/world-of-warcraft/pets/image-4.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Argi",
-                "grayText": "Pets",
-                "price": "$10.00"
+                "price": "$10.00",
+                "productData": {
+                  "productName": "Alterac Brew Pup",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Pets",
+                  "price": "$10.00",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Charitable canine companionship",
+                  "descriptions": [
+                    "Descended from a long pedigree of champion rescue hounds, the Alterac Brew Pup has a nose for finding travelers in distress in the high altitudes of the Alterac Mountains. However, it's the massive pup's ability to reignite your soul with its \"warm spirits\" on a cold night that will make this furry friend your most trusted and treasured companion."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/alterac/common-images/image.png",
+                      "https://www.youtube.com/embed/1ALvJToyx-0"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/world-of-warcraft/alterac/common-images/image.png",
+                      "/product-page/warcraft/world-of-warcraft/alterac/thumbs/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Your Cuddly Companion",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/alterac/features/image-1.png",
+                          "heading": "Ready to be unleashed!",
+                          "description": "The Alterac Brew Pup will be available immediately after completing your purchase. No papers to sign, and it's already had all its shots!"
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/alterac/features/image-2.png",
+                          "heading": "Shared Across Characters",
+                          "description": "Once activated, your purchase will be applied to present and future World of Warcraft® characters on a single regional Battle.net Account. It will appear in each character's Collections interface (Shift+P in the default key binding)."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/alterac/features/image-3.png",
+                          "heading": "Always up for a fight",
+                          "description": "You can use the Alterac Brew Pup in pet battles, the fast and fun combat game in World of Warcraft that grants rewards and opens up daily quests."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               }
             ]
           },
@@ -747,33 +1387,6 @@
                 "grayText": "Toys",
                 "price": "$10.00",
                 "newProduct": "New"
-              },
-              {
-                "productLink": "world-of-warcraft-pet-eternal-travelers-hearthstone-effect",
-                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-2.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Eternal Traveler's Hearthstone Effect",
-                "grayText": "Toys",
-                "price": "$5.00"
-              },
-              {
-                "productLink": "world-of-warcraft-pet-timewalker-hearthstone-effect",
-                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-3.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Timewalker's Hearthstone Effect",
-                "grayText": "Toys",
-                "price": "$5.00"
-              },
-              {
-                "productLink": "world-of-warcraft-pet-transmorpher-beacon",
-                "image": "/products-categories/warcraft/world-of-warcraft/toys/image-4.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Transmorpher Beacon",
-                "grayText": "Toys",
-                "price": "$10.00"
               }
             ]
           },
@@ -790,36 +1403,6 @@
                 "grayText": "Transmogs",
                 "price": "$20.00",
                 "newProduct": "New"
-              },
-              {
-                "productLink": "world-of-warcraft-transmog-the-dreadlords-regalia-pack",
-                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-2.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "The Dreadlord's Regalia Pack",
-                "yellowText": "Includes Two Color Variants!",
-                "grayText": "Transmogs",
-                "price": "$20.00",
-                "newProduct": "New"
-              },
-              {
-                "productLink": "world-of-warcraft-transmog-diadem-of-the-spell-keeper",
-                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-3.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Diadem of the Spell-Keeper",
-                "grayText": "Transmogs",
-                "price": "$8.00"
-              },
-              {
-                "productLink": "world-of-warcraft-transmog-wings-of-awakening",
-                "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-4.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Wings of Awakening",
-                "yellowText": "Includes five color variants!",
-                "grayText": "Transmogs",
-                "price": "$15.00"
               }
             ]
           },
@@ -836,36 +1419,6 @@
                 "yellowText": "Get the Enhanced Character Boost and jump into Dragonflight endgame ready!",
                 "grayText": "Game Service",
                 "price": "From $60.00"
-              },
-              {
-                "productLink": "world-of-warcraft-service-character-transfer",
-                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-2.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Character Transfer",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Game Service",
-                "price": "From $25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-service-race-change",
-                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-3.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Race Change",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Game Service",
-                "price": "From $25.00"
-              },
-              {
-                "productLink": "world-of-warcraft-service-faction-change",
-                "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-4.png",
-                "icon": "/games-logo/warcraft/wow.png",
-                "productGameName": "World of Warcraft",
-                "heading": "Faction Change",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Game Service",
-                "price": "From $25.00"
               }
             ]
           },

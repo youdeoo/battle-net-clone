@@ -8,98 +8,171 @@
     scroll-behavior: smooth;
   }
 
-  body {
-    @apply bg-darkBlue;
+  body {    
+    background-color: theme(colors.darkBlue);
   }
 }
-
+  
 @layer components {
-  .header-link {
-    @apply flex items-center gap-3 rounded-md cursor-pointer py-3 px-2 transition-colors hover:bg-mediumGray;
+  .header-link { 
+    display: flex;
+    align-items: center;    
+    gap: theme(gap.3);
+    border-radius: theme(borderRadius.md);
+    cursor: pointer;
+    padding: .75rem .5rem;
+    transition: background-color .15s ease-in-out;
+
+    &:hover {
+      background-color: theme(colors.mediumGray);
+    }
   }
 
-  .menu-option {
-    @apply relative cursor-pointer p-[1.125rem] hover:bg-lightGrayBackground;
+  .menu-option {    
+    position: relative;
+    cursor: pointer;
+    padding: 1.125rem;
+
+    &:hover {
+      background-color: theme(colors.lightGrayBackground);
+    }
   }
 
   .menu-element-on-hover {
-    @apply invisible absolute top-[2.8rem] z-10 min-w-[17.5rem] pt-[1.2rem] opacity-0
-    group-hover:visible group-hover:opacity-100 transition-all; 
+    visibility: hidden;
+    position: absolute;
+    top: 2.8rem;
+    z-index: 10;
+    min-width: 17.5rem;
+    padding-top: 1.2rem;
+    opacity: 0;
+    transition: all .15s ease-in-out;    
   }
 
   .battle-net-panel {
-    @apply grid grid-cols-[60fr_40fr] items-center justify-center max-w-[1440px] gap-10
-    px-10 py-20 m-auto;
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    gap: theme(gap.10);
+    padding: 5rem 2.5rem;
+    margin: 0 auto;    
   }
 
   .border-panel {
-    @apply  border-b border-t border-t-borderGray border-b-borderGray;
+    border-top: 1px solid theme(colors.borderGray);
+    border-bottom: 1px solid theme(colors.borderGray); 
   }
 
   .background-image-styles {
-    @apply bg-no-repeat bg-cover bg-center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .blue-button {
-    @apply w-full font-bold rounded text-white bg-lightBlue p-3 transition-transform;
+    width: theme(width.full);
+    font-weight: theme(fontWeight.bold);
+    border-radius: theme(borderRadius.DEFAULT);
+    color: theme(colors.white);
+    background-color: theme(colors.lightBlue);
+    padding: theme(padding.3);
+    transition: transform .15s ease-in-out;
   }
 
   .blue-button-hover {
-    @apply border-[2px] border-lightBlue transition-all hover:border-[#47A6FF];
+    border: 2px solid theme(colors.lightBlue);
+    transition: all .15s ease-in-out;
+
+    &:hover {
+      border-color: #47A6FF;
+    }
   }
 
   .learn-more-button {
-    @apply text-xl font-bold bg-[#2E3345] rounded px-10 py-5 transition-transform;
+    font-size: theme(fontSize.xl);
+    font-weight: theme(fontWeight.bold);
+    background-color: #2E3345;
+    border-radius: theme(borderRadius.DEFAULT);
+    padding: 1.25rem 2.5rem;
+    transition: transform .15s ease-in-out;
   }
 
   .learn-more-button-hover {
-    @apply border-[2px] border-[#292F3B] transition-all hover:border-[#57586C];
+    border: 2px solid #292F3B;
+    transition: all .15s ease-in-out;
+
+    &:hover {
+      border-color: #57586C;
+    }
   }
 
   .product-page-grid-section {
-    @apply grid grid-cols-[25%_75%] border-b border-borderGray pb-16 mt-16;
-  }
-
-  .two-products-in-row {
-    @apply w-[calc((100%-24px)/2)];
-  }
-
-  .three-products-in-row {
-    @apply w-[calc((100%-48px)/3)];
-  }
-
-  .four-products-in-row {
-    @apply w-[calc((100%-72px)/4)];
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-bottom: 1px solid theme(colors.borderGray);
+    padding-bottom: 4rem;
+    margin-top: 4rem;
   }
 
   .three-and-two-products-in-row {
-    @apply first-of-type:three-products-in-row [&:nth-child(2)]:three-products-in-row
-    [&:nth-child(3)]:three-products-in-row four-products-in-row;
+    width: theme(width.fourProductsInRow);
+
+    &:first-of-type {
+      width: theme(width.threeProductsInRow);
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      width: theme(width.threeProductsInRow);
+    }   
   }
 
   .from-two-to-four-products-in-row {
-    @apply first-of-type:two-products-in-row [&:nth-child(2)]:two-products-in-row 
-    [&:nth-child(3)]:three-products-in-row [&:nth-child(4)]:three-products-in-row
-    [&:nth-child(5)]:three-products-in-row four-products-in-row;
+    width: theme(width.fourProductsInRow);
+
+    &:first-of-type,
+    &:nth-child(2) {
+      width: theme(width.twoProductsInRow);
+    }
+
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      width: theme(width.threeProductsInRow);
+    }   
   }
 
   .overwatch2-shop-products {
-    @apply first-of-type:w-full [&:nth-child(2)]:two-products-in-row [&:nth-child(3)]:two-products-in-row
-    four-products-in-row;
+    width: theme(width.fourProductsInRow);
+
+    &:first-of-type {
+      width: theme(width.full);
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      width: theme(width.twoProductsInRow);
+    }     
   }
 
   .product-type {
-    @apply absolute top-[.6rem] left-[.6rem] text-xs uppercase text-white font-bold tracking-wide 
-    rounded-md py-1 px-2;
+    position: absolute;
+    top: .6rem;
+    left: .6rem;
+    font-size: theme(fontSize.xs);
+    text-transform: uppercase;
+    color: theme(colors.white);
+    font-weight: theme(fontWeight.bold);
+    letter-spacing: theme(letterSpacing.wide);
+    border-radius: theme(borderRadius.md);
+    padding: .25rem .5rem;    
   }
 
   .disable-button {
-    @apply pointer-events-none border-mediumGray;
-  }
-
-  .handle-visible-for-swiper-element {
-    @apply invisible opacity-0 transition-all duration-[300ms] 
-    group-hover:visible group-hover:opacity-100;
+    pointer-events: none;
+    border-color: theme(colors.mediumGray);
   }
 
   .swiper-pagination {
@@ -107,13 +180,32 @@
   }
 
   .swiper-pagination-numbers {
-    @apply absolute z-[2] bottom-[.5rem] left-1/2 translate-x-[-50%] size-fit text-xs font-bold 
-    text-white bg-darkBlue py-1 px-2 rounded handle-visible-for-swiper-element;
+    position: absolute;
+    z-index: 2;
+    bottom: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: theme(width.fit);
+    height: theme(height.fit);
+    font-size: theme(fontSize.xs);
+    font-weight: theme(fontWeight.bold);
+    color: theme(colors.white);
+    background-color: theme(colors.darkBlue);
+    padding: .25rem .5rem;
+    border-radius: theme(borderRadius.DEFAULT);
   }
 
   .swiper-slide-thumb-active {
-    @apply before:content-[""] before:absolute before:bottom-[-.5rem] before:left-0 
-    before:bg-lighterBlue before:w-full before:h-[5px] before:rounded;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -.5rem;
+      left: 0;
+      background-color: theme(colors.lighterBlue);
+      width: theme(width.full);
+      height: 5px;
+      border-radius: theme(borderRadius.DEFAULT);
+    }
   }
 
   .custom-bullet {
@@ -126,25 +218,54 @@
   }
 
   .swiper-button {
-    @apply absolute top-[50%] z-20 flex justify-center items-center w-20 h-11 bg-darkBlue
-     border-button-and-box-shadow rounded-md border translate-y-[-50%] handle-visible-for-swiper-element;
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: theme(width.20);
+    height: theme(height.11);
+    background-color: theme(colors.darkBlue);
+    border-radius: theme(borderRadius.md);
+    border-width: 1px;
+    transform: translateY(-50%);   
+  }
+
+  .swiper-scrollbar {
+    @apply left-0 flex items-center w-full rounded border border-lighterBorderGray h-5 px-2 !important;
+  }
+
+  .swiper-scrollbar-hidden {
+    @apply hidden !important;
+  }
+
+  .swiper-scrollbar-drag {
+    @apply cursor-grab bg-borderGray h-2 transition-colors hover:bg-lighterBorderGray !important;
   }
 
   .border-button-and-box-shadow {
-    @apply border border-lighterBorderGray hover:shadow-[inset_0_0_0_1px] hover:shadow-lightestBorderGray 
-    hover:border-lightestBorderGray;
+    border: 1px solid theme(colors.lighterBorderGray);
+
+    &:hover {
+      box-shadow: inset 0 0 0 1px theme(colors.lightestBorderGray);
+      border-color: theme(colors.lightestBorderGray);
+    }
   }
 
   .hover-light-gray-background {
-    @apply rounded-md cursor-pointer transition-colors hover:bg-lightGrayBackground;
+    border-radius: theme(borderRadius.md);
+    cursor: pointer;
+    transition: background-color .15s ease-in-out;
+
+    &:hover {
+      background-color: theme(colors.lightGrayBackground);
+    }
   }
 
   .active-translate-y {
-    @apply active:translate-y-[1px];
-  }
-
-  .active-left-border {
-    @apply before:content-[""] before:absolute before:top-0 before:left-[.2px] before:h-full before:rounded-tl-md 
-    before:rounded-bl-md before:active:border-l-[3px] before:active:border-l-lightBlue;
-  }
+    &:active {
+      transform: translateY(1px);
+    }
+  }  
 }

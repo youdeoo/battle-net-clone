@@ -1,6 +1,6 @@
 type TProductCarousel = {
   slides: Array<string>;
-  thumbs: Array<string>;
+  thumbs?: Array<string>;
 }
 
 type TProductFeaturesData = Pick<TProduct, 'image'> & {
@@ -33,14 +33,25 @@ type TCompareProducts = {
 export type TProductDataPrice = Pick<TProduct, 'image'> & {
   productName: string;
   amount: string;
+  additionalInfo?: string;
+}
+
+type TSubscriptionPriceInformation = {
+  discountPrice?: string;
+  defaultPrice: string;
+  discountPercent?: string;
+  text: string;
 }
 
 type TProductData = {
   productName: string;
+  icon: TProduct['icon'];
   yellowText?: string;
   grayText: string;
   price?: string | Array<TProductDataPrice>;
+  subscriptionPriceInformation?: Array<TSubscriptionPriceInformation>;
   buyProductButton: string;
+  subscribeButton?: string;
   giftProductButton?: string;
   wishListButton?: string;
   descriptionHeading: string;
@@ -63,7 +74,7 @@ export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, '
   newProduct?: string;
   deal?: string;
   prePurchase?: string;
-  buttonText?: string;
+  linkText?: string;
   productData?: TProductData;
 }
 
@@ -121,7 +132,7 @@ export type TGameCarousel = {
   };
   icon: string;
   text?: string;
-  linkText?: string;
+  linkText: TProduct['linkText'];
   productLink?: string;
 }
 

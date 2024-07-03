@@ -1,21 +1,20 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { transformToLink } from '../../../lib/utils';
 import { TProductDataProp, TProduct } from '../../../types/types';
 import Price from './Price';
+import SubscriptionPriceInformation from './SubscriptionPriceInformation';
 import ProductButtons from './ProductButtons';
 
-type Prop = Pick<TProductDataProp, 'productData'> & {
-  product: TProduct;
-}
+const ProductInfo: FC<TProductDataProp> = ({ productData }) => {
+  const [markedProductIndex, setMarkedProductIndex] = useState(0);
 
-const ProductInfo: FC<Prop> = ({ product, productData }) => {
   return (
     <div>
       <div className='sticky top-[7.7rem] z-[1] grid gap-8'>
         <div className='flex gap-4'>
           <img
             className='max-w-12 size-12'
-            src={product.icon}
+            src={productData.icon}
             alt=''
             aria-hidden='true'
             loading='lazy'
@@ -38,10 +37,24 @@ const ProductInfo: FC<Prop> = ({ product, productData }) => {
           </p>
         }
 
-        <Price productData={productData} />
+        {productData.price
+          &&
+          <Price
+            productData={productData}
+            markedProductIndex={markedProductIndex}
+            setMarkedProductIndex={setMarkedProductIndex}
+          />
+        }
+        {productData.subscriptionPriceInformation
+          &&
+          <SubscriptionPriceInformation
+            productData={productData}
+            markedProductIndex={markedProductIndex}
+          />
+        }
         <ProductButtons productData={productData} />
 
-        <ul className='grid gap-3 bg-[#1c1e25] rounded p-8 list-disc'>
+        <ul className='grid gap-2 bg-[#1c1e25] rounded py-8 px-10 list-disc'>
           {productData?.productInfo.map((info, index) => (
             info.link
               ?

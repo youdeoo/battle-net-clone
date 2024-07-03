@@ -1,22 +1,27 @@
 import { FC, useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../state/store';
 import { allowTouchMoveOnCarousel } from '../../lib/utils';
 import { TProductDataProp } from '../../types/types';
 import { TSwiper } from '../../types/union';
 import ButtonsToCarouselSlides from '../../components/ButtonsToCarouselSlides';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Thumbs, FreeMode } from 'swiper/modules';
+import { Navigation, Pagination, Thumbs, FreeMode, Scrollbar } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
 import 'swiper/css/free-mode';
 import 'swiper/swiper-bundle.css';
+import 'swiper/css/scrollbar';
 
 const Carousel: FC<TProductDataProp> = ({ productData }) => {
+  const imagePath = useSelector((state: RootState) => state.productImagePath.imagePath);
   const [swiper, setSwiper] = useState<TSwiper>(null);
   const [thumbsSwiper, setThumbsSwiper] = useState<TSwiper>(null);
-
   const [firstSlide, setFirstSlide] = useState(true);
   const [lastSlide, setLastSlide] = useState(false);
+
+  const thumbnailListLong = (productData.productCarousel.thumbs?.length ?? 0) > 4;
 
   useEffect(() => {
     swiper?.on('slideChange', () => {
@@ -28,6 +33,11 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
       swiper?.off('slideChange');
     }
   }, [swiper]);
+
+  useEffect(() => {
+    productData.productCarousel.slides.map((image, index) =>
+      image === imagePath && swiper?.slideTo(index));
+  }, [swiper, imagePath]);
 
   return (
     <div className='group'>
@@ -72,42 +82,59 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
           </SwiperSlide>
         ))}
 
-        <ButtonsToCarouselSlides
-          swiper={swiper}
-          onlyOneSlideInCarousel={false}
-          firstSlide={firstSlide}
-          lastSlide={lastSlide}
-        />
-        <div className='swiper-pagination-numbers'></div>
+        {productData.productCarousel.slides.length > 1
+          &&
+          <>
+            <ButtonsToCarouselSlides
+              swiper={swiper}
+              onlyOneSlideInCarousel={false}
+              firstSlide={firstSlide}
+              lastSlide={lastSlide}
+            />
+            <div className='swiper-pagination-numbers invisible opacity-0 transition-all duration-300
+          group-hover:visible group-hover:opacity-100'
+            >
+            </div>
+          </>
+        }
       </Swiper>
 
-      <div className='relative'>
-        <Swiper
-          className='static grid mt-2 pb-2'
-          slidesPerView={4}
-          spaceBetween={16}
-          watchSlidesProgress={true}
-          freeMode={true}
-          slideActiveClass='.swiper-slide-thumb-active'
-          modules={[FreeMode, Thumbs]}
-          onSwiper={setThumbsSwiper}
-        >
-          {productData?.productCarousel.thumbs.map((slide, index) => (
-            <SwiperSlide
-              className='relative size-full cursor-pointer'
-              key={index}
-            >
-              <img
-                className='size-full rounded-md'
-                src={slide}
-                alt=''
-                aria-hidden='true'
-                loading='lazy'
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+      {productData.productCarousel.thumbs
+        &&
+        <div className='relative'>
+          <Swiper
+            className={`static grid mt-2 ${thumbnailListLong ? 'pb-12' : 'pb-4'}`}
+            slidesPerView={thumbnailListLong ? 4.5 : 4}
+            spaceBetween={16}
+            watchSlidesProgress={true}
+            freeMode={true}
+            scrollbar={{
+              horizontalClass: thumbnailListLong ? '.swiper-scrollbar' : 'swiper-scrollbar-hidden',
+              dragClass: '.swiper-scrollbar-drag',
+              draggable: true
+            }}
+            slideActiveClass='.swiper-slide-thumb-active'
+            modules={[FreeMode, Thumbs, Scrollbar]}
+            onSwiper={setThumbsSwiper}
+            allowTouchMove={allowTouchMoveOnCarousel}
+          >
+            {productData?.productCarousel.thumbs.map((slide, index) => (
+              <SwiperSlide
+                className='relative size-full cursor-pointer'
+                key={index}
+              >
+                <img
+                  className='size-full rounded-md'
+                  src={slide}
+                  alt=''
+                  aria-hidden='true'
+                  loading='lazy'
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      }
     </div>
   );
 }

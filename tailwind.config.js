@@ -23,7 +23,14 @@ export default {
         borderGray: '#2F3136',
         lighterBorderGray: '#67686B',
         lightestBorderGray: '#696B6F',
-        yellow: '#FFB400'
+        yellow: '#FFB400',
+        green: '#6DDB03',
+        lightGreen: '#6cdb00'
+      },
+      width: {
+        twoProductsInRow: 'calc((100% - 24px) / 2)',
+        threeProductsInRow: 'calc((100% - 48px) / 3)',
+        fourProductsInRow: 'calc((100% - 72px) / 4)'
       },
       keyframes: {
         displayRotateX: {

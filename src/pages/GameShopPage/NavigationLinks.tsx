@@ -48,7 +48,7 @@ const NavigationLinks: FC = () => {
               />
             </button>
 
-            <div className='menu-element-on-hover'>
+            <div className='menu-element-on-hover group-hover:visible group-hover:opacity-100'>
               <div className='bg-mediumBlue w-56 p-2 border border-borderGray rounded-md'>
                 {currentGamePageLinks.map((link, index) => (
                   <a href={`#${transformToLink(link)}`}

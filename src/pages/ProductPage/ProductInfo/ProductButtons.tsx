@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { TProductDataProp } from '../../types/types';
+import { TProductDataProp } from '../../../types/types';
 
 const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
 
@@ -12,24 +12,34 @@ const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
       >
         {productData?.buyProductButton}
       </Link>
-
+      {productData.subscribeButton
+        &&
+        <Link
+          to={''}
+          className='blue-button flex justify-center items-center gap-2 text-xl bg-lightGrayBackground p-2.5'
+        >
+          {productData.subscribeButton}
+        </Link>
+      }
       {productData.giftProductButton
         &&
         <Link
           to={''}
           className='blue-button flex justify-center items-center gap-2 text-xl bg-lightGrayBackground p-2.5'
         >
-          <img
-            className='size-full max-w-[1.125rem] brightness-[5]'
-            src='/icons/gift.svg'
-            alt=''
-            aria-hidden='true'
-            loading='lazy'
-          />
+          {productData.giftProductButton !== 'Try'
+            &&
+            <img
+              className='size-full max-w-[1.125rem] brightness-[5]'
+              src='/icons/gift.svg'
+              alt=''
+              aria-hidden='true'
+              loading='lazy'
+            />
+          }
           {productData?.giftProductButton}
         </Link>
       }
-
       {productData.wishListButton
         &&
         <Link

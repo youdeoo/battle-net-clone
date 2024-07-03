@@ -26,7 +26,7 @@ const MenuNavigation: FC = () => {
                 />
               </div>
 
-              <div className='menu-element-on-hover left-0'>
+              <div className='menu-element-on-hover left-0 group-hover:visible group-hover:opacity-100'>
                 <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
                   {data.games.map((gameData, gameDataIndex) => (
                     <Link
