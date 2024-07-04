@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { TProductDataProp } from '../../../types/types';
 
 const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
-
   return (
     <div className='grid gap-2'>
       <Link

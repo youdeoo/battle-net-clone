@@ -1,11 +1,12 @@
-import { FC, useState } from 'react';
+import { FC, useState, memo } from 'react';
+import { Link } from 'react-router-dom';
 import { transformToLink } from '../../../lib/utils';
-import { TProductDataProp, TProduct } from '../../../types/types';
+import { TProductDataProp } from '../../../types/types';
 import Price from './Price';
 import SubscriptionPriceInformation from './SubscriptionPriceInformation';
 import ProductButtons from './ProductButtons';
 
-const ProductInfo: FC<TProductDataProp> = ({ productData }) => {
+const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
   const [markedProductIndex, setMarkedProductIndex] = useState(0);
 
   return (
@@ -54,13 +55,29 @@ const ProductInfo: FC<TProductDataProp> = ({ productData }) => {
         }
         <ProductButtons productData={productData} />
 
+        {productData.mobileApps
+          &&
+          <div className='flex items-center justify-center gap-4'>
+            {productData.mobileApps.map((app, index) => (
+              <Link className='max-w-[10rem]' to={app.link} target='_blank' key={index}>
+                <img
+                  className='max-w-[10rem] w-full'
+                  src={app.image}
+                  alt=''
+                  loading='lazy'
+                />
+              </Link>
+            ))}
+          </div>
+        }
+
         <ul className='grid gap-2 bg-[#1c1e25] rounded py-8 px-10 list-disc'>
           {productData?.productInfo.map((info, index) => (
             info.link
               ?
               <li
-                key={index}
                 className='text-xs font-bold text-gray underline transition-colors hover:text-lightGray'
+                key={index}
               >
                 <a href={`#${transformToLink(info.text)}`}>
                   {info.text}
@@ -78,6 +95,6 @@ const ProductInfo: FC<TProductDataProp> = ({ productData }) => {
       </div>
     </div>
   );
-}
+})
 
 export default ProductInfo;

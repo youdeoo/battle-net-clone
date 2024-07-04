@@ -172,7 +172,7 @@ const GameShopPage: FC = () => {
       productInCategoryAtIndex('Overwatch 2', category, 'Overwatch 2 Shop', productIndex)
     ].some((fn) => fn);
   }
-  console.log('re re');
+
   return (
     <main>
       <ScrollToTopButton />

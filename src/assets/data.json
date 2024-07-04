@@ -863,12 +863,12 @@
                     {
                       "productName": "Blazing Epic Upgrade",
                       "amount": "$79.99",
-                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png"
+                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png"
                     },
                     {
                       "productName": "Blazing Heroic Pack",
                       "amount": "$29.99",
-                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png"
+                      "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png"
                     }
                   ],
                   "buyProductButton": "Buy Now",
@@ -905,14 +905,14 @@
                       "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-1.png",
                       "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
                       "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
-                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-4.png"
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-2.png"
                     ],
                     "thumbs": [
                       "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/thumbs/image.png",
                       "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-1.png",
-                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-2.png",
-                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-3.png",
-                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-4.png"
+                      "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
+                      "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
+                      "/product-page/warcraft/world-of-warcraft/wow-classic-cataclysm-upgrades/common-images/image-2.png"
                     ]
                   },
                   "compareProducts": {
@@ -1386,7 +1386,64 @@
                 "heading": "Magical Murkmorpher",
                 "grayText": "Toys",
                 "price": "$10.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Magical Murkmorpher",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Toys",
+                  "price": "$10.00",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Murkmorpher: Murlocs in Disguise",
+                  "descriptions": [
+                    "Make a mighty morphing moment for yourself or your party members when you deploy the Murkmorpher toy. Temporarily change your appearance into an ever-popular Westfall Story Murloc or other random colorful variant of the amphibious biped variety."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Transformation lasts 20 minutes, and stays active in combat and after death. Player characters can be transformed once every 60 minutes."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/world-of-warcraft/magical-murk/slides/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "What's in the Toy Box?",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/magical-murk/features/image-1.png",
+                          "heading": "Swim in murloc waters",
+                          "description": "The Magical Murkmorpher Toy will temporarily change your appearance into a random murloc. You could Murkmorph into a classic Westfall Story Murloc or a unique one with random colors."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/magical-murk/features/image-2.png",
+                          "heading": "Your own gaggle of murlocs",
+                          "description": "Once summoned, Magical Murkmorpher Toy will alter the shape of everyone in your party or raid group, should they so choose."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/magical-murk/features/image-3.png",
+                          "heading": "Shared across characters",
+                          "description": "The Magical Murkmorpher Toy will be available immediately after completing your purchase. Once activated, the toy will be granted to current and future World of Warcraft characters in the same region on a single Battle.net Account."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               }
             ]
           },
@@ -1402,7 +1459,54 @@
                 "heading": "Green Snugglefin Murloc Romper",
                 "grayText": "Transmogs",
                 "price": "$20.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Green Snugglefin Murloc Romper",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Transmogs",
+                  "price": "$20.00",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Green Snugglefin Murloc Romper",
+                  "descriptions": [
+                    "It's easy being green when you're this comfy. Don the Happy or Angry Hood to become one with your inner Murloc!",
+                    "Green Snugglefin Murloc Romper Includes"
+                  ],
+                  "descriptionList": [
+                    "Happy Green Snugglefin Murloc Hood",
+                    "Angry Green Snugglefin Murloc Hood",
+                    "Green Snugglefin Murloc Pullover",
+                    "Green Snugglefin Murloc Sweatpants"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft/transmogs/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/green-murloc/common-images/image.png"
+                    ],
+                    "thumbs": [
+                      "/products-categories/warcraft/world-of-warcraft/transmogs/image-1.png",
+                      "/product-page/warcraft/world-of-warcraft/green-murloc/common-images/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time"
+                  ]
+                }
               }
             ]
           },
@@ -1418,7 +1522,87 @@
                 "heading": "Enhanced Level 70 Character Boost",
                 "yellowText": "Get the Enhanced Character Boost and jump into Dragonflight endgame ready!",
                 "grayText": "Game Service",
-                "price": "From $60.00"
+                "price": "From $60.00",
+                "productData": {
+                  "productName": "Enhanced Level 70 Character Boost",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Game Service",
+                  "yellowText": "Get the Enhanced Character Boost and jump into Dragonflight endgame ready!",
+                  "price": [
+                    {
+                      "productName": "1 Character Boost",
+                      "amount": "$60.00"
+                    },
+                    {
+                      "productName": "2 Character Boosts",
+                      "amount": "$100.00"
+                    }
+                  ],
+                  "buyProductButton": "Subscribe Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Bring your hero up to speed",
+                  "descriptions": [
+                    "Grant a single character a one-time boost to level 70 and jump into the latest Dragonflight content endgame-ready! To boost multiple characters, buy a Character Boost pack and use them all at once or save some for later.",
+                    "An Enhanced Level 70 Character Boost is also included in all editions of the upcoming The War Within™ expansion.",
+                    "The Enhanced Level 70 Character Boost includes:"
+                  ],
+                  "descriptionList": [
+                    "Max level for Dragonflight (level 70)",
+                    "Immediate access to the start of the Guardians of the Dream campaign",
+                    "Endgame-ready item level 424 gear",
+                    "Four 30-slot bags and one 26-slot reagent bag",
+                    "Renown System unlocked at Renown 20 with the four initial Dragonflight major factions, and Renown 12 with Loamm Niffen faction"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Requires the Dragonflight expansion to utilize the level boost"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft/game-service/image-1.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Get Right Into the Action!",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/character-boost/features/image-1.png",
+                          "heading": "Take it to a new level",
+                          "description": "Purchase Level 70 Character Boosts from Battle.net or from the in-game Shop. Then, return to the character select screen and click on the Character Boost token."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/character-boost/features/image-2.png",
+                          "heading": "Select your character",
+                          "description": "Follow the on-screen prompts to boost your character and select custom options (such as talent specializations)."
+                        },
+                        {
+                          "image": "/product-page/warcraft/world-of-warcraft/character-boost/features/image-2.png",
+                          "heading": "Drop in battle ready",
+                          "description": "Take your new-found powers out for a spin and discover what you've been missing. Your new level 70 character will come ready for battle outfitted in endgame-appropriate gear. (Boosted characters are unable to enter dungeons and raids from previous expansions for 24 hours.)"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Requires the Dragonflight expansion to utilize the level boost"
+                  ]
+                }
               }
             ]
           },
@@ -1796,7 +1980,48 @@
                 "heading": "Auspicious Arborwyrm",
                 "grayText": "Mounts",
                 "price": "$25.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Auspicious Arborwyrm",
+                  "grayText": "Mounts",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$25.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Auspicious Arborwyrm",
+                  "descriptions": [
+                    "Sprouting to life only once every sixty years, this living wooden dragon combines the patience of a tree and the grace of a dragon in flight.",
+                    "Summons and dismisses a rideable Auspicious Arborwyrm flying mount.",
+                    "Auspicious Arborwyrm is shared across all present and future WoW® Classic Progression characters, and automatically scales to the fastest riding skill known by each character. If they aren't high enough level to use a flying mount, Auspicious Arborwyrm is also a ground mount."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-1.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               },
               {
                 "productLink": "wow-classic-mount-kaluak-whalebone-glider",
@@ -1806,7 +2031,47 @@
                 "heading": "Kalu'ak Whalebone Glider",
                 "grayText": "Mounts",
                 "price": "$25.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Kalu'ak Whalebone Glider",
+                  "grayText": "Mounts",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$25.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Kalu'ak Whalebone Glider",
+                  "descriptions": [
+                    "Summons and dismisses a rideable Kalu'ak Whalebone Glider.",
+                    "Kalu'ak Whalebone Glider is shared across all present and future WoW® Classic Progression characters, and automatically scales to the fastest riding skill known by each character. If they aren't high enough level to use a flying mount, Kalu'ak Whalebone Glider is also a ground mount."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-2.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               },
               {
                 "productLink": "wow-classic-mount-reawakened-phase-hunter",
@@ -1816,7 +2081,47 @@
                 "heading": "Re-Awakened Phase-Hunter Mount",
                 "grayText": "Mounts",
                 "price": "$25.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Re-Awakened Phase-Hunter Mount",
+                  "grayText": "Mounts",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$15.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Re-Awakened Phase-Hunter Mount",
+                  "descriptions": [
+                    "Summons and dismisses a rideable Re-Awakened Phase-Hunter ground mount.",
+                    "Re-Awakened Phase-Hunter Mount is shared across all present and future WoW® Classic Progression characters, and automatically scales to the fastest riding skill known by each character."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-3.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -1832,7 +2137,46 @@
                 "heading": "Pebble the Penguin",
                 "grayText": "Pets",
                 "price": "$10.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Pebble the Penguin",
+                  "grayText": "Pets",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$10.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Pebble the Penguin",
+                  "descriptions": [
+                    "Teaches you how to summon a peculiar penguin with a penchant for pebbles to your party."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/pets/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -1848,27 +2192,46 @@
                 "heading": "Dark Portal Hearthstone Effect",
                 "grayText": "Toys",
                 "price": "$10.00",
-                "newProduct": "New"
-              },
-              {
-                "productLink": "wow-classic-toy-fishspeakers-lucky-lure",
-                "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-2.png",
-                "icon": "/games-logo/warcraft/wow-classic.png",
-                "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Fishspeaker's Lucky Lure",
-                "grayText": "Toys",
-                "price": "$10.00",
-                "newProduct": "New"
-              },
-              {
-                "productLink": "wow-classic-toy-path-of-illidan",
-                "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-3.png",
-                "icon": "/games-logo/warcraft/wow-classic.png",
-                "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Path of Illidan",
-                "grayText": "Toys",
-                "price": "$10.00",
-                "newProduct": "New"
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Dark Portal Hearthstone Effect",
+                  "grayText": "Toys",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$10.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Dark Portal Hearthstone Effect",
+                  "descriptions": [
+                    "Returns you to Hearthstone Location. Speak to an Innkeeper in a different place to change your home location. Dark Portal Hearthstone is a cosmetic effect that shares cooldown with your regular Hearthstone."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/toys/image-1.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -1883,37 +2246,46 @@
                 "productGameName": "World of Warcraft Cataclysm Classic",
                 "heading": "Level 80 Character Boost (Progression)",
                 "grayText": "Progression Game Services",
-                "price": "$60.00"
-              },
-              {
-                "productLink": "wow-classic-service-character-transfer-progression",
-                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-2.png",
-                "icon": "/games-logo/warcraft/wow-classic.png",
-                "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Classic Character Transfer",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Progression Game Services",
-                "price": "From $25.00"
-              },
-              {
-                "productLink": "wow-classic-service-faction-change-progression",
-                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-3.png",
-                "icon": "/games-logo/warcraft/wow-classic.png",
-                "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Classic Faction Change",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Progression Game Services",
-                "price": "From $30.00"
-              },
-              {
-                "productLink": "wow-classic-service-race-change-progression",
-                "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-4.png",
-                "icon": "/games-logo/warcraft/wow-classic.png",
-                "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Classic Race Change",
-                "yellowText": "Also available in multiple packs.",
-                "grayText": "Progression Game Services",
-                "price": "From $25.00"
+                "price": "$60.00",
+                "productData": {
+                  "productName": "Level 80 Character Boost (Progression)",
+                  "grayText": "Progression Game Services",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": "$80.00",
+                  "buyProductButton": "Buy Now",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Bring your hero up to speed",
+                  "descriptions": [
+                    "There comes a time in every hero's quest when they need a helping hand to get them over the hump and right back into the action. Now you can instantly boost your character to level 80, so they’re ready for their new adventures in the newly sundered Azeroth. The boosted character also receives level 80 appropriate gear, weapon skill, mount, the Expert Riding skill, and gold."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-1.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -1929,7 +2301,60 @@
                 "heading": "WoW® Classic Era Character Transfer",
                 "yellowText": "Also available in multiple packs.",
                 "grayText": "Era Game Services",
-                "price": "From $25.00"
+                "price": "From $25.00",
+                "productData": {
+                  "productName": "WoW® Classic Era Character Transfer",
+                  "grayText": "Era Game Services",
+                  "icon": "/games-logo/warcraft/wow-classic.png",
+                  "price": [
+                    {
+                      "productName": "1 Classic Character Transfer",
+                      "amount": "$25.00"
+                    },
+                    {
+                      "productName": "3 Classic Character Transfer",
+                      "amount": "$50.00"
+                    },
+                    {
+                      "productName": "6 Classic Character Transfer",
+                      "amount": "$80.00"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Are you ready for adventures on a new realm?",
+                  "descriptions": [
+                    "Transfer characters between WoW® Classic era realms, enabling you to play with a new community of players and/or find old friends on new servers – all without having to start over at level one. To move multiple characters, buy Character Transfer packs and use them all at once or save some for later."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires World of Warcraft® Subscription or Game Time"
+                    },
+                    {
+                      "link": false,
+                      "text": "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/world-of-warcraft-classic/era-game-services/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -1949,6 +2374,240 @@
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 10 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "6 Cores, 3.5 GHz processor (8th Generation Intel® Core™ Coffee Lake or AMD Ryzen™ Zen 2)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 8 GB GPU (NVIDIA® GeForce® RTX, AMD™ RDNA™ 2, or Intel® Arc™ 7 Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mac",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 10.15"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 2.9 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 3 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 12 (latest version)"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "8 Cores, 3.6 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 8 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/windows.svg",
+                  "name": "Windows"
+                },
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "Mac"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-2.png",
+              "name": "Minimum Age 12"
+            },
+            {
+              "image": "/age-rating/image-3.png",
+              "name": "Violence"
+            },
+            {
+              "image": "/age-rating/image-4.png",
+              "name": "Online gameplay"
+            },
+            {
+              "image": "/age-rating/image-5.png",
+              "name": "In-game purchase"
+            },
+            {
+              "image": "/age-rating/image-6.png",
+              "name": "Bad language"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -2012,7 +2671,59 @@
                 "heading": "Warcraft Rumble™",
                 "grayText": "Action Strategy",
                 "yellowText": "Available Now",
-                "price": "Download Now"
+                "price": "Download Now",
+                "productData": {
+                  "productName": "Warcraft Rumble™",
+                  "grayText": "Action Strategy",
+                  "icon": "/games-logo/warcraft/warcraft-rumble.png",
+                  "buyProductButton": "Play For Free",
+                  "mobileApps": [
+                    {
+                      "image": "/battle-net-panel/app-store.png",
+                      "link": "https://apps.apple.com/us/app/warcraft-rumble/id1600575058"
+                    },
+                    {
+                      "image": "/battle-net-panel/google-play.png",
+                      "link": "https://play.google.com/store/apps/details?id=com.blizzard.arc"
+                    }
+                  ],
+                  "descriptionHeading": "The Warcraft Rumble experience",
+                  "descriptions": [
+                    "Warcraft Rumble is a mobile action strategy game set within the Warcraft universe where collectible Minis come to life to battle in frantic melee skirmishes. Take on the single-player campaign if you're looking for a solo challenge, or go head-to-head in epic PvP skirmishes online. Experience the true meaning of joyful chaos!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Internet connection required"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "https://www.youtube.com/embed/xgOreJl6BJQ",
+                      "https://www.youtube.com/embed/rMl9VEhOtgg",
+                      "/product-page/warcraft/warcraft-rumble/game/common-images/image-1.png",
+                      "/products-categories/warcraft/warcraft-rumble/game/image.png"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/warcraft-rumble/game/thumbs/image-1.png",
+                      "/product-page/warcraft/warcraft-rumble/game/thumbs/image-2.png",
+                      "/product-page/warcraft/warcraft-rumble/game/common-images/image-1.png",
+                      "/products-categories/warcraft/warcraft-rumble/game/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -2093,6 +2804,114 @@
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "IOS",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Hardware",
+                      "data": "iPhone 6s"
+                    },
+                    {
+                      "heading": "Operating System",
+                      "data": "iOS 13"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "2 GB RAM"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Android",
+              "logo": "/icons/android.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Hardware",
+                      "data": "Android 5.1"
+                    },
+                    {
+                      "heading": "Operating System",
+                      "data": "Snapdragon 675 / Exynos 8890"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Adreno 612 / Mali-T880 MP12"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "3 GB RAM"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Real-time Strategy"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "iOS"
+                },
+                {
+                  "logo": "/icons/android.svg",
+                  "name": "Android"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-7.png",
+              "name": "Minimum Age 7"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {

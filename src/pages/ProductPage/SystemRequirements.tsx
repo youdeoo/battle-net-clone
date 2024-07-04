@@ -1,8 +1,8 @@
-import { FC, useState } from 'react';
+import { FC, useState, memo } from 'react';
 import { stateIndexEqualIndex } from '../../lib/utils';
 import { TCommonProductsDataProp } from '../../types/types';
 
-const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
+const SystemRequirements: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData }) => {
   const [displaySystemRequirementsIndex, setDisplaySystemRequirementsIndex] = useState(0);
 
   return (
@@ -67,6 +67,6 @@ const SystemRequirements: FC<TCommonProductsDataProp> = ({ currentCommonProducts
       </div>
     </section>
   );
-}
+})
 
 export default SystemRequirements;

@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect, useState, memo } from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../state/store';
 import { allowTouchMoveOnCarousel } from '../../lib/utils';
@@ -14,7 +14,7 @@ import 'swiper/css/free-mode';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/scrollbar';
 
-const Carousel: FC<TProductDataProp> = ({ productData }) => {
+const Carousel: FC<TProductDataProp> = memo(({ productData }) => {
   const imagePath = useSelector((state: RootState) => state.productImagePath.imagePath);
   const [swiper, setSwiper] = useState<TSwiper>(null);
   const [thumbsSwiper, setThumbsSwiper] = useState<TSwiper>(null);
@@ -22,6 +22,11 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
   const [lastSlide, setLastSlide] = useState(false);
 
   const thumbnailListLong = (productData.productCarousel.thumbs?.length ?? 0) > 4;
+
+  const slideToImage = () => {
+    return productData.productCarousel.slides.map((image, index) =>
+      image === imagePath && swiper?.slideTo(index));
+  }
 
   useEffect(() => {
     swiper?.on('slideChange', () => {
@@ -35,8 +40,7 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
   }, [swiper]);
 
   useEffect(() => {
-    productData.productCarousel.slides.map((image, index) =>
-      image === imagePath && swiper?.slideTo(index));
+    slideToImage();
   }, [swiper, imagePath]);
 
   return (
@@ -110,7 +114,6 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
             freeMode={true}
             scrollbar={{
               horizontalClass: thumbnailListLong ? '.swiper-scrollbar' : 'swiper-scrollbar-hidden',
-              dragClass: '.swiper-scrollbar-drag',
               draggable: true
             }}
             slideActiveClass='.swiper-slide-thumb-active'
@@ -137,6 +140,6 @@ const Carousel: FC<TProductDataProp> = ({ productData }) => {
       }
     </div>
   );
-}
+})
 
 export default Carousel;

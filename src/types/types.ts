@@ -30,10 +30,11 @@ type TCompareProducts = {
   content: Array<TCompareProductsContent>;
 }
 
-export type TProductDataPrice = Pick<TProduct, 'image'> & {
+export type TProductDataPrice = {
   productName: string;
   amount: string;
   additionalInfo?: string;
+  image?: string;
 }
 
 type TSubscriptionPriceInformation = {
@@ -42,6 +43,8 @@ type TSubscriptionPriceInformation = {
   discountPercent?: string;
   text: string;
 }
+
+type TMobileApps = Pick<TProduct, 'image'> & Pick<TFormatGameData, 'link'>;
 
 type TProductData = {
   productName: string;
@@ -54,13 +57,14 @@ type TProductData = {
   subscribeButton?: string;
   giftProductButton?: string;
   wishListButton?: string;
+  mobileApps?: Array<TMobileApps>;
   descriptionHeading: string;
   descriptions: Array<string>;
   descriptionList?: Array<string>;
   productInfo: Array<{ link: boolean; text: string }>;
   productCarousel: TProductCarousel;
   compareProducts?: TCompareProducts;
-  productFeatures: Array<TProductFeatures>;
+  productFeatures?: Array<TProductFeatures>;
   productRequirements: Array<string>;
 }
 

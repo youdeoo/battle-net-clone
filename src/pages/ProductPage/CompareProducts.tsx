@@ -1,11 +1,11 @@
-import { FC } from 'react';
+import { FC, memo } from 'react';
 import { TProductDataProp } from '../../types/types';
 
 const oddIndex = (index: number): boolean => {
   return index % 2 === 1;
 }
 
-const CompareProducts: FC<TProductDataProp> = ({ productData }) => {
+const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
   const { images, headings, prices, linkTexts } = productData.compareProducts!.products;
 
   return (
@@ -93,6 +93,6 @@ const CompareProducts: FC<TProductDataProp> = ({ productData }) => {
       </table>
     </section>
   );
-}
+})
 
 export default CompareProducts

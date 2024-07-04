@@ -233,7 +233,7 @@
   }
 
   .swiper-scrollbar {
-    @apply left-0 flex items-center w-full rounded border border-lighterBorderGray h-5 px-2 !important;
+    @apply left-0 flex items-center gap-2 w-full rounded border border-lighterBorderGray h-5 px-2 !important;
   }
 
   .swiper-scrollbar-hidden {

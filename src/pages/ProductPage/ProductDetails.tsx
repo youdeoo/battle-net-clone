@@ -1,9 +1,9 @@
-import { FC } from 'react';
+import { FC, memo } from 'react';
 import { TProductDataProp, TCommonProductsDataProp } from '../../types/types';
 
 type Prop = TProductDataProp & TCommonProductsDataProp;
 
-const ProductDetails: FC<Prop> = ({ productData, currentCommonProductsData }) => {
+const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData }) => {
   return (
     <section id='product-details' className='product-page-grid-section scroll-m-32'>
       <h2 className='text-3xl font-bold text-white'>
@@ -109,6 +109,6 @@ const ProductDetails: FC<Prop> = ({ productData, currentCommonProductsData }) =>
       </div >
     </section>
   );
-}
+})
 
 export default ProductDetails;

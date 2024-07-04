@@ -1,7 +1,7 @@
-import { FC } from 'react';
+import { FC, memo } from 'react';
 import { TCommonProductsDataProp } from '../../types/types';
 
-const AgeRating: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) => {
+const AgeRating: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData }) => {
   return (
     <section className='mt-8'>
       <div className='border-b border-borderGray pb-8 ml-[25%] mr-4'>
@@ -55,6 +55,6 @@ const AgeRating: FC<TCommonProductsDataProp> = ({ currentCommonProductsData }) =
       </div>
     </section>
   );
-}
+})
 
 export default AgeRating;
