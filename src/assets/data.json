@@ -2673,10 +2673,17 @@
                 "yellowText": "Available Now",
                 "price": "Download Now",
                 "productData": {
-                  "productName": "Warcraft Rumble™",
+                  "productName": "Coin Packs",
                   "grayText": "Action Strategy",
+                  "yellowText": "Available Now",
                   "icon": "/games-logo/warcraft/warcraft-rumble.png",
                   "buyProductButton": "Play For Free",
+                  "mobileQRCode": {
+                    "qrCode": "/qr-code/warcraft-rumble-qr.png",
+                    "phoneIcon": "/icons/mobile-screen.svg",
+                    "heading": "Play on Mobile",
+                    "description": "Scan the QR code with your mobile device to download the game!"
+                  },
                   "mobileApps": [
                     {
                       "image": "/battle-net-panel/app-store.png",
@@ -2740,7 +2747,125 @@
                 "grayText": "In-Game Content",
                 "price": "$99.99",
                 "deal": "Great Deal",
-                "linkText": "Buy Now"
+                "linkText": "Buy Now",
+                "productData": {
+                  "productName": "Coin Packs",
+                  "grayText": "In-Game Content",
+                  "icon": "/games-logo/warcraft/warcraft-rumble.png",
+                  "buyProductButton": "Buy Now",
+                  "price": [
+                    {
+                      "productName": "12600 Coins",
+                      "amount": "$99.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-1.png"
+                    },
+                    {
+                      "productName": "6300 Coins",
+                      "amount": "$49.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-2.png"
+                    },
+                    {
+                      "productName": "3150 Coins",
+                      "amount": "$24.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-3.png"
+                    },
+                    {
+                      "productName": "1260 Coins",
+                      "amount": "$9.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-4.png"
+                    },
+                    {
+                      "productName": "525 Coins",
+                      "amount": "$4.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-5.png"
+                    },
+                    {
+                      "productName": "95 Coins",
+                      "amount": "$0.99",
+                      "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-6.png"
+                    }
+                  ],
+                  "mobileQRCode": {
+                    "qrCode": "/qr-code/warcraft-rumble-qr.png",
+                    "phoneIcon": "/icons/mobile-screen.svg",
+                    "heading": "Play on Mobile",
+                    "description": "Scan the QR code with your mobile device to download the game!"
+                  },
+                  "mobileApps": [
+                    {
+                      "image": "/battle-net-panel/app-store.png",
+                      "link": "https://apps.apple.com/us/app/warcraft-rumble/id1600575058"
+                    },
+                    {
+                      "image": "/battle-net-panel/google-play.png",
+                      "link": "https://play.google.com/store/apps/details?id=com.blizzard.arc"
+                    }
+                  ],
+                  "descriptionHeading": "Oooh shiny!",
+                  "descriptions": [
+                    "Coins are an in-game currency that can be used in Warcraft Rumble to purchase Minis, Tomes of Experience, Talents, and more.",
+                    "Buy bundles to wreak havoc on the battlefield. Coins are one of many ways to upgrade your army!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Warcraft Rumble™ game required."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-7.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-1.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-2.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-3.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-4.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-5.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-6.png"
+                    ],
+                    "thumbs": [
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-7.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-1.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-2.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-3.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-4.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-5.png",
+                      "/products-categories/warcraft/warcraft-rumble/coin-packs/image-6.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Use Coins to:",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/warcraft-rumble/coin-packs/features/image-1.png",
+                          "heading": "Acquire new Minis & Leaders",
+                          "description": "Collect all the Minis in the game! Each Mini has its own unique tactical strengths and weaknesses."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-rumble/coin-packs/features/image-2.png",
+                          "heading": "Power up your army",
+                          "description": "Once you have decked out your collection with a variety of Minis, Coins can be used to acquire Arc Energy and Cores to make your army even stronger and unlock their Talents. Minis can be leveled up via Tomes of Experience to help tackle tougher PvE challenges and gain an edge in PvP. Each Mini has 3 Talents that further increase their strategic and synergistic potential."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-rumble/coin-packs/features/image-3.png",
+                          "heading": "Ascend to greater rarities",
+                          "description": "Ascend your Minis to Rare, Epic, and beyond using Coins alongside additional components like Arc Energy and Cores. Upgrading your Minis will allow access to more Talents and bonus levels, unlock their true potential, and tackle all the challenges Warcraft Rumble has to offer!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "warcraft-rumble-coin-packs",
@@ -2945,7 +3070,78 @@
                 "productGameName": "World III",
                 "heading": "Warcraft® III: Reforged",
                 "grayText": "Real-time Strategy",
-                "price": "From $29.99"
+                "price": "From $29.99",
+                "productData": {
+                  "productName": "Warcraft® III: Reforged",
+                  "grayText": "Real-time Strategy",
+                  "icon": "/games-logo/warcraft/warcraft-3.png",
+                  "price": [
+                    {
+                      "productName": "Spoils of War Edition",
+                      "amount": "$39.99"
+                    },
+                    {
+                      "productName": "Standard Edition",
+                      "amount": "$29.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "A classic favorite, reforged",
+                  "descriptions": [
+                    "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth's most epic stories. It is a remake in the truest sense, featuring a thorough visual overhaul, a suite of contemporary social and matchmaking features, and more. Command the Night Elves, Undead, Orcs, and Humans as alliances shift and armies clash in this timeless real-time strategy game."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Internet connection, Battle.net® Account, and Battle.net® desktop app required to play."
+                    },
+                    {
+                      "link": false,
+                      "text": "Instant access to classic Warcraft® III (Reign of Chaos® and The Frozen Throne®)"
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/warcraft-3/games/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Azeroth, born anew",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/warcraft-3/features/image-1.png",
+                          "heading": "Experience an epic story",
+                          "description": "The founding of Orgrimmar. The fall of Lordaeron. The reign of the Burning Legion. The rise of the Lich King. Veterans and newcomers alike will experience these pivotal events in Azeroth's history like never before."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-3/features/image-2.png",
+                          "heading": "The battlefield awaits",
+                          "description": "Play through the points of view of four distinct factions: the mighty Orcs, the noble Humans, the ancient Night Elves, and the insidious Undead. Gather resources, build your base, and assemble an army. Recruit powerful heroes to lead your forces, and meet your foes in battle. Destroy the enemy base to win the game!"
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-3/features/image-3.png",
+                          "heading": "Vast campaigns",
+                          "description": "Relive the events of Warcraft III: Reign of Chaos and The Frozen Throne. Enjoy an epic saga retold with over four hours of reshot cutscenes and updated voice-overs that breathe new life into the earliest renditions of Azeroth’s key characters, across more than 60 single-player missions that span Kalimdor, Northrend, Lordaeron, and beyond."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires World of Warcraft® Subscription or Game Time",
+                    "Only available on WoW® Classic progression realms (currently Cataclysm Classic™)"
+                  ]
+                }
               }
             ]
           },
@@ -2964,6 +3160,228 @@
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 10 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "6 Cores, 3.5 GHz processor (8th Generation Intel® Core™ Coffee Lake or AMD Ryzen™ Zen 2)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 8 GB GPU (NVIDIA® GeForce® RTX, AMD™ RDNA™ 2, or Intel® Arc™ 7 Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mac",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 10.15"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 2.9 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 3 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 12 (latest version)"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "8 Cores, 3.6 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 8 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "iOS"
+                },
+                {
+                  "logo": "/icons/android.svg",
+                  "name": "Android"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-2.png",
+              "name": "Minimum Age 12"
+            },
+            {
+              "image": "/age-rating/image-3.png",
+              "name": "Violence"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -2999,7 +3417,81 @@
                 "productGameName": "Hearthstone",
                 "heading": "Hearthstone®",
                 "grayText": "Strategy Card Game",
-                "price": "Play For Free"
+                "price": "Play For Free",
+                "productData": {
+                  "productName": "Hearthstone®",
+                  "grayText": "Strategy Card Game",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "buyProductButton": "Play For Free",
+                  "mobileApps": [
+                    {
+                      "image": "/battle-net-panel/app-store.png",
+                      "link": "https://apps.apple.com/us/app/hearthstone/id625257520"
+                    },
+                    {
+                      "image": "/battle-net-panel/google-play.png",
+                      "link": "https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone&hl=en"
+                    }
+                  ],
+                  "descriptionHeading": "Deceptively simple, insanely fun",
+                  "descriptions": [
+                    "Sheathe your sword, draw your deck, and get ready for Hearthstone—the fast-paced strategy card game that's easy to learn and massively fun. You’ll play your cards to sling spells, summon creatures, and command the heroes of Warcraft in duels of epic strategy. Did we mention it's free to play?",
+                    "Find Your New Favorite Toy with Hearthstone's newest expansion, Whizbang's Workshop."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Internet connection required."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/product-page/warcraft/hearthstone/game/slides/image.png",
+                      "/products-categories/warcraft/hearthstone/common-images/image-1.png",
+                      "https://www.youtube.com/embed/XT7YEb9_Muw",
+                      "https://www.youtube.com/embed/vPguoeYTvMI"
+                    ],
+                    "thumbs": [
+                      "/product-page/warcraft/hearthstone/game/slides/image.png",
+                      "/products-categories/warcraft/hearthstone/common-images/image-1.png",
+                      "/product-page/warcraft/hearthstone/game/thumbs/image-1.png",
+                      "/product-page/warcraft/hearthstone/game/thumbs/image-2.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Use Coins to:",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/hearthstone/game/features/image-1.png",
+                          "heading": "Jump right in!",
+                          "description": "Play on your own schedule—most games take less than 10 minutes whether you're battling your friends or the AI. Hearthstone's easy to learn and extremely accessible gameplay is available for Windows, Mac, and iPad."
+                        },
+                        {
+                          "image": "/product-page/warcraft/hearthstone/game/features/image-2.png",
+                          "heading": "Free to play",
+                          "description": "Hearthstone is free to play, not just free to try or free to begin playing. Purchasing cards is optional, because you also earn them over the course of play by winning matches—or you can even craft them yourself."
+                        },
+                        {
+                          "image": "/product-page/warcraft/hearthstone/game/features/image-3.png",
+                          "heading": "A new way to experience Warcraft®",
+                          "description": "Your deck is centered around a legendary hero and composed of minions, spells, items, and abilities from the epic Warcraft universe. While you play, the sights, sounds, and other details packed into Hearthstone bring the Warcraft universe to life in a way you've never experienced before."
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-showdown-in-the-badlands-packs",
@@ -3008,7 +3500,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "Showdown in the Badlands Packs",
                 "grayText": "Card Packs",
-                "price": "From $2.99"
+                "price": "From $2.99",
+                "productData": {
+                  "productName": "Showdown in the Badlands Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Hearthstone: 2 Showdown in the Badlands Packs",
+                      "amount": "$2.99"
+                    },
+                    {
+                      "productName": "Hearthstone: 7 Showdown in the Badlands Packs",
+                      "amount": "$9.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "3...2...1... Draw!",
+                  "descriptions": [
+                    "Saddle up and prepare for a showdown in this 145-card Hearthstone expansion, including noble Outlaws, the new Excavate keyword, the new Quickdraw keyword, and more!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/common-images/image-2.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-march-of-the-lich-king-packs",
@@ -3017,7 +3553,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "March of the Lich King Packs",
                 "grayText": "Card Packs",
-                "price": "From $2.99"
+                "price": "From $2.99",
+                "productData": {
+                  "productName": "Showdown in the Badlands Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "2 Packs",
+                      "amount": "$2.99"
+                    },
+                    {
+                      "productName": "7 Packs",
+                      "amount": "$9.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Death Marches On",
+                  "descriptions": [
+                    "The Lich King returns to Hearthstone with an entirely new Death Knight class, the new Manathirst keyword, the new Undead minion type, and more in this 145-card Hearthstone expansion!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/common-images/image-3.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               }
             ]
           },
@@ -3033,7 +3613,65 @@
                 "heading": "Whizbang's Workshop Tavern Pass",
                 "grayText": "Card Packs",
                 "yellowText": "Available through July 23, 2024",
-                "price": "$19.99"
+                "price": "$19.99",
+                "productData": {
+                  "productName": "Whizbang's Workshop Tavern Pass",
+                  "grayText": "Card Packs",
+                  "yellowText": "Available through July 23, 2024",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": "$19.99",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Find Your New Favorite Toy",
+                  "descriptions": [
+                    "Get the Whizbang's Workshop Tavern Pass to immediately receive a 10% XP Boost that lasts for the duration of the expansion, plus all items up to your current level on the paid Rewards Track! As you gain progress with the Tavern Pass, you can earn: additional XP Boosts; the Joymancer Jepetto Diamond Legendary card; the Colifero the Artist Golden Legendary card; the Li'Na Shop Manager Golden Legendary card; two Golden Epic cards; two Signature Epic cards; two Signature Rare cards; two Signature Common cards; 11 Whizbang's Workshop-themed Hero skins; a card back; a new cosmetic coin; and two Golden Standard Packs."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-1.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Get Wonderful Rewards",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/hearthstone/whizbang/features/image-1.png",
+                          "heading": "Unlock rewards faster!",
+                          "description": "Boost your XP gains by up to 20% and unlock your Rewards Track rewards even faster, until the next expansion launches."
+                        },
+                        {
+                          "image": "/product-page/warcraft/hearthstone/whizbang/features/image-2.png",
+                          "heading": "Get premium cards",
+                          "description": "Earn 2 Golden Standard Packs, a Diamond Joymancer Jepetto Legendary card, 2 Golden Legendary cards, 6 Signature cards, and more as you progress along the track."
+                        },
+                        {
+                          "image": "/product-page/warcraft/hearthstone/whizbang/features/image-3.png",
+                          "heading": "Toy With Your Opponents",
+                          "description": "Show your opponent you're not playing around with Whizbang's Workshop-themed Hero Skin for each class!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-golden-whizbangs-workshop-packs",
@@ -3042,7 +3680,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "Golden Whizbang's Workshop Packs",
                 "grayText": "Card Packs",
-                "price": "From $19.99"
+                "price": "From $19.99",
+                "productData": {
+                  "productName": "Golden Whizbang's Workshop Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Hearthstone: 5 Golden Whizbang's Workshop Packs",
+                      "amount": "$19.99"
+                    },
+                    {
+                      "productName": "Hearthstone: 11 Golden Whizbang's Workshop Packs",
+                      "amount": "$39.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "It's Time to Play!",
+                  "descriptions": [
+                    "Open your new favorite toy in this 145-card Hearthstone expansion, including throwback mechanics, iconic characters, the new Miniaturize keyword, and more! Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-2.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-whizbangs-workshop-packs",
@@ -3051,16 +3733,104 @@
                 "productGameName": "Hearthstone",
                 "heading": "Whizbang's Workshop Packs",
                 "grayText": "Card Packs",
-                "price": "From $2.99"
+                "price": "From $2.99",
+                "productData": {
+                  "productName": "Whizbang's Workshop Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Hearthstone: 2 Whizbang's Workshop Packs",
+                      "amount": "$2.99"
+                    },
+                    {
+                      "productName": "Hearthstone: 7 Whizbang's Workshop Packs",
+                      "amount": "$9.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "It's Time to Play!",
+                  "descriptions": [
+                    "Open your new favorite toy in this 145-card Hearthstone expansion, including throwback mechanics, iconic characters, the new Miniaturize keyword, and more! Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-3.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
-                "productLink": "hearthstone-whizbangs-workshop-packs",
+                "productLink": "hearthstone-showdown-in-the-badlands-golden-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-4.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
                 "heading": "Golden Showdown in the Badlands Packs",
                 "grayText": "Card Packs",
-                "price": "From $19.99"
+                "price": "From $19.99",
+                "productData": {
+                  "productName": "Golden Showdown in the Badlands Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Hearthstone: 5 Golden Showdown in the Badlands Packs",
+                      "amount": "$19.99"
+                    },
+                    {
+                      "productName": "Hearthstone: 11 Golden Showdown in the Badlands Packs",
+                      "amount": "39.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "3...2...1... Draw!",
+                  "descriptions": [
+                    "Saddle up and prepare for a showdown in this 145-card Hearthstone expansion, including noble Outlaws, the new Excavate keyword, the new Quickdraw keyword, and more! Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-4.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-showdown-in-the-badlands-packs",
@@ -3078,7 +3848,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "Golden TITANS Packs",
                 "grayText": "Card Packs",
-                "price": "From $19.99"
+                "price": "From $19.99",
+                "productData": {
+                  "productName": "Golden TITANS Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "5 Golden Packs ",
+                      "amount": "$19.99"
+                    },
+                    {
+                      "productName": "11 Golden Packs ",
+                      "amount": "39.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Forge a new world",
+                  "descriptions": [
+                    "The power of myths and makers is in your hands with this new 145-card Hearthstone expansion, including the new Titan keyword, the new Forge keyword, the returning Magnetic keyword, and more! Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-5.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-titans-packs",
@@ -3087,7 +3901,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "TITANS Packs",
                 "grayText": "Card Packs",
-                "price": "From $2.99"
+                "price": "From $2.99",
+                "productData": {
+                  "productName": "TITANS Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "2 Packs ",
+                      "amount": "$2.99"
+                    },
+                    {
+                      "productName": "7 Packs ",
+                      "amount": "9.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Forge a new world",
+                  "descriptions": [
+                    "The power of myths and makers is in your hands with this new 145-card Hearthstone expansion, including the new Titan keyword, the new Forge keyword, the returning Magnetic keyword, and more! Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-6.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-festival-of-legends-golden-packs",
@@ -3096,7 +3954,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "Golden Festival of Legends Packs",
                 "grayText": "Card Packs",
-                "price": "From $19.99"
+                "price": "From $19.99",
+                "productData": {
+                  "productName": "Golden Festival of Legends Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "5 Golden Packs ",
+                      "amount": "$19.99"
+                    },
+                    {
+                      "productName": "11 Golden Packs ",
+                      "amount": "39.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Catch the Opening Act",
+                  "descriptions": [
+                    "E.T.C. is hosting a massive music festival featuring the new Finale keyword, Legendary songs and artists, musical weapons, stunning soloists, and more in this jam-packed 145-card Hearthstone expansion! Each pack contains 5 cards, including at least one Rare or better. Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-7.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-festival-of-legends-packs",
@@ -3105,7 +4007,51 @@
                 "productGameName": "Hearthstone",
                 "heading": "Festival of Legends Packs",
                 "grayText": "Card Packs",
-                "price": "From $2.99"
+                "price": "From $2.99",
+                "productData": {
+                  "productName": "Festival of Legends Packs",
+                  "grayText": "Card Packs",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "2 Packs",
+                      "amount": "$2.99"
+                    },
+                    {
+                      "productName": "7 Packs",
+                      "amount": "$9.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Catch the Opening Act",
+                  "descriptions": [
+                    "E.T.C. is hosting a massive music festival featuring the new Finale keyword, Legendary songs and artists, musical weapons, stunning soloists, and more in this jam-packed 145-card Hearthstone expansion! Each pack contains 5 cards, including at least one Rare or better. Each card in a Golden pack is either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/card-packs/image-8.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               }
             ]
           },
@@ -3121,8 +4067,102 @@
                 "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Golden Mini-Set",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
-                "price": "From $69.99",
-                "newProduct": "New"
+                "price": "$69.99",
+                "newProduct": "New",
+                "productData": {
+                  "productName": "Dr. Boom's Incredible Inventions Mini-Set",
+                  "grayText": "Mini-Sets",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Dr. Boom's Incredible Inventions Mini-Set",
+                      "amount": "$14.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png"
+                    },
+                    {
+                      "productName": "Dr. Boom's Incredible Inventions Golden Mini-Set",
+                      "amount": "$69.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-1.png"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Go Big or Go Home!",
+                  "descriptions": [
+                    "Dr. Boom's been tinkering and he's come up with something huge—gigantic, even—in the Whizbang's Workshop Dr. Boom’s Incredible Inventions Mini-Set! This Mini-Set includes the new Gigantify keyword and 38 unique cards. Purchase of the Mini-Set includes two copies of each Epic, Rare, and Common card, and one copy of each Legendary card, for a total of 72 cards! Purchase of the Golden Mini-Set includes Golden versions of the 72 Mini-Set cards, plus a bonus Diamond version of the Puppetmaster Dorian Legendary minion."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-1.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-2.png"
+                    ],
+                    "thumbs": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-1.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-2.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-1.png",
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-2.png"
+                      ],
+                      "headings": [
+                        "Dr. Boom's Incredible Inventions Mini-Set",
+                        "Dr. Boom's Incredible Inventions Golden Mini-Set"
+                      ],
+                      "prices": [
+                        "$14.99",
+                        "$69.99"
+                      ],
+                      "linkTexts": [
+                        "Buy Now",
+                        "Buy Now"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "Two regular copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "One regular copy of each Legendary Mini-Set card. (4 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Two Golden copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      }
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set",
@@ -3131,7 +4171,7 @@
                 "productGameName": "Hearthstone",
                 "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
                 "grayText": "Mini-Sets",
-                "price": "From $14.99",
+                "price": "$14.99",
                 "newProduct": "New"
               },
               {
@@ -3142,7 +4182,101 @@
                 "heading": "Delve into Deepholm Golden Mini-Set",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
-                "price": "From $69.99"
+                "price": "$69.99",
+                "productData": {
+                  "productName": "Delve into Deepholm Golden Mini-Set",
+                  "grayText": "Mini-Sets",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Delve into Deepholm Mini-Set ",
+                      "amount": "$69.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png"
+                    },
+                    {
+                      "productName": "Delve into Deepholm Golden Mini-Set ",
+                      "amount": "$14.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-4.png"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Welcome Holm!",
+                  "descriptions": [
+                    "Dig deep and pull up a a whole new level of cards with the new Showdown in the Badlands - Delve into Deepholm Mini-Set! The Mini-Set includes 38 brand new cards. With the Golden Mini-Set, you receive two copies of each Epic, Rare, and Common card, and one copy of each Legendary card, for a total of 72 Golden cards, plus a bonus Diamond copy of the Deepminer Brann Legendary minion. Non-Golden version available for purchase in-game."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-4.png"
+                    ],
+                    "thumbs": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-4.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-4.png",
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-3.png"
+                      ],
+                      "headings": [
+                        "Dr. Boom's Incredible Inventions Mini-Set",
+                        "Dr. Boom's Incredible Inventions Golden Mini-Set"
+                      ],
+                      "prices": [
+                        "$14.99",
+                        "$69.99"
+                      ],
+                      "linkTexts": [
+                        "Buy Now",
+                        "Buy Now"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "Two regular copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "One regular copy of each Legendary Mini-Set card. (4 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Two Golden copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      }
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
               },
               {
                 "productLink": "hearthstone-delve-into-deepholm-golden-mini-set",
@@ -3151,7 +4285,7 @@
                 "productGameName": "Hearthstone",
                 "heading": "Delve into Deepholm Mini-Set",
                 "grayText": "Mini-Sets",
-                "price": "From $14.99"
+                "price": "$14.99"
               },
               {
                 "productLink": "hearthstone-fall-of-ulduar-golden-mini-set",
@@ -3161,7 +4295,121 @@
                 "heading": "TITANS Golden Mini-Set - Fall of Ulduar",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
-                "price": "From $69.99"
+                "price": "$69.99",
+                "productData": {
+                  "productName": "TITANS Golden Mini-Set - Fall of Ulduar",
+                  "grayText": "Mini-Sets",
+                  "icon": "/games-logo/warcraft/hearthstone.png",
+                  "price": [
+                    {
+                      "productName": "Fall of Ulduar Golden Mini-Set",
+                      "amount": "$69.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-5.png"
+                    },
+                    {
+                      "productName": "Fall of Ulduar Mini-Set",
+                      "amount": "$14.99",
+                      "image": "/products-categories/warcraft/hearthstone/mini-sets/image-6.png"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Go Big or Go Home!",
+                  "descriptions": [
+                    "Dr. Boom's been tinkering and he's come up with something huge—gigantic, even—in the Whizbang's Workshop Dr. Boom’s Incredible Inventions Mini-Set! This Mini-Set includes the new Gigantify keyword and 38 unique cards. Purchase of the Mini-Set includes two copies of each Epic, Rare, and Common card, and one copy of each Legendary card, for a total of 72 cards! Purchase of the Golden Mini-Set includes Golden versions of the 72 Mini-Set cards, plus a bonus Diamond version of the Puppetmaster Dorian Legendary minion."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Requires internet connection and Battle.net® Account to play."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-5.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-6.png"
+                    ],
+                    "thumbs": [
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-5.png",
+                      "/products-categories/warcraft/hearthstone/mini-sets/image-6.png"
+                    ]
+                  },
+                  "compareProducts": {
+                    "products": {
+                      "images": [
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-6.png",
+                        "/products-categories/warcraft/hearthstone/mini-sets/image-5.png"
+                      ],
+                      "headings": [
+                        "Dr. Boom's Incredible Inventions Mini-Set",
+                        "Dr. Boom's Incredible Inventions Golden Mini-Set"
+                      ],
+                      "prices": [
+                        "$14.99",
+                        "$69.99"
+                      ],
+                      "linkTexts": [
+                        "Buy Now",
+                        "Buy Now"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "name": "Two regular copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "One regular copy of each Legendary Mini-Set card. (4 total cards)",
+                        "productsContent": [
+                          "/icons/check.svg",
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "Two Golden copies of each Common, Rare, and Epic Mini-Set card. (68 total cards)",
+                        "productsContent": [
+                          "",
+                          "/icons/check.svg"
+                        ]
+                      }
+                    ]
+                  },
+                  "productRequirements": [
+                    "Requires internet connection and Battle.net® Account."
+                  ]
+                }
+              },
+              {
+                "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set",
+                "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png",
+                "icon": "/games-logo/warcraft/hearthstone.png",
+                "productGameName": "Hearthstone",
+                "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
+                "grayText": "Mini-Sets",
+                "price": "$14.99",
+                "newProduct": "New"
+              },
+              {
+                "productLink": "hearthstone-delve-into-deepholm-golden-mini-set",
+                "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
+                "icon": "/games-logo/warcraft/hearthstone.png",
+                "productGameName": "Hearthstone",
+                "heading": "Delve into Deepholm Golden Mini-Set",
+                "grayText": "Mini-Sets",
+                "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
+                "price": "$69.99"
               }
             ]
           },
@@ -3177,7 +4425,43 @@
                 "heading": "Battlegrounds Season Pass",
                 "grayText": "Battlegrounds",
                 "yellowText": "Available through August 20, 2024",
-                "price": "From $14.99"
+                "price": "From $14.99",
+                "productData": {
+                  "productName": "Battlegrounds Season Pass",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Battlegrounds",
+                  "yellowText": "Available through August 20, 2024",
+                  "price": "$14.99",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Wish Upon a Star",
+                  "descriptions": [
+                    "You don't need a fairy godmother to make your dreams come true, just the Battlegrounds Season Pass. The Battlegrounds Season Pass instantly unlocks two additional Hero options at the start of each game and lets you earn premium cosmetics throughout the Battlegrounds Track all season long!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Battlegrounds Season Pass lasts until the next Battlegrounds season. Rewards can be earned until the end of the Season Pass. Any earned but unclaimed rewards will be automatically claimed when the Battlegrounds season ends."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/battlegrounds/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Can only be redeemed once per account and is giftable."
+                  ]
+                }
               }
             ]
           },
@@ -3201,7 +4485,56 @@
                 "productGameName": "Hearthstone",
                 "heading": "Hearthstone® Runestones Bundle",
                 "grayText": "Games",
-                "price": "From $4.99"
+                "price": "From $4.99",
+                "productData": {
+                  "productName": "Hearthstone® Runestones Bundle",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Games",
+                  "yellowText": "Use Runestones to buy your favorite Hearthstone products!",
+                  "price": [
+                    {
+                      "productName": "500 Runestones",
+                      "amount": "$4.99"
+                    },
+                    {
+                      "productName": "1000 Runestones",
+                      "amount": "$9.99"
+                    },
+                    {
+                      "productName": "1500 Runestones",
+                      "amount": "$14.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Use Runestones to Unlock All Hearthstone Has to Offer",
+                  "descriptions": [
+                    "Runestones are Hearthstone's virtual currency. Use them in lieu of direct purchases for Packs, Bundles, Cosmetics, the Battlegrounds Season Pass, and other Hearthstone products you could buy from the in-game Shop."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Runestones can only be used to purchase in-game Shop products."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/games/image.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Runestones can only be used to purchase in-game Shop products."
+                  ]
+                }
               }
             ]
           },
@@ -3217,37 +4550,52 @@
                 "heading": "Golden Wild Packs",
                 "grayText": "Card Packs",
                 "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
-                "price": "From $19.99"
-              },
-              {
-                "productLink": "hearthstone-golden-caverns-of-time-packs",
-                "image": "/products-categories/warcraft/hearthstone/wild/image-2.png",
-                "icon": "/games-logo/warcraft/hearthstone.png",
-                "productGameName": "Hearthstone",
-                "heading": "Golden Caverns of Time Packs",
-                "grayText": "Card Packs",
-                "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
-                "price": "From $19.99"
-              },
-              {
-                "productLink": "hearthstone-caverns-of-time-packs",
-                "image": "/products-categories/warcraft/hearthstone/wild/image-3.png",
-                "icon": "/games-logo/warcraft/hearthstone.png",
-                "productGameName": "Hearthstone",
-                "heading": "Caverns of Time Packs",
-                "grayText": "Card Packs",
-                "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
-                "price": "From $2.99"
-              },
-              {
-                "productLink": "hearthstone-golden-fractured-in-alterac-valley",
-                "image": "/products-categories/warcraft/hearthstone/wild/image-4.png",
-                "icon": "/games-logo/warcraft/hearthstone.png",
-                "productGameName": "Hearthstone",
-                "heading": "Golden Fractured in Alterac Valley Packs",
-                "grayText": "Card Packs",
-                "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
-                "price": "From $19.99"
+                "price": "From $19.99",
+                "productData": {
+                  "productName": "Golden Wild Packs",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "grayText": "Card Packs",
+                  "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
+                  "price": [
+                    {
+                      "productName": "5 Golden Packs",
+                      "amount": "$19.99"
+                    },
+                    {
+                      "productName": "11 Golden Packs",
+                      "amount": "$39.99"
+                    }
+                  ],
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Ready to get wild?",
+                  "descriptionHeading": "Use Runestones to Unlock All Hearthstone Has to Offer",
+                  "descriptions": [
+                    "Brave the unknown with a Golden Wild card pack! Available in quantities of 5, 11, 23, and 30, these packs will add an assortment of cards currently playable in the Wild format to your Hearthstone collection. Whether you seek candle-adorned Kobolds, bomb-lobbing Goblins, or a rather dashing Reno, these possibilities and more await you in Wild packs. Each card in a Golden Wild pack is of either Golden or Signature quality."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Wild cards are not eligible for Standard format play, but can be used in the Wild and Twist formats (Twist restrictions and card pools vary from season to season, some Wild cards may not be eligible for Twist play for any particular season)."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/hearthstone/wild/image-1.png"
+                    ]
+                  },
+                  "productRequirements": [
+                    "Runestones can only be used to purchase in-game Shop products."
+                  ]
+                }
               }
             ]
           },
@@ -3267,6 +4615,286 @@
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 10 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "6 Cores, 3.5 GHz processor (8th Generation Intel® Core™ Coffee Lake or AMD Ryzen™ Zen 2)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 8 GB GPU (NVIDIA® GeForce® RTX, AMD™ RDNA™ 2, or Intel® Arc™ 7 Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mac",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 10.15"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 2.9 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 3 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                },
+                {
+                  "requirementsHeading": "Recommended Specifications",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "macOS® 12 (latest version)"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "8 Cores, 3.6 GHz processor (6th Generation Intel® Core™ Skylake or Apple® M1)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Metal® capable 8 GB GPU (AMD™ GCN 4th gen or Apple® M1)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "16 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Multi-button mouse with scroll wheel"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IOS",
+              "logo": "/icons/apple.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Hardware",
+                      "data": "iPhone 6s"
+                    },
+                    {
+                      "heading": "Operating System",
+                      "data": "iOS 13"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "2 GB RAM"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Android",
+              "logo": "/icons/android.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Hardware",
+                      "data": "Android 5.1"
+                    },
+                    {
+                      "heading": "Operating System",
+                      "data": "Snapdragon 675 / Exynos 8890"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "Adreno 612 / Mali-T880 MP12"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "3 GB RAM"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/windows.svg",
+                  "name": "Windows"
+                },
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "Mac"
+                },
+                {
+                  "logo": "/icons/apple.svg",
+                  "name": "iOS"
+                },
+                {
+                  "logo": "/icons/android.svg",
+                  "name": "Android"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-7.png",
+              "name": "Minimum Age 7"
+            },
+            {
+              "image": "/age-rating/image-4.png",
+              "name": "Online Gameplay"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -3338,11 +4966,168 @@
                 "productGameName": "Warcraft®: Orcs & Humans",
                 "heading": "Warcraft®: Orcs & Humans",
                 "grayText": "Real-time Strategy",
-                "price": "$5.99"
+                "price": "$5.99",
+                "productData": {
+                  "productName": "Warcraft®: Orcs & Humans",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
+                  "price": "$5.99",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "Journey to a world of epic fantasy and masterful strategy",
+                  "descriptions": [
+                    "Azeroth, land of magic, mystery, and legendary heroes, is beset by the orcish invaders. Take up arms for your king and defend the realm, or lead the Horde on their bloodthirsty conquest. Command the battlefield, outflank your enemies, and gain victory… or suffer crushing defeat and be forgotten forever. The battle for Azeroth begins today!"
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Localization for this game isn't available. You can purchase the game and play it in English only."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/warcraft-orcs-and-humans/games/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/warcraft-orcs-and-humans/features/image-1.png",
+                          "heading": "A real-time strategy classic",
+                          "description": "Witness an inflection point for the entire RTS genre, when one game opened up a whole new world of strategy gameplay possibilities."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-orcs-and-humans/features/image-2.png",
+                          "heading": "Origin story",
+                          "description": "The narrative threads of the Warcraft universe all lead back to here. Dive in and see first-hand the events that still drive the story of Warcraft today."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-orcs-and-humans/features/image-3.png",
+                          "heading": "Face off like it's 1994",
+                          "description": "Go head-to-head with a friend in intense 1v1 strategy battles for ultimate victory. Become the master strategist and crush your foes without mercy!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Localization for this game isn't available. You can purchase the game and play it in English only."
+                  ]
+                }
               }
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/windows.svg",
+                  "name": "Windows"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-7.png",
+              "name": "Minimum Age 7"
+            },
+            {
+              "image": "/age-rating/image-3.png",
+              "name": "Violence"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {
@@ -3372,11 +5157,169 @@
                 "heading": "Warcraft® II: Battle.net® Edition",
                 "yellowText": "Includes the Warcraft II: Beyond the Dark Portal expansion",
                 "grayText": "Real-time Strategy",
-                "price": "$9.99"
+                "price": "$9.99",
+                "productData": {
+                  "productName": "Warcraft® II: Battle.net® Edition",
+                  "icon": "/games-logo/warcraft/wow.png",
+                  "yellowText": "Includes the Warcraft II: Beyond the Dark Portal expansion",
+                  "price": "$9.99",
+                  "buyProductButton": "Buy Now",
+                  "giftProductButton": "Gift",
+                  "wishListButton": "Add to Wish List",
+                  "descriptionHeading": "The war between orc and man rages on across the seas",
+                  "descriptions": [
+                    "The kingdom of Stormwind lies in ruins. The king has fallen, and the survivors of the orcish onslaught flee across the ocean. The pursuing Horde, eager to plunge the world into chaos, sails its fleet to meet the defenders of Azeroth in battle. As the fate of the world hangs in the balance and the great tacticians of the Horde and the Alliance clash, only one thing is certain: Winning this war will demand unprecedented cunning, courage, and nerves of steel."
+                  ],
+                  "productInfo": [
+                    {
+                      "link": false,
+                      "text": "Localization for this game isn't available. You can purchase the game and play it in English only."
+                    },
+                    {
+                      "link": true,
+                      "text": "System Requirements"
+                    },
+                    {
+                      "link": true,
+                      "text": "Product Details"
+                    }
+                  ],
+                  "productCarousel": {
+                    "slides": [
+                      "/products-categories/warcraft/warcraft-2/games/image.png"
+                    ]
+                  },
+                  "productFeatures": [
+                    {
+                      "heading": "Game features",
+                      "data": [
+                        {
+                          "image": "/product-page/warcraft/warcraft-2/features/image-1.png",
+                          "heading": "Battle across land, air, and sea",
+                          "description": "Charge into the fray on foot, soar across the sky on the backs of mighty dragons or at the helm of gnomish flying machines, and dominate the waves from aboard massive dreadnoughts or stealthy submersible sea turtles."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-2/features/image-2.png",
+                          "heading": "Conquer the shattered realm of Outland",
+                          "description": "Once you've mastered the 28 scenarios of Tides of Darkness, prepare to take the war to the orcs' homeworld of Draenor in 24 more scenarios as part of the Beyond the Dark Portal expansion."
+                        },
+                        {
+                          "image": "/product-page/warcraft/warcraft-2/features/image-3.png",
+                          "heading": "More players, more glory",
+                          "description": "Launch epic multiplayer battles of up to 8 players, then build your own maps using the map editor. Fight across swamps, icy fields, summer plains, and even the wastes of Outland!"
+                        }
+                      ]
+                    }
+                  ],
+                  "productRequirements": [
+                    "Localization for this game isn't available. You can purchase the game and play it in English only."
+                  ]
+                }
               }
             ]
           }
         ],
+        "commonProductsData": {
+          "systemRequirements": [
+            {
+              "name": "Windows",
+              "logo": "/icons/windows.svg",
+              "requirements": [
+                {
+                  "requirementsHeading": "Minimum Requirements",
+                  "data": [
+                    {
+                      "heading": "Operating System",
+                      "data": "Windows® 7 64-bit"
+                    },
+                    {
+                      "heading": "Processor",
+                      "data": "4 Cores, 3.0 GHz processor (4th Generation Intel® Core™ Haswell or AMD Ryzen™ Zen)"
+                    },
+                    {
+                      "heading": "Video",
+                      "data": "DirectX® 12 capable 3 GB GPU (NVIDIA® GeForce® GTX 900 series, AMD™ GCN 4th gen, or Intel® Iris® Xe Graphics)"
+                    },
+                    {
+                      "heading": "Memory",
+                      "data": "8 GB RAM"
+                    },
+                    {
+                      "heading": "Storage",
+                      "data": "Solid State Drive (SSD) 128GB available space"
+                    },
+                    {
+                      "heading": "Internet",
+                      "data": "Broadband internet connection"
+                    },
+                    {
+                      "heading": "Input",
+                      "data": "Keyboard and mouse required"
+                    },
+                    {
+                      "heading": "Resolution",
+                      "data": "1280x720 minimum display resolution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "productDetails": [
+            {
+              "heading": "Genre",
+              "text": "Massively Multiplayer RPG"
+            },
+            {
+              "heading": "Platforms",
+              "platforms": [
+                {
+                  "logo": "/icons/windows.svg",
+                  "name": "Windows"
+                }
+              ]
+            },
+            {
+              "heading": "Available Languages",
+              "languages": [
+                "English (US)",
+                "Español (AL)",
+                "Português (BR)",
+                "English (EU)",
+                "Deutsch",
+                "Español (EU)",
+                "Français",
+                "Italiano",
+                "Русский",
+                "한국어",
+                "繁體中文"
+              ]
+            },
+            {
+              "heading": "Available Regions",
+              "regions": [
+                "Americas & Oceania",
+                "Europe",
+                "Korea",
+                "Taiwan"
+              ]
+            }
+          ],
+          "ageRating": [
+            {
+              "image": "/age-rating/image-7.png",
+              "name": "Minimum Age 7"
+            },
+            {
+              "image": "/age-rating/image-3.png",
+              "name": "Violence"
+            }
+          ],
+          "publishedBy": "/logo/blizzard-logo.png",
+          "developBy": [
+            "/logo/blizzard-logo.png"
+          ]
+        },
         "gameCarouselData": [
           {
             "backgroundImage": {

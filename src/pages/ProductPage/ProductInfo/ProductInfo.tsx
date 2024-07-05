@@ -4,7 +4,7 @@ import { transformToLink } from '../../../lib/utils';
 import { TProductDataProp } from '../../../types/types';
 import Price from './Price';
 import SubscriptionPriceInformation from './SubscriptionPriceInformation';
-import ProductButtons from './ProductButtons';
+import ManageProduct from './ManageProduct';
 
 const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
   const [markedProductIndex, setMarkedProductIndex] = useState(0);
@@ -20,7 +20,6 @@ const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
             aria-hidden='true'
             loading='lazy'
           />
-
           <div>
             <h1 className='text-[2rem] leading-9 text-white font-bold'>
               {productData?.productName}
@@ -30,14 +29,12 @@ const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
             </span>
           </div>
         </div>
-
         {productData?.yellowText
           &&
           <p className='text-sm bg-yellow rounded py-2 px-4'>
             {productData?.yellowText}
           </p>
         }
-
         {productData.price
           &&
           <Price
@@ -53,15 +50,14 @@ const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
             markedProductIndex={markedProductIndex}
           />
         }
-        <ProductButtons productData={productData} />
-
+        <ManageProduct productData={productData} />
         {productData.mobileApps
           &&
           <div className='flex items-center justify-center gap-4'>
             {productData.mobileApps.map((app, index) => (
               <Link className='max-w-[10rem]' to={app.link} target='_blank' key={index}>
                 <img
-                  className='max-w-[10rem] w-full'
+                  className='max-w-[10rem] w-full border border-lightGray rounded-md'
                   src={app.image}
                   alt=''
                   loading='lazy'
@@ -70,7 +66,6 @@ const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
             ))}
           </div>
         }
-
         <ul className='grid gap-2 bg-[#1c1e25] rounded py-8 px-10 list-disc'>
           {productData?.productInfo.map((info, index) => (
             info.link

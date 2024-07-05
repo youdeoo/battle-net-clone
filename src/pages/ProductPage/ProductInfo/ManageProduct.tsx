@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { TProductDataProp } from '../../../types/types';
 
-const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
+const ManageProduct: FC<TProductDataProp> = ({ productData }) => {
   return (
     <div className='grid gap-2'>
       <Link
@@ -11,6 +11,34 @@ const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
       >
         {productData?.buyProductButton}
       </Link>
+      {productData.mobileQRCode
+        &&
+        <div className='flex items-center gap-8 bg-[#22242c] rounded-md py-7 px-6'>
+          <img
+            className='max-w-36 size-auto rounded-md'
+            src={productData.mobileQRCode.qrCode}
+            alt='download warcraft rumble'
+            loading='lazy'
+          />
+          <div>
+            <div className='flex items-center gap-2 mb-4'>
+              <img
+                className='max-w-4 brightness-[2]'
+                src={productData.mobileQRCode.phoneIcon}
+                alt=''
+                aria-hidden='true'
+                loading='lazy'
+              />
+              <h5 className='text-lg font-bold text-white'>
+                {productData.mobileQRCode.heading}
+              </h5>
+            </div>
+            <p className='text-sm text-almostWhiteSecond'>
+              {productData.mobileQRCode.description}
+            </p>
+          </div>
+        </div>
+      }
       {productData.subscribeButton
         &&
         <Link
@@ -59,4 +87,4 @@ const ProductButtons: FC<TProductDataProp> = ({ productData }) => {
   );
 }
 
-export default ProductButtons;
+export default ManageProduct;

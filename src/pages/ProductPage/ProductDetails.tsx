@@ -28,7 +28,7 @@ const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData 
               }
               {detail.platforms
                 &&
-                <div className='flex items-center mt-2'>
+                <div className='grid grid-cols-2 gap-2 mt-2'>
                   {detail.platforms.map((platform, platformIndex) => (
                     <div className='flex items-center gap-2 flex-[1_1_50%]' key={platformIndex}>
                       <img

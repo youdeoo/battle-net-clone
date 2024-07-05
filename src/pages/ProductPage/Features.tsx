@@ -34,7 +34,6 @@ const Features: FC<TProductDataProp> = memo(({ productData }) => {
                 {feature.heading}
               </h2>
             }
-
             <div className='grid grid-cols-3 gap-6 size-full'>
               {feature.data.map((data, dataIndex) => (
                 <div key={dataIndex} className='relative'>
@@ -45,7 +44,6 @@ const Features: FC<TProductDataProp> = memo(({ productData }) => {
                     aria-hidden='true'
                     loading='lazy'
                   />
-
                   <h3 className='text-xl font-bold text-almostWhiteSecond my-4'>
                     {data.heading}
                   </h3>

@@ -42,14 +42,16 @@ const Price: FC<TProductDataProp & Prop> = ({
             <span className='text-sm font-bold text-lightGray tracking-wide uppercase'>
               Select a product
             </span>
-            <a
-              className='font-bold text-lighterBlue underline transition-colors hover:text-lightestBlue'
-              href='#compare'
-            >
-              Comapre
-            </a>
+            {productData.compareProducts
+              &&
+              <a
+                className='font-bold text-lighterBlue underline transition-colors hover:text-lightestBlue'
+                href='#compare'
+              >
+                Comapre
+              </a>
+            }
           </div>
-
           <div className='mt-4'>
             {(productData.price as Array<TProductDataPrice>).map((price, index) => (
               <button
@@ -75,7 +77,6 @@ const Price: FC<TProductDataProp & Prop> = ({
                     </dd>
                   }
                 </dl>
-
                 {price.image
                   &&
                   <div className={`absolute top-1/2 left-[-18rem] z-[2] translate-y-[-50%] invisible opacity-0 bg-mediumBlue border

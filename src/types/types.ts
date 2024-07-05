@@ -44,6 +44,11 @@ type TSubscriptionPriceInformation = {
   text: string;
 }
 
+type TMobileQRCode = Pick<TProduct, 'heading'> & Pick<TProductFeaturesData, 'description'> & {
+  qrCode: string;
+  phoneIcon: string;
+}
+
 type TMobileApps = Pick<TProduct, 'image'> & Pick<TFormatGameData, 'link'>;
 
 type TProductData = {
@@ -57,6 +62,7 @@ type TProductData = {
   subscribeButton?: string;
   giftProductButton?: string;
   wishListButton?: string;
+  mobileQRCode: TMobileQRCode;
   mobileApps?: Array<TMobileApps>;
   descriptionHeading: string;
   descriptions: Array<string>;
