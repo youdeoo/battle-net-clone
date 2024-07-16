@@ -40,7 +40,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Welcome to Azeroth Bundle",
+                "productName": "World of Warcraft®: Welcome to Azeroth Bundle",
                 "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
                 "grayText": "Bundles",
                 "price": "$24.99",
@@ -131,7 +131,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Free Trial",
+                "productName": "World of Warcraft®: Free Trial",
                 "yellowText": "Play free up to level 20!",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Play For Free",
@@ -213,7 +213,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: The War Within™",
+                "productName": "World of Warcraft®: The War Within™",
                 "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "From $49.99",
@@ -510,7 +510,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Welcome to Azeroth Bundle",
+                "productName": "World of Warcraft®: Welcome to Azeroth Bundle",
                 "yellowText": "Everything you need to begin your adventure, offer available through June 23!",
                 "grayText": "Bundles",
                 "price": "$24.99",
@@ -521,7 +521,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: The War Within™",
+                "productName": "World of Warcraft®: The War Within™",
                 "yellowText": "The War Within launches August 26, at 3PM PT! Upgrade to the Epic Edition and get Beta Access Now.",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "From $49.99",
@@ -535,7 +535,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/games/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World Of Warcraft Remix: Mists of Pandaria",
+                "productName": "World Of Warcraft Remix: Mists of Pandaria",
                 "yellowText": "Play free to level 20",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Learn More"
@@ -545,7 +545,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Free Trial",
+                "productName": "World of Warcraft®: Free Trial",
                 "yellowText": "Play free up to level 20!",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Play For Free"
@@ -555,7 +555,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/games/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "World of Warcraft® Classic",
+                "productName": "World of Warcraft® Classic",
                 "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Massively Multiplayer RPG",
                 "price": "Learn More",
@@ -823,7 +823,7 @@
                 "image": "/products-categories/warcraft/common-products/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Subscription",
+                "productName": "World of Warcraft®: Subscription",
                 "yellowgext": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Subscriptions",
                 "price": "From $12.99/month"
@@ -833,7 +833,7 @@
                 "image": "/products-categories/warcraft/common-products/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "World of Warcraft®: Special Subscription Offer",
+                "productName": "World of Warcraft®: Special Subscription Offer",
                 "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Subscriptions",
                 "price": "Learn More"
@@ -849,7 +849,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Blazing Heroic Pack",
+                "productName": "Blazing Heroic Pack",
                 "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
                 "grayText": "Game Upgrades",
                 "price": "$29.99",
@@ -1027,7 +1027,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "The Mighty Kodo Pack",
+                "productName": "The Mighty Kodo Pack",
                 "yellowText": "Time to hoof it!",
                 "grayText": "Bundles",
                 "price": "$25.00",
@@ -1102,7 +1102,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Auspicious Arborwyrm",
+                "productName": "Auspicious Arborwyrm",
                 "yellowText": "Also available at no additional charge with 6 and 12-Month Subscriptions!",
                 "grayText": "Mounts",
                 "price": "$25.00",
@@ -1172,7 +1172,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Tangled Dreamweaver",
+                "productName": "Tangled Dreamweaver",
                 "grayText": "Mounts",
                 "price": "$25.00",
                 "productData": {
@@ -1244,7 +1244,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/pets/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Murkastrasza",
+                "productName": "Murkastrasza",
                 "grayText": "Pets",
                 "price": "$10.00",
                 "productData": {
@@ -1310,7 +1310,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/pets/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "Alterac Brew Pup",
-                "heading": "World of Warcraft",
+                "productName": "World of Warcraft",
                 "grayText": "Pets",
                 "price": "$10.00",
                 "productData": {
@@ -1383,7 +1383,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/toys/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Magical Murkmorpher",
+                "productName": "Magical Murkmorpher",
                 "grayText": "Toys",
                 "price": "$10.00",
                 "newProduct": "New",
@@ -1456,7 +1456,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Green Snugglefin Murloc Romper",
+                "productName": "Green Snugglefin Murloc Romper",
                 "grayText": "Transmogs",
                 "price": "$20.00",
                 "newProduct": "New",
@@ -1519,7 +1519,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft",
-                "heading": "Enhanced Level 70 Character Boost",
+                "productName": "Enhanced Level 70 Character Boost",
                 "yellowText": "Get the Enhanced Character Boost and jump into Dragonflight endgame ready!",
                 "grayText": "Game Service",
                 "price": "From $60.00",
@@ -1615,7 +1615,7 @@
                 "image": "/products-categories/warcraft/common-products/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft Gear",
-                "heading": "World of Warcraft Gear",
+                "productName": "World of Warcraft Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -1923,7 +1923,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Blazing Epic Pack",
+                "productName": "Blazing Epic Pack",
                 "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
                 "grayText": "Game Upgrades",
                 "price": "$79.99",
@@ -1934,7 +1934,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Blazing Heroic Pack",
+                "productName": "Blazing Heroic Pack",
                 "yellowText": "Upgrade to get a haul of hot new items! Cataclysm Classic is LIVE and INCLUDED with your WoW Subscription.",
                 "grayText": "Game Upgrades",
                 "price": "$29.99",
@@ -1951,7 +1951,7 @@
                 "image": "/products-categories/warcraft/common-products/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "World of Warcraft®: Subscription",
+                "productName": "World of Warcraft®: Subscription",
                 "yellowgext": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Subscriptions",
                 "price": "From $12.99/month"
@@ -1961,7 +1961,7 @@
                 "image": "/products-categories/warcraft/common-products/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "World of Warcraft®: Special Subscription Offer",
+                "productName": "World of Warcraft®: Special Subscription Offer",
                 "yellowText": "Includes access to World of Warcraft, upcoming Cataclysm Classic, Classic Season of Discovery and Hardcore Realms!",
                 "grayText": "Subscriptions",
                 "price": "Learn More"
@@ -1977,7 +1977,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Auspicious Arborwyrm",
+                "productName": "Auspicious Arborwyrm",
                 "grayText": "Mounts",
                 "price": "$25.00",
                 "newProduct": "New",
@@ -2028,7 +2028,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Kalu'ak Whalebone Glider",
+                "productName": "Kalu'ak Whalebone Glider",
                 "grayText": "Mounts",
                 "price": "$25.00",
                 "newProduct": "New",
@@ -2078,7 +2078,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-3.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Re-Awakened Phase-Hunter Mount",
+                "productName": "Re-Awakened Phase-Hunter Mount",
                 "grayText": "Mounts",
                 "price": "$25.00",
                 "newProduct": "New",
@@ -2134,7 +2134,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/pets/image.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Pebble the Penguin",
+                "productName": "Pebble the Penguin",
                 "grayText": "Pets",
                 "price": "$10.00",
                 "newProduct": "New",
@@ -2189,7 +2189,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Dark Portal Hearthstone Effect",
+                "productName": "Dark Portal Hearthstone Effect",
                 "grayText": "Toys",
                 "price": "$10.00",
                 "newProduct": "New",
@@ -2244,7 +2244,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Cataclysm Classic",
-                "heading": "Level 80 Character Boost (Progression)",
+                "productName": "Level 80 Character Boost (Progression)",
                 "grayText": "Progression Game Services",
                 "price": "$60.00",
                 "productData": {
@@ -2298,7 +2298,7 @@
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/era-game-services/image.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
                 "productGameName": "World of Warcraft Classic",
-                "heading": "WoW® Classic Era Character Transfer",
+                "productName": "WoW® Classic Era Character Transfer",
                 "yellowText": "Also available in multiple packs.",
                 "grayText": "Era Game Services",
                 "price": "From $25.00",
@@ -2367,7 +2367,7 @@
                 "image": "/products-categories/warcraft/common-products/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
                 "productGameName": "World of Warcraft Gear",
-                "heading": "World of Warcraft Gear",
+                "productName": "World of Warcraft Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -2743,7 +2743,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-1.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "12600 Coins",
+                "productName": "12600 Coins",
                 "grayText": "In-Game Content",
                 "price": "$99.99",
                 "deal": "Great Deal",
@@ -2872,7 +2872,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-2.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "6300 Coins",
+                "productName": "6300 Coins",
                 "grayText": "In-Game Content",
                 "price": "$49.99",
                 "linkText": "Buy Now"
@@ -2882,7 +2882,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-3.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "3150 Coins",
+                "productName": "3150 Coins",
                 "grayText": "In-Game Content",
                 "price": "$24.99",
                 "linkText": "Buy Now"
@@ -2892,7 +2892,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-4.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "1260 Coins",
+                "productName": "1260 Coins",
                 "grayText": "In-Game Content",
                 "price": "$9.99",
                 "linkText": "Buy Now"
@@ -2902,7 +2902,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-5.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "525 Coins",
+                "productName": "525 Coins",
                 "grayText": "In-Game Content",
                 "price": "$4.99",
                 "linkText": "Buy Now"
@@ -2912,7 +2912,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-6.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "525 Coins",
+                "productName": "525 Coins",
                 "grayText": "In-Game Content",
                 "price": "$0.99",
                 "linkText": "Buy Now"
@@ -2922,7 +2922,7 @@
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-7.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
                 "productGameName": "Warcraft Rumble",
-                "heading": "Coin Packs",
+                "productName": "Coin Packs",
                 "grayText": "In-Game Content",
                 "price": "From $0.99"
               }
@@ -3068,7 +3068,7 @@
                 "image": "/products-categories/warcraft/warcraft-3/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-3.png",
                 "productGameName": "World III",
-                "heading": "Warcraft® III: Reforged",
+                "productName": "Warcraft® III: Reforged",
                 "grayText": "Real-time Strategy",
                 "price": "From $29.99",
                 "productData": {
@@ -3153,7 +3153,7 @@
                 "image": "/products-categories/warcraft/warcraft-3/gear/image.png",
                 "icon": "/games-logo/warcraft/warcraft-3.png",
                 "productGameName": "World III",
-                "heading": "Warcraft Gear",
+                "productName": "Warcraft Gear",
                 "grayText": "Gear",
                 "price": "From $29.99"
               }
@@ -3415,7 +3415,7 @@
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone®",
+                "productName": "Hearthstone®",
                 "grayText": "Strategy Card Game",
                 "price": "Play For Free",
                 "productData": {
@@ -3498,7 +3498,7 @@
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Showdown in the Badlands Packs",
+                "productName": "Showdown in the Badlands Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99",
                 "productData": {
@@ -3551,7 +3551,7 @@
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "March of the Lich King Packs",
+                "productName": "March of the Lich King Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99",
                 "productData": {
@@ -3610,7 +3610,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Whizbang's Workshop Tavern Pass",
+                "productName": "Whizbang's Workshop Tavern Pass",
                 "grayText": "Card Packs",
                 "yellowText": "Available through July 23, 2024",
                 "price": "$19.99",
@@ -3678,7 +3678,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Golden Whizbang's Workshop Packs",
+                "productName": "Golden Whizbang's Workshop Packs",
                 "grayText": "Card Packs",
                 "price": "From $19.99",
                 "productData": {
@@ -3731,7 +3731,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Whizbang's Workshop Packs",
+                "productName": "Whizbang's Workshop Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99",
                 "productData": {
@@ -3784,7 +3784,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-4.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Golden Showdown in the Badlands Packs",
+                "productName": "Golden Showdown in the Badlands Packs",
                 "grayText": "Card Packs",
                 "price": "From $19.99",
                 "productData": {
@@ -3837,7 +3837,7 @@
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Showdown in the Badlands Packs",
+                "productName": "Showdown in the Badlands Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99"
               },
@@ -3846,7 +3846,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-5.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Golden TITANS Packs",
+                "productName": "Golden TITANS Packs",
                 "grayText": "Card Packs",
                 "price": "From $19.99",
                 "productData": {
@@ -3899,7 +3899,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-6.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "TITANS Packs",
+                "productName": "TITANS Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99",
                 "productData": {
@@ -3952,7 +3952,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-7.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Golden Festival of Legends Packs",
+                "productName": "Golden Festival of Legends Packs",
                 "grayText": "Card Packs",
                 "price": "From $19.99",
                 "productData": {
@@ -4005,7 +4005,7 @@
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-8.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Festival of Legends Packs",
+                "productName": "Festival of Legends Packs",
                 "grayText": "Card Packs",
                 "price": "From $2.99",
                 "productData": {
@@ -4064,7 +4064,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Golden Mini-Set",
+                "productName": "Hearthstone®: Dr. Boom's Incredible Inventions Golden Mini-Set",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
                 "price": "$69.99",
@@ -4169,7 +4169,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
+                "productName": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
                 "grayText": "Mini-Sets",
                 "price": "$14.99",
                 "newProduct": "New"
@@ -4179,7 +4179,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Delve into Deepholm Golden Mini-Set",
+                "productName": "Delve into Deepholm Golden Mini-Set",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
                 "price": "$69.99",
@@ -4283,7 +4283,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-4.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Delve into Deepholm Mini-Set",
+                "productName": "Delve into Deepholm Mini-Set",
                 "grayText": "Mini-Sets",
                 "price": "$14.99"
               },
@@ -4292,7 +4292,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-5.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "TITANS Golden Mini-Set - Fall of Ulduar",
+                "productName": "TITANS Golden Mini-Set - Fall of Ulduar",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
                 "price": "$69.99",
@@ -4396,7 +4396,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
+                "productName": "Hearthstone®: Dr. Boom's Incredible Inventions Mini-Set",
                 "grayText": "Mini-Sets",
                 "price": "$14.99",
                 "newProduct": "New"
@@ -4406,7 +4406,7 @@
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Delve into Deepholm Golden Mini-Set",
+                "productName": "Delve into Deepholm Golden Mini-Set",
                 "grayText": "Mini-Sets",
                 "yellowText": "Get instant access to 72 Golden Mini-Set Cards plus and additional Diamond Card!",
                 "price": "$69.99"
@@ -4422,7 +4422,7 @@
                 "image": "/products-categories/warcraft/hearthstone/battlegrounds/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Battlegrounds Season Pass",
+                "productName": "Battlegrounds Season Pass",
                 "grayText": "Battlegrounds",
                 "yellowText": "Available through August 20, 2024",
                 "price": "From $14.99",
@@ -4474,7 +4474,7 @@
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone®",
+                "productName": "Hearthstone®",
                 "grayText": "Strategy Card Game",
                 "price": "Play For Free"
               },
@@ -4483,7 +4483,7 @@
                 "image": "/products-categories/warcraft/hearthstone/games/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone® Runestones Bundle",
+                "productName": "Hearthstone® Runestones Bundle",
                 "grayText": "Games",
                 "price": "From $4.99",
                 "productData": {
@@ -4547,7 +4547,7 @@
                 "image": "/products-categories/warcraft/hearthstone/wild/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Golden Wild Packs",
+                "productName": "Golden Wild Packs",
                 "grayText": "Card Packs",
                 "yellowText": "Requires Bronze 10 Rank or better to open and cannot be used in Standard.",
                 "price": "From $19.99",
@@ -4608,7 +4608,7 @@
                 "image": "/products-categories/warcraft/hearthstone/gear/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
                 "productGameName": "Hearthstone",
-                "heading": "Hearthstone Gear",
+                "productName": "Hearthstone Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -4964,7 +4964,7 @@
                 "image": "/products-categories/warcraft/warcraft-orcs-and-humans/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
                 "productGameName": "Warcraft®: Orcs & Humans",
-                "heading": "Warcraft®: Orcs & Humans",
+                "productName": "Warcraft®: Orcs & Humans",
                 "grayText": "Real-time Strategy",
                 "price": "$5.99",
                 "productData": {
@@ -5154,7 +5154,7 @@
                 "image": "/products-categories/warcraft/warcraft-2/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-2.png",
                 "productGameName": "Warcraft II",
-                "heading": "Warcraft® II: Battle.net® Edition",
+                "productName": "Warcraft® II: Battle.net® Edition",
                 "yellowText": "Includes the Warcraft II: Beyond the Dark Portal expansion",
                 "grayText": "Real-time Strategy",
                 "price": "$9.99",
@@ -5396,7 +5396,7 @@
                 "image": "/products-categories/call-of-duty/common-products/games/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® III - Vault Edition",
+                "productName": "Call of Duty®: Modern Warfare® III - Vault Edition",
                 "grayText": "Action Shooter",
                 "yellowText": "Stop the threat in Season 4 of Call of Duty®",
                 "price": "$99.99"
@@ -5406,7 +5406,7 @@
                 "image": "/products-categories/call-of-duty/common-products/games/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® III",
+                "productName": "Call of Duty®: Modern Warfare® III",
                 "grayText": "Action Shooter",
                 "yellowText": "Stop the threat in Season 4 of Call of Duty®",
                 "price": "$69.99"
@@ -5416,7 +5416,7 @@
                 "image": "/products-categories/call-of-duty/common-products/games/image-3.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® II",
+                "productName": "Call of Duty®: Modern Warfare® II",
                 "grayText": "Action Shooter",
                 "yellowText": "Play Warzone™ for free now",
                 "price": "$69.99"
@@ -5426,7 +5426,7 @@
                 "image": "/products-categories/call-of-duty/common-products/games/image-4.png",
                 "icon": "/games-logo/call-of-duty/warzone.webp",
                 "productGameName": "Call of Duty: Warzone",
-                "heading": "Call of Duty®: Warzone",
+                "productName": "Call of Duty®: Warzone",
                 "grayText": "Free-To-Play Action Shooter",
                 "yellowText": "Free for everyone",
                 "price": "Play For Free"
@@ -5441,7 +5441,7 @@
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Modern Warfare® III or Call of Duty®: Warzone Points (CP)",
+                "productName": "Modern Warfare® III or Call of Duty®: Warzone Points (CP)",
                 "grayText": "In-Game Content",
                 "yellowText": "Use CP To get the Battle Pass!",
                 "price": "From $1.99"
@@ -5451,7 +5451,7 @@
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® III - BlackCell (Season 4)",
+                "productName": "Call of Duty®: Modern Warfare® III - BlackCell (Season 4)",
                 "grayText": "In-Game Content",
                 "price": "From $29.99",
                 "newProduct": "New"
@@ -5461,7 +5461,7 @@
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-3.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® III - Tracer Pack: Custom Molded Ultra Skin Pro Pack",
+                "productName": "Call of Duty®: Modern Warfare® III - Tracer Pack: Custom Molded Ultra Skin Pro Pack",
                 "grayText": "In-Game Content",
                 "price": "From $19.99",
                 "newProduct": "New"
@@ -5471,7 +5471,7 @@
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-4.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
                 "productGameName": "Call of Duty: Modern Warfare III",
-                "heading": "Call of Duty®: Modern Warfare® III - Tracer Pack: Trash Talk 2.0 Ultra Skin Pro Pack",
+                "productName": "Call of Duty®: Modern Warfare® III - Tracer Pack: Trash Talk 2.0 Ultra Skin Pro Pack",
                 "grayText": "In-Game Content",
                 "price": "From $19.99",
                 "newProduct": "New"
@@ -5487,7 +5487,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2.png",
                 "productGameName": "Call of Duty: Modern Warfare II",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5564,7 +5564,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/vanguard.png",
                 "productGameName": "Call of Duty: Vanguard",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5602,7 +5602,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/games/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
                 "productGameName": "Call of Duty: BOCW",
-                "heading": "Call of Duty®: Black Ops Cold War",
+                "productName": "Call of Duty®: Black Ops Cold War",
                 "grayText": "Action Shooter",
                 "yellowText": "Captain Price Operator included with purchase",
                 "price": "$59.99"
@@ -5618,7 +5618,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
                 "productGameName": "Call of Duty: BOCW",
-                "heading": "Call of Duty®: Black Ops Cold War Points (CP)",
+                "productName": "Call of Duty®: Black Ops Cold War Points (CP)",
                 "grayText": "In-Game Content",
                 "yellowText": "Use CP to get the Battle Pass!",
                 "price": "From $1.99"
@@ -5628,7 +5628,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
                 "productGameName": "Call of Duty: BOCW",
-                "heading": "Black Ops Cold War - Containment Breach: Pro Pack",
+                "productName": "Black Ops Cold War - Containment Breach: Pro Pack",
                 "grayText": "In-Game Content",
                 "price": "$19.99"
               }
@@ -5643,7 +5643,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
                 "productGameName": "Call of Duty: BOCW",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5682,7 +5682,7 @@
                 "image": "/products-categories/call-of-duty/modern-warfare/games/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
                 "productGameName": "Call of Duty: MW",
-                "heading": "Call of Duty®: Modern Warfare®",
+                "productName": "Call of Duty®: Modern Warfare®",
                 "grayText": "Action Shooter",
                 "yellowText": "Get the XRK Weapons Pack!",
                 "price": "$59.99"
@@ -5698,7 +5698,7 @@
                 "image": "/products-categories/call-of-duty/modern-warfare/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
                 "productGameName": "Call of Duty: MW",
-                "heading": "Call of Duty®: Modern Warfare® Points (CP)",
+                "productName": "Call of Duty®: Modern Warfare® Points (CP)",
                 "grayText": "In-Game Content",
                 "yellowText": "Use CP to get the Battle Pass!",
                 "price": "From $1.99"
@@ -5708,7 +5708,7 @@
                 "image": "/products-categories/call-of-duty/modern-warfare/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
                 "productGameName": "Call of Duty: MW",
-                "heading": "Call of Duty® Endowment (C.O.D.E.) - Defender Pack",
+                "productName": "Call of Duty® Endowment (C.O.D.E.) - Defender Pack",
                 "grayText": "In-Game Content",
                 "price": "$9.99"
               }
@@ -5723,7 +5723,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
                 "productGameName": "Call of Duty: MW",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5760,7 +5760,7 @@
                 "image": "/products-categories/call-of-duty/modern-warfare-2-remaster/games/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
                 "productGameName": "Call of Duty: MMW2CR",
-                "heading": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+                "productName": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
                 "grayText": "Action Shooter",
                 "yellowText": "Includes free UDT Ghost bundle",
                 "price": "$24.99"
@@ -5776,7 +5776,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
                 "productGameName": "Call of Duty: MMW2CR",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5812,7 +5812,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty®: Black Ops 4 - Digital Deluxe",
+                "productName": "Call of Duty®: Black Ops 4 - Digital Deluxe",
                 "grayText": "Action Shooter",
                 "price": "$99.99"
               },
@@ -5821,7 +5821,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty®: Black Ops 4",
+                "productName": "Call of Duty®: Black Ops 4",
                 "grayText": "Action Shooter",
                 "price": "$59.99"
               },
@@ -5830,7 +5830,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-3.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty®: Black Ops 4 - Battle Edition",
+                "productName": "Call of Duty®: Black Ops 4 - Battle Edition",
                 "grayText": "Action Shooter",
                 "price": "$39.99"
               }
@@ -5845,7 +5845,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-4/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty®: Black Ops 4 - \"Classified\" Zombies Experience",
+                "productName": "Call of Duty®: Black Ops 4 - \"Classified\" Zombies Experience",
                 "grayText": "In-Game Content",
                 "yellowText": "What was top secret is now the top threat to mankind...",
                 "price": "$7.99"
@@ -5855,7 +5855,7 @@
                 "image": "/products-categories/call-of-duty/black-ops-4/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty®: Black Ops 4 - Black Ops Pass",
+                "productName": "Call of Duty®: Black Ops 4 - Black Ops Pass",
                 "grayText": "In-Game Content",
                 "price": "$49.99"
               }
@@ -5870,7 +5870,7 @@
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
                 "productGameName": "Call of Duty: BO4",
-                "heading": "Call of Duty Gear",
+                "productName": "Call of Duty Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -5928,7 +5928,7 @@
                 "image": "/products-categories/diablo/diablo-4/games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV - Standard Edition",
+                "productName": "Diablo® IV - Standard Edition",
                 "grayText": "Action RPG",
                 "price": "$49.99"
               },
@@ -5937,7 +5937,7 @@
                 "image": "/products-categories/diablo/diablo-4/games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV Expansion Bundle",
+                "productName": "Diablo® IV Expansion Bundle",
                 "grayText": "Action RPG",
                 "yellowText": "Pre-purchase and get in-game rewards today!",
                 "price": "$69.99",
@@ -5948,7 +5948,7 @@
                 "image": "/products-categories/diablo/diablo-4/games/image-3.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV: Vessel of Hatred - Standard Ediditon",
+                "productName": "Diablo® IV: Vessel of Hatred - Standard Ediditon",
                 "grayText": "Action RPG",
                 "yellowText": "Pre-purchase and get in-game rewards today!",
                 "price": "$39.99",
@@ -5959,7 +5959,7 @@
                 "image": "/products-categories/diablo/diablo-4/games/image-4.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV: Vessel of Hatred - Deluxe Ediditon",
+                "productName": "Diablo® IV: Vessel of Hatred - Deluxe Ediditon",
                 "grayText": "Action RPG",
                 "yellowText": "Pre-purchase and get in-game rewards today!",
                 "price": "$59.99",
@@ -5970,7 +5970,7 @@
                 "image": "/products-categories/diablo/diablo-4/games/image-5.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV: Vessel of Hatred - Ultimate Ediditon",
+                "productName": "Diablo® IV: Vessel of Hatred - Ultimate Ediditon",
                 "grayText": "Action RPG",
                 "yellowText": "Pre-purchase and get in-game rewards today!",
                 "price": "$89.99",
@@ -5987,7 +5987,7 @@
                 "image": "/products-categories/diablo/diablo-4/battle-pass/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV - Season 4: Loot Reborn",
+                "productName": "Diablo® IV - Season 4: Loot Reborn",
                 "grayText": "In-Game Content",
                 "yellowText": "Get the Premium Battle pass plus 20 Tier Skips and \"Wing's of Hell's Legin\" emote!",
                 "price": "2,800 Platinum",
@@ -5998,7 +5998,7 @@
                 "image": "/products-categories/diablo/diablo-4/battle-pass/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV - Season 4: Loot Reborn",
+                "productName": "Diablo® IV - Season 4: Loot Reborn",
                 "grayText": "In-Game Content",
                 "yellowText": "Get the Premium Battle pass - featuring 90 tiers of rewards!",
                 "price": "2,800 Platinum",
@@ -6020,7 +6020,7 @@
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Bathed in Blood Collection Pack",
+                "productName": "Bathed in Blood Collection Pack",
                 "grayText": "Bundle (14 items) | Barbarian",
                 "price": "2,800 Platinum",
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
@@ -6030,7 +6030,7 @@
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Tusked Lord Collection Pack",
+                "productName": "Tusked Lord Collection Pack",
                 "grayText": "Bundle (14 items) | Druid",
                 "price": "2,800 Platinum",
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
@@ -6040,7 +6040,7 @@
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-3.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Reign of Solitude Collection Pack",
+                "productName": "Reign of Solitude Collection Pack",
                 "grayText": "Bundle (14 items) | Necromancer",
                 "price": "2,800 Platinum",
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
@@ -6050,7 +6050,7 @@
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-4.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Peacock Collection Pack",
+                "productName": "Peacock Collection Pack",
                 "grayText": "Bundle (14 items) | Rogue",
                 "price": "2,800 Platinum",
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
@@ -6060,7 +6060,7 @@
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-5.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Host of Chaos Collection Pack",
+                "productName": "Host of Chaos Collection Pack",
                 "grayText": "Bundle (14 items) | Sorcerer",
                 "price": "2,800 Platinum",
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
@@ -6076,7 +6076,7 @@
                 "image": "/products-categories/diablo/diablo-4/add-ons-and-platinum/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV Platinum",
+                "productName": "Diablo® IV Platinum",
                 "grayText": "In-Game Content",
                 "yellowText": "Upgrade your Battle Pass & make shop purchases",
                 "price": "From $4.99"
@@ -6086,7 +6086,7 @@
                 "image": "/products-categories/diablo/diablo-4/add-ons-and-platinum/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Diablo® IV Crypt Hunter Pack",
+                "productName": "Diablo® IV Crypt Hunter Pack",
                 "grayText": "In-Game Content",
                 "yellowText": "Get Started with 800 Platinum and Cosmetics",
                 "price": "From $6.99"
@@ -6102,7 +6102,7 @@
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
                 "productGameName": "Diablo",
-                "heading": "Diablo Gear",
+                "productName": "Diablo Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               },
@@ -6111,7 +6111,7 @@
                 "image": "/products-categories/diablo/diablo-4/gear/image.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
                 "productGameName": "Diablo IV",
-                "heading": "Inarius Statue",
+                "productName": "Inarius Statue",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6149,7 +6149,7 @@
                 "image": "/products-categories/diablo/diablo-immortal/games-and-in-content/image-1.png",
                 "icon": "/games-logo/diablo/diablo-immortal.png",
                 "productGameName": "Diablo Immortal",
-                "heading": "Diablo Immortal™",
+                "productName": "Diablo Immortal™",
                 "grayText": "Games and In-game Content",
                 "price": "Play For Free"
               },
@@ -6158,7 +6158,7 @@
                 "image": "/products-categories/diablo/diablo-immortal/games-and-in-content/image-2.png",
                 "icon": "/games-logo/diablo/diablo-immortal.png",
                 "productGameName": "Diablo Immortal",
-                "heading": "Eternal Orbs",
+                "productName": "Eternal Orbs",
                 "grayText": "In-game Content",
                 "price": "From $0.99"
               }
@@ -6173,7 +6173,7 @@
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
                 "productGameName": "Diablo",
-                "heading": "Diablo Gear",
+                "productName": "Diablo Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6212,7 +6212,7 @@
                 "image": "/products-categories/diablo/diablo-3/games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
                 "productGameName": "Diablo III",
-                "heading": "Diablo® III: Eternal Collection",
+                "productName": "Diablo® III: Eternal Collection",
                 "grayText": "Action RPG",
                 "price": "$39.99"
               },
@@ -6221,7 +6221,7 @@
                 "image": "/products-categories/diablo/diablo-3/games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
                 "productGameName": "Diablo III",
-                "heading": "Diablo® III Battle Chest®",
+                "productName": "Diablo® III Battle Chest®",
                 "grayText": "Action RPG",
                 "price": "$29.99"
               },
@@ -6230,7 +6230,7 @@
                 "image": "/products-categories/diablo/diablo-3/games/image-3.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
                 "productGameName": "Diablo III",
-                "heading": "Diablo® III",
+                "productName": "Diablo® III",
                 "grayText": "Action RPG",
                 "price": "$19.99"
               }
@@ -6245,7 +6245,7 @@
                 "image": "/products-categories/diablo/diablo-3/expansions/image-1.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
                 "productGameName": "Diablo III",
-                "heading": "Diablo® III Reaper of Souls™",
+                "productName": "Diablo® III Reaper of Souls™",
                 "grayText": "Expansions",
                 "yellowText": "Requires Diablo III",
                 "price": "$19.99"
@@ -6255,7 +6255,7 @@
                 "image": "/products-categories/diablo/diablo-3/expansions/image-2.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
                 "productGameName": "Diablo III",
-                "heading": "Diablo® III: Rise of the Necromancer",
+                "productName": "Diablo® III: Rise of the Necromancer",
                 "grayText": "Expansions",
                 "yellowText": "Requires Diablo III: Reaper of Souls",
                 "price": "$14.99"
@@ -6271,7 +6271,7 @@
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
                 "productGameName": "Diablo",
-                "heading": "Diablo Gear",
+                "productName": "Diablo Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6307,7 +6307,7 @@
                 "image": "/products-categories/diablo/diablo-2-resurrected/games/image.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
                 "productGameName": "Diablo II: Resurrected",
-                "heading": "Diablo II: Resurrected™",
+                "productName": "Diablo II: Resurrected™",
                 "grayText": "Action RPG",
                 "yellowText": "Evil is Resurrected",
                 "price": "$39.99"
@@ -6323,7 +6323,7 @@
                 "image": "/products-categories/diablo/diablo-2-resurrected/classic-games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
                 "productGameName": "Diablo II: Resurrected",
-                "heading": "Diablo® II Lord of Destruction® (2001)",
+                "productName": "Diablo® II Lord of Destruction® (2001)",
                 "grayText": "Action RPG",
                 "yellowText": "Requires Diablo® II (2000)",
                 "price": "$9.99"
@@ -6333,7 +6333,7 @@
                 "image": "/products-categories/diablo/diablo-2-resurrected/classic-games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
                 "productGameName": "Diablo II: Resurrected",
-                "heading": "Diablo® II (2000)",
+                "productName": "Diablo® II (2000)",
                 "grayText": "Action RPG",
                 "price": "$9.99"
               }
@@ -6348,7 +6348,7 @@
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
                 "productGameName": "Diablo",
-                "heading": "Diablo Gear",
+                "productName": "Diablo Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6384,7 +6384,7 @@
                 "image": "/products-categories/diablo/diablo/image.png",
                 "icon": "/games-logo/diablo/diablo.png",
                 "productGameName": "Diablo Classic",
-                "heading": "Diablo®",
+                "productName": "Diablo®",
                 "grayText": "Action RPG",
                 "yellowText": "Includes the Diablo: Hellfire expansion",
                 "price": "$9.99"
@@ -6442,7 +6442,7 @@
                 "image": "/products-categories/overwatch/seasonal-packs/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season 10",
+                "productName": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season 10",
                 "grayText": "Team-Based Action Game",
                 "yellowText": "Get the Season 10 Premium Battle Pass + 20 Tiers, Fallen Knight Reinhardt, and more!",
                 "price": "€39.99"
@@ -6452,7 +6452,7 @@
                 "image": "/products-categories/overwatch/seasonal-packs/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® 2 Premium Battle Pass: Season 10",
+                "productName": "Overwatch® 2 Premium Battle Pass: Season 10",
                 "grayText": "Team-Based Action Game",
                 "yellowText": "Enter a parallel mirror universe in the Overwatch 2 - Season 10 Battle Pass!",
                 "price": "€59.99",
@@ -6471,7 +6471,7 @@
                 "image": "/products-categories/overwatch/shop/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Torbjörn - Prospector",
+                "productName": "Torbjörn - Prospector",
                 "grayText": "Legendary | Skins | Torbjörn",
                 "price": "1,900 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6481,7 +6481,7 @@
                 "image": "/products-categories/overwatch/shop/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Fire Engine Bastion Bundle",
+                "productName": "Fire Engine Bastion Bundle",
                 "grayText": "Legendary | Bundle (4 items)",
                 "price": "3,200 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6491,7 +6491,7 @@
                 "image": "/products-categories/overwatch/shop/image-3.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Honeydew Mei Bundle",
+                "productName": "Honeydew Mei Bundle",
                 "grayText": "Legendary | Bundle (4 items)",
                 "price": "2,275 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6501,7 +6501,7 @@
                 "image": "/products-categories/overwatch/shop/image-4.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® Battle Pass Tier Skip",
+                "productName": "Overwatch® Battle Pass Tier Skip",
                 "grayText": "Seasonal Packs",
                 "yellowText": "Also purchasable in-game",
                 "price": "From 200 Coins",
@@ -6512,7 +6512,7 @@
                 "image": "/products-categories/overwatch/shop/image-5.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Poolside Bundle",
+                "productName": "Poolside Bundle",
                 "grayText": "Seasonal Packs",
                 "price": "3,000 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6522,7 +6522,7 @@
                 "image": "/products-categories/overwatch/shop/image-6.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Poolside Bundle",
+                "productName": "Poolside Bundle",
                 "grayText": "Epic | Skins",
                 "price": "1,000 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6532,7 +6532,7 @@
                 "image": "/products-categories/overwatch/shop/image-7.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Tropical Vacation Bundle",
+                "productName": "Tropical Vacation Bundle",
                 "grayText": "Legendary | Bundle (4 items)",
                 "price": "1,675 Coins",
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
@@ -6548,7 +6548,7 @@
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® 2 Mythic Prisms",
+                "productName": "Overwatch® 2 Mythic Prisms",
                 "grayText": "Prisms, Coins, and Tokens",
                 "yellowText": "With Mythic Prisms, you can unlock new Mythic skins and customizations for your heroes!",
                 "price": "From €9.99",
@@ -6559,7 +6559,7 @@
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® Coins",
+                "productName": "Overwatch® Coins",
                 "grayText": "Prisms, Coins, and Tokens",
                 "yellowText": "Use Overwatch Coins to Get the Premium Battle Pass and More!",
                 "price": "From €4.99"
@@ -6569,7 +6569,7 @@
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-3.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch® League Tokens",
+                "productName": "Overwatch® League Tokens",
                 "grayText": "Prisms, Coins, and Tokens",
                 "price": "From €5.99"
               }
@@ -6584,7 +6584,7 @@
                 "image": "/products-categories/overwatch/gear/image.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
-                "heading": "Overwatch Gear",
+                "productName": "Overwatch Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6662,7 +6662,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/great-for-new-players/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "StarCraft® II",
+                "productName": "StarCraft® II",
                 "grayText": "Real-time Strategy",
                 "price": "Play For Free"
               }
@@ -6677,7 +6677,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/games/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Nova Covert Ops Bundle",
+                "productName": "Nova Covert Ops Bundle",
                 "grayText": "Real-time Strategy",
                 "price": "$9.50"
               }
@@ -6692,7 +6692,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/commanders/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Commander: Zeratul",
+                "productName": "Commander: Zeratul",
                 "grayText": "Commanders",
                 "price": "$4.99"
               },
@@ -6701,7 +6701,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/commanders/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Commander: Abathur",
+                "productName": "Commander: Abathur",
                 "grayText": "Commanders",
                 "price": "$4.99"
               }
@@ -6716,7 +6716,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/announcers/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Announcer: Dehaka",
+                "productName": "Announcer: Dehaka",
                 "grayText": "Announcers",
                 "price": "$4.99"
               },
@@ -6725,7 +6725,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/announcers/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Announcer: Fenix",
+                "productName": "Announcer: Fenix",
                 "grayText": "Announcers",
                 "price": "$4.99"
               }
@@ -6740,7 +6740,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/bundles/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "War Chest 4: Structure Skin Bundles",
+                "productName": "War Chest 4: Structure Skin Bundles",
                 "grayText": "Bundles",
                 "price": "$44.85"
               },
@@ -6749,7 +6749,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/bundles/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "War Chest 5: Skin Bundles",
+                "productName": "War Chest 5: Skin Bundles",
                 "grayText": "Bundles",
                 "price": "$44.82"
               }
@@ -6763,7 +6763,7 @@
                 "image": "/products-categories/star-craft/star-craft-2/premium-arcade/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "Premium Arcade ARK Star",
+                "productName": "Premium Arcade ARK Star",
                 "grayText": "Premium Arcade",
                 "price": "$4.99"
               }
@@ -6778,7 +6778,7 @@
                 "image": "/products-categories/star-craft/common-products/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
                 "productGameName": "Starcraft II",
-                "heading": "StarCraft Gear",
+                "productName": "StarCraft Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }
@@ -6814,7 +6814,7 @@
                 "image": "/products-categories/star-craft/star-craft/games/image.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
                 "productGameName": "Starcraft",
-                "heading": "StarCraft®",
+                "productName": "StarCraft®",
                 "grayText": "Real-time Strategy",
                 "price": "Play For Free"
               }
@@ -6829,7 +6829,7 @@
                 "image": "/products-categories/star-craft/star-craft/in-game-content/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
                 "productGameName": "Starcraft",
-                "heading": "Announcer: Hey Jini",
+                "productName": "Announcer: Hey Jini",
                 "grayText": "In-Game Content",
                 "price": "$4.99"
               },
@@ -6838,7 +6838,7 @@
                 "image": "/products-categories/star-craft/star-craft/in-game-content/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
                 "productGameName": "Starcraft",
-                "heading": "StarCraft® Remastered: Korean Announcer Bundle",
+                "productName": "StarCraft® Remastered: Korean Announcer Bundle",
                 "grayText": "In-Game Content",
                 "price": "$14.99"
               }
@@ -6853,7 +6853,7 @@
                 "image": "/products-categories/star-craft/common-products/image.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
                 "productGameName": "Starcraft",
-                "heading": "StarCraft Gear",
+                "productName": "StarCraft Gear",
                 "grayText": "Gear",
                 "price": "Learn More"
               }

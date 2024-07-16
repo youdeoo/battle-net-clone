@@ -1,15 +1,15 @@
 import { FC } from 'react';
 import { useParams } from 'react-router-dom';
-import { currentGamePage } from '../../lib/utils';
-import { TProduct } from '../../types/types';
-import ScrollToTopButton from '../../components/ScrollToTopButton';
-import Carousel from './Carousel';
-import ProductInfo from './ProductInfo/ProductInfo';
-import Features from './Features';
-import SystemRequirements from './SystemRequirements';
-import ProductDetails from './ProductDetails';
-import AgeRating from './AgeRating';
-import CompareProducts from './CompareProducts';
+import { currentGamePage } from '@/lib/utils';
+import type { TProduct } from '@/types/types';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
+import Carousel from './subcomponents/Carousel';
+import ProductInfo from './subcomponents/ProductInfo/ProductInfo';
+import Features from './subcomponents/Features';
+import SystemRequirements from './subcomponents/SystemRequirements';
+import ProductDetails from './subcomponents/ProductDetails';
+import AgeRating from './subcomponents/AgeRating';
+import CompareProducts from './subcomponents/CompareProducts';
 
 const ProductPage: FC = () => {
   const { productId } = useParams();
@@ -29,24 +29,20 @@ const ProductPage: FC = () => {
   return (
     <main className='px-4'>
       <ScrollToTopButton />
-
       <section>
         <div className='grid grid-cols-[68%_auto] gap-x-10 border-b border-borderGray pb-16'>
           <div>
             <div className='sticky top-[7.7rem] z-[1]'>
               <Carousel productData={productData} />
-
               <div className='mt-6'>
                 <h2 className='text-3xl font-bold text-white mb-4'>
                   {productData?.descriptionHeading}
                 </h2>
-
                 {productData?.descriptions.map((description, index) => (
                   <p key={index} className='text-almostWhiteSecond mb-2'>
                     {description}
                   </p>
                 ))}
-
                 {productData?.descriptionList
                   &&
                   <ul className='list-disc pl-8 mt-4'>
@@ -63,10 +59,8 @@ const ProductPage: FC = () => {
               </div>
             </div>
           </div>
-
           <ProductInfo productData={productData} />
         </div>
-
         {productData?.compareProducts && <CompareProducts productData={productData} />}
         <Features productData={productData} />
         <SystemRequirements currentCommonProductsData={currentCommonProductsData} />

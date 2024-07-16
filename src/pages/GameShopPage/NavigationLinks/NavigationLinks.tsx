@@ -1,6 +1,7 @@
 import { FC, useEffect, useRef, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-import { currentGamePage, transformToLink } from '../../lib/utils';
+import { currentGamePage, transformToLink } from '@/lib/utils';
+import ProductFilter from './ProductFilter';
 
 const NavigationLinks: FC = () => {
   const { pathname } = useLocation();
@@ -9,7 +10,7 @@ const NavigationLinks: FC = () => {
 
   const [hideLinks, setHideLinks] = useState(false);
   const linksRef = useRef<HTMLDivElement | null>(null);
-  const selectRef = useRef<HTMLSelectElement | null>(null);
+  const selectRef = useRef<HTMLSelectElement>(null) as React.MutableRefObject<HTMLSelectElement>;
 
   const getDistanceBetweenElements = (): void => {
     if (linksRef.current && selectRef.current) {
@@ -47,8 +48,7 @@ const NavigationLinks: FC = () => {
                 loading='lazy'
               />
             </button>
-
-            <div className='menu-element-on-hover group-hover:visible group-hover:opacity-100'>
+            <div className='menu-element-on-hover w-56 min-w-0 group-hover:visible group-hover:opacity-100'>
               <div className='bg-mediumBlue w-56 p-2 border border-borderGray rounded-md'>
                 {currentGamePageLinks.map((link, index) => (
                   <a href={`#${transformToLink(link)}`}
@@ -63,7 +63,6 @@ const NavigationLinks: FC = () => {
             </div>
           </div>
         </div>
-
         <div ref={linksRef} className={`flex overflow-hidden ${hideLinks ? 'invisible' : 'visible'}`}>
           {currentGamePageLinks.map((link, index) => (
             <a href={`#${transformToLink(link)}`}
@@ -75,16 +74,7 @@ const NavigationLinks: FC = () => {
             </a>
           ))}
         </div>
-
-        <select ref={selectRef} className='text-white bg-darkBlue cursor-pointer rounded-md transition-colors 
-          border border-lighterBorderGray p-2 hover:border-white'
-        >
-          <option>Featured</option>
-          <option>Price: Lowest</option>
-          <option>Price: Highest</option>
-          <option>Discount</option>
-          <option>Name</option>
-        </select>
+        <ProductFilter ref={selectRef} />
       </div>
     </div >
   );

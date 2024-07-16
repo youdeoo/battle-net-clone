@@ -28,7 +28,6 @@ const Account: FC = () => {
         alt='account'
         loading='lazy'
       />
-
       <div className='flex items-center gap-2'>
         <span className='text-white font-bold'>Account</span>
         <img
@@ -39,7 +38,6 @@ const Account: FC = () => {
           loading='lazy'
         />
       </div>
-
       <div className='absolute top-12 right-0 z-30 invisible opacity-0 min-w-[320px] pt-4 transition-all animate-[hideRotateX_.15s_ease-in-out] 
         group-hover/main-item:block group-hover/main-item:animate-[displayRotateX_.15s_ease-in-out] group-hover/main-item:visible group-hover/main-item:opacity-100'
       >
@@ -68,7 +66,6 @@ const Account: FC = () => {
               </div>
             ))}
           </div>
-
           <div className='bg-[#22242C] p-2 mt-1'>
             <div className='group flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray active-translate-y'>
               <img

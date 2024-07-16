@@ -48,10 +48,8 @@ const Footer: FC = () => {
             </li>
           ))}
         </ul>
-
         <Languages />
       </div>
-
       <div className='flex justify-between pt-5'>
         <div className='grid grid-cols-[max-content_1fr] gap-8'>
           <Link to='/'>
@@ -62,7 +60,6 @@ const Footer: FC = () => {
               loading='lazy'
             />
           </Link>
-
           <div>
             <p className='text-xs text-gray'>
               ©2024 Blizzard Entertainment, Inc.
@@ -70,7 +67,6 @@ const Footer: FC = () => {
               All <span className='text-lightGray cursor-pointer underline transition-colors hover:text-white'>trademarks</span> referenced
               herein are the properties of their respective owners.
             </p>
-
             <ul className='flex gap-4 text-[.8rem] text-gray mt-6'>
               {companyPrivacyLinks.map((link, index) => (
                 <li
@@ -83,7 +79,6 @@ const Footer: FC = () => {
             </ul>
           </div>
         </div>
-
         <div className='flex items-start gap-4'>
           {socailMediaIcons.map((icon, index) => (
             <button

@@ -1,8 +1,8 @@
 import { FC, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { allowTouchMoveOnCarousel } from '../lib/utils';
-import { TGameCarousel } from '../types/types';
-import { TSwiper } from '../types/union';
+import { allowTouchMoveOnCarousel } from '@/lib/utils';
+import type { TGameCarousel } from '@/types/types';
+import type { TSwiper } from '@/types/union';
 import ButtonsToCarouselSlides from './ButtonsToCarouselSlides';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
@@ -18,6 +18,9 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
   const [pauseAutoPlay, setPasuseAutoPlay] = useState(false);
   const [swiper, setSwiper] = useState<TSwiper>(null);
 
+  const slideContainsOnlyBackgroundImagesAndIcon = carouselData.map((data) => Object.keys(data)).map((d) => d.length === 2);
+  const onlyOneSlideInCarousel = carouselData.map((data) => Object.keys(data)).length === 1;
+
   const toogleAutoPlay = (): void => {
     if (swiper) {
       if (!pauseAutoPlay) {
@@ -27,9 +30,6 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
       }
     }
   }
-
-  const slideContainsOnlyBackgroundImagesAndIcon = carouselData.map((data) => Object.keys(data)).map((d) => d.length === 2);
-  const onlyOneSlideInCarousel = carouselData.map((data) => Object.keys(data)).length === 1;
 
   useEffect(() => {
     if (swiper?.activeIndex !== 0) {
@@ -121,13 +121,11 @@ const GameCarousel: FC<Prop> = ({ carouselData }) => {
               </div>
             </SwiperSlide>
           ))}
-
           <ButtonsToCarouselSlides
             swiper={swiper}
             onlyOneSlideInCarousel={onlyOneSlideInCarousel}
           />
         </Swiper>
-
         <div className={`${onlyOneSlideInCarousel ? 'hidden' : 'flex'} 
           items-center justify-center gap-3 h-[16px] mt-3`}
         >

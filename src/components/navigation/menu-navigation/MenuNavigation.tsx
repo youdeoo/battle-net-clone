@@ -1,11 +1,20 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { formatGameData } from '../../../lib/utils';
-import gamesData from '../../../assets/data.json';
+import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
+import { setFilteredProducts } from '@/lib/features/filteredProductsSlice';
+import { formatGameData } from '@/lib/utils';
+import gamesData from '@/assets/data.json';
 import SearchShop from './SearchShop';
 import Balance from './Balance';
 
 const MenuNavigation: FC = () => {
+  const dispatch = useAppDispatch();
+  const filteredProducts = useAppSelector((state) => state.filteredProducts.filterProducts);
+
+  const clearFilteredProducts = () => {
+    return filteredProducts.length > 0 && dispatch(setFilteredProducts([]));
+  }
+
   return (
     <div className='sticky top-0 z-20 bg-darkBlue px-4 pt-3 pb-4'>
       <div className='grid grid-cols-[1fr_max-content_max-content] gap-2 max-w-[1600px] m-auto'>
@@ -25,11 +34,11 @@ const MenuNavigation: FC = () => {
                   loading='lazy'
                 />
               </div>
-
               <div className='menu-element-on-hover left-0 group-hover:visible group-hover:opacity-100'>
                 <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
                   {data.games.map((gameData, gameDataIndex) => (
                     <Link
+                      onClick={clearFilteredProducts}
                       className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray active-translate-y'
                       to={`/${data.gameType === 'More' ? 'product' : 'game'}/${formatGameData()[gameTypeIndex][gameDataIndex].link}`}
                       key={gameDataIndex}
@@ -40,7 +49,6 @@ const MenuNavigation: FC = () => {
                         alt={data.gameType}
                         loading='lazy'
                       />
-
                       <div className='flex flex-col'>
                         <span className='text-sm font-semibold text-lightGray'>{gameData.gameName}</span>
                         <span className='text-xs text-gray'>{gameData.description}</span>
@@ -52,7 +60,6 @@ const MenuNavigation: FC = () => {
             </div>
           ))}
         </div>
-
         <SearchShop />
         <Balance />
       </div>

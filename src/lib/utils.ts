@@ -1,5 +1,5 @@
 import { TFormatGameData, TGameData } from '../types/types';
-import gamesData from '../assets/data.json';
+import gamesData from '@/assets/data.json';
 
 export const deviceHandleHoverEffect = window.matchMedia('(hover: hover)').matches;
 
@@ -14,7 +14,12 @@ export const scrollToTop = (): void => {
 }
 
 export const transformToLink = (text: string): string => {
-  return text.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '');
+  if (text !== undefined) {
+    return text.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '');
+  }
+  else {
+    return text;
+  }
 }
 
 export const formatGameData = (): Array<Array<TFormatGameData>> => {

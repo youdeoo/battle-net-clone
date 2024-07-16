@@ -44,7 +44,7 @@ type TSubscriptionPriceInformation = {
   text: string;
 }
 
-type TMobileQRCode = Pick<TProduct, 'heading'> & Pick<TProductFeaturesData, 'description'> & {
+type TMobileQRCode = Pick<TProductFeaturesData, 'heading'> & Pick<TProductFeaturesData, 'description'> & {
   qrCode: string;
   phoneIcon: string;
 }
@@ -78,7 +78,7 @@ export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, '
   image: string;
   icon: string;
   productGameName?: string;
-  heading: string;
+  productName: string;
   price: string;
   gameCurrencyIcon?: string;
   newProduct?: string;

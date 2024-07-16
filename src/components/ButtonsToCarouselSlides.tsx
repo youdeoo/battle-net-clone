@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { deviceHandleHoverEffect } from '../lib/utils';
+import { deviceHandleHoverEffect } from '@/lib/utils';
 import { SwiperClass } from 'swiper/react';
 
 type Props = {
@@ -29,7 +29,6 @@ const ButtonsToCarouselSlides: FC<Props> = ({
           loading='lazy'
         />
       </button>
-
       <button
         onClick={() => swiper?.slideNext()}
         className={`swiper-button invisible opacity-0 right-[-.5rem] rotate-[270deg] ${!deviceHandleHoverEffect || onlyOneSlideInCarousel ? 'hidden' : 'flex'}

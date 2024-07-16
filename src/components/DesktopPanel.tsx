@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import useSpecificPageType from '../lib/hooks/useSpecificPageType';
+import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import DownloadForMacLink from './DownloadForMacLink';
 
 const DesktopPanel: FC = () => {
@@ -15,14 +15,12 @@ const DesktopPanel: FC = () => {
           aria-hidden="true"
           loading='lazy'
         />
-
         <div className='flex flex-col justify-between text-white'>
           {isSpecificPageType && <h3 className='text-xl font-bold text-gray'>Battle.net desktop app</h3>}
           <h3 className={`${isSpecificPageType ? 'text-[3.5rem] leading-none' : 'text-[2.5rem]'} font-bold mb-2`}>Dive into adventure</h3>
           <p className='text-lg text-almostWhite'>
             Download Battle.net and join a community of millions.
           </p>
-
           {isSpecificPageType
             ?
             <Link className='learn-more-button learn-more-button-hover bg-almostTransparent w-fit mt-10' to='/desktop'>

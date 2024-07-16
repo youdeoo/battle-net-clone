@@ -1,5 +1,5 @@
 import { FC, memo } from 'react';
-import { TProductDataProp } from '../../types/types';
+import type { TProductDataProp } from '@/types/types';
 
 const Features: FC<TProductDataProp> = memo(({ productData }) => {
   return (

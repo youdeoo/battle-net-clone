@@ -32,7 +32,6 @@ const Balance: FC = () => {
         aria-hidden='true'
         loading='lazy'
       />
-
       <div className='menu-element-on-hover right-0 group-hover:visible group-hover:opacity-100'>
         <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
           {balanceData.map((data, index) => (

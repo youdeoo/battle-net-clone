@@ -1,11 +1,11 @@
 import { FC } from 'react';
-import { deviceHandleHoverEffect } from '../lib/utils';
-import gamesData from '../assets/data.json';
-import { TGameCarousel, TGameData } from '../types/types';
-import ScrollToTopButton from '../components/ScrollToTopButton';
-import DesktopPanel from '../components/DesktopPanel';
-import MobilePanel from '../components/MobilePanel';
-import GameCarousel from '../components/GameCarousel';
+import { deviceHandleHoverEffect } from '@/lib/utils';
+import gamesData from '@/assets/data.json';
+import type { TGameCarousel, TGameData } from '@/types/types';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
+import DesktopPanel from '@/components/DesktopPanel';
+import MobilePanel from '@/components/MobilePanel';
+import GameCarousel from '@/components/GameCarousel';
 
 const getCarouselData = (gameName: string, carouselDataIndex: number): Array<TGameCarousel> => {
   return gamesData

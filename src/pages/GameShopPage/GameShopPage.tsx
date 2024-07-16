@@ -1,16 +1,18 @@
 import { FC } from 'react';
 import { useParams } from 'react-router-dom';
-import { currentGamePage, transformToLink } from '../../lib/utils';
-import { TGameCarousel, TProductsCategories } from '../../types/types';
-import GameCarousel from '../../components/GameCarousel';
-import ScrollToTopButton from '../../components/ScrollToTopButton';
-import NavigationLinks from './NavigationLinks';
+import { useAppSelector } from '@/lib/hooks/reduxHooks';
+import { currentGamePage, transformToLink } from '@/lib/utils';
+import type { TGameCarousel, TProductsCategories } from '@/types/types';
+import GameCarousel from '@/components/GameCarousel';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
+import NavigationLinks from './NavigationLinks/NavigationLinks';
 import Products from './Products';
 
 // All style-related functions are designed for the default
 // products and categories layout on a laptop device.
 
 const GameShopPage: FC = () => {
+  const filteredProducts = useAppSelector((state) => state.filteredProducts.filterProducts);
   const { gameId } = useParams();
   const {
     gameType: currentGameTypePage,
@@ -20,6 +22,10 @@ const GameShopPage: FC = () => {
     productsCategories: currentGameProductsCategories,
     gamePageLinks: currentGamePageLinks
   } = currentGamePage(gameId, undefined)[0];
+
+  const getFilteredProductsOrDefault = (): Array<TProductsCategories> => {
+    return filteredProducts.length > 0 ? filteredProducts : currentGameProductsCategories!;
+  }
 
   const getCarouselData = (): Array<TGameCarousel> => {
     if (currentGameNamePage === 'Modern Warfare III') {
@@ -178,9 +184,8 @@ const GameShopPage: FC = () => {
       <ScrollToTopButton />
       <GameCarousel carouselData={getCarouselData()} />
       <NavigationLinks />
-
       <section className='px-4'>
-        {currentGameProductsCategories!.map((category, categoryIndex) => {
+        {getFilteredProductsOrDefault()!.map((category, categoryIndex) => {
           const verticalCategory = getCategoriesWithVerticalLayout(category);
 
           return (
@@ -196,7 +201,6 @@ const GameShopPage: FC = () => {
                     <h2 className='text-2xl text-white font-bold'>
                       {category.categoryHeading}
                     </h2>
-
                     <div className='flex items-center gap-2'>
                       <img
                         className='max-w-5 size-5 brightness-150'
@@ -226,14 +230,12 @@ const GameShopPage: FC = () => {
                   </div>
                 }
               </div>
-
               {category.secondCategoryHeading
                 &&
                 <h3 className='text-xl text-white font-bold mb-4'>
                   {category.secondCategoryHeading}
                 </h3>
               }
-
               <Products
                 category={category}
                 getCategoriesWithFlexStyle={getCategoriesWithFlexStyle}

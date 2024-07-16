@@ -30,7 +30,6 @@ const InfiniteCarousel: FC = () => {
             </div>
           ))}
         </div>
-
         <div className='flex gap-8 animate-[infiniteCarousel_200s_infinite_linear]'>
           {slides.map((slide, index) => (
             <div className='w-[15rem]' key={index}>

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import useSpecificPageType from '../lib/hooks/useSpecificPageType';
-import { deviceHandleHoverEffect } from '../lib/utils';
+import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
+import { deviceHandleHoverEffect } from '@/lib/utils';
 
 const DownloadForMacLink: FC = () => {
   const isSpecificPageType = useSpecificPageType();

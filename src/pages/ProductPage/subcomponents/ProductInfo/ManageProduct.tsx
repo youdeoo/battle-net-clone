@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { TProductDataProp } from '../../../types/types';
+import type { TProductDataProp } from '@/types/types';
 
 const ManageProduct: FC<TProductDataProp> = ({ productData }) => {
   return (

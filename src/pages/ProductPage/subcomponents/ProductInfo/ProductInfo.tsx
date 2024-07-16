@@ -1,7 +1,7 @@
 import { FC, useState, memo } from 'react';
 import { Link } from 'react-router-dom';
-import { transformToLink } from '../../../lib/utils';
-import { TProductDataProp } from '../../../types/types';
+import { transformToLink } from '@/lib/utils';
+import type { TProductDataProp } from '@/types/types';
 import Price from './Price';
 import SubscriptionPriceInformation from './SubscriptionPriceInformation';
 import ManageProduct from './ManageProduct';

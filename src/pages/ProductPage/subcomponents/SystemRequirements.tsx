@@ -1,6 +1,6 @@
 import { FC, useState, memo } from 'react';
-import { stateIndexEqualIndex } from '../../lib/utils';
-import { TCommonProductsDataProp } from '../../types/types';
+import { stateIndexEqualIndex } from '@/lib/utils';
+import type { TCommonProductsDataProp } from '@/types/types';
 
 const SystemRequirements: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData }) => {
   const [displaySystemRequirementsIndex, setDisplaySystemRequirementsIndex] = useState(0);
@@ -10,7 +10,6 @@ const SystemRequirements: FC<TCommonProductsDataProp> = memo(({ currentCommonPro
       <h2 className='text-3xl w-1/2 font-bold text-white'>
         System Requirements
       </h2>
-
       <div>
         <div className='flex items-center border-b border-borderGray'>
           {currentCommonProductsData.systemRequirements.map((system, index) => (
@@ -36,7 +35,6 @@ const SystemRequirements: FC<TCommonProductsDataProp> = memo(({ currentCommonPro
             </button>
           ))}
         </div>
-
         <div className='flex flex-row'>
           {currentCommonProductsData.systemRequirements.map((system, systemIndex) =>
             system.requirements.map((req, index) => (

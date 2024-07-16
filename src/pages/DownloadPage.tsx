@@ -30,10 +30,8 @@ const DownloadPage: FC = () => {
           <p className='text-lg text-lightGray text-center mb-16'>
             If your download didn't start, <span className='text-lighterBlue font-semibold underline cursor-pointer transition-colors hover:text-almostWhite'>try again</span>
           </p>
-
           <div className='min-w-[350px] max-w-[350px] bg-[#0e0e0e99] rounded-md px-6 py-5 m-auto'>
             <p className='text-lg text-lightGray ml-3 mb-4'>Helpful links:</p>
-
             {linksData.map((data, index) => (
               <Link
                 className='flex items-center gap-2 w-fit text-white font-semibold rounded-md p-3 transition-colors hover:bg-almostTransparent'

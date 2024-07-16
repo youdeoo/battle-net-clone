@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import useSpecificPageType from '../lib/hooks/useSpecificPageType';
+import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import GooglePlayLink from './GooglePlayLink';
 
 const MobilePanel: FC = () => {
@@ -16,7 +16,6 @@ const MobilePanel: FC = () => {
           aria-hidden='true'
           loading='lazy'
         />
-
         <div className='grid'>
           {isSpecificPageType
             ?
@@ -31,11 +30,9 @@ const MobilePanel: FC = () => {
               Battle.net on the go
             </h3>
           }
-
           <p className={`max-w-[95%] ${isSpecificPageType ? 'text-xl' : 'text-lg'} text-almostWhite mb-10`}>
             Get the mobile app and shop, socialize, get the news, and stay safe.
           </p>
-
           {isSpecificPageType
             ?
             <Link

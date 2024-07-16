@@ -1,5 +1,5 @@
 import { FC, memo } from 'react';
-import { TCommonProductsDataProp } from '../../types/types';
+import type { TCommonProductsDataProp } from '@/types/types';
 
 const AgeRating: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData }) => {
   return (
@@ -8,7 +8,6 @@ const AgeRating: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData
         <h3 className='text-xl font-bold text-white'>
           Age Rating
         </h3>
-
         <div className='flex gap-2 mt-2'>
           {currentCommonProductsData.ageRating.map((data, index) => (
             <img
@@ -21,7 +20,6 @@ const AgeRating: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData
           ))}
         </div>
       </div>
-
       <div className='flex items-center justify-center gap-8 mt-16 mb-8'>
         <div className='flex items-center gap-4'>
           <p className='text-[.9rem] font-bold text-lightGray uppercase w-full'>
@@ -35,12 +33,10 @@ const AgeRating: FC<TCommonProductsDataProp> = memo(({ currentCommonProductsData
             loading='lazy'
           />
         </div>
-
         <div className='flex items-center gap-4'>
           <p className='text-[.9rem] font-bold text-lightGray uppercase'>
             Developed by
           </p>
-
           {currentCommonProductsData.developBy.map((compnay, index) => (
             <img
               className='max-w-14 w-full h-auto'

@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { stateIndexEqualIndex } from '../../../lib/utils';
-import { TProductDataProp } from '../../../types/types';
+import { stateIndexEqualIndex } from '@/lib/utils';
+import type { TProductDataProp } from '@/types/types';
 
 type Props = {
   markedProductIndex: number;

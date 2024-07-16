@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { useDispatch } from 'react-redux';
-import { getProductPrice } from '../../slices/productPriceSlice';
+import { useAppDispatch } from '@/lib/hooks/reduxHooks';
+import { getProductPrice } from '@/lib/features/productPriceSlice';
 import { Link } from 'react-router-dom';
-import { TProductsCategories } from '../../types/types';
+import type { TProductsCategories } from '@/types/types';
 
 type FunctionWithTwoArgumnets = {
   (category: TProductsCategories, productIndex: number): boolean;
@@ -37,7 +37,7 @@ const Products: FC<Props> = ({
   productsWithBiggerFont,
   getCategoriesWithFlexStyle
 }) => {
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   const flexStyleCategory = getCategoriesWithFlexStyle(category);
   const linkToBlizzardGearShop = category.categoryHeading === 'Gear';
@@ -50,7 +50,7 @@ const Products: FC<Props> = ({
 
   return (
     <div className={`${flexStyleCategory ? 'flex flex-wrap gap-6' : 'grid grid-cols-4 gap-6'}`}>
-      {category.products && category.products.map((product, productIndex) => {
+      {category.products!.map((product, productIndex) => {
         const productHorizontalLayout = getProductsWithHorizontalLayout(category, productIndex);
         const biggerFont = productsWithBiggerFont(category, productIndex);
 
@@ -70,7 +70,7 @@ const Products: FC<Props> = ({
               <img
                 className={`${productHorizontalLayout ? 'static rounded-l' : 'absolute top-0 rounded-t'} size-full object-cover`}
                 src={product.image}
-                alt={product.heading}
+                alt={product.productName}
                 loading='lazy'
               />
               {product.newProduct
@@ -92,7 +92,6 @@ const Products: FC<Props> = ({
                 </span>
               }
             </div>
-
             <dl className={`${productHorizontalLayout && `flex justify-center flex-col h-full`} 
               ${biggerFont || productHorizontalLayout ? 'pt-8 px-8' : 'pt-6 px-6'} transition-transform duration-300 group-hover:translate-y-[-.3rem]`}
             >
@@ -110,9 +109,8 @@ const Products: FC<Props> = ({
                   </span>
                 }
               </dd>
-
               <dt className={`${biggerFont ? 'text-2xl leading-7' : productHorizontalLayout ? 'text-3xl' : 'text-lg leading-5'} font-bold text-almostWhiteThird my-1.5`}>
-                {product.heading}
+                {product.productName}
               </dt>
               {product.yellowText
                 &&
@@ -124,7 +122,6 @@ const Products: FC<Props> = ({
                 {product.grayText}
               </dd>
             </dl>
-
             {product.gameCurrencyIcon
               ?
               <div className={`flex items-center gap-1 ${biggerFont || productHorizontalLayout ? 'p-8' : 'p-6'} mt-auto`}
@@ -147,7 +144,6 @@ const Products: FC<Props> = ({
                 </span>
               </div>
             }
-
             {product.linkText
               &&
               <div className='p-6'>

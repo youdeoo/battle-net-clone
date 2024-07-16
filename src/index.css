@@ -11,6 +11,10 @@
   body {    
     background-color: theme(colors.darkBlue);
   }
+
+  img {
+    height: auto;
+  }
 }
   
 @layer components {
@@ -233,15 +237,15 @@
   }
 
   .swiper-scrollbar {
-    @apply left-0 flex items-center gap-2 w-full rounded border border-lighterBorderGray h-5 px-2 !important;
+    @apply left-0 flex items-center gap-2 w-full rounded border border-lighterBorderGray h-5 pl-4 !important;
   }
 
   .swiper-scrollbar-hidden {
-    @apply hidden !important;
+    display: none !important;
   }
 
   .swiper-scrollbar-drag {
-    @apply cursor-grab bg-borderGray h-2 transition-colors hover:bg-lighterBorderGray !important;
+    @apply left-[-.5rem] cursor-grab bg-borderGray h-2 transition-colors hover:bg-lighterBorderGray !important;
   }
 
   .border-button-and-box-shadow {

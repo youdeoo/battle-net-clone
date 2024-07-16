@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import useSpecificPageType from '../../lib/hooks/useSpecificPageType';
-import useGameOrProductPath from '../../lib/hooks/useGameProductPath';
+import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
+import useGameOrProductPath from '@/lib/hooks/useGameProductPath';
 import Account from './Account';
 import MenuNavigation from './menu-navigation/MenuNavigation';
 
@@ -21,7 +21,6 @@ const Navigation: FC = () => {
               loading='lazy'
             />
           </Link>
-
           <div className='flex gap-1'>
             <Link
               to='/download'
@@ -35,7 +34,6 @@ const Navigation: FC = () => {
               />
               <span className='text-white font-bold'>Download Battle.net</span>
             </Link>
-
             <div className='header-link group active-translate-y'>
               <img
                 className='max-w-5 w-5 group-hover:brightness-[5]'
@@ -45,7 +43,6 @@ const Navigation: FC = () => {
               />
               <span className='text-white font-bold'>Support</span>
             </div>
-
             <Account />
           </div>
         </div>

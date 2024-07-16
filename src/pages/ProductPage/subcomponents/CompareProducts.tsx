@@ -1,5 +1,5 @@
 import { FC, memo } from 'react';
-import { TProductDataProp } from '../../types/types';
+import type { TProductDataProp } from '@/types/types';
 
 const oddIndex = (index: number): boolean => {
   return index % 2 === 1;
@@ -13,7 +13,6 @@ const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
       <h2 className='text-3xl font-bold text-white'>
         Compare Products
       </h2>
-
       <table className='table-fixed border-collapse w-full mt-8'>
         <tbody>
           <tr>
@@ -30,7 +29,6 @@ const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
             ))}
           </tr>
         </tbody>
-
         <tbody className='sticky top-[7.5rem] z-[1] bg-darkBlue'>
           <tr>
             <th className='w-full'></th>
@@ -45,7 +43,6 @@ const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
               </th>
             ))}
           </tr>
-
           <tr>
             <td className='w-full'></td>
             {linkTexts.map((data, index) => (
@@ -60,7 +57,6 @@ const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
             ))}
           </tr>
         </tbody>
-
         <tbody>
           {productData.compareProducts!.content.map((data, index) => (
             <tr
@@ -70,7 +66,6 @@ const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
               <td className={`${oddIndex(index) && 'bg-mediumGray rounded-l'} text-lightGray p-4`}>
                 {data.name}
               </td>
-
               {data.productsContent.map((content, contentIndex) => (
                 <td className={`${oddIndex(index) && 'bg-mediumGray last-of-type:rounded-r'} text-center p-4`} key={contentIndex}>
                   {content[0] === '/'

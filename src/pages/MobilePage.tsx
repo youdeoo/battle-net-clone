@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import AppStoreLink from '../components/AppStoreLink';
-import GooglePlayLink from '../components/GooglePlayLink';
-import DesktopPanel from '../components/DesktopPanel';
-import DownloadAppPanel from '../components/DownloadAppPanel';
+import AppStoreLink from '@/components/AppStoreLink';
+import GooglePlayLink from '@/components/GooglePlayLink';
+import DesktopPanel from '@/components/DesktopPanel';
+import DownloadAppPanel from '@/components/DownloadAppPanel';
 
 const features = [
   {
@@ -45,12 +45,10 @@ const MobilePage: FC = () => {
               Put the power of Battle.net in the palm of your hand. Shop, socialize,
               get the news, and stay safe with the built-in Authenticator.
             </p>
-
             <div className='flex gap-6 mt-10'>
               <AppStoreLink />
               <GooglePlayLink />
             </div>
-
             <div className='flex items-center gap-4 bg-almostTransparent max-w-[370px] rounded-md p-3 mt-12'>
               <img
                 className='max-w-28 rounded-md'
@@ -63,7 +61,6 @@ const MobilePage: FC = () => {
               </p>
             </div>
           </div>
-
           <img
             className='max-w-[35rem]'
             src='/battle-net-panel/phones.png'
@@ -73,10 +70,8 @@ const MobilePage: FC = () => {
           />
         </div>
       </section>
-
       <section className='max-w-[2600px] px-10 py-20 m-auto min-[1200px]:bg-[url("/mobile-page/background.png")] min-[1200px]:background-image-styles'>
         <h2 className='text-[3.5rem] font-bold text-center text-white mb-16'>Key Features</h2>
-
         <div className='grid grid-cols-[repeat(auto-fit,_minmax(14rem,_1fr))] grid-rows-fr gap-12 max-w-[1440px] m-auto max-[1200px]:grid-cols-[repeat(auto-fit,_minmax(25rem,_1fr))]'>
           {features.map((feature, index) => (
             <div className='grid grid-cols-[100%] grid-rows-[auto_1fr]' key={index}>
@@ -90,14 +85,12 @@ const MobilePage: FC = () => {
                   loading='lazy'
                 />
               </picture>
-
               <h3 className='text-2xl font-bold text-white text-center mb-2'>{feature.heading}</h3>
               <p className='text-lightGray text-center'>{feature.description}</p>
             </div>
           ))}
         </div>
       </section>
-
       <DesktopPanel />
       <DownloadAppPanel />
     </main>

@@ -1,9 +1,9 @@
 import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
-import { currentGamePage } from '../lib/utils';
-import { TProduct } from '../types/types';
-import Navigation from '../components/Navigation/Navigation';
-import MenuNavigation from '../components/Navigation/menu-navigation/MenuNavigation';
+import { currentGamePage } from '@/lib/utils';
+import type { TProduct } from '@/types/types';
+import Navigation from '@/components/Navigation/Navigation';
+import MenuNavigation from '@/components/Navigation/menu-navigation/MenuNavigation';
 
 const GameProductPathLayout: FC = () => {
   const { gameId, productId } = useParams();
@@ -55,7 +55,6 @@ const GameProductPathLayout: FC = () => {
       <Navigation />
       <div className='sticky top-0 z-20'>
         <MenuNavigation />
-
         <div className='bg-darkBlue pb-2'>
           <div className='flex items-center justify-between gap-1 px-8 pt-1 pb-2 max-w-[1600px] w-full m-auto'>
             <div className='flex items-center'>
@@ -67,7 +66,6 @@ const GameProductPathLayout: FC = () => {
                   loading='lazy'
                 />
               </Link>
-
               <div className='flex gap-1'>
                 <img
                   className='self-center max-w-3 size-3 rotate-[270deg]'
@@ -77,7 +75,6 @@ const GameProductPathLayout: FC = () => {
                 />
                 <span className='text-sm text-lightGray'>{generateGamePageName()}</span>
               </div>
-
               {productId !== undefined
                 &&
                 <div className='flex gap-1'>
@@ -92,7 +89,6 @@ const GameProductPathLayout: FC = () => {
                 </div>
               }
             </div>
-
             {(isDiabloIVGamePage || isOverwatch2GamePage)
               &&
               <Link

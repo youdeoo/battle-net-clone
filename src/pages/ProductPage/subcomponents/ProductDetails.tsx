@@ -1,5 +1,5 @@
 import { FC, memo } from 'react';
-import { TProductDataProp, TCommonProductsDataProp } from '../../types/types';
+import type { TProductDataProp, TCommonProductsDataProp } from '@/types/types';
 
 type Prop = TProductDataProp & TCommonProductsDataProp;
 
@@ -9,7 +9,6 @@ const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData 
       <h2 className='text-3xl font-bold text-white'>
         Product Details
       </h2>
-
       <div className='flex flex-row flex-wrap'>
         <div className='w-[33.3%]'>
           {currentCommonProductsData.productDetails.map((detail, index) => (
@@ -46,7 +45,6 @@ const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData 
             </div>
           ))}
         </div>
-
         <div className='w-[33.3%]'>
           {currentCommonProductsData.productDetails.map((detail, index) => (
             (detail.heading === 'Available Languages' || detail.heading === 'Available Regions')
@@ -87,13 +85,11 @@ const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData 
             </div>
           ))}
         </div>
-
         <div className='w-[33.3%]'>
           <div>
             <h3 className='text-xl font-bold text-almostWhiteSecond'>
               Product Requirements
             </h3>
-
             <ul className='list-disc pl-8'>
               {productData.productRequirements.map((req, reqIndex) => (
                 <li

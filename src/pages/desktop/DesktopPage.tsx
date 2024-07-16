@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { deviceHandleHoverEffect } from '../../lib/utils';
-import MobilePanel from '../../components/MobilePanel';
-import DownloadAppPanel from '../../components/DownloadAppPanel';
-import DownloadForMacLink from '../../components/DownloadForMacLink';
-import GooglePlayLink from '../../components/GooglePlayLink';
+import { deviceHandleHoverEffect } from '@/lib/utils';
+import MobilePanel from '@/components/MobilePanel';
+import DownloadAppPanel from '@/components/DownloadAppPanel';
+import DownloadForMacLink from '@/components/DownloadForMacLink';
+import GooglePlayLink from '@/components/GooglePlayLink';
 import InfiniteCarousel from './InfiniteCarousel';
 
 const battleNetFeatures = [
@@ -51,7 +51,6 @@ const DesktopPage: FC = () => {
             Launch your games, connect with friends, and keep up-to-date with the latest news.
           </p>
           <DownloadForMacLink />
-
           {deviceHandleHoverEffect
             ?
             <p className='text-almostWhite text-center'>
@@ -67,15 +66,12 @@ const DesktopPage: FC = () => {
           }
         </div>
       </section>
-
       <InfiniteCarousel />
-
       <section className='grid grid-cols-[300px_1fr] gap-16 max-w-[1440px] px-10 pt-16 pb-20 max-[1310px]:grid-cols-[auto] m-auto'>
         <div>
           <h2 className='text-xl font-bold text-gray'>Key features</h2>
           <h3 className='text-white font-bold text-3xl'>All your games in one place</h3>
         </div>
-
         <div className='grid grid-cols-[repeat(auto-fit,_minmax(22rem,_1fr))] gap-10'>
           {battleNetFeatures.map((feature, index) => (
             <div
@@ -91,7 +87,6 @@ const DesktopPage: FC = () => {
                   loading='lazy'
                 />
               </div>
-
               <div>
                 <h3 className='text-2xl font-bold text-white mb-2'>
                   {feature.heading}
@@ -102,7 +97,6 @@ const DesktopPage: FC = () => {
           ))}
         </div>
       </section>
-
       <MobilePanel />
       <DownloadAppPanel />
     </main>

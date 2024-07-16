@@ -1,9 +1,8 @@
 import { FC, SetStateAction, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../../../state/store';
-import { getImagePath } from '../../../slices/productImagePathSlice';
-import { stateIndexEqualIndex } from '../../../lib/utils';
-import { TProductDataProp, TProductDataPrice } from '../../../types/types';
+import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
+import { getImagePath } from '@/lib/features/productImagePathSlice';
+import { stateIndexEqualIndex } from '@/lib/utils';
+import type { TProductDataProp, TProductDataPrice } from '@/types/types';
 
 type Prop = {
   markedProductIndex: number;
@@ -15,8 +14,8 @@ const Price: FC<TProductDataProp & Prop> = ({
   markedProductIndex,
   setMarkedProductIndex
 }) => {
-  const productPrice = useSelector((state: RootState) => state.productPrice.productPrice);
-  const dispatch = useDispatch();
+  const productPrice = useAppSelector((state) => state.productPrice.productPrice);
+  const dispatch = useAppDispatch();
 
   const markAndDispatchMatchingProduct = (): void => {
     if (typeof productData.price !== 'string') {
