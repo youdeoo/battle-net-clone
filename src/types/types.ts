@@ -9,6 +9,7 @@ type TProductFeaturesData = Pick<TProduct, 'image'> & {
 }
 
 type TProductFeatures = {
+  id: number;
   heading?: string;
   secondHeading?: string;
   data: Array<TProductFeaturesData>;
@@ -74,7 +75,7 @@ type TProductData = {
   productRequirements: Array<string>;
 }
 
-export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, 'grayText' | 'yellowText'> & {
+export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, 'grayText' | 'yellowText'> & Pick<TProductFeatures, 'id'> & {
   image: string;
   icon: string;
   productGameName?: string;

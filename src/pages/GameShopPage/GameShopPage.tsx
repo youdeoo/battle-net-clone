@@ -191,7 +191,7 @@ const GameShopPage = () => {
             <div
               id={transformToLink(currentGamePageLinks[categoryIndex])}
               className={`grid ${verticalCategory ? 'grid-cols-[auto]' : 'grid-cols-[20%_1fr]'} scroll-m-28 border-b border-borderGray py-16`}
-              key={categoryIndex}
+              key={category.categoryHeading}
             >
               <div className={`${verticalCategory ? 'w-full' : 'w-[80%]'} ${verticalCategory && !category.loginText ? 'mb-10' : category.loginText ? '' : 'pt-[120px]'}`}>
                 {category.shopRefreshTime

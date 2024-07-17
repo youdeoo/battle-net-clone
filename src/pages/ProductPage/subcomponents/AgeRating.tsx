@@ -9,10 +9,10 @@ const AgeRating = memo(({ currentCommonProductsData }: TCommonProductsDataProp) 
           Age Rating
         </h3>
         <div className='flex gap-2 mt-2'>
-          {currentCommonProductsData.ageRating.map((data, index) => (
+          {currentCommonProductsData.ageRating.map((data) => (
             <img
               className='max-w-16 w-full h-auto'
-              key={index}
+              key={data.name}
               src={data.image}
               alt={data.name}
               loading='lazy'

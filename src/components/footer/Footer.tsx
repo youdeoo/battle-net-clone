@@ -67,10 +67,10 @@ const Footer = () => {
               herein are the properties of their respective owners.
             </p>
             <ul className='flex gap-4 text-[.8rem] text-gray mt-6'>
-              {companyPrivacyLinks.map((link, index) => (
+              {companyPrivacyLinks.map((link) => (
                 <li
                   className='cursor-pointer transition-colors hover:text-white'
-                  key={index}
+                  key={link}
                 >
                   {link}
                 </li>
@@ -79,11 +79,11 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex items-start gap-4'>
-          {socailMediaIcons.map((icon, index) => (
+          {socailMediaIcons.map((icon) => (
             <button
               className='min-w-[max-content] bg-mediumGray rounded-full aspect-square px-3 py-2 transition-colors 
               hover:bg-lightGrayBackground active-translate-y'
-              key={index}
+              key={icon.name}
               type='button'
             >
               <img

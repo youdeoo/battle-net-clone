@@ -78,7 +78,7 @@ const RegionsAndLanguages = () => {
                   onClick={() => setMarkedRegionIndex(index)}
                   className={`font-semibold text-white px-[.75rem] py-[.375rem] hover-light-gray-background active-translate-y 
                   ${markedRegionIndex === index ? 'bg-lightGrayBackground' : 'bg-mediumGray'}`}
-                  key={index}
+                  key={region}
                 >
                   {region}
                 </li>
@@ -93,7 +93,7 @@ const RegionsAndLanguages = () => {
               <li
                 onClick={() => setMarkedLanguageIndex(index)}
                 className='flex gap-3 text-white px-2 py-3 hover-light-gray-background active-translate-y'
-                key={index}
+                key={language}
               >
                 <img
                   className='max-w-4'

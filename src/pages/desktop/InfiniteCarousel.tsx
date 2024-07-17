@@ -17,8 +17,8 @@ const InfiniteCarousel = () => {
     <div className='relative top-[-2.5rem] max-w-[2600px] overflow-hidden m-auto'>
       <div className='flex gap-8 w-max'>
         <div className='flex gap-8 animate-[infiniteCarousel_200s_infinite_linear]'>
-          {slides.map((slide, index) => (
-            <div className='w-[15rem]' key={index}>
+          {slides.map((slide) => (
+            <div className='w-[15rem]' key={slide}>
               <img
                 className='rounded-md h-full max-h-[317.167px]'
                 src={slide}
@@ -29,8 +29,8 @@ const InfiniteCarousel = () => {
           ))}
         </div>
         <div className='flex gap-8 animate-[infiniteCarousel_200s_infinite_linear]'>
-          {slides.map((slide, index) => (
-            <div className='w-[15rem]' key={index}>
+          {slides.map((slide) => (
+            <div className='w-[15rem]' key={slide}>
               <img
                 className='rounded-md h-full max-h-[317.167px]'
                 src={slide}

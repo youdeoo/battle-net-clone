@@ -59,10 +59,10 @@ const Carousel = memo(({ productData }: TProductDataProp) => {
         }}
         allowTouchMove={allowTouchMoveOnCarousel}
       >
-        {productData?.productCarousel.slides.map((slide, index) => (
+        {productData?.productCarousel.slides.map((slide) => (
           <SwiperSlide
             className='relative pt-[56.25%]'
-            key={index}
+            key={slide}
           >
             {slide.substring(0, 5) === 'https'
               ?
@@ -120,10 +120,10 @@ const Carousel = memo(({ productData }: TProductDataProp) => {
             }}
             allowTouchMove={allowTouchMoveOnCarousel}
           >
-            {productData?.productCarousel.thumbs.map((slide, index) => (
+            {productData?.productCarousel.thumbs.map((slide) => (
               <SwiperSlide
                 className='relative size-full cursor-pointer'
-                key={index}
+                key={slide}
               >
                 <img
                   className='size-full rounded-md'

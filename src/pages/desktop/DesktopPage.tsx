@@ -72,10 +72,10 @@ const DesktopPage = () => {
           <h3 className='text-white font-bold text-3xl'>All your games in one place</h3>
         </div>
         <div className='grid grid-cols-[repeat(auto-fit,_minmax(22rem,_1fr))] gap-10'>
-          {battleNetFeatures.map((feature, index) => (
+          {battleNetFeatures.map((feature) => (
             <div
               className='flex items-center gap-4'
-              key={index}
+              key={feature.heading}
             >
               <div className='flex items-center justify-center min-w-[80px] max-w-[80px] bg-mediumGray rounded-full aspect-square px-5 py-2'>
                 <img

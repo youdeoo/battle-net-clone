@@ -18,7 +18,7 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           <tr>
             <td className='w-full'></td>
             {images.map((image, index) => (
-              <td className='w-full pt-3 px-3' key={index}>
+              <td className='w-full pt-3 px-3' key={image}>
                 <img
                   className='size-full'
                   src={image}
@@ -33,7 +33,7 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           <tr>
             <th className='w-full'></th>
             {headings.map((data, index) => (
-              <th className='w-full' key={index}>
+              <th className='w-full' key={data}>
                 <div className='flex flex-col pt-4 pb-6 px-4'>
                   <span className='text-lg text-white'>{data}</span>
                   <span className='text-[1.35rem] text-lightGray mt-1'>
@@ -45,8 +45,8 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           </tr>
           <tr>
             <td className='w-full'></td>
-            {linkTexts.map((data, index) => (
-              <td className='w-full pb-6 px-3' key={index}>
+            {linkTexts.map((data) => (
+              <td className='w-full pb-6 px-3' key={data}>
                 <button
                   className='blue-button p-1 blue-button-hover'
                   type='button'
@@ -61,13 +61,16 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           {productData.compareProducts!.content.map((data, index) => (
             <tr
               className='w-full'
-              key={index}
+              key={data.name}
             >
               <td className={`${oddIndex(index) && 'bg-mediumGray rounded-l'} text-lightGray p-4`}>
                 {data.name}
               </td>
-              {data.productsContent.map((content, contentIndex) => (
-                <td className={`${oddIndex(index) && 'bg-mediumGray last-of-type:rounded-r'} text-center p-4`} key={contentIndex}>
+              {data.productsContent.map((content) => (
+                <td
+                  className={`${oddIndex(index) && 'bg-mediumGray last-of-type:rounded-r'} text-center p-4`}
+                  key={content}
+                >
                   {content[0] === '/'
                     ?
                     <img

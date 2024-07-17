@@ -36,6 +36,7 @@
             "categoryDescription": "New to World of Warcraft? Start here.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-welcome-to-azeroth-bundle",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -101,6 +102,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "data": [
                         {
                           "image": "/product-page/warcraft/world-of-warcraft/common-images/image-1.png",
@@ -127,6 +129,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-free-trial",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -181,6 +184,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Choose Your Destiny",
                       "data": [
                         {
@@ -209,6 +213,7 @@
                 }
               },
               {
+                "id": 2,
                 "productLink": "world-of-warcraft-the-war-within",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -445,6 +450,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "World of Warcraft: The War Within",
                       "secondHeading": "Available at launch²",
                       "data": [
@@ -506,6 +512,7 @@
             "categoryDescription": "Join millions of players and find your place in Azeroth and beyond in this massively multiplayer online role-playing game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-welcome-to-azeroth-bundle",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -517,6 +524,7 @@
                 "deal": "Great Deal"
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-the-war-within",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -531,6 +539,7 @@
                 }
               },
               {
+                "id": 2,
                 "productLink": "world-of-warcraft-free-trial",
                 "image": "/products-categories/warcraft/world-of-warcraft/games/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -541,6 +550,7 @@
                 "price": "Learn More"
               },
               {
+                "id": 3,
                 "productLink": "world-of-warcraft-free-trial",
                 "image": "/products-categories/warcraft/world-of-warcraft/great-for-new-players/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -551,6 +561,7 @@
                 "price": "Play For Free"
               },
               {
+                "id": 4,
                 "productLink": "world-of-warcraft-subscription",
                 "image": "/products-categories/warcraft/world-of-warcraft/games/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -785,6 +796,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Included with Subscription",
                       "data": [
                         {
@@ -819,6 +831,7 @@
             "categoryDescription": "Begin your journey or renew your subscription",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-subscription",
                 "image": "/products-categories/warcraft/common-products/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -829,6 +842,7 @@
                 "price": "From $12.99/month"
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-subscription",
                 "image": "/products-categories/warcraft/common-products/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -845,6 +859,7 @@
             "categoryDescription": "Bundle up with these in-game goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-cataclysm-classic-upgrades",
                 "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -995,6 +1010,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Upgrade Now",
                       "secondHeading": "Ignite your journey with these fiery upgrades.",
                       "data": [
@@ -1023,6 +1039,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-the-mighty-kodo-pack",
                 "image": "/products-categories/warcraft/world-of-warcraft/bundles/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1066,6 +1083,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "A pair of steadfast companions",
                       "data": [
                         {
@@ -1098,6 +1116,7 @@
             "categoryDescription": "Saddle up, because your mount will travel as fast as your riding skill will take you.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-mount-auspicious-arborwyrm",
                 "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1142,6 +1161,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Ride into battle",
                       "data": [
                         {
@@ -1168,6 +1188,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-mount-tangled-dreamweaver",
                 "image": "/products-categories/warcraft/world-of-warcraft/mounts/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1208,6 +1229,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Ride into Battle",
                       "data": [
                         {
@@ -1240,6 +1262,7 @@
             "categoryDescription": "Adopt a pet and unleash your pet battle prowess with your new companion.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-pet-murkastrasza",
                 "image": "/products-categories/warcraft/world-of-warcraft/pets/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1280,6 +1303,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Your cuddly companion",
                       "data": [
                         {
@@ -1306,6 +1330,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-pet-alterac-brew-up",
                 "image": "/products-categories/warcraft/world-of-warcraft/pets/image-2.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1347,6 +1372,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Your Cuddly Companion",
                       "data": [
                         {
@@ -1379,6 +1405,7 @@
             "categoryDescription": "Add fun new toys to your in-game collection to entertain your allies or taunt your enemies!",
             "products": [
               {
+                "id": 2,
                 "productLink": "world-of-warcraft-toy-magical-murkmorpher",
                 "image": "/products-categories/warcraft/world-of-warcraft/toys/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1420,6 +1447,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "What's in the Toy Box?",
                       "data": [
                         {
@@ -1452,6 +1480,7 @@
             "categoryDescription": "Collect, mix, and match your favorite transmogrification pieces to personalize a look that is uniquely you.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-transmog-green-snugglefin-murloc-romper",
                 "image": "/products-categories/warcraft/world-of-warcraft/transmogs/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1515,6 +1544,7 @@
             "categoryDescription": "Customize your gameplay however you'd like.",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-service-level-booster",
                 "image": "/products-categories/warcraft/world-of-warcraft/game-service/image-1.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1578,6 +1608,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Get Right Into the Action!",
                       "data": [
                         {
@@ -1611,6 +1642,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/world-of-warcraft",
                 "image": "/products-categories/warcraft/common-products/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -1919,6 +1951,7 @@
             "categoryDescription": "Fire up experience",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-cataclysm-classic-upgrades",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -1930,6 +1963,7 @@
                 "newProduct": "New"
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-cataclysm-classic-upgrades",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/games-upgrades/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -1947,6 +1981,7 @@
             "categoryDescription": "Begin your journey or renew your subscription",
             "products": [
               {
+                "id": 0,
                 "productLink": "world-of-warcraft-subscription",
                 "image": "/products-categories/warcraft/common-products/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -1957,6 +1992,7 @@
                 "price": "From $12.99/month"
               },
               {
+                "id": 1,
                 "productLink": "world-of-warcraft-subscription",
                 "image": "/products-categories/warcraft/common-products/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -1973,6 +2009,7 @@
             "categoryDescription": "Saddle up, because your mount will travel as fast as your riding skill will take you.",
             "products": [
               {
+                "id": 0,
                 "productLink": "wow-classic-mount-auspicious-arborwyrm",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2024,6 +2061,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "wow-classic-mount-kaluak-whalebone-glider",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-2.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2074,6 +2112,7 @@
                 }
               },
               {
+                "id": 2,
                 "productLink": "wow-classic-mount-reawakened-phase-hunter",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/mounts/image-3.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2130,6 +2169,7 @@
             "categoryDescription": "Adopt a pet and unleash your pet battle prowess with your new companion.",
             "products": [
               {
+                "id": 0,
                 "productLink": "wow-classic-pet-pebble-the-penguin",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/pets/image.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2185,6 +2225,7 @@
             "categoryDescription": "Add fun new toys to your in-game collection to entertain your allies or taunt your enemies!",
             "products": [
               {
+                "id": 0,
                 "productLink": "wow-classic-toy-dark-portal-hearthstone",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/toys/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2240,6 +2281,7 @@
             "categoryDescription": "Customize your gameplay however you'd like on WoW Classic Progression Realms (currently Cataclysm).",
             "products": [
               {
+                "id": 0,
                 "productLink": "wow-classic-service-boost-progression",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/progression-game-services/image-1.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2294,6 +2336,7 @@
             "categoryDescription": "Customize your gameplay however you'd like.",
             "products": [
               {
+                "id": 0,
                 "productLink": "wow-classic-service-character-transfer-era",
                 "image": "/products-categories/warcraft/world-of-warcraft-classic/era-game-services/image.png",
                 "icon": "/games-logo/warcraft/wow-classic.png",
@@ -2363,6 +2406,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/world-of-warcraft",
                 "image": "/products-categories/warcraft/common-products/image-3.png",
                 "icon": "/games-logo/warcraft/wow.png",
@@ -2665,6 +2709,7 @@
             "categoryDescription": "Experience the true meaning of joyful chaos in this all-new mobile action strategy game!",
             "products": [
               {
+                "id": 0,
                 "productLink": "warcraft-rumble",
                 "image": "/products-categories/warcraft/warcraft-rumble/game/image.png",
                 "icon": "/game-carousel-images/warcraft/warcraft-rumble/icon.png",
@@ -2739,6 +2784,7 @@
             "categoryDescription": "Use Coins to purchase Minis, Tome of Experience, Talents, and more!",
             "products": [
               {
+                "id": 0,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-1.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2842,6 +2888,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Use Coins to:",
                       "data": [
                         {
@@ -2868,6 +2915,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-2.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2878,6 +2926,7 @@
                 "linkText": "Buy Now"
               },
               {
+                "id": 2,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-3.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2888,6 +2937,7 @@
                 "linkText": "Buy Now"
               },
               {
+                "id": 3,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-4.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2898,6 +2948,7 @@
                 "linkText": "Buy Now"
               },
               {
+                "id": 4,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-5.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2908,6 +2959,7 @@
                 "linkText": "Buy Now"
               },
               {
+                "id": 5,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-6.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -2918,6 +2970,7 @@
                 "linkText": "Buy Now"
               },
               {
+                "id": 6,
                 "productLink": "warcraft-rumble-coin-packs",
                 "image": "/products-categories/warcraft/warcraft-rumble/coin-packs/image-7.png",
                 "icon": "/games-logo/warcraft/warcraft-rumble.png",
@@ -3064,6 +3117,7 @@
             "categoryDescription": "Relive a Blizzard classic. Prepare for battle as Orcs, Humans, Undead, or Night Elves in this fantasy real-time strategy game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "warcraft-iii-reforged",
                 "image": "/products-categories/warcraft/warcraft-3/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-3.png",
@@ -3117,6 +3171,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Azeroth, born anew",
                       "data": [
                         {
@@ -3150,6 +3205,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "image": "/products-categories/warcraft/warcraft-3/gear/image.png",
                 "icon": "/games-logo/warcraft/warcraft-3.png",
                 "productGameName": "World III",
@@ -3411,6 +3467,7 @@
             "categoryDescription": "New to Hearthstone? Start here.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone",
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3468,6 +3525,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Use Coins to:",
                       "data": [
                         {
@@ -3494,6 +3552,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "hearthstone-showdown-in-the-badlands-packs",
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3547,6 +3606,7 @@
                 }
               },
               {
+                "id": 2,
                 "productLink": "hearthstone-march-of-the-lich-king-packs",
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3606,6 +3666,7 @@
             "categoryDescription": "Grab a few packs and craft your ideal deck.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone-whizbang's-workshop-tavern-pass",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3648,6 +3709,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Get Wonderful Rewards",
                       "data": [
                         {
@@ -3674,6 +3736,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "hearthstone-golden-whizbangs-workshop-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3727,6 +3790,7 @@
                 }
               },
               {
+                "id": 2,
                 "productLink": "hearthstone-whizbangs-workshop-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3780,6 +3844,7 @@
                 }
               },
               {
+                "id": 3,
                 "productLink": "hearthstone-showdown-in-the-badlands-golden-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-4.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3833,6 +3898,7 @@
                 }
               },
               {
+                "id": 4,
                 "productLink": "hearthstone-showdown-in-the-badlands-packs",
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3842,6 +3908,7 @@
                 "price": "From $2.99"
               },
               {
+                "id": 5,
                 "productLink": "hearthstone-titans-golden-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-5.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3895,6 +3962,7 @@
                 }
               },
               {
+                "id": 6,
                 "productLink": "hearthstone-titans-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-6.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -3948,6 +4016,7 @@
                 }
               },
               {
+                "id": 7,
                 "productLink": "hearthstone-festival-of-legends-golden-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-7.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4001,6 +4070,7 @@
                 }
               },
               {
+                "id": 8,
                 "productLink": "hearthstone-festival-of-legends-packs",
                 "image": "/products-categories/warcraft/hearthstone/card-packs/image-8.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4060,6 +4130,7 @@
             "categoryDescription": "Get a complete Mini-Set with powerful new cards for your decks. Non-Golden Mini-Set is also available in-game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4165,6 +4236,7 @@
                 }
               },
               {
+                "id": 1,
                 "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4175,6 +4247,7 @@
                 "newProduct": "New"
               },
               {
+                "id": 2,
                 "productLink": "hearthstone-delve-into-deepholm-golden-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4279,6 +4352,7 @@
                 }
               },
               {
+                "id": 3,
                 "productLink": "hearthstone-delve-into-deepholm-golden-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-4.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4288,6 +4362,7 @@
                 "price": "$14.99"
               },
               {
+                "id": 4,
                 "productLink": "hearthstone-fall-of-ulduar-golden-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-5.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4392,6 +4467,7 @@
                 }
               },
               {
+                "id": 5,
                 "productLink": "hearthstone-dr-booms-incredible-inventions-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-2.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4402,6 +4478,7 @@
                 "newProduct": "New"
               },
               {
+                "id": 6,
                 "productLink": "hearthstone-delve-into-deepholm-golden-mini-set",
                 "image": "/products-categories/warcraft/hearthstone/mini-sets/image-3.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4418,6 +4495,7 @@
             "categoryDescription": "Prepare yourself for Battlegrounds, where eight players face off in fast-paced combat.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone-battlegrounds-season-pass",
                 "image": "/products-categories/warcraft/hearthstone/battlegrounds/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4470,6 +4548,7 @@
             "categoryDescription": "Enter the tavern, cozy up by the fire, and prepare for a battle of wits with this free-to-play collectible card game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone",
                 "image": "/products-categories/warcraft/hearthstone/common-images/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4479,6 +4558,7 @@
                 "price": "Play For Free"
               },
               {
+                "id": 1,
                 "productLink": "hearthstone-runestones-bundles",
                 "image": "/products-categories/warcraft/hearthstone/games/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4543,6 +4623,7 @@
             "categoryDescription": "Join players in Wild format, where any card is playable and legends live on.",
             "products": [
               {
+                "id": 0,
                 "productLink": "hearthstone-golden-wild-packs",
                 "image": "/products-categories/warcraft/hearthstone/wild/image-1.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4604,6 +4685,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/hearthstone",
                 "image": "/products-categories/warcraft/hearthstone/gear/image.png",
                 "icon": "/games-logo/warcraft/hearthstone.png",
@@ -4960,6 +5042,7 @@
             "categoryHeading": "Games",
             "products": [
               {
+                "id": 0,
                 "productLink": "warcraft-orcs-and-humans",
                 "image": "/products-categories/warcraft/warcraft-orcs-and-humans/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-orcs-and-humans.png",
@@ -5000,6 +5083,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "data": [
                         {
                           "image": "/product-page/warcraft/warcraft-orcs-and-humans/features/image-1.png",
@@ -5150,6 +5234,7 @@
             "categoryHeading": "Games",
             "products": [
               {
+                "id": 0,
                 "productLink": "warcraft-ii-battle-net-edition",
                 "image": "/products-categories/warcraft/warcraft-2/games/image.png",
                 "icon": "/games-logo/warcraft/warcraft-2.png",
@@ -5191,6 +5276,7 @@
                   },
                   "productFeatures": [
                     {
+                      "id": 0,
                       "heading": "Game features",
                       "data": [
                         {
@@ -5392,6 +5478,7 @@
             "categoryDescription": "Choose Your Way To Play",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-modern-warfare-iii",
                 "image": "/products-categories/call-of-duty/common-products/games/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5402,6 +5489,7 @@
                 "price": "$99.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-modern-warfare-iii",
                 "image": "/products-categories/call-of-duty/common-products/games/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5412,6 +5500,7 @@
                 "price": "$69.99"
               },
               {
+                "id": 2,
                 "productLink": "call-of-duty-modern-warfare-ii",
                 "image": "/products-categories/call-of-duty/common-products/games/image-3.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5422,6 +5511,7 @@
                 "price": "$69.99"
               },
               {
+                "id": 3,
                 "productLink": "call-of-duty-warzone-2",
                 "image": "/products-categories/call-of-duty/common-products/games/image-4.png",
                 "icon": "/games-logo/call-of-duty/warzone.webp",
@@ -5437,6 +5527,7 @@
             "categoryHeading": "Points and Bundles",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-points",
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5447,6 +5538,7 @@
                 "price": "From $1.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-modern-warfare-iii-wz-black-cell-pack-s4",
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5457,6 +5549,7 @@
                 "newProduct": "New"
               },
               {
+                "id": 2,
                 "productLink": "call-of-duty-modern-warfare-iii-wz-custom-molded-ultra-skin-pro-pack",
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-3.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5467,6 +5560,7 @@
                 "newProduct": "New"
               },
               {
+                "id": 3,
                 "productLink": "call-of-duty-modern-warfare-iii-wz-tracer-trash-talk-ultra-pro-pack",
                 "image": "/products-categories/call-of-duty/common-products/points-and-bundles/image-4.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-3.png",
@@ -5483,6 +5577,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2.png",
@@ -5520,6 +5615,7 @@
             "categoryDescription": "Get the Frontline Weapons Pack!",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-vanguard",
                 "image": "/products-categories/call-of-duty/vanguard/games/image.png",
                 "icon": "/game-carousel-images/call-of-duty/vanguard/icon.png",
@@ -5535,6 +5631,7 @@
             "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-vanguard-points",
                 "image": "/products-categories/call-of-duty/vanguard/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/vanguard.png",
@@ -5545,6 +5642,7 @@
                 "price": "From $1.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-vanguard-s5-elegant-threat",
                 "image": "/products-categories/call-of-duty/vanguard/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/vanguard.png",
@@ -5560,6 +5658,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/vanguard.png",
@@ -5598,6 +5697,7 @@
             "categoryDescription": "Choose Your Way To Play",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-black-ops-cold-war",
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/games/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
@@ -5614,6 +5714,7 @@
             "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-black-ops-cold-war-cod-points",
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
@@ -5624,6 +5725,7 @@
                 "price": "From $1.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-containment-breach-pro-pack",
                 "image": "/products-categories/call-of-duty/black-ops-cold-war/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
@@ -5639,6 +5741,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops.png",
@@ -5678,6 +5781,7 @@
             "categoryDescription": "Choose Your Way To Play",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-modern-warfare",
                 "image": "/products-categories/call-of-duty/modern-warfare/games/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
@@ -5694,6 +5798,7 @@
             "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-modern-warfare-points",
                 "image": "/products-categories/call-of-duty/modern-warfare/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
@@ -5704,6 +5809,7 @@
                 "price": "From $1.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-modern-warfare-points",
                 "image": "/products-categories/call-of-duty/modern-warfare/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
@@ -5719,6 +5825,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare.png",
@@ -5756,6 +5863,7 @@
             "categoryDescription": "Relive the epic Call of Duty®: Modern Warfare® 2 campaign, fully remastered and get the UDT Classic Ghost bundle for Modern Warfare® including Warzone.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-modern-warfare-2-campaign-remastered",
                 "image": "/products-categories/call-of-duty/modern-warfare-2-remaster/games/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
@@ -5772,6 +5880,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/modern-warfare-2-remaster.png",
@@ -5808,6 +5917,7 @@
             "categoryDescription": "Call of Duty: Black Ops 4 features thrilling grounded Multiplayer combat, three full Zombies adventures at launch, and a massive battle royale experience.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-black-ops-4",
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5817,6 +5927,7 @@
                 "price": "$99.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-black-ops-4",
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5826,6 +5937,7 @@
                 "price": "$59.99"
               },
               {
+                "id": 2,
                 "productLink": "call-of-duty-black-ops-4",
                 "image": "/products-categories/call-of-duty/black-ops-4/games/image-3.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5841,6 +5953,7 @@
             "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "call-of-duty-black-ops-classified-zombies-experience",
                 "image": "/products-categories/call-of-duty/black-ops-4/in-game-content/image-1.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5851,6 +5964,7 @@
                 "price": "$7.99"
               },
               {
+                "id": 1,
                 "productLink": "call-of-duty-black-ops-pass",
                 "image": "/products-categories/call-of-duty/black-ops-4/in-game-content/image-2.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5866,6 +5980,7 @@
             "categoryDescription": "Head to the COD Shop to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://shop.callofduty.com/",
                 "image": "/products-categories/call-of-duty/common-products/gear/image.png",
                 "icon": "/games-logo/call-of-duty/black-ops-4.png",
@@ -5924,6 +6039,7 @@
             "categoryDescription": "Diablo® IV is the ultimate action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish dungeons, and legendary loot.",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iv",
                 "image": "/products-categories/diablo/diablo-4/games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5933,6 +6049,7 @@
                 "price": "$49.99"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iv",
                 "image": "/products-categories/diablo/diablo-4/games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5944,6 +6061,7 @@
                 "prePurchase": "Pre-Purchase"
               },
               {
+                "id": 2,
                 "productLink": "diablo-iv",
                 "image": "/products-categories/diablo/diablo-4/games/image-3.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5955,6 +6073,7 @@
                 "prePurchase": "Pre-Purchase"
               },
               {
+                "id": 3,
                 "productLink": "diablo-iv",
                 "image": "/products-categories/diablo/diablo-4/games/image-4.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5966,6 +6085,7 @@
                 "prePurchase": "Pre-Purchase"
               },
               {
+                "id": 4,
                 "productLink": "diablo-iv",
                 "image": "/products-categories/diablo/diablo-4/games/image-5.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5983,6 +6103,7 @@
             "categoryDescription": "Unlock premium rewards like Awoken Armor Sets, Mounts & Mount Armor, Platinum, and much more.",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iv-battle-pass-season-4-loot-reborn",
                 "image": "/products-categories/diablo/diablo-4/battle-pass/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -5994,6 +6115,7 @@
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iv-battle-pass-season-4-loot-reborn",
                 "image": "/products-categories/diablo/diablo-4/battle-pass/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6016,6 +6138,7 @@
             "categoryHeading": "Armor Packs",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iv-bathed-in-blood-collection-pack",
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6026,6 +6149,7 @@
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iv-tusked-lord-collection-pack",
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6036,6 +6160,7 @@
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
               },
               {
+                "id": 2,
                 "productLink": "diablo-iv-reign-of-solitude-collection-pack",
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-3.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6046,6 +6171,7 @@
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
               },
               {
+                "id": 3,
                 "productLink": "diablo-iv-reign-of-solitude-collection-pack",
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-4.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6056,6 +6182,7 @@
                 "gameCurrencyIcon": "/products-categories/diablo/diablo-4/common-images/diablo-currency.png"
               },
               {
+                "id": 4,
                 "productLink": "diablo-iv-host-of-chaos-collection-pack",
                 "image": "/products-categories/diablo/diablo-4/armor-packs/image-5.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6072,6 +6199,7 @@
             "categoryDescription": "Customize and upgrade your in-game experience",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iv-platinum",
                 "image": "/products-categories/diablo/diablo-4/add-ons-and-platinum/image-1.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6082,6 +6210,7 @@
                 "price": "From $4.99"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iv-crypt-hunter-pack",
                 "image": "/products-categories/diablo/diablo-4/add-ons-and-platinum/image-2.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6098,6 +6227,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/diablo",
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
@@ -6107,6 +6237,7 @@
                 "price": "Learn More"
               },
               {
+                "id": 1,
                 "productLink": "https://gear.blizzard.com/collections/diablo?utm_source=Partner&utm_campaign=Diablo+Inarius+Statue+&utm_content=Battlenet",
                 "image": "/products-categories/diablo/diablo-4/gear/image.png",
                 "icon": "/games-logo/diablo/diablo-4.png",
@@ -6145,6 +6276,7 @@
             "categoryDescription": "Hell glows anew. Slay your way through an untold chapter in the Diablo saga in this cross-platform action role-playing game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-immortal",
                 "image": "/products-categories/diablo/diablo-immortal/games-and-in-content/image-1.png",
                 "icon": "/games-logo/diablo/diablo-immortal.png",
@@ -6154,6 +6286,7 @@
                 "price": "Play For Free"
               },
               {
+                "id": 1,
                 "productLink": "eternal-orbs",
                 "image": "/products-categories/diablo/diablo-immortal/games-and-in-content/image-2.png",
                 "icon": "/games-logo/diablo/diablo-immortal.png",
@@ -6169,6 +6302,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/diablo",
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
@@ -6208,6 +6342,7 @@
             "categoryDescription": "Fight for the citizens of Sanctuary and journey though the Heavens and the Hells in this action role-playing game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iii",
                 "image": "/products-categories/diablo/diablo-3/games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
@@ -6217,6 +6352,7 @@
                 "price": "$39.99"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iii",
                 "image": "/products-categories/diablo/diablo-3/games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
@@ -6226,6 +6362,7 @@
                 "price": "$29.99"
               },
               {
+                "id": 2,
                 "productLink": "diablo-iii",
                 "image": "/products-categories/diablo/diablo-3/games/image-3.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
@@ -6241,6 +6378,7 @@
             "categoryDescription": "Explore the latest from your favorite games and level up your experience.",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-iii-ros",
                 "image": "/products-categories/diablo/diablo-3/expansions/image-1.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
@@ -6251,6 +6389,7 @@
                 "price": "$19.99"
               },
               {
+                "id": 1,
                 "productLink": "diablo-iii-ros",
                 "image": "/products-categories/diablo/diablo-3/expansions/image-2.png",
                 "icon": "/games-logo/diablo/diablo-3.png",
@@ -6267,6 +6406,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/diablo",
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
@@ -6303,6 +6443,7 @@
             "categoryDescription": "Hell has never looked better. Experience the Original Sin from Act I to Act V with modernized visuals in the definitive edition of this action role-playing game",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-ii-resurrected",
                 "image": "/products-categories/diablo/diablo-2-resurrected/games/image.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
@@ -6319,6 +6460,7 @@
             "categoryDescription": "Relive a Blizzard classic from the early 2000s. Get in on the Act and defeat the Lord of Terror in this action role-playing game",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo-ii",
                 "image": "/products-categories/diablo/diablo-2-resurrected/classic-games/image-1.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
@@ -6329,6 +6471,7 @@
                 "price": "$9.99"
               },
               {
+                "id": 1,
                 "productLink": "diablo-ii-lord-of-destruction",
                 "image": "/products-categories/diablo/diablo-2-resurrected/classic-games/image-2.png",
                 "icon": "/games-logo/diablo/diablo-2-resurrected.png",
@@ -6344,6 +6487,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/diablo",
                 "image": "/products-categories/diablo/common-products/image.png",
                 "icon": "/games-logo/diablo/diablo-gear.png",
@@ -6380,6 +6524,7 @@
             "categoryHeading": "Games",
             "products": [
               {
+                "id": 0,
                 "productLink": "diablo",
                 "image": "/products-categories/diablo/diablo/image.png",
                 "icon": "/games-logo/diablo/diablo.png",
@@ -6424,6 +6569,7 @@
             "categoryDescription": "Play for Free Today! Overwatch 2 is an always-on and ever-evolving team-based action game set in an optimistic future, where every match is the ultimate 5v5 battlefield brawl!",
             "products": [
               {
+                "id": 0,
                 "productLink": "overwatch",
                 "image": "/products-categories/overwatch/game/image.png",
                 "icon": "/game-carousel-images/overwatch/icon-4.png",
@@ -6438,6 +6584,7 @@
             "categoryDescription": "Get a head start in Overwatch 2 with the current season's packs and the Premium Battle Pass.",
             "products": [
               {
+                "id": 0,
                 "productLink": "overwatch-ultimate-bundle-season-10",
                 "image": "/products-categories/overwatch/seasonal-packs/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6445,9 +6592,10 @@
                 "productName": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season 10",
                 "grayText": "Team-Based Action Game",
                 "yellowText": "Get the Season 10 Premium Battle Pass + 20 Tiers, Fallen Knight Reinhardt, and more!",
-                "price": "€39.99"
+                "price": "$39.99"
               },
               {
+                "id": 1,
                 "productLink": "overwatch-premium-battle-pass-s10",
                 "image": "/products-categories/overwatch/seasonal-packs/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6455,7 +6603,7 @@
                 "productName": "Overwatch® 2 Premium Battle Pass: Season 10",
                 "grayText": "Team-Based Action Game",
                 "yellowText": "Enter a parallel mirror universe in the Overwatch 2 - Season 10 Battle Pass!",
-                "price": "€59.99",
+                "price": "$59.99",
                 "newProduct": "New"
               }
             ]
@@ -6467,6 +6615,7 @@
             "categoryDescription": "Buy in-game items to customize your heroes in the Overwatch Shop with Overwatch Coins. Access items and Overwatch Coins across all platforms!",
             "products": [
               {
+                "id": 0,
                 "productLink": "overwatch-torbjrn-prospector",
                 "image": "/products-categories/overwatch/shop/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6477,6 +6626,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 1,
                 "productLink": "overwatch-fire-engine-bastion-bundle",
                 "image": "/products-categories/overwatch/shop/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6487,6 +6637,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 2,
                 "productLink": "overwatch-honeydew-mei-bundle",
                 "image": "/products-categories/overwatch/shop/image-3.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6497,6 +6648,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 3,
                 "productLink": "overwatch-tier-skip",
                 "image": "/products-categories/overwatch/shop/image-4.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6508,6 +6660,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 4,
                 "productLink": "overwatch-poolside-bundle",
                 "image": "/products-categories/overwatch/shop/image-5.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6518,6 +6671,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 5,
                 "productLink": "overwatch-dva-midnight",
                 "image": "/products-categories/overwatch/shop/image-6.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6528,6 +6682,7 @@
                 "gameCurrencyIcon": "/products-categories/overwatch/common-images/overwatch-currency.png"
               },
               {
+                "id": 6,
                 "productLink": "overwatch-tropical-vacation-bundle",
                 "image": "/products-categories/overwatch/shop/image-7.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6544,6 +6699,7 @@
             "categoryDescription": "Level up your Overwatch journey with Mythic Prisms, Overwatch Coins, and Overwatch League Tokens, with access across all platforms!",
             "products": [
               {
+                "id": 0,
                 "productLink": "overwatch-mythic-prisms",
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-1.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6551,10 +6707,11 @@
                 "productName": "Overwatch® 2 Mythic Prisms",
                 "grayText": "Prisms, Coins, and Tokens",
                 "yellowText": "With Mythic Prisms, you can unlock new Mythic skins and customizations for your heroes!",
-                "price": "From €9.99",
+                "price": "From $9.99",
                 "newProduct": "New"
               },
               {
+                "id": 1,
                 "productLink": "overwatch-coins",
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-2.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6562,16 +6719,17 @@
                 "productName": "Overwatch® Coins",
                 "grayText": "Prisms, Coins, and Tokens",
                 "yellowText": "Use Overwatch Coins to Get the Premium Battle Pass and More!",
-                "price": "From €4.99"
+                "price": "From $4.99"
               },
               {
+                "id": 2,
                 "productLink": "overwatch-league-tokens",
                 "image": "/products-categories/overwatch/prisms-coins-and-tokens/image-3.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
                 "productGameName": "Overwatch 2",
                 "productName": "Overwatch® League Tokens",
                 "grayText": "Prisms, Coins, and Tokens",
-                "price": "From €5.99"
+                "price": "From $5.99"
               }
             ]
           },
@@ -6580,6 +6738,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/overwatch",
                 "image": "/products-categories/overwatch/gear/image.png",
                 "icon": "/games-logo/overwatch/overwatch.webp",
@@ -6658,6 +6817,7 @@
             "categoryDescription": "New to StarCraft II? Start here.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii",
                 "image": "/products-categories/star-craft/star-craft-2/great-for-new-players/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6673,6 +6833,7 @@
             "categoryDescription": "Enter the Koprulu sector and do battle as zerg, protoss, or terran in this real-time strategy game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii-nova-covert-ops",
                 "image": "/products-categories/star-craft/star-craft-2/games/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6688,6 +6849,7 @@
             "categoryDescription": "Take control of the battlefield with a StarCraft Commander.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii-zeratul-commander",
                 "image": "/products-categories/star-craft/star-craft-2/commanders/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6697,6 +6859,7 @@
                 "price": "$4.99"
               },
               {
+                "id": 1,
                 "productLink": "starcraft-ii-abathur-commander",
                 "image": "/products-categories/star-craft/star-craft-2/commanders/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6712,6 +6875,7 @@
             "categoryDescription": "Elevate your gameplay with commentary from a StarCraft Announcer!",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii-announcers-dehaka",
                 "image": "/products-categories/star-craft/star-craft-2/announcers/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6721,6 +6885,7 @@
                 "price": "$4.99"
               },
               {
+                "id": 1,
                 "productLink": "starcraft-ii-announcers-fenix",
                 "image": "/products-categories/star-craft/star-craft-2/announcers/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6736,6 +6901,7 @@
             "categoryDescription": "Grab a bundle of goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii-kw-2019-structure-skin-bundles",
                 "image": "/products-categories/star-craft/star-craft-2/bundles/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6745,6 +6911,7 @@
                 "price": "$44.85"
               },
               {
+                "id": 1,
                 "productLink": "starcraft-ii-war-chest-5-skins",
                 "image": "/products-categories/star-craft/star-craft-2/bundles/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6759,6 +6926,7 @@
             "categoryHeading": "Premium Arcade",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-ii-ark-star",
                 "image": "/products-categories/star-craft/star-craft-2/premium-arcade/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6774,6 +6942,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/starcraft",
                 "image": "/products-categories/star-craft/common-products/image.png",
                 "icon": "/games-logo/star-craft/star-craft-2.png",
@@ -6810,6 +6979,7 @@
             "categoryDescription": "Relive a Blizzard classic. Enter the Koprulu sector and do battle as zerg, protoss, or terran in this real-time strategy game.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft",
                 "image": "/products-categories/star-craft/star-craft/games/image.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
@@ -6825,6 +6995,7 @@
             "categoryDescription": "Grab some in-game goodies and bring your gameplay to the next level.",
             "products": [
               {
+                "id": 0,
                 "productLink": "starcraft-remastered-announcer-hey-jini",
                 "image": "/products-categories/star-craft/star-craft/in-game-content/image-1.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
@@ -6834,6 +7005,7 @@
                 "price": "$4.99"
               },
               {
+                "id": 1,
                 "productLink": "starcraft-remastered-announcer-bundle",
                 "image": "/products-categories/star-craft/star-craft/in-game-content/image-2.png",
                 "icon": "/games-logo/star-craft/star-craft.png",
@@ -6849,6 +7021,7 @@
             "categoryDescription": "Head to the Gear Store to grab some goodies.",
             "products": [
               {
+                "id": 0,
                 "productLink": "https://gear.blizzard.com/collections/starcraft",
                 "image": "/products-categories/star-craft/common-products/image.png",
                 "icon": "/games-logo/star-craft/star-craft.png",

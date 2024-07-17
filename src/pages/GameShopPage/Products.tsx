@@ -49,7 +49,7 @@ const Products = ({
 
   return (
     <div className={`${flexStyleCategory ? 'flex flex-wrap gap-6' : 'grid grid-cols-4 gap-6'}`}>
-      {category.products!.map((product, productIndex) => {
+      {category.products && category.products!.map((product, productIndex) => {
         const productHorizontalLayout = getProductsWithHorizontalLayout(category, productIndex);
         const biggerFont = productsWithBiggerFont(category, productIndex);
 
@@ -63,7 +63,7 @@ const Products = ({
             ${fromTwoToFourProductsInRow && 'from-two-to-four-products-in-row'} ${productHorizontalLayout ? 'grid grid-cols-[2fr_1fr]' : 'flex flex-col'}
             ${threeAndTwoProductsInRow && 'three-and-two-products-in-row'} group relative cursor-pointer rounded 
             bg-mediumGray transition-colors hover:bg-borderGray`}
-            key={productIndex}
+            key={product.id}
           >
             <div className={`row-[1_/_span_2] relative ${!productHorizontalLayout && 'pt-[56.25%]'}`}>
               <img

@@ -34,12 +34,12 @@ const Balance: FC = () => {
       />
       <div className='menu-element-on-hover right-0 group-hover:visible group-hover:opacity-100'>
         <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
-          {balanceData.map((data, index) => (
+          {balanceData.map((data) => (
             <div
-              key={index}
               className='group/item relative flex gap-3 p-4 hover-light-gray-background 
               before:content-[""] before:absolute before:top-0 before:left-[.2px] before:h-full before:rounded-tl-md 
               before:rounded-bl-md before:active:border-l-[3px] before:active:border-l-lightBlue'
+              key={data.text}
             >
               <img
                 className='max-w-5 transition-all group-hover/item:brightness-[5]'

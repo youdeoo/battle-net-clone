@@ -15,7 +15,7 @@ const SubscriptionPriceInformation = ({
       {productData.subscriptionPriceInformation!.map((info, index) => (
         <dl
           className={`${stateIndexEqualIndex(markedProductIndex, index) ? 'block' : 'hidden'}`}
-          key={index}
+          key={info.defaultPrice}
         >
           {info.discountPercent
             ?

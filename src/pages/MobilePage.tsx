@@ -72,8 +72,8 @@ const MobilePage = () => {
       <section className='max-w-[2600px] px-10 py-20 m-auto min-[1200px]:bg-[url("/mobile-page/background.png")] min-[1200px]:background-image-styles'>
         <h2 className='text-[3.5rem] font-bold text-center text-white mb-16'>Key Features</h2>
         <div className='grid grid-cols-[repeat(auto-fit,_minmax(14rem,_1fr))] grid-rows-fr gap-12 max-w-[1440px] m-auto max-[1200px]:grid-cols-[repeat(auto-fit,_minmax(25rem,_1fr))]'>
-          {features.map((feature, index) => (
-            <div className='grid grid-cols-[100%] grid-rows-[auto_1fr]' key={index}>
+          {features.map((feature) => (
+            <div className='grid grid-cols-[100%] grid-rows-[auto_1fr]' key={feature.heading}>
               <picture>
                 <source media='(max-width: 1200px)' srcSet={feature.images.tablet} />
                 <img

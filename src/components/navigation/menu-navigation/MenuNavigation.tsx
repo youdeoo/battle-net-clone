@@ -32,7 +32,7 @@ const MenuNavigation = () => {
           {(gamesData).map((data, gameTypeIndex) => (
             <div
               className='menu-option group first-of-type:rounded-l-md'
-              key={gameTypeIndex}
+              key={data.gameType}
             >
               <div className='flex items-center gap-2'>
                 <span className='text-sm text-lightGray font-semibold transition-colors group-hover:text-white'>{data.gameType}</span>
@@ -51,7 +51,7 @@ const MenuNavigation = () => {
                       onClick={() => { clearFilteredProducts(gameData as TGameData); setSelectedFilterValueToDefault(gameData as TGameData) }}
                       className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray active-translate-y'
                       to={`/${data.gameType === 'More' ? 'product' : 'game'}/${formatGameData()[gameTypeIndex][gameDataIndex].link}`}
-                      key={gameDataIndex}
+                      key={gameData.gameName}
                     >
                       <img
                         className='max-w-8'

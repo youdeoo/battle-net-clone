@@ -49,10 +49,10 @@ const Account = () => {
               <button className='blue-button transition-colors hover:bg-[#40a3ff] active-translate-y'>Log In</button>
             </div>
 
-            {accountData.map((data, index) => (
+            {accountData.map((data) => (
               <div
-                key={index}
                 className='group/text flex items-center gap-3 rounded-md p-4 transition-colors hover:bg-mediumGray active-translate-y'
+                key={data.text}
               >
                 <img
                   className='max-w-5 w-5 group-hover/text:brightness-[5]'

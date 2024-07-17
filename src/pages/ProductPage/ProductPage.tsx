@@ -37,18 +37,18 @@ const ProductPage = () => {
                 <h2 className='text-3xl font-bold text-white mb-4'>
                   {productData?.descriptionHeading}
                 </h2>
-                {productData?.descriptions.map((description, index) => (
-                  <p key={index} className='text-almostWhiteSecond mb-2'>
+                {productData?.descriptions.map((description) => (
+                  <p className='text-almostWhiteSecond mb-2' key={description}>
                     {description}
                   </p>
                 ))}
                 {productData?.descriptionList
                   &&
                   <ul className='list-disc pl-8 mt-4'>
-                    {productData.descriptionList.map((data, index) => (
+                    {productData.descriptionList.map((data) => (
                       <li
                         className='text-almostWhiteSecond'
-                        key={index}
+                        key={data}
                       >
                         {data}
                       </li>

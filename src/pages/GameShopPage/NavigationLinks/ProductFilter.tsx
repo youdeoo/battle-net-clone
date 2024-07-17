@@ -12,12 +12,15 @@ const ProductFilter = forwardRef((_, selectRect: React.ForwardedRef<HTMLSelectEl
   const { gameId } = useParams();
   const { productsCategories: currentGameProductsCategories } = currentGamePage(gameId, undefined)[0];
 
-  const convertPriceToNumber = (priceText: string): number => {
+  const formatPriceString = (priceText: string): number => {
     if (priceText[0] === '$') {
-      return parseFloat(priceText.slice(1));
+      return parseFloat(priceText.slice(1, 5));
     }
-    else if (priceText.slice(0, 4) === 'From') {
+    else if (priceText.includes('From')) {
       return parseFloat(priceText.slice(6));
+    }
+    else if (priceText.includes(',')) {
+      return parseFloat(priceText.replace(',', '.'));
     }
     else {
       return 0;
@@ -27,21 +30,21 @@ const ProductFilter = forwardRef((_, selectRect: React.ForwardedRef<HTMLSelectEl
   const sortFromLowestPrice = (): Array<TProductsCategories> => {
     return currentGameProductsCategories!.map((category) => ({
       ...category,
-      products: [...category.products!].sort((a, b) => convertPriceToNumber(a.price) - convertPriceToNumber(b.price))
+      products: category.products && [...category.products].sort((a, b) => formatPriceString(a.price) - formatPriceString(b.price))
     }))
   }
 
   const sortFromHighestPrice = (): Array<TProductsCategories> => {
     return currentGameProductsCategories!.map((category) => ({
       ...category,
-      products: [...category.products!].sort((a, b) => convertPriceToNumber(b.price) - convertPriceToNumber(a.price))
+      products: category.products && [...category.products].sort((a, b) => formatPriceString(b.price) - formatPriceString(a.price))
     }))
   }
 
   const sortProductNamesAlphabetically = (): Array<TProductsCategories> => {
     return currentGameProductsCategories!.map((category) => ({
       ...category,
-      products: [...category.products!].sort((a, b) => a.productName.localeCompare(b.productName))
+      products: category.products && [...category.products].sort((a, b) => a.productName.localeCompare(b.productName))
     }))
   }
 

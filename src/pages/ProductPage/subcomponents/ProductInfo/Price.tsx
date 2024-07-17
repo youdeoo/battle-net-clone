@@ -56,9 +56,9 @@ const Price = ({
               <button
                 onClick={() => { setMarkedProductIndex(index); price.image && dispatch(getImagePath(price.image)) }}
                 className={`${stateIndexEqualIndex(markedProductIndex, index) && 'bg-mediumGray border-l-[8px] border-l-lighterBlue rounded-md'} 
-                  group relative w-full text-left border-t border-borderGray cursor-pointer p-3 transition-all 
-                  hover:bg-mediumGray hover:rounded-md block`}
-                key={index}
+                group relative w-full text-left border-t border-borderGray cursor-pointer p-3 transition-all 
+                hover:bg-mediumGray hover:rounded-md block`}
+                key={price.productName}
               >
                 <dl>
                   <dt className={`${stateIndexEqualIndex(markedProductIndex, index) ? 'text-white' : 'text-lightGray'} 

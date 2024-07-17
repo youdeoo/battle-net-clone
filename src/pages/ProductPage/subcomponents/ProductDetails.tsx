@@ -11,12 +11,12 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
       </h2>
       <div className='flex flex-row flex-wrap'>
         <div className='w-[33.3%]'>
-          {currentCommonProductsData.productDetails.map((detail, index) => (
+          {currentCommonProductsData.productDetails.map((detail) => (
             (detail.heading === 'Genre' || detail.heading === 'Platforms')
             &&
             <div
               className={`${detail.heading === 'Platforms' && 'mt-8'}`}
-              key={index}
+              key={detail.heading}
             >
               <h3 className='text-xl font-bold text-almostWhiteSecond'>
                 {detail.heading}
@@ -46,12 +46,12 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
           ))}
         </div>
         <div className='w-[33.3%]'>
-          {currentCommonProductsData.productDetails.map((detail, index) => (
+          {currentCommonProductsData.productDetails.map((detail) => (
             (detail.heading === 'Available Languages' || detail.heading === 'Available Regions')
             &&
             <div
               className={`${detail.heading === 'Available Regions' && 'mt-8'}`}
-              key={index}
+              key={detail.heading}
             >
               <h3 className='text-xl font-bold text-almostWhiteSecond'>
                 {detail.heading}
@@ -59,10 +59,10 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
               {detail.languages
                 &&
                 <ul className='flex flex-wrap gap-y-2 mt-2'>
-                  {detail.languages.map((language, languageIndex) => (
+                  {detail.languages.map((language) => (
                     <li
                       className='flex-[1_1_50%] text-sm text-lightGray'
-                      key={languageIndex}
+                      key={language}
                     >
                       {language}
                     </li>
@@ -72,10 +72,10 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
               {detail.regions
                 &&
                 <ul className='flex flex-wrap gap-y-2 mt-2'>
-                  {detail.regions.map((region, regionIndex) => (
+                  {detail.regions.map((region) => (
                     <li
                       className='flex-[1_1_50%] text-sm text-lightGray'
-                      key={regionIndex}
+                      key={region}
                     >
                       {region}
                     </li>
@@ -91,10 +91,10 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
               Product Requirements
             </h3>
             <ul className='list-disc pl-8'>
-              {productData.productRequirements.map((req, reqIndex) => (
+              {productData.productRequirements.map((req) => (
                 <li
                   className='text-sm text-lightGray first-of-type:my-2'
-                  key={reqIndex}
+                  key={req}
                 >
                   {req}
                 </li>

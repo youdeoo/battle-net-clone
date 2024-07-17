@@ -54,8 +54,8 @@ const ProductInfo = memo(({ productData }: TProductDataProp) => {
         {productData.mobileApps
           &&
           <div className='flex items-center justify-center gap-4'>
-            {productData.mobileApps.map((app, index) => (
-              <Link className='max-w-[10rem]' to={app.link} target='_blank' key={index}>
+            {productData.mobileApps.map((app) => (
+              <Link className='max-w-[10rem]' to={app.link} target='_blank' key={app.link}>
                 <img
                   className='max-w-[10rem] w-full border border-lightGray rounded-md'
                   src={app.image}

@@ -50,9 +50,9 @@ const NavigationLinks = () => {
             </button>
             <div className='menu-element-on-hover w-56 min-w-0 group-hover:visible group-hover:opacity-100'>
               <div className='bg-mediumBlue w-56 p-2 border border-borderGray rounded-md'>
-                {currentGamePageLinks.map((link, index) => (
+                {currentGamePageLinks.map((link) => (
                   <a href={`#${transformToLink(link)}`}
-                    key={index}
+                    key={link}
                     className='block whitespace-nowrap text-xs font-bold text-lightGray p-2 rounded-md 
                     transition-colors hover:text-white hover:bg-lightGrayBackground'
                   >

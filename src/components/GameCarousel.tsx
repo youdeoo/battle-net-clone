@@ -65,7 +65,7 @@ const GameCarousel = ({ carouselData }: Prop) => {
           {carouselData.map((data, index) => (
             <SwiperSlide
               className='min-h-[360px] max-h-[360px] overflow-hidden max-[959px]:max-h-[440px] max-[959px]:h-[440px]'
-              key={index}
+              key={data.backgroundImage.laptop}
             >
               <div className='grid size-full'>
                 <picture>

@@ -31,11 +31,11 @@ const DownloadPage = () => {
           </p>
           <div className='min-w-[350px] max-w-[350px] bg-[#0e0e0e99] rounded-md px-6 py-5 m-auto'>
             <p className='text-lg text-lightGray ml-3 mb-4'>Helpful links:</p>
-            {linksData.map((data, index) => (
+            {linksData.map((data) => (
               <Link
                 className='flex items-center gap-2 w-fit text-white font-semibold rounded-md p-3 transition-colors hover:bg-almostTransparent'
                 to={data.link}
-                key={index}
+                key={data.text}
               >
                 <img
                   className='max-w-4 w-4'
