@@ -1,9 +1,9 @@
-import { FC, memo } from 'react';
+import { memo } from 'react';
 import type { TProductDataProp, TCommonProductsDataProp } from '@/types/types';
 
 type Prop = TProductDataProp & TCommonProductsDataProp;
 
-const ProductDetails: FC<Prop> = memo(({ productData, currentCommonProductsData }) => {
+const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) => {
   return (
     <section id='product-details' className='product-page-grid-section scroll-m-32'>
       <h2 className='text-3xl font-bold text-white'>

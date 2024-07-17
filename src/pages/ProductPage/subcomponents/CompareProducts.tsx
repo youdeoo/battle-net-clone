@@ -1,11 +1,11 @@
-import { FC, memo } from 'react';
+import { memo } from 'react';
 import type { TProductDataProp } from '@/types/types';
 
 const oddIndex = (index: number): boolean => {
   return index % 2 === 1;
 }
 
-const CompareProducts: FC<TProductDataProp> = memo(({ productData }) => {
+const CompareProducts = memo(({ productData }: TProductDataProp) => {
   const { images, headings, prices, linkTexts } = productData.compareProducts!.products;
 
   return (

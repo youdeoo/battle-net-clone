@@ -1,16 +1,16 @@
-import { FC, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { currentGamePage, transformToLink } from '@/lib/utils';
 import ProductFilter from './ProductFilter';
 
-const NavigationLinks: FC = () => {
+const NavigationLinks = () => {
   const { pathname } = useLocation();
   const { gameId } = useParams();
   const { gamePageLinks: currentGamePageLinks } = currentGamePage(gameId, undefined)[0];
 
   const [hideLinks, setHideLinks] = useState(false);
   const linksRef = useRef<HTMLDivElement | null>(null);
-  const selectRef = useRef<HTMLSelectElement>(null) as React.MutableRefObject<HTMLSelectElement>;
+  const selectRef = useRef<HTMLSelectElement>(null);
 
   const getDistanceBetweenElements = (): void => {
     if (linksRef.current && selectRef.current) {

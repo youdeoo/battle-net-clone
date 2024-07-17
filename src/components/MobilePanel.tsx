@@ -1,9 +1,8 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import GooglePlayLink from './GooglePlayLink';
 
-const MobilePanel: FC = () => {
+const MobilePanel = () => {
   const isSpecificPageType = useSpecificPageType();
 
   return (

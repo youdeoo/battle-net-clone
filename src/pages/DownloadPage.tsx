@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
 const linksData = [
@@ -14,7 +13,7 @@ const linksData = [
   }
 ];
 
-const DownloadPage: FC = () => {
+const DownloadPage = () => {
   return (
     <main>
       <section className='grid items-center max-w-[2600px] min-h-[750px] bg-[url("/download-page/background.png")] background-image-styles px-10 py-20 m-auto'>

@@ -1,25 +1,35 @@
-import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
 import { setFilteredProducts } from '@/lib/features/filteredProductsSlice';
-import { formatGameData } from '@/lib/utils';
+import { getSelectedFilterValue } from '@/lib/features/selectedFilterValueSlice';
+import { formatGameData, transformToLink } from '@/lib/utils';
+import type { TProductsCategories, TGameData } from '@/types/types';
 import gamesData from '@/assets/data.json';
 import SearchShop from './SearchShop';
 import Balance from './Balance';
 
-const MenuNavigation: FC = () => {
+const MenuNavigation = () => {
+  const { gameId } = useParams();
   const dispatch = useAppDispatch();
   const filteredProducts = useAppSelector((state) => state.filteredProducts.filterProducts);
 
-  const clearFilteredProducts = () => {
-    return filteredProducts.length > 0 && dispatch(setFilteredProducts([]));
+  const currentGamePage = (gameData: TGameData): boolean => {
+    return transformToLink(gameData.gameName) !== gameId;
+  }
+
+  const clearFilteredProducts = (gameData: TGameData): boolean | { payload: [] | Array<TProductsCategories> } => {
+    return currentGamePage(gameData) && filteredProducts.length > 0 && dispatch(setFilteredProducts([]));
+  }
+
+  const setSelectedFilterValueToDefault = (gameData: TGameData): boolean | { payload: string } => {
+    return currentGamePage(gameData) && dispatch(getSelectedFilterValue('featured'));
   }
 
   return (
     <div className='sticky top-0 z-20 bg-darkBlue px-4 pt-3 pb-4'>
       <div className='grid grid-cols-[1fr_max-content_max-content] gap-2 max-w-[1600px] m-auto'>
         <div className='flex w-full rounded-md bg-mediumGray'>
-          {gamesData.map((data, gameTypeIndex) => (
+          {(gamesData).map((data, gameTypeIndex) => (
             <div
               className='menu-option group first-of-type:rounded-l-md'
               key={gameTypeIndex}
@@ -38,7 +48,7 @@ const MenuNavigation: FC = () => {
                 <div className='border border-borderGray rounded-md bg-mediumBlue p-2'>
                   {data.games.map((gameData, gameDataIndex) => (
                     <Link
-                      onClick={clearFilteredProducts}
+                      onClick={() => { clearFilteredProducts(gameData as TGameData); setSelectedFilterValueToDefault(gameData as TGameData) }}
                       className='flex items-center gap-2 rounded-md py-3 px-2 transition-colors hover:bg-mediumGray active-translate-y'
                       to={`/${data.gameType === 'More' ? 'product' : 'game'}/${formatGameData()[gameTypeIndex][gameDataIndex].link}`}
                       key={gameDataIndex}

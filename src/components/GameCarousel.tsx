@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { allowTouchMoveOnCarousel } from '@/lib/utils';
 import type { TGameCarousel } from '@/types/types';
@@ -13,7 +13,7 @@ type Prop = {
   carouselData: Array<TGameCarousel>;
 }
 
-const GameCarousel: FC<Prop> = ({ carouselData }) => {
+const GameCarousel = ({ carouselData }: Prop) => {
   const { gameId } = useParams();
   const [pauseAutoPlay, setPasuseAutoPlay] = useState(false);
   const [swiper, setSwiper] = useState<TSwiper>(null);

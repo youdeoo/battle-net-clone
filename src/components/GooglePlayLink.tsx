@@ -1,7 +1,6 @@
-import { FC } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-const GooglePlayLink: FC = () => {
+const GooglePlayLink = () => {
   const { pathname } = useLocation();
 
   return (

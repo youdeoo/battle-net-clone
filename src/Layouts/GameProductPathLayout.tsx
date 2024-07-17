@@ -1,11 +1,10 @@
-import { FC } from 'react';
 import { Link, useParams, Outlet } from 'react-router-dom';
 import { currentGamePage } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
 import Navigation from '@/components/Navigation/Navigation';
 import MenuNavigation from '@/components/Navigation/menu-navigation/MenuNavigation';
 
-const GameProductPathLayout: FC = () => {
+const GameProductPathLayout = () => {
   const { gameId, productId } = useParams();
   const {
     gameType: currentGameTypePage,

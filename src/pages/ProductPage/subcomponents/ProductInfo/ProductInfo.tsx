@@ -1,4 +1,4 @@
-import { FC, useState, memo } from 'react';
+import { useState, memo } from 'react';
 import { Link } from 'react-router-dom';
 import { transformToLink } from '@/lib/utils';
 import type { TProductDataProp } from '@/types/types';
@@ -6,7 +6,7 @@ import Price from './Price';
 import SubscriptionPriceInformation from './SubscriptionPriceInformation';
 import ManageProduct from './ManageProduct';
 
-const ProductInfo: FC<TProductDataProp> = memo(({ productData }) => {
+const ProductInfo = memo(({ productData }: TProductDataProp) => {
   const [markedProductIndex, setMarkedProductIndex] = useState(0);
 
   return (

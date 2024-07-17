@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { useAppDispatch } from '@/lib/hooks/reduxHooks';
 import { getProductPrice } from '@/lib/features/productPriceSlice';
 import { Link } from 'react-router-dom';
@@ -29,14 +28,14 @@ type Props = {
   getCategoriesWithFlexStyle: FunctionWithOneArgument;
 }
 
-const Products: FC<Props> = ({
+const Products = ({
   category,
   getProductsWithHorizontalLayout,
   getProductsLayoutInCategoryStyleFlex,
   getProductsWithLargeIconInHorizontalLayout,
   productsWithBiggerFont,
   getCategoriesWithFlexStyle
-}) => {
+}: Props) => {
   const dispatch = useAppDispatch();
 
   const flexStyleCategory = getCategoriesWithFlexStyle(category);

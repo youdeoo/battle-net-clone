@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { useParams } from 'react-router-dom';
 import { useAppSelector } from '@/lib/hooks/reduxHooks';
 import { currentGamePage, transformToLink } from '@/lib/utils';
@@ -11,7 +10,7 @@ import Products from './Products';
 // All style-related functions are designed for the default
 // products and categories layout on a laptop device.
 
-const GameShopPage: FC = () => {
+const GameShopPage = () => {
   const filteredProducts = useAppSelector((state) => state.filteredProducts.filterProducts);
   const { gameId } = useParams();
   const {

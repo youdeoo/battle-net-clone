@@ -1,11 +1,10 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import useGameOrProductPath from '@/lib/hooks/useGameProductPath';
 import Account from './Account';
 import MenuNavigation from './menu-navigation/MenuNavigation';
 
-const Navigation: FC = () => {
+const Navigation = () => {
   const isGameOrProductPath = useGameOrProductPath();
   const isSpecificPageType = useSpecificPageType();
 

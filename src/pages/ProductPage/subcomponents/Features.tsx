@@ -1,7 +1,7 @@
-import { FC, memo } from 'react';
+import { memo } from 'react';
 import type { TProductDataProp } from '@/types/types';
 
-const Features: FC<TProductDataProp> = memo(({ productData }) => {
+const Features = memo(({ productData }: TProductDataProp) => {
   return (
     <>
       {productData.productFeatures

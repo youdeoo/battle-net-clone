@@ -1,9 +1,8 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import DownloadForMacLink from './DownloadForMacLink';
 
-const DesktopPanel: FC = () => {
+const DesktopPanel = () => {
   const isSpecificPageType = useSpecificPageType();
 
   return (

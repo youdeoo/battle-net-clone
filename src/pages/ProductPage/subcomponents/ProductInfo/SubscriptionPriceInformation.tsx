@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { stateIndexEqualIndex } from '@/lib/utils';
 import type { TProductDataProp } from '@/types/types';
 
@@ -6,10 +5,10 @@ type Props = {
   markedProductIndex: number;
 }
 
-const SubscriptionPriceInformation: FC<TProductDataProp & Props> = ({
+const SubscriptionPriceInformation = ({
   productData,
   markedProductIndex
-}) => {
+}: TProductDataProp & Props) => {
 
   return (
     <div className='border-t border-t-borderGray pt-4 mt-0'>

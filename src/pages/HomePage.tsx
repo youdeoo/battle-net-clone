@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { deviceHandleHoverEffect } from '@/lib/utils';
 import gamesData from '@/assets/data.json';
 import type { TGameCarousel, TGameData } from '@/types/types';
@@ -30,7 +29,7 @@ const carouselDataGroup: Array<TGameCarousel> = [
   getCarouselData('World of Warcraft Classic', 1),
 ].flatMap((data) => data);
 
-const HomePage: FC = () => {
+const HomePage = () => {
   return (
     <main>
       <ScrollToTopButton />

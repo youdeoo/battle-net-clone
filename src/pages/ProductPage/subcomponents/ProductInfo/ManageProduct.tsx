@@ -1,8 +1,7 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import type { TProductDataProp } from '@/types/types';
 
-const ManageProduct: FC<TProductDataProp> = ({ productData }) => {
+const ManageProduct = ({ productData }: TProductDataProp) => {
   return (
     <div className='grid gap-2'>
       <Link

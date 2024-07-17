@@ -1,7 +1,7 @@
-import { FC, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { scrollToTop } from '@/lib/utils';
 
-const ScrollToTopButton: FC = () => {
+const ScrollToTopButton = () => {
   const [displayButton, setDisplayButton] = useState(false);
 
   const handleScroll = (): void => {

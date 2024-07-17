@@ -1,12 +1,14 @@
-import { FC, forwardRef, useCallback } from 'react';
+import { forwardRef, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
-import { useAppDispatch } from '@/lib/hooks/reduxHooks';
+import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
 import { setFilteredProducts } from '@/lib/features/filteredProductsSlice';
+import { getSelectedFilterValue } from '@/lib/features/selectedFilterValueSlice';
 import { currentGamePage } from '@/lib/utils';
 import type { TProductsCategories } from '@/types/types';
 
-const ProductFilter: FC = forwardRef<HTMLSelectElement>((_, selectRect) => {
+const ProductFilter = forwardRef((_, selectRect: React.ForwardedRef<HTMLSelectElement>) => {
   const dispatch = useAppDispatch();
+  const selectedFilterValue = useAppSelector((state) => state.selectedFilterValue.selectedFilterValue);
   const { gameId } = useParams();
   const { productsCategories: currentGameProductsCategories } = currentGamePage(gameId, undefined)[0];
 
@@ -44,7 +46,10 @@ const ProductFilter: FC = forwardRef<HTMLSelectElement>((_, selectRect) => {
   }
 
   const handleSelectChange = useCallback((e: React.ChangeEvent<HTMLSelectElement>): void => {
-    switch (e.target.value) {
+    const value = e.target.value;
+    dispatch(getSelectedFilterValue(value));
+
+    switch (value) {
       case 'featured':
         dispatch(setFilteredProducts([]));
         break;
@@ -63,6 +68,7 @@ const ProductFilter: FC = forwardRef<HTMLSelectElement>((_, selectRect) => {
   return (
     <select
       onChange={handleSelectChange}
+      value={selectedFilterValue}
       ref={selectRect}
       className='text-white bg-darkBlue cursor-pointer rounded-md 
       transition-colors border border-lighterBorderGray p-2 hover:border-white'

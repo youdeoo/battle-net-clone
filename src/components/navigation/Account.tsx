@@ -1,5 +1,3 @@
-import { FC } from 'react';
-
 const accountData = [
   {
     image: '/icons/user-gear.svg',
@@ -19,7 +17,7 @@ const accountData = [
   }
 ];
 
-const Account: FC = () => {
+const Account = () => {
   return (
     <div className='group/main-item header-link relative'>
       <img

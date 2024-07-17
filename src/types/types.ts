@@ -155,7 +155,7 @@ export type TGameData = Pick<TGameCarousel, 'icon'> & {
   gameCarouselData: Array<TGameCarousel>;
 }
 
-export type TFormatGameData = Pick<TGameData, 'gameName' | 'gameCarouselData' | 'productsCategories' | 'gamePageLinks' | 'commonProductsData'> & {
+export type TFormatGameData = Pick<TGameData, 'gameName' | 'productsCategories' | 'gamePageLinks' | 'commonProductsData' | 'gameCarouselData'> & {
   link: string;
   gameType: string;
   commonGameTypeCarouselData?: Array<TGameCarousel>;

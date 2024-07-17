@@ -1,5 +1,3 @@
-import { FC } from 'react';
-
 const slides = [
   '/infinite-carousel/slide-1.png',
   '/infinite-carousel/slide-2.png',
@@ -14,7 +12,7 @@ const slides = [
   '/infinite-carousel/slide-11.png'
 ];
 
-const InfiniteCarousel: FC = () => {
+const InfiniteCarousel = () => {
   return (
     <div className='relative top-[-2.5rem] max-w-[2600px] overflow-hidden m-auto'>
       <div className='flex gap-8 w-max'>

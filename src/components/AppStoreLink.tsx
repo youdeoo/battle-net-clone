@@ -1,7 +1,6 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
-const AppStoreLink: FC = () => {
+const AppStoreLink = () => {
   return (
     <Link
       to='https://apps.apple.com/us/app/battle-net/id1241040030'

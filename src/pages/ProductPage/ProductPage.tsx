@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { useParams } from 'react-router-dom';
 import { currentGamePage } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
@@ -11,7 +10,7 @@ import ProductDetails from './subcomponents/ProductDetails';
 import AgeRating from './subcomponents/AgeRating';
 import CompareProducts from './subcomponents/CompareProducts';
 
-const ProductPage: FC = () => {
+const ProductPage = () => {
   const { productId } = useParams();
   const {
     productsCategories: currentGameProductsCategories,

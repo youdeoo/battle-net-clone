@@ -2,12 +2,14 @@ import { configureStore } from '@reduxjs/toolkit';
 import productImagePathReducer from './features/productImagePathSlice';
 import productPriceReducer from './features/productPriceSlice';
 import filteredProductsReducer from './features/filteredProductsSlice';
+import selectedFilterValueReducer from './features/selectedFilterValueSlice';
 
 export const store = configureStore({
   reducer: {
     productImagePath: productImagePathReducer,
     productPrice: productPriceReducer,
-    filteredProducts: filteredProductsReducer
+    filteredProducts: filteredProductsReducer,
+    selectedFilterValue: selectedFilterValueReducer
   }
 });
 

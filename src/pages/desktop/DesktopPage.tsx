@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { deviceHandleHoverEffect } from '@/lib/utils';
 import MobilePanel from '@/components/MobilePanel';
@@ -35,7 +34,7 @@ const battleNetFeatures = [
   }
 ];
 
-const DesktopPage: FC = () => {
+const DesktopPage = () => {
   return (
     <main>
       <section className='grid grid-cols-2 max-w-[2600px] min-h-[950px] bg-[url("/battle-net-panel/background-and-image.png")] background-image-styles px-10 py-20 m-auto'>

@@ -1,4 +1,4 @@
-import { FC, useEffect, useState, memo } from 'react';
+import { useEffect, useState, memo } from 'react';
 import { useAppSelector } from '@/lib/hooks/reduxHooks';
 import { allowTouchMoveOnCarousel } from '@/lib/utils';
 import type { TProductDataProp } from '@/types/types';
@@ -13,7 +13,7 @@ import 'swiper/css/free-mode';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/scrollbar';
 
-const Carousel: FC<TProductDataProp> = memo(({ productData }) => {
+const Carousel = memo(({ productData }: TProductDataProp) => {
   const imagePath = useAppSelector((state) => state.productImagePath.imagePath);
   const [swiper, setSwiper] = useState<TSwiper>(null);
   const [thumbsSwiper, setThumbsSwiper] = useState<TSwiper>(null);

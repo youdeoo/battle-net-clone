@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import Languages from './RegionsAndLanguages';
 
@@ -34,7 +33,7 @@ const socailMediaIcons = [
   }
 ];
 
-const Footer: FC = () => {
+const Footer = () => {
   return (
     <footer className='max-w-[1600px] px-16 pt-10 pb-[6.5rem] m-auto'>
       <div className='flex items-center justify-between border-b border-borderGray pb-2'>

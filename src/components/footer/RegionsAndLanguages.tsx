@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import useOutsideClick from '@/lib/hooks/useOutsideClick';
 
@@ -27,7 +27,7 @@ const languages = [
   '繁體中文'
 ];
 
-const RegionsAndLanguages: FC = () => {
+const RegionsAndLanguages = () => {
   const [markedRegionIndex, setMarkedRegionIndex] = useState(0);
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);

@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import AppStoreLink from '@/components/AppStoreLink';
 import GooglePlayLink from '@/components/GooglePlayLink';
 import DesktopPanel from '@/components/DesktopPanel';
@@ -27,7 +26,7 @@ const features = [
   }
 ];
 
-const MobilePage: FC = () => {
+const MobilePage = () => {
   return (
     <main>
       <section className='max-w-[2600px] bg-[url("/battle-net-panel/background-mobile-page-panel.png")] background-image-styles border-panel px-10 py-20 m-auto'>

@@ -1,10 +1,9 @@
-import { FC } from 'react';
 import { useLocation } from 'react-router-dom';
 import DownloadForMacLink from './DownloadForMacLink';
 import GooglePlayLink from './GooglePlayLink';
 import AppStoreLink from './AppStoreLink';
 
-const DownloadAppPanel: FC = () => {
+const DownloadAppPanel = () => {
   const { pathname } = useLocation();
   const mobilePath = pathname === '/mobile';
 

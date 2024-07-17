@@ -1,4 +1,4 @@
-import { FC, SetStateAction, useEffect } from 'react';
+import { SetStateAction, useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
 import { getImagePath } from '@/lib/features/productImagePathSlice';
 import { stateIndexEqualIndex } from '@/lib/utils';
@@ -9,11 +9,11 @@ type Prop = {
   setMarkedProductIndex: React.Dispatch<SetStateAction<number>>;
 }
 
-const Price: FC<TProductDataProp & Prop> = ({
+const Price = ({
   productData,
   markedProductIndex,
   setMarkedProductIndex
-}) => {
+}: TProductDataProp & Prop) => {
   const productPrice = useAppSelector((state) => state.productPrice.productPrice);
   const dispatch = useAppDispatch();
 

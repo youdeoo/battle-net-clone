@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { deviceHandleHoverEffect } from '@/lib/utils';
 import { SwiperClass } from 'swiper/react';
 
@@ -9,12 +8,12 @@ type Props = {
   lastSlide?: boolean;
 }
 
-const ButtonsToCarouselSlides: FC<Props> = ({
+const ButtonsToCarouselSlides = ({
   swiper,
   onlyOneSlideInCarousel,
   firstSlide,
   lastSlide
-}) => {
+}: Props) => {
   return (
     <>
       <button
