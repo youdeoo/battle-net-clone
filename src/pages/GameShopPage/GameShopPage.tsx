@@ -4,7 +4,7 @@ import { currentGamePage, transformToLink } from '@/lib/utils';
 import type { TGameCarousel, TProductsCategories } from '@/types/types';
 import GameCarousel from '@/components/GameCarousel';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
-import NavigationLinks from './NavigationLinks/NavigationLinks';
+import NavigationLinks from './navigationLinks/NavigationLinks';
 import Products from './Products';
 
 // All style-related functions are designed for the default

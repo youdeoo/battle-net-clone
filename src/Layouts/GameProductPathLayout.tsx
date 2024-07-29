@@ -1,8 +1,8 @@
 import { Link, useParams, Outlet } from 'react-router-dom';
 import { currentGamePage } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
-import Navigation from '@/components/Navigation/Navigation';
-import MenuNavigation from '@/components/Navigation/menu-navigation/MenuNavigation';
+import Navigation from '@/components/navigation/Navigation';
+import MenuNavigation from '@/components/navigation/menuNavigation/MenuNavigation';
 
 const GameProductPathLayout = () => {
   const { gameId, productId } = useParams();

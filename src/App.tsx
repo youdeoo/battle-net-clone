@@ -1,11 +1,11 @@
 import { useRoutes } from 'react-router-dom';
 import useScrollToPageTop from './lib/hooks/useScrollToPageTop';
 import useGameOrProductPath from './lib/hooks/useGameProductPath';
-import Navigation from './components/Navigation/Navigation';
-import Footer from './components/Footer/Footer';
+import Navigation from './components/navigation/Navigation';
+import Footer from './components/footer/Footer';
 import HomePage from './pages/HomePage';
-import GameShopPage from './pages/GameShopPage/GameShopPage';
-import ProductPage from './pages/ProductPage/ProductPage';
+import GameShopPage from './pages/gameShopPage/GameShopPage';
+import ProductPage from './pages/productPage/ProductPage';
 import DesktopPage from './pages/Desktop/DesktopPage';
 import MobilePage from './pages/MobilePage';
 import DownloadPage from './pages/DownloadPage';

@@ -27,7 +27,7 @@ const MenuNavigation = () => {
 
   return (
     <div className='sticky top-0 z-20 bg-darkBlue px-4 pt-3 pb-4'>
-      <div className='grid grid-cols-[1fr_max-content_max-content] gap-2 max-w-[1600px] m-auto'>
+      <div className='grid grid-cols-[1fr_0.38fr_max-content] gap-2 max-w-[1600px] m-auto'>
         <div className='flex w-full rounded-md bg-mediumGray'>
           {(gamesData).map((data, gameTypeIndex) => (
             <div
@@ -35,7 +35,9 @@ const MenuNavigation = () => {
               key={data.gameType}
             >
               <div className='flex items-center gap-2'>
-                <span className='text-sm text-lightGray font-semibold transition-colors group-hover:text-white'>{data.gameType}</span>
+                <span className='text-sm text-lightGray font-semibold transition-colors group-hover:text-white'>
+                  {data.gameType}
+                </span>
                 <img
                   className='max-w-3 w-3 group-hover:brightness-[5]'
                   src='/icons/chevron-down.svg'

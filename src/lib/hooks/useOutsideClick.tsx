@@ -1,26 +1,24 @@
-import { RefObject, SetStateAction, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
-type OutsideClickParams = {
-  state: boolean;
-  setState: React.Dispatch<SetStateAction<boolean>>;
-}
-
-const useOutsideClick = ({ state, setState }: OutsideClickParams): RefObject<HTMLDivElement> => {
+const useOutsideClick = (
+  state: boolean,
+  setState: React.Dispatch<React.SetStateAction<boolean>>
+): React.RefObject<HTMLDivElement> => {
   const elementRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const handleOutsideClick = (event: MouseEvent): void => {
-      if (elementRef.current && state && !elementRef.current.contains(event.target as HTMLDivElement)) {
-        setState(false);
-      }
+  const handleOutsideClick = (event: MouseEvent): void => {
+    if (elementRef.current && state && !elementRef.current.contains(event.target as HTMLDivElement)) {
+      setState(false);
     }
+  }
 
+  useEffect(() => {
     document.addEventListener('mousedown', handleOutsideClick);
 
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     }
-  }, [state, setState]);
+  }, [state]);
 
   return elementRef;
 }

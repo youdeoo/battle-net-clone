@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Languages from './RegionsAndLanguages';
+import RegionsAndLanguages from './RegionsAndLanguages';
 
 const navigationLinks = [
   'Careers',
@@ -38,16 +38,16 @@ const Footer = () => {
     <footer className='max-w-[1600px] px-16 pt-10 pb-[6.5rem] m-auto'>
       <div className='flex items-center justify-between border-b border-borderGray pb-2'>
         <ul className='flex text-white text-sm font-semibold'>
-          {navigationLinks.map((link, index) => (
+          {navigationLinks.map((link) => (
             <li
               className='px-4 py-3 hover-light-gray-background active-translate-y'
-              key={index}
+              key={link}
             >
               {link}
             </li>
           ))}
         </ul>
-        <Languages />
+        <RegionsAndLanguages />
       </div>
       <div className='flex justify-between pt-5'>
         <div className='grid grid-cols-[max-content_1fr] gap-8'>

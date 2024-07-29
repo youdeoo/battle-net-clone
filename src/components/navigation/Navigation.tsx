@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import useGameOrProductPath from '@/lib/hooks/useGameProductPath';
 import Account from './Account';
-import MenuNavigation from './menu-navigation/MenuNavigation';
+import MenuNavigation from './menuNavigation/MenuNavigation';
 
 const Navigation = () => {
   const isGameOrProductPath = useGameOrProductPath();
@@ -46,7 +46,6 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-
       {isSpecificPageType || isGameOrProductPath ? '' : <MenuNavigation />}
     </>
   );

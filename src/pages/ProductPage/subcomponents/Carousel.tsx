@@ -2,7 +2,7 @@ import { useEffect, useState, memo } from 'react';
 import { useAppSelector } from '@/lib/hooks/reduxHooks';
 import { allowTouchMoveOnCarousel } from '@/lib/utils';
 import type { TProductDataProp } from '@/types/types';
-import type { TSwiper } from '@/types/union';
+import type { TSwiper } from '@/types/unions';
 import ButtonsToCarouselSlides from '@/components/ButtonsToCarouselSlides';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Thumbs, FreeMode, Scrollbar } from 'swiper/modules';

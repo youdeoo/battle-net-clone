@@ -32,7 +32,7 @@ const RegionsAndLanguages = () => {
   const [markedLanguageIndex, setMarkedLanguageIndex] = useState(0);
   const [displayRegionsAndLanguages, setDisplayRegionsAndLanguages] = useState(false);
   const isSpecificPageType = useSpecificPageType();
-  const displayRegionsAndLanguagesOutsideListener = useOutsideClick({ state: displayRegionsAndLanguages, setState: setDisplayRegionsAndLanguages });
+  const regionsAndLanguagesRef = useOutsideClick(displayRegionsAndLanguages, setDisplayRegionsAndLanguages);
 
   const conditionalStyle = (style: string): string => {
     return displayRegionsAndLanguages ? style : '';
@@ -40,7 +40,7 @@ const RegionsAndLanguages = () => {
 
   return (
     <div
-      ref={displayRegionsAndLanguagesOutsideListener}
+      ref={regionsAndLanguagesRef}
       className='relative'
     >
       <div

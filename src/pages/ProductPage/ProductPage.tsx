@@ -3,7 +3,7 @@ import { currentGamePage } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import Carousel from './subcomponents/Carousel';
-import ProductInfo from './subcomponents/ProductInfo/ProductInfo';
+import ProductInfo from './subcomponents/productInfo/ProductInfo';
 import Features from './subcomponents/Features';
 import SystemRequirements from './subcomponents/SystemRequirements';
 import ProductDetails from './subcomponents/ProductDetails';

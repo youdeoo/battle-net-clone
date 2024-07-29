@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { allowTouchMoveOnCarousel } from '@/lib/utils';
 import type { TGameCarousel } from '@/types/types';
-import type { TSwiper } from '@/types/union';
+import type { TSwiper } from '@/types/unions';
 import ButtonsToCarouselSlides from './ButtonsToCarouselSlides';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
@@ -73,9 +73,9 @@ const GameCarousel = ({ carouselData }: Prop) => {
                   <img
                     className='size-full max-h-[360px] object-cover max-[959px]:max-h-[440px]'
                     src={data.backgroundImage.laptop}
+                    loading='lazy'
                   />
                 </picture>
-
                 <div className={`absolute top-[50%] ${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'left-[3.5rem]' : 'left-[7rem] min-[1400px]:left-[10rem]'} 
                 translate-y-[-50%] flex justify-center h-full max-[959px]:w-full max-[959px]:max-w-full max-[959px]:left-[50%] max-[959px]:translate-x-[-50%] 
                 max-[959px]:pt-[150px] max-[959px]:pb-[2rem]`}
@@ -85,7 +85,7 @@ const GameCarousel = ({ carouselData }: Prop) => {
                   >
                     <img
                       className={`${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'w-[28rem]' : 'w-auto'} max-[959px]:max-w-[17rem] 
-                        max-[959px]:${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
+                      max-[959px]:${slideContainsOnlyBackgroundImagesAndIcon[index] ? 'max-w-[28rem]' : 'max-w-[15.5rem]'} max-[959px]:m-auto`}
                       src={data.icon}
                       alt=''
                       aria-hidden='true'
@@ -138,6 +138,7 @@ const GameCarousel = ({ carouselData }: Prop) => {
               className='max-w-2.5 hover:brightness-[5]'
               src={`/icons/${pauseAutoPlay ? 'play-gray.svg' : 'pause.svg'}`}
               alt={`click to ${pauseAutoPlay ? 'run' : 'stop'} autoplay slides`}
+              loading='lazy'
             />
           </button>
           <div className='swiper-pagination'></div>

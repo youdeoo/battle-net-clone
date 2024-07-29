@@ -63,7 +63,7 @@ type TProductData = {
   subscribeButton?: string;
   giftProductButton?: string;
   wishListButton?: string;
-  mobileQRCode: TMobileQRCode;
+  mobileQRCode?: TMobileQRCode;
   mobileApps?: Array<TMobileApps>;
   descriptionHeading: string;
   descriptions: Array<string>;
@@ -75,7 +75,8 @@ type TProductData = {
   productRequirements: Array<string>;
 }
 
-export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, 'grayText' | 'yellowText'> & Pick<TProductFeatures, 'id'> & {
+export type TProduct = Pick<TGameCarousel, 'productLink'> & Pick<TProductData, 'grayText' | 'yellowText'> & {
+  id: string;
   image: string;
   icon: string;
   productGameName?: string;

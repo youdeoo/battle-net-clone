@@ -15,7 +15,7 @@ export const scrollToTop = (): void => {
 
 export const transformToLink = (text: string): string => {
   if (text !== undefined) {
-    return text.toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll('®', '').replaceAll(':', '');
+    return text.replace(/[®:.\s]+/g, '-').toLowerCase();
   }
   else {
     return text;
@@ -49,7 +49,8 @@ export const currentGamePage = (gameId: string | undefined, productId: string | 
     return formatGameData().flatMap((data) => data.filter((game) => game.link === gameId));
   }
   else {
-    return formatGameData().flatMap((data) => data.filter((data) => data.productsCategories?.some((category) =>
-      category.products && category.products.some((product) => product.productLink === productId))));
+    return formatGameData().flatMap((data) => data.filter((data) =>
+      data.productsCategories?.some((category) => category.products && category.products.some((product) =>
+        product.productLink === productId))));
   }
 }
