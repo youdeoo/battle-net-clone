@@ -1,3 +1,5 @@
+import { memo } from 'react';
+
 const accountData = [
   {
     image: '/icons/user-gear.svg',
@@ -81,4 +83,4 @@ const Account = () => {
   );
 }
 
-export default Account;
+export default memo(Account);

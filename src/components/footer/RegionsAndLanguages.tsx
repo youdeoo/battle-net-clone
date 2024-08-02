@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import useOutsideClick from '@/lib/hooks/useOutsideClick';
 
@@ -112,4 +112,4 @@ const RegionsAndLanguages = () => {
   );
 }
 
-export default RegionsAndLanguages;
+export default memo(RegionsAndLanguages);

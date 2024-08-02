@@ -1,9 +1,10 @@
+import { memo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import type { TProductDataProp } from '@/types/types';
 
 const ManageProduct = ({ productData }: TProductDataProp) => {
   const { productId } = useParams();
-
+  console.log('rere');
   return (
     <div className='grid gap-2'>
       <Link
@@ -88,4 +89,4 @@ const ManageProduct = ({ productData }: TProductDataProp) => {
   );
 }
 
-export default ManageProduct;
+export default memo(ManageProduct);

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { Link } from 'react-router-dom';
 import type { TFormatGameData, TGameData, TProduct } from '@/types/types';
 import gamesData from '@/assets/data.json';
@@ -144,4 +144,4 @@ const SearchShop = () => {
   );
 }
 
-export default SearchShop;
+export default memo(SearchShop);

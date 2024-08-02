@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, memo } from 'react';
 
 const balanceData = [
   {
@@ -58,4 +58,4 @@ const Balance: FC = () => {
   );
 }
 
-export default Balance;
+export default memo(Balance);

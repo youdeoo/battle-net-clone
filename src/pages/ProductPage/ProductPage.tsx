@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 import { currentGameData, getCurrentProduct } from '@/lib/utils';
-import type { TProduct } from '@/types/types';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import Carousel from './subcomponents/Carousel';
 import ProductInfo from './subcomponents/productInfo/ProductInfo';

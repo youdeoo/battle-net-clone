@@ -1,12 +1,16 @@
 import { memo } from 'react';
 import type { TProductDataProp } from '@/types/types';
 
-const oddIndex = (index: number): boolean => {
-  return index % 2 === 1;
-}
-
 const CompareProducts = memo(({ productData }: TProductDataProp) => {
   const { images, headings, prices, linkTexts } = productData.compareProducts!.products;
+
+  const oddIndex = (index: number): boolean => {
+    return index % 2 === 1;
+  }
+
+  const evenIndex = (index: number): boolean => {
+    return index % 2 === 0;
+  }
 
   return (
     <section id='compare' className='py-16 border-b border-borderGray scroll-m-24'>
@@ -58,18 +62,19 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           </tr>
         </tbody>
         <tbody>
-          {productData.compareProducts!.content.map((data, index) => (
+          {productData.compareProducts!.content.map((data, dataIndex) => (
             <tr
               className='w-full'
               key={data.name}
             >
-              <td className={`${oddIndex(index) && 'bg-mediumGray rounded-l'} text-lightGray p-4`}>
+              <td className={`${oddIndex(dataIndex) && 'bg-mediumGray'} text-lightGray rounded-l p-4`}>
                 {data.name}
               </td>
-              {data.productsContent.map((content, index) => (
+              {data.productsContent.map((content, contentIndex) => (
                 <td
-                  className={`${oddIndex(index) && 'bg-mediumGray last-of-type:rounded-r'} text-center p-4`}
-                  key={index}
+                  className={`${((oddIndex(dataIndex) && oddIndex(contentIndex)) || (oddIndex(dataIndex) && evenIndex(contentIndex))) && 'bg-mediumGray'} 
+                  text-center last-of-type:rounded-r p-4`}
+                  key={contentIndex}
                 >
                   {content[0] === '/'
                     ?
