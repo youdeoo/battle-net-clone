@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-import { currentGamePage, transformToLink } from '@/lib/utils';
+import { currentGameData, transformToLink } from '@/lib/utils';
 import ProductFilter from './ProductFilter';
 
 const NavigationLinks = () => {
   const { pathname } = useLocation();
   const { gameId } = useParams();
-  const { gamePageLinks: currentGamePageLinks } = currentGamePage(gameId, undefined)[0];
+  const { gamePageLinks: currentGameDataLinks } = currentGameData(gameId, undefined)[0];
 
   const [hideLinks, setHideLinks] = useState(false);
   const linksRef = useRef<HTMLDivElement | null>(null);
@@ -50,7 +50,7 @@ const NavigationLinks = () => {
             </button>
             <div className='menu-element-on-hover w-56 min-w-0 group-hover:visible group-hover:opacity-100'>
               <div className='bg-mediumBlue w-56 p-2 border border-borderGray rounded-md'>
-                {currentGamePageLinks.map((link) => (
+                {currentGameDataLinks.map((link) => (
                   <a href={`#${transformToLink(link)}`}
                     key={link}
                     className='block whitespace-nowrap text-xs font-bold text-lightGray p-2 rounded-md 
@@ -64,7 +64,7 @@ const NavigationLinks = () => {
           </div>
         </div>
         <div ref={linksRef} className={`flex overflow-hidden ${hideLinks ? 'invisible' : 'visible'}`}>
-          {currentGamePageLinks.map((link, index) => (
+          {currentGameDataLinks.map((link, index) => (
             <a href={`#${transformToLink(link)}`}
               key={index}
               className='block whitespace-nowrap text-sm font-bold text-lightGray py-[1.125rem] px-4 rounded-md

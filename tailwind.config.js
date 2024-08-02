@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        black: '#111218',
         almostTransparent: 'rgba(255, 255, 255, 10%)',
         almostWhite: '#BDBEC1',
         almostWhiteSecond: '#D9DADB',
@@ -18,6 +19,7 @@ export default {
         lightestBlue: '#47A6FF',
         gray: '#88898C',
         mediumGray: "#23252A",
+        secondMediumGray: '#85868a',
         lightGrayBackground: '#303237',
         lightGray: '#C2C2C4',
         borderGray: '#2F3136',

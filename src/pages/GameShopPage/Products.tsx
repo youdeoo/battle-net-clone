@@ -145,10 +145,13 @@ const Products = ({
             }
             {product.linkText
               &&
-              <div className='p-6'>
-                <button className='blue-button p-1 blue-button-hover' type='button'>
+              <div className='p-6 w-full'>
+                <Link
+                  to={`/checkout/${product.productLink}`}
+                  className='blue-button block text-center p-1 blue-button-hover'
+                >
                   {product.linkText}
-                </button>
+                </Link>
               </div>
             }
           </Link>

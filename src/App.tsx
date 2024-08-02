@@ -6,7 +6,8 @@ import Footer from './components/footer/Footer';
 import HomePage from './pages/HomePage';
 import GameShopPage from './pages/gameShopPage/GameShopPage';
 import ProductPage from './pages/productPage/ProductPage';
-import DesktopPage from './pages/Desktop/DesktopPage';
+import BuyProductPage from './pages/buyProductPage/BuyProductPage';
+import DesktopPage from './pages/desktopPage/DesktopPage';
 import MobilePage from './pages/MobilePage';
 import DownloadPage from './pages/DownloadPage';
 import GameProductPathLayout from './layouts/GameProductPathLayout';
@@ -24,6 +25,7 @@ const App = () => {
         { path: '/product/:productId', element: <ProductPage /> }
       ]
     },
+    { path: '/checkout/:productId', element: <BuyProductPage /> },
     { path: '/desktop', element: <DesktopPage /> },
     { path: '/mobile', element: <MobilePage /> },
     { path: '/download', element: <DownloadPage /> }

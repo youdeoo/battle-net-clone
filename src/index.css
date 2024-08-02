@@ -179,6 +179,29 @@
     border-color: theme(colors.mediumGray);
   }
 
+  .form-input {
+    width: 100%;
+    color: theme(colors.white);
+    background-color: theme(colors.black);
+    border: 1px solid;
+    border-radius: theme(borderRadius.DEFAULT);
+    outline: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    transition: border .25s ease-in-out;
+
+    &:hover {
+      border: 1px solid theme(colors.white);
+    }
+  }
+
+  .gray-text-uppercase {
+    font-size: theme(fontSize.sm);
+    font-weight: bold;
+    color: theme(colors.secondMediumGray);
+    text-transform: uppercase;
+  }
+
   .swiper-pagination {
     @apply static flex items-center justify-center w-auto !important;
   }

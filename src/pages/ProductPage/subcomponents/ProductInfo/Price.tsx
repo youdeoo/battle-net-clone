@@ -1,6 +1,7 @@
 import { SetStateAction, useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
 import { getImagePath } from '@/lib/features/productImagePathSlice';
+import { getProductPrice } from '@/lib/features/productPriceSlice';
 import { stateIndexEqualIndex } from '@/lib/utils';
 import type { TProductDataProp, TProductDataPrice } from '@/types/types';
 
@@ -24,9 +25,22 @@ const Price = ({
     }
   }
 
+  const dispatchMarkedPrice = (): void => {
+    if (typeof productData.price === 'string') {
+      dispatch(getProductPrice(productData.price));
+    }
+    else {
+      dispatch(getProductPrice(productData.price![markedProductIndex].amount));
+    }
+  }
+
   useEffect(() => {
     markAndDispatchMatchingProduct();
   }, []);
+
+  useEffect(() => {
+    dispatchMarkedPrice();
+  }, [markedProductIndex]);
 
   return (
     <>
@@ -54,7 +68,10 @@ const Price = ({
           <div className='mt-4'>
             {(productData.price as Array<TProductDataPrice>).map((price, index) => (
               <button
-                onClick={() => { setMarkedProductIndex(index); price.image && dispatch(getImagePath(price.image)) }}
+                onClick={() => {
+                  setMarkedProductIndex(index);
+                  price.image && dispatch(getImagePath(price.image));
+                }}
                 className={`${stateIndexEqualIndex(markedProductIndex, index) && 'bg-mediumGray border-l-[8px] border-l-lighterBlue rounded-md'} 
                 group relative w-full text-left border-t border-borderGray cursor-pointer p-3 transition-all 
                 hover:bg-mediumGray hover:rounded-md block`}

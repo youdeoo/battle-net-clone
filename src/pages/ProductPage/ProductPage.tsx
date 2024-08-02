@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { currentGamePage } from '@/lib/utils';
+import { currentGameData } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import Carousel from './subcomponents/Carousel';
@@ -15,7 +15,7 @@ const ProductPage = () => {
   const {
     productsCategories: currentGameProductsCategories,
     commonProductsData: currentCommonProductsData
-  } = currentGamePage(undefined, productId)[0];
+  } = currentGameData(undefined, productId)[0];
 
   const getCurrentProduct = (): Array<TProduct> => {
     return currentGameProductsCategories?.flatMap((category) =>

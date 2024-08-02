@@ -45,8 +45,8 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
           </tr>
           <tr>
             <td className='w-full'></td>
-            {linkTexts.map((data) => (
-              <td className='w-full pb-6 px-3' key={data}>
+            {linkTexts.map((data, index) => (
+              <td className='w-full pb-6 px-3' key={index}>
                 <button
                   className='blue-button p-1 blue-button-hover'
                   type='button'
@@ -66,10 +66,10 @@ const CompareProducts = memo(({ productData }: TProductDataProp) => {
               <td className={`${oddIndex(index) && 'bg-mediumGray rounded-l'} text-lightGray p-4`}>
                 {data.name}
               </td>
-              {data.productsContent.map((content) => (
+              {data.productsContent.map((content, index) => (
                 <td
                   className={`${oddIndex(index) && 'bg-mediumGray last-of-type:rounded-r'} text-center p-4`}
-                  key={content}
+                  key={index}
                 >
                   {content[0] === '/'
                     ?

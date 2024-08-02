@@ -44,7 +44,7 @@ export const formatGameData = (): Array<Array<TFormatGameData>> => {
   );
 }
 
-export const currentGamePage = (gameId: string | undefined, productId: string | undefined): Array<TFormatGameData> => {
+export const currentGameData = (gameId: string | undefined, productId: string | undefined): Array<TFormatGameData> => {
   if (gameId !== undefined) {
     return formatGameData().flatMap((data) => data.filter((game) => game.link === gameId));
   }

@@ -9,7 +9,6 @@ type TProductFeaturesData = Pick<TProduct, 'image'> & {
 }
 
 type TProductFeatures = {
-  id: number;
   heading?: string;
   secondHeading?: string;
   data: Array<TProductFeaturesData>;

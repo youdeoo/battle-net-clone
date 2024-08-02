@@ -6,10 +6,10 @@ const Features = memo(({ productData }: TProductDataProp) => {
     <>
       {productData.productFeatures
         &&
-        productData.productFeatures.map((feature) => (
+        productData.productFeatures.map((feature, index) => (
           <section
             className={`${feature.heading ? 'grid grid-cols-[25%_75%]' : 'ml-[25%]'} pb-16 mt-16 border-b border-borderGray`}
-            key={feature.id}
+            key={index}
           >
             {(feature.heading && feature.secondHeading)
               ?
@@ -35,8 +35,8 @@ const Features = memo(({ productData }: TProductDataProp) => {
               </h2>
             }
             <div className='grid grid-cols-3 gap-6 size-full'>
-              {feature.data.map((data) => (
-                <div key={data.heading} className='relative'>
+              {feature.data.map((data, index) => (
+                <div key={index} className='relative'>
                   <img
                     className='w-full h-full max-h-[180px] object-cover rounded'
                     src={data.image}

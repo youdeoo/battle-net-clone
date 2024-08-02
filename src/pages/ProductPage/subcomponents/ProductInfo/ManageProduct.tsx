@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import type { TProductDataProp } from '@/types/types';
 
 const ManageProduct = ({ productData }: TProductDataProp) => {
+  const { productId } = useParams();
+
   return (
     <div className='grid gap-2'>
       <Link
-        to={''}
+        to={`/checkout/${productId}`}
         className='blue-button flex justify-center text-xl p-2.5 blue-button-hover'
       >
         {productData?.buyProductButton}

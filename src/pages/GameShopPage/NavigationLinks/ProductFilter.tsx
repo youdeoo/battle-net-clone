@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks/reduxHooks';
 import { setFilteredProducts } from '@/lib/features/filteredProductsSlice';
 import { getSelectedFilterValue } from '@/lib/features/selectedFilterValueSlice';
-import { currentGamePage } from '@/lib/utils';
+import { currentGameData } from '@/lib/utils';
 import type { TProductsCategories } from '@/types/types';
 
 const ProductFilter = forwardRef((_, selectRect: React.ForwardedRef<HTMLSelectElement>) => {
   const dispatch = useAppDispatch();
   const selectedFilterValue = useAppSelector((state) => state.selectedFilterValue.selectedFilterValue);
   const { gameId } = useParams();
-  const { productsCategories: currentGameProductsCategories } = currentGamePage(gameId, undefined)[0];
+  const { productsCategories: currentGameProductsCategories } = currentGameData(gameId, undefined)[0];
 
   const formatPriceString = (priceText: string): number => {
     if (priceText[0] === '$') {

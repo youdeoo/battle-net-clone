@@ -35,7 +35,7 @@ const GameCarousel = ({ carouselData }: Prop) => {
     if (swiper?.activeIndex !== 0) {
       swiper?.slideTo(0);
     }
-  }, [gameId])
+  }, [gameId]);
 
   return (
     <section className='max-w-[1600px] px-4 m-auto'>

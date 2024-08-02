@@ -14,6 +14,7 @@ const productPriceSlice = createSlice({
   reducers: {
     getProductPrice: (state, action: PayloadAction<string>): void => {
       state.productPrice = action.payload;
+      localStorage.setItem('productPrice', state.productPrice);
     }
   }
 })

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useAppSelector } from '@/lib/hooks/reduxHooks';
-import { currentGamePage, transformToLink } from '@/lib/utils';
+import { currentGameData, transformToLink } from '@/lib/utils';
 import type { TGameCarousel, TProductsCategories } from '@/types/types';
 import GameCarousel from '@/components/GameCarousel';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
@@ -19,8 +19,8 @@ const GameShopPage = () => {
     commonGameTypeCarouselData: currentCommonGameTypeCarousel,
     gameCarouselData: currentGameCarouselData,
     productsCategories: currentGameProductsCategories,
-    gamePageLinks: currentGamePageLinks
-  } = currentGamePage(gameId, undefined)[0];
+    gamePageLinks: currentGameDataLinks
+  } = currentGameData(gameId, undefined)[0];
 
   const getFilteredProductsOrDefault = (): Array<TProductsCategories> => {
     return filteredProducts.length > 0 ? filteredProducts : currentGameProductsCategories!;
@@ -189,7 +189,7 @@ const GameShopPage = () => {
 
           return (
             <div
-              id={transformToLink(currentGamePageLinks[categoryIndex])}
+              id={transformToLink(currentGameDataLinks[categoryIndex])}
               className={`grid ${verticalCategory ? 'grid-cols-[auto]' : 'grid-cols-[20%_1fr]'} scroll-m-28 border-b border-borderGray py-16`}
               key={category.categoryHeading}
             >

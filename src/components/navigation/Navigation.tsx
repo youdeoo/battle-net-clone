@@ -1,16 +1,18 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import useSpecificPageType from '@/lib/hooks/useSpecificPageType';
 import useGameOrProductPath from '@/lib/hooks/useGameProductPath';
 import Account from './Account';
 import MenuNavigation from './menuNavigation/MenuNavigation';
 
 const Navigation = () => {
-  const isGameOrProductPath = useGameOrProductPath();
-  const isSpecificPageType = useSpecificPageType();
+  const { pathname } = useLocation();
+  const gameOrProductPath = useGameOrProductPath();
+  const specificPageType = useSpecificPageType();
+  const buyProductPage = pathname.slice(0, 9) === '/checkout';
 
   return (
     <>
-      <div className={`bg-darkBlue px-4 pt-3 ${isSpecificPageType ? 'pb-3 sticky top-0 z-50' : ''}`}>
+      <div className={`bg-darkBlue px-4 pt-3 ${specificPageType || buyProductPage && 'pb-3 sticky top-0 z-50'}`}>
         <div className='flex items-center justify-between max-w-[1600px] m-auto'>
           <Link to='/' className='active-translate-y'>
             <img
@@ -23,7 +25,7 @@ const Navigation = () => {
           <div className='flex gap-1'>
             <Link
               to='/download'
-              className='header-link group active-translate-y'
+              className={`${buyProductPage ? 'hidden' : 'flex'} header-link group active-translate-y`}
             >
               <img
                 className='max-w-5 w-5 group-hover:brightness-[5]'
@@ -33,7 +35,7 @@ const Navigation = () => {
               />
               <span className='text-white font-bold'>Download Battle.net</span>
             </Link>
-            <div className='header-link group active-translate-y'>
+            <div className={`${buyProductPage ? 'hidden' : 'flex'} header-link group active-translate-y`}>
               <img
                 className='max-w-5 w-5 group-hover:brightness-[5]'
                 src='/icons/circle-question.svg'
@@ -46,7 +48,7 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-      {isSpecificPageType || isGameOrProductPath ? '' : <MenuNavigation />}
+      {(specificPageType || gameOrProductPath || buyProductPage) ? '' : <MenuNavigation />}
     </>
   );
 }

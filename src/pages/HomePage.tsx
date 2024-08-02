@@ -26,7 +26,7 @@ const carouselDataGroup: Array<TGameCarousel> = [
   getCarouselData('Diablo Immortal', 0),
   getCarouselData('Overwatch 2', 0),
   getCarouselData('Hearthstone', 0),
-  getCarouselData('World of Warcraft Classic', 1),
+  getCarouselData('World of Warcraft Classic', 3),
 ].flatMap((data) => data);
 
 const HomePage = () => {

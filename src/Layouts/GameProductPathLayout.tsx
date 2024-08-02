@@ -1,5 +1,5 @@
 import { Link, useParams, Outlet } from 'react-router-dom';
-import { currentGamePage } from '@/lib/utils';
+import { currentGameData } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
 import Navigation from '@/components/navigation/Navigation';
 import MenuNavigation from '@/components/navigation/menuNavigation/MenuNavigation';
@@ -10,7 +10,7 @@ const GameProductPathLayout = () => {
     gameType: currentGameTypePage,
     gameName: currentGameNamePage,
     productsCategories: currentGameProductsCategories
-  } = currentGamePage(gameId, productId)[0];
+  } = currentGameData(gameId, productId)[0];
   const isDiabloIVGamePage = currentGameNamePage === 'Diablo IV';
   const isOverwatch2GamePage = currentGameNamePage === 'Overwatch 2';
 
