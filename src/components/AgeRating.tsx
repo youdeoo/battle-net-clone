@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import type { TCommonProductsDataProp } from '@/types/types';
 
-const AgeRating = memo(({ currentCommonProductsData }: TCommonProductsDataProp) => {
+const AgeRating = ({ currentCommonProductsData }: TCommonProductsDataProp) => {
   return (
     <section className='mt-8'>
       <div className='border-b border-borderGray pb-8 ml-[25%] mr-4'>
@@ -51,6 +51,6 @@ const AgeRating = memo(({ currentCommonProductsData }: TCommonProductsDataProp) 
       </div>
     </section>
   );
-})
+}
 
-export default AgeRating;
+export default memo(AgeRating);

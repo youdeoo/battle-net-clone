@@ -2,7 +2,7 @@ import { useState, memo } from 'react';
 import { stateIndexEqualIndex } from '@/lib/utils';
 import type { TCommonProductsDataProp } from '@/types/types';
 
-const SystemRequirements = memo(({ currentCommonProductsData }: TCommonProductsDataProp) => {
+const SystemRequirements = ({ currentCommonProductsData }: TCommonProductsDataProp) => {
   const [displaySystemRequirementsIndex, setDisplaySystemRequirementsIndex] = useState(0);
 
   return (
@@ -65,6 +65,6 @@ const SystemRequirements = memo(({ currentCommonProductsData }: TCommonProductsD
       </div>
     </section>
   );
-})
+}
 
-export default SystemRequirements;
+export default memo(SystemRequirements);

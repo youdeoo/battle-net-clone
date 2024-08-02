@@ -7,7 +7,7 @@ const ManageProduct = ({ productData }: TProductDataProp) => {
   return (
     <div className='grid gap-2'>
       <Link
-        to={`/checkout/${productId}`}
+        to={`/shop/checkout/${productId}`}
         className='blue-button flex justify-center text-xl p-2.5 blue-button-hover'
       >
         {productData?.buyProductButton}

@@ -147,7 +147,7 @@ const Products = ({
               &&
               <div className='p-6 w-full'>
                 <Link
-                  to={`/checkout/${product.productLink}`}
+                  to={`/shop/checkout/${product.productLink}`}
                   className='blue-button block text-center p-1 blue-button-hover'
                 >
                   {product.linkText}

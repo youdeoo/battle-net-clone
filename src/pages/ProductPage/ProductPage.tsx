@@ -1,13 +1,13 @@
 import { useParams } from 'react-router-dom';
-import { currentGameData } from '@/lib/utils';
+import { currentGameData, getCurrentProduct } from '@/lib/utils';
 import type { TProduct } from '@/types/types';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import Carousel from './subcomponents/Carousel';
 import ProductInfo from './subcomponents/productInfo/ProductInfo';
 import Features from './subcomponents/Features';
-import SystemRequirements from './subcomponents/SystemRequirements';
-import ProductDetails from './subcomponents/ProductDetails';
-import AgeRating from './subcomponents/AgeRating';
+import SystemRequirements from '@/components/SystemRequirements';
+import ProductDetails from '@/components/ProductDetails';
+import AgeRating from '@/components/AgeRating';
 import CompareProducts from './subcomponents/CompareProducts';
 
 const ProductPage = () => {
@@ -17,12 +17,7 @@ const ProductPage = () => {
     commonProductsData: currentCommonProductsData
   } = currentGameData(undefined, productId)[0];
 
-  const getCurrentProduct = (): Array<TProduct> => {
-    return currentGameProductsCategories?.flatMap((category) =>
-      category.products?.filter((product) => product.productLink === productId && product));
-  }
-
-  const product = getCurrentProduct()[0];
+  const product = getCurrentProduct(currentGameProductsCategories!, productId!)[0];
   const productData = product.productData;
 
   return (
@@ -63,10 +58,7 @@ const ProductPage = () => {
         {productData?.compareProducts && <CompareProducts productData={productData} />}
         <Features productData={productData} />
         <SystemRequirements currentCommonProductsData={currentCommonProductsData} />
-        <ProductDetails
-          productData={productData}
-          currentCommonProductsData={currentCommonProductsData}
-        />
+        <ProductDetails productData={productData} currentCommonProductsData={currentCommonProductsData} />
         <AgeRating currentCommonProductsData={currentCommonProductsData} />
       </section>
     </main>

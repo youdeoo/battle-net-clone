@@ -1,4 +1,4 @@
-import { TFormatGameData, TGameData } from '../types/types';
+import { TFormatGameData, TGameData, TProductsCategories, TProduct } from '../types/types';
 import gamesData from '@/assets/data.json';
 
 export const deviceHandleHoverEffect = window.matchMedia('(hover: hover)').matches;
@@ -53,4 +53,9 @@ export const currentGameData = (gameId: string | undefined, productId: string | 
       data.productsCategories?.some((category) => category.products && category.products.some((product) =>
         product.productLink === productId))));
   }
+}
+
+export const getCurrentProduct = (currentGameProductsCategories: Array<TProductsCategories>, productId: string): Array<TProduct> => {
+  return currentGameProductsCategories!.flatMap((category) =>
+    category.products!.filter((product) => product.productLink === productId));
 }

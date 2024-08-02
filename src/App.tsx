@@ -11,6 +11,7 @@ import DesktopPage from './pages/desktopPage/DesktopPage';
 import MobilePage from './pages/MobilePage';
 import DownloadPage from './pages/DownloadPage';
 import GameProductPathLayout from './layouts/GameProductPathLayout';
+import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => {
   useScrollToPageTop();
@@ -25,10 +26,11 @@ const App = () => {
         { path: '/product/:productId', element: <ProductPage /> }
       ]
     },
-    { path: '/checkout/:productId', element: <BuyProductPage /> },
+    { path: '/shop/checkout/:productId', element: <BuyProductPage /> },
     { path: '/desktop', element: <DesktopPage /> },
     { path: '/mobile', element: <MobilePage /> },
-    { path: '/download', element: <DownloadPage /> }
+    { path: '/download', element: <DownloadPage /> },
+    { path: '*', element: <NotFoundPage /> }
   ]);
 
   return (

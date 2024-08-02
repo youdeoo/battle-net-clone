@@ -3,7 +3,7 @@ import type { TProductDataProp, TCommonProductsDataProp } from '@/types/types';
 
 type Prop = TProductDataProp & TCommonProductsDataProp;
 
-const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) => {
+const ProductDetails = ({ productData, currentCommonProductsData }: Prop) => {
   return (
     <section id='product-details' className='product-page-grid-section scroll-m-32'>
       <h2 className='text-3xl font-bold text-white'>
@@ -105,6 +105,6 @@ const ProductDetails = memo(({ productData, currentCommonProductsData }: Prop) =
       </div >
     </section>
   );
-})
+}
 
-export default ProductDetails;
+export default memo(ProductDetails);

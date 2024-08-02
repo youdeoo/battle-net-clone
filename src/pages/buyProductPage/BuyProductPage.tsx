@@ -1,10 +1,15 @@
 import { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { currentGameData, getCurrentProduct } from '@/lib/utils';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import BackToPreviousPageButton from './BackToPreviousPageButton';
 import ProductSection from './ProductSection';
 import PayPalMethod from './paymentMethods/PayPalMethod';
 import PaysafecardMethod from './paymentMethods/PaysafecardMethod';
 import CardMethod from './paymentMethods/CardMethod';
+import AgeRating from '@/components/AgeRating';
+import SystemRequirements from '@/components/SystemRequirements';
+import ProductDetails from '@/components/ProductDetails';
 
 const paymentServices = [
   'Please select a payment option...',
@@ -15,7 +20,11 @@ const paymentServices = [
 ];
 
 const BuyProductPage = () => {
+  const { productId } = useParams();
   const [displayPaymentService, setDisplayPaymentService] = useState(0);
+  const { productsCategories, commonProductsData } = currentGameData(undefined, productId)[0];
+
+  const productData = getCurrentProduct(productsCategories!, productId!)[0].productData!;
 
   return (
     <main className='mt-20'>
@@ -88,6 +97,16 @@ const BuyProductPage = () => {
             <ProductSection />
           </div>
         </div>
+      </div>
+      <AgeRating currentCommonProductsData={commonProductsData} />
+      <div className='px-16'>
+        <SystemRequirements currentCommonProductsData={commonProductsData} />
+      </div>
+      <div className='px-16'>
+        <ProductDetails
+          productData={productData}
+          currentCommonProductsData={commonProductsData}
+        />
       </div>
     </main>
   );
